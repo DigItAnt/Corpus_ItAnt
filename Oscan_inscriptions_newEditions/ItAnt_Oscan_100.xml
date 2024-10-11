@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/9.5/tei-epidoc.rng"
+schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/9.5/tei-epidoc.rng"
+schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<tei:TEI xmlns:dcr="http://www.isocat.org/ns/dcr" xml:id="ItAnt_Oscan_100"
+    xmlns:tei="http://www.tei-c.org/ns/1.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <tei:teiHeader>
+        <tei:fileDesc>
+            <tei:titleStmt>
+                <tei:title type="ItAnt_ID">Inscription ItAnt Oscan 100</tei:title>
+            </tei:titleStmt>
+            <tei:editionStmt>
+                <tei:edition>
+                    <tei:idno>ItAnt Oscan 100</tei:idno>
+                </tei:edition>
+                <tei:editor>
+                    <tei:persName>Francesco Benassai</tei:persName>
+                </tei:editor>
+            </tei:editionStmt>         
+            <tei:publicationStmt>
+                <tei:authority>PRIN 2017 "Lingue e culture dell'Italia antica: linguistica storica e modelli digitali | Languages and Cultures of Ancient Italy. Historical Linguistics and Digital Models"</tei:authority>
+                <tei:date>2023</tei:date>
+                <tei:idno type="URI" subtype="handle"></tei:idno>
+                <tei:availability>
+                    <tei:licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">This file is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International license – (CC BY-NC-SA 4.0).  
+                    </tei:licence>
+                </tei:availability>
+            </tei:publicationStmt>   
+            <tei:sourceDesc>
+                <tei:msDesc>
+                    <tei:msIdentifier>
+                        <tei:settlement ref="https://sws.geonames.org/3180991">Campobasso</tei:settlement>
+                        <tei:institution ana="https://sabapmolise.beniculturali.it">Soprintendenza Archeologia, Belle arti e Paesaggio del Molise</tei:institution>
+                        <tei:idno type="museumID">P508</tei:idno>
+                        <tei:msName/>
+                        <tei:altIdentifier type="trismegistos">
+                            <tei:idno source="www.trismegistos.org/text/170853">TM 170853</tei:idno>
+                        </tei:altIdentifier> 
+                        <tei:altIdentifier type="traditionalID">
+                            <tei:idno source="http://zotero.org/groups/2552746/items/IMWMSAVE">ST Sa 44</tei:idno>
+                        </tei:altIdentifier> 
+                        <tei:altIdentifier type="traditionalID">
+                            <tei:idno source="http://zotero.org/groups/2552746/items/IKUTPHDC">ImIt Fagifulae 2</tei:idno>
+                        </tei:altIdentifier>
+                    </tei:msIdentifier> 
+                    <tei:msContents>
+                        <tei:summary>A graffiti scratched on the external wall of a fragment of a black slip vase, from Fagifulae (Matrice). The fragment shows, on the inner side, the inscription <tei:ref target="ItAnt_Oscan_204.xml">ItAnt Oscan 204</tei:ref>. These inscriptions were engraved by two different hands.
+                        </tei:summary>
+                    </tei:msContents>
+                    <tei:physDesc>
+                        <tei:objectDesc>     
+                            <tei:supportDesc>
+                                <tei:support>
+                                    <tei:objectType ana="http://vocab.getty.edu/page/aat/300132254">vase</tei:objectType>                                     <tei:rs ana="objectShape"/>  
+                                    <tei:note>The rim and the internal rough surface of the vase would refer to shapes such as a <tei:rs source="http://vocab.getty.edu/page/aat/300198889">pyxis</tei:rs> or, more likely, to a <tei:rs source="http://vocab.getty.edu/page/aat/300045685">jug</tei:rs> or a <tei:rs source="http://vocab.getty.edu/page/aat/300265001">skyphos</tei:rs></tei:note>
+                                    <tei:material ana="http://vocab.getty.edu/page/aat/300387491">pottery (black slip)
+                                    </tei:material>
+                                    <tei:dimensions type="objectDimensions" unit="cm" precision="high">
+                                        <tei:height quantity="3.3">3,3</tei:height>
+                                        <tei:width quantity="2.6">2,6</tei:width>
+                                        <tei:depth></tei:depth>
+                                    </tei:dimensions>
+                                    <tei:rs type="reuse">yes</tei:rs>
+                                </tei:support>
+                                <tei:condition>very fragmentary</tei:condition>   
+                            </tei:supportDesc>
+                            <tei:layoutDesc>
+                                <tei:layout columns="1" writtenLines="1">
+                                    <tei:rs type="execution" ana="http://vocab.getty.edu/page/aat/300379457">scratched (after firing)</tei:rs>
+                                    <tei:rs type="opistography">yes</tei:rs>
+                                    <tei:note type="layoutNotes">scratched upwards towards the rim</tei:note>                                 
+                                    <tei:dimensions type="lineDimension" unit="cm" precision="high" corresp="Osc_100_l_1">
+                                        <tei:height atMost="1">1</tei:height>
+                                        <tei:width></tei:width>
+                                    </tei:dimensions> 
+                                </tei:layout>
+                            </tei:layoutDesc>
+                        </tei:objectDesc>
+                        <tei:handDesc>                            
+                            <tei:handNote>
+                                <tei:note type="palaeographicNotes"><tei:rs type="c" xml:lang="osc-Ital-x-oscetr">S</tei:rs> reversed</tei:note>
+                                <tei:dimensions type="characterDimension" unit="cm" precision="high"> 
+                                    <tei:height atMost="1">1</tei:height>
+                                </tei:dimensions>
+                            </tei:handNote>
+                        </tei:handDesc>                                      
+                        <tei:scriptDesc>
+                            <tei:scriptNote>
+                                <tei:rs type="writingSystem" subtype="alphabet" ref="https://www.prin-italia-antica.unifi.it/p166.html#oscan-etruscan">Oscan National alphabet</tei:rs>
+                                <tei:rs type="wordDivision"></tei:rs>
+                            </tei:scriptNote>
+                        </tei:scriptDesc>
+                        <tei:decoDesc>
+                            <tei:decoNote/>   
+                        </tei:decoDesc>
+                    </tei:physDesc>
+                    <tei:history>
+                        <tei:origin> 
+                            <tei:origPlace type="composed">
+                                <tei:placeName type="ancient" ref="https://pleiades.stoa.org/places/432827">Fagifulae, Samnium</tei:placeName>
+                                <tei:placeName type="modern" ref="https://sws.geonames.org/3173709">Matrice (CB)</tei:placeName>
+                            </tei:origPlace>
+                            <tei:origDate notBefore-custom="-0199" notAfter-custom="-0100" cert="low" resp="Trismegistos">2nd century BC</tei:origDate>
+                        </tei:origin>                
+                        <tei:provenance type="found" subtype="discovered" when="1984">
+                            <tei:placeName type="ancient" ref="https://pleiades.stoa.org/places/432827">Fagifulae, Samnium</tei:placeName>
+                            <tei:placeName type="modern" ref="https://sws.geonames.org/3173709">Matrice (CB)</tei:placeName>
+                            <tei:placeName type="detailed">Found in the central part of the 'villa rustica' located near the Church of S. Maria della Strada, in the bottom of a deep furrow, close to the east wall of the early Imperial building. «The archaeological context is therefore unhelpful to the interpretation of the graffiti, although the find is presumably to be associated with the period of Samnite occupation» (<tei:ref target="http://zotero.org/groups/2552746/items/4HF2TIL3"><tei:bibl>Lloyd - De Benedittis 1984 [1986]</tei:bibl></tei:ref>: 381).
+                            </tei:placeName>
+                        </tei:provenance>
+                        <tei:provenance type="observed" subtype="seen" when="2021">
+                            <tei:persName>Francesca Murano</tei:persName>
+                        </tei:provenance>
+                        <tei:provenance type="observed" subtype="seen" when="2023">
+                            <tei:persName>Francesco Benassai</tei:persName>
+                        </tei:provenance>
+                        <tei:provenance type="observed" subtype="seen" notAfter="2002">
+                            <tei:persName>Helmut Rix</tei:persName>
+                        </tei:provenance>
+                        <tei:provenance type="observed" subtype="autopsied" when="1984">
+                            <tei:persName>Gianfranco De Benedittis</tei:persName>
+                        </tei:provenance>
+                    </tei:history>                       
+                </tei:msDesc>   
+            </tei:sourceDesc> 
+        </tei:fileDesc>
+        <tei:encodingDesc>
+            <tei:p source="https://epidoc.stoa.org/gl/latest/">Marked-up according to the EpiDoc Guidelines</tei:p>
+        </tei:encodingDesc>
+        <tei:profileDesc>
+            <tei:langUsage>
+                <tei:language ident="osc" source="https://iso639-3.sil.org/code/osc">Oscan</tei:language>
+                <tei:language ident="osc-Ital-x-oscetr" source="https://www.prin-italia-antica.unifi.it/p166.html#oscan-etruscan" ana="https://unicode.org/iso15924/iso15924-codes.html">Oscan in National alphabet (Oscan-Etruscan alphabet)</tei:language>
+            </tei:langUsage>
+            <tei:textClass>
+                <tei:keywords scheme="https://www.eagle-network.eu/resources/vocabularies/typeins/">
+                    <tei:term ref="https://www.eagle-network.eu/voc/typeins/lod/105">inscription on vase</tei:term>
+                </tei:keywords>
+            </tei:textClass>
+        </tei:profileDesc>
+    </tei:teiHeader>
+    <tei:facsimile>
+        <tei:graphic n="1" url="http://linsto.dipartimentidieccellenza-dilef.unifi.it/itant/img/ItAnt_Oscan_100.jpg" resp="Francesca Murano">
+            <tei:desc>Inscription ItAnt Oscan 100 (drawing by <tei:persName>Francesca Murano</tei:persName>)
+                <tei:ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">This file is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International license – (CC BY-NC-SA 4.0).</tei:ref>
+            </tei:desc>
+        </tei:graphic>
+        <tei:graphic n="2" url="https://www.studietruschi.org/wp-content/uploads/2021/06/SE52_14.pdf#page=60">
+            <tei:desc>Picture of the inscription ItAnt Oscan 100 (from <tei:ref target="http://zotero.org/groups/2552746/items/4HF2TIL3"><tei:bibl>Lloyd - De Benedittis 1984 [1986]</tei:bibl></tei:ref>)
+                <tei:ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">This file is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International license – (CC BY-NC-SA 4.0).</tei:ref>
+            </tei:desc>
+        </tei:graphic>
+    </tei:facsimile>
+    <tei:text>
+        <tei:body>             
+            <tei:div type="edition" subtype="interpretative" xml:space="preserve">
+                <tei:div type="textpart" n="face_a" style="text-direction:r-to-l" rend="ductus:sinistrorse">
+                    <tei:ab>   
+                        <tei:lb n="1" xml:id="Osc_100_l_1"/>
+<!-- Leida;Osc_100_l_2; -?-]stenis -->
+                        <tei:gap reason="lost" extent="unknown" unit="line"><tei:certainty match=".." locus="name"/></tei:gap>
+                         <tei:name type="praenomen" xml:lang="osc-Ital-x-oscetr" xml:id="Osc_100_l_1_w_1" ref="#p1">stenis</tei:name>
+                    </tei:ab>
+                </tei:div>
+            </tei:div>
+            <tei:div type="translation" xml:lang="ita">
+                <tei:p>Stenius</tei:p>
+                <tei:desc>
+                    <tei:persName>Francesco Benassai</tei:persName>
+                    <tei:ref type="licence" target="https://creativecommons.org/licenses/by-nc-sa/4.0/">This file is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International license – (CC BY-NC-SA 4.0).</tei:ref>
+                </tei:desc> 
+            </tei:div>
+            <tei:div type="translation" xml:lang="eng">
+                <tei:p>Stenius</tei:p>
+                <tei:desc>
+                    <tei:persName>Francesco Benassai</tei:persName>
+                    <tei:ref type="licence" target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </tei:ref>
+                </tei:desc> 
+            </tei:div>            
+            <tei:div type="apparatus" xml:lang="eng" resp="Francesca Murano"/>
+            <tei:div type="commentary" xml:lang="eng" resp="Francesca Murano">
+                <tei:note>
+                    <tei:p>The text was certainly schetched after the fracture of the vessel into fragments</tei:p>
+                    <tei:p>According to <tei:ref target="http://zotero.org/groups/2552746/items/IKUTPHDC"><tei:bibl>Crawford, ImIt 2011</tei:bibl></tei:ref>: 1220, «The piece may have been a tessera for drawing lots and have functioned in a public context».</tei:p>
+                    <tei:p>The other side of the fragment shows the inscription <tei:ref target="ItAnt_Oscan_204.xml">ItAnt Oscan 204</tei:ref>, written by a different hand.</tei:p>
+                </tei:note>
+                <tei:listPerson type="Onomastics">
+                    <tei:person xml:id="p1" xml:lang="osc-Ital-x-oscetr">
+                        <tei:persName>
+                            <tei:name type="praenomen">stenis</tei:name>
+                        </tei:persName>
+                    </tei:person>
+                </tei:listPerson>
+            </tei:div>
+            <tei:div type="bibliography">
+                <tei:listBibl xmlns="http://www.tei-c.org/ns/1.0">
+                    
+                    <tei:biblStruct type="book" xml:id="ImIt2011" corresp="http://zotero.org/groups/2552746/items/IKUTPHDC">
+                        <tei:monogr>
+                            <tei:title level="m">Imagines Italicae: A Corpus of Italic Inscriptions</tei:title>
+                            <tei:editor>
+                                <tei:forename>Michael</tei:forename>
+                                <tei:surname>Crawford</tei:surname>
+                            </tei:editor>
+                            <tei:imprint>
+                                <tei:pubPlace>London</tei:pubPlace>
+                                <tei:publisher>Institute of Classical Studies, University of London</tei:publisher>
+                                <tei:date>2011</tei:date>
+                            </tei:imprint>
+                        </tei:monogr>
+                        <tei:citedRange unit="entry">Fagifulae 2</tei:citedRange>
+                    </tei:biblStruct> 
+                    
+                    <tei:biblStruct type="book" xml:id="Rix2002" corresp="http://zotero.org/groups/2552746/items/IMWMSAVE">
+                        <tei:monogr>
+                            <tei:title level="m">Sabellische Texte. Die Texte des Oskischen, Umbrischen und Südpikenischen</tei:title>
+                            <tei:author>
+                                <tei:forename>Helmut</tei:forename>
+                                <tei:surname>Rix</tei:surname>
+                            </tei:author>
+                            <tei:imprint>
+                                <tei:pubPlace>Heidelberg</tei:pubPlace>
+                                <tei:publisher>C. Winter</tei:publisher>
+                                <tei:date>2002</tei:date>
+                            </tei:imprint>
+                        </tei:monogr>
+                        <tei:citedRange unit="entry">Sa 44</tei:citedRange>
+                    </tei:biblStruct>
+                    <tei:biblStruct type="journalArticle" xml:id="Lloyd1984" corresp="http://zotero.org/groups/2552746/items/4HF2TIL3">
+                        <tei:analytic>
+                            <tei:title level="a">Sannio (CB): S. Maria della Strada (Matrice)</tei:title>
+                            <tei:author>
+                                <tei:forename>J.A.</tei:forename>
+                                <tei:surname>Lloyd</tei:surname>
+                            </tei:author>
+                            <tei:author>
+                                <tei:forename>Gianfranco</tei:forename>
+                                <tei:surname>De Benedettis</tei:surname>
+                            </tei:author>
+                        </tei:analytic>
+                        <tei:monogr>
+                            <tei:title level="j">Studi Etruschi</tei:title>
+                            <tei:imprint>
+                                <tei:biblScope unit="volume">LII</tei:biblScope>
+                                <tei:biblScope unit="page">381-382</tei:biblScope>
+                                <tei:date>1984</tei:date>
+                            </tei:imprint>
+                        </tei:monogr> 
+                    </tei:biblStruct>
+                </tei:listBibl>
+            </tei:div>   
+        </tei:body>
+    </tei:text>
+</tei:TEI>

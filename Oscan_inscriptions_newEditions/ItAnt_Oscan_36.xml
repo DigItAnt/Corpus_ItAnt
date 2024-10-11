@@ -1,0 +1,665 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng"
+schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng"
+schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<tei:TEI xmlns:dcr="http://www.isocat.org/ns/dcr" xml:id="ItAnt_Oscan_36"
+    xmlns:tei="http://www.tei-c.org/ns/1.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <tei:teiHeader>
+        <tei:fileDesc>
+            <tei:titleStmt>
+                <tei:title type="ItAnt_ID">Inscription ItAnt Oscan 36</tei:title>
+            </tei:titleStmt>
+            <tei:editionStmt>
+                <tei:edition>
+                    <tei:idno>ItAnt Oscan 36</tei:idno>
+                </tei:edition>
+                <tei:editor>
+                <tei:editor>
+                    <tei:persName>Francesca Murano</tei:persName>
+                </tei:editor>
+                    <tei:persName>Mariarosaria Zinzi</tei:persName>
+                </tei:editor>
+            </tei:editionStmt>         
+            <tei:publicationStmt>
+                <tei:authority>PRIN 2017 "Lingue e culture dell'Italia antica: linguistica storica e modelli digitali | Languages and Cultures of Ancient Italy. Historical Linguistics and Digital Models"</tei:authority>
+                <tei:date>2023</tei:date>
+                <tei:idno type="URI" subtype="handle"></tei:idno>
+                <tei:availability>
+                    <tei:licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">This file is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International license – (CC BY-NC-SA 4.0).  
+                    </tei:licence>
+                </tei:availability>
+            </tei:publicationStmt>   
+            <tei:sourceDesc>
+                <tei:msDesc>
+                    <tei:msIdentifier>
+                        <tei:settlement ref="https://sws.geonames.org/3175445">Isernia</tei:settlement>
+                        <tei:institution ref="https://www.musei.molise.beniculturali.it/musei?mid=211">Museo Archeologico di Santa Maria delle Monache</tei:institution>                      
+                        <tei:altIdentifier type="cancelled">
+                        <tei:settlement ref="https://sws.geonames.org/3180991">Campobasso</tei:settlement>
+                        <tei:institution ana="https://sabapmolise.beniculturali.it">Soprintendenza Archeologia, Belle arti e Paesaggio del Molise</tei:institution>
+                        <tei:idno type="museumID">452</tei:idno>
+                        </tei:altIdentifier>
+                        <tei:msName>Big terracotta tile from Pietrabbondante</tei:msName>
+                        <tei:altIdentifier type="trismegistos">
+                            <tei:idno source="www.trismegistos.org/text/551046">TM 551046</tei:idno>
+                        </tei:altIdentifier>
+                        <tei:altIdentifier type="traditionalID" subtype="EDR">
+                            <tei:idno source="http://www.edr-edr.it/edr_programmi/res_complex_comune.php?id_nr=EDR141248">EDR 141248</tei:idno>
+                        </tei:altIdentifier>
+                        <tei:altIdentifier type="traditionalID">
+                            <tei:idno source="http://zotero.org/groups/2552746/items/IMWMSAVE">ST Sa 35</tei:idno>
+                        </tei:altIdentifier> 
+                        <tei:altIdentifier type="traditionalID">
+                            <tei:idno source="http://zotero.org/groups/2552746/items/IKUTPHDC">ImIt Teruentum 25</tei:idno>
+                        </tei:altIdentifier>
+                        <tei:altIdentifier type="traditionalID">
+                            <tei:idno source="http://zotero.org/groups/2552746/items/WDGKKEFF" corresp="#Latin_Text">CIL I(2) 3556a [Latin text]</tei:idno>
+                        </tei:altIdentifier>                        
+                    </tei:msIdentifier> 
+                    <tei:msContents>
+                        <tei:summary>Producer's signature, in Oscan and Latin, scratched on a large tile from the <tei:ref target="https://www.musei.molise.beniculturali.it/musei?mid=6691&amp;nome=santuario-italico">sanctuary of Pietrabbondante</tei:ref>,Temple B.</tei:summary>
+                    </tei:msContents>
+                    <tei:physDesc>
+                        <tei:objectDesc>     
+                            <tei:supportDesc>
+                                <tei:support>
+                                    <tei:objectType ana="http://vocab.getty.edu/page/aat/300010699">tegula</tei:objectType>                                          
+                                    <tei:rs ana="objectShape">rectangular</tei:rs> 
+                                    <tei:material ana="http://vocab.getty.edu/page/aat/300010669">terracotta</tei:material>
+                                    <tei:dimensions type="objectDimensions" unit="cm" precision="high">
+                                        <tei:height quantity="94.5">94,5</tei:height>
+                                        <tei:width quantity="67">67</tei:width>
+                                        <tei:depth atLeast="5" atMost="9">5 to 9</tei:depth>
+                                    </tei:dimensions>
+                                    <tei:rs type="reuse">no</tei:rs>
+                                </tei:support>
+                                <tei:condition>well-preserved
+                                    <tei:note>The tile is composed of various joining fragments</tei:note>
+                                </tei:condition>   
+                            </tei:supportDesc>
+                            <tei:layoutDesc>
+                                <tei:layout columns="1" writtenLines="5">    
+                                    <tei:rs type="execution" ana="http://vocab.getty.edu/page/aat/300379457">scratched before firing</tei:rs>
+                                    <tei:rs type="opistography">no</tei:rs>
+                                    <tei:note type="layoutNotes">Large rectangular tile containing five lines combining an Oscan and a Latin text. Four footsteps have been impressed between the two texts.</tei:note>
+                                </tei:layout>
+                            </tei:layoutDesc>
+                        </tei:objectDesc>
+                        <tei:handDesc>                            
+                            <tei:handNote>
+                            <tei:note type="palaeographicNotes">Letters of the Oscan text are 4 to 7 cm high, letters of the Latin text are 4 to 8 cm high.</tei:note>
+                                <tei:dimensions type="characterDimension" unit="cm" precision="high" corresp="#Oscan_Text"> 
+                                   <tei:height atLeast="4" atMost="5.5">4 to 5,5</tei:height>
+                                </tei:dimensions>
+                                <tei:dimensions type="characterDimension" unit="cm" precision="high" corresp="#Latin_Text"> 
+                                    <tei:height atLeast="4" atMost="8">4 to 8</tei:height>
+                                </tei:dimensions>
+                            </tei:handNote>
+                        </tei:handDesc>                                      
+                        <tei:scriptDesc>
+                            <tei:scriptNote>
+                                <tei:rs type="writingSystem" subtype="alphabet" ref="https://www.prin-italia-antica.unifi.it/p166.html#oscan-etruscan" corresp="#Oscan_Text">Oscan National alphabet</tei:rs>
+                                <tei:rs type="writingSystem" subtype="alphabet" ref="https://unicode.org/iso15924/iso15924-codes.html" corresp="#Latin_Text">Latin alphabet</tei:rs>
+                                <tei:rs type="wordDivision">punctuation</tei:rs>
+                            </tei:scriptNote>
+                        </tei:scriptDesc>
+                        <tei:decoDesc>
+                            <tei:decoNote>Four footsteps inside the text</tei:decoNote>   
+                        </tei:decoDesc>
+                    </tei:physDesc>
+                    <tei:history>
+                        <tei:origin> 
+                            <tei:origPlace type="composed">
+                                <tei:placeName type="ancient" ref="https://pleiades.stoa.org/places/433078">Samnium</tei:placeName>
+                                <tei:placeName type="modern" ref="https://sws.geonames.org/3170820">Pietrabbondante (IS)</tei:placeName>
+                            </tei:origPlace>
+                            <tei:origDate notBefore-custom="-0099" notAfter-custom="-0090" cert="high" evidence="archaeological-context" resp="La_Regina1976">first decade of the 1st century BC</tei:origDate>
+                        </tei:origin>
+                        <tei:provenance type="found" subtype="discovered" when="1975">
+                            <tei:placeName type="ancient" ref="https://pleiades.stoa.org/places/433078">Samnium</tei:placeName>
+                            <tei:placeName type="modern" ref="https://sws.geonames.org/3170820">Pietrabbondante (IS)</tei:placeName>
+                            <tei:placeName type="detailed">found in the last room of the portico located to the right of Temple B</tei:placeName>
+                        </tei:provenance>                      
+                        <tei:provenance type="observed" subtype="autopsied" when="2023" resp="Francesca Murano">
+                            <tei:persName>Francesca Murano</tei:persName>
+                        </tei:provenance>
+                        <tei:provenance type="observed" subtype="autopsied" when="2004" resp="#ImIt2011">
+                            <tei:persName>M.H. Crawford</tei:persName>
+                        </tei:provenance>                                              
+                        <tei:provenance type="observed" subtype="autopsied" when="1975" resp="#La_Regina1976">
+                            <tei:persName>Adriano La Regina</tei:persName>
+                        </tei:provenance>
+                    </tei:history>                       
+                </tei:msDesc>   
+            </tei:sourceDesc> 
+        </tei:fileDesc>
+        <tei:encodingDesc>
+            <tei:p source="https://epidoc.stoa.org/gl/latest/">Marked-up according to the EpiDoc Guidelines</tei:p>
+        </tei:encodingDesc>
+        <tei:profileDesc>
+            <tei:langUsage>
+                <tei:language ident="osc" source="https://iso639-3.sil.org/code/osc">Oscan</tei:language>
+                <tei:language ident="osc-Ital-x-oscetr" source="https://www.prin-italia-antica.unifi.it/p166.html#oscan-etruscan" ana="https://unicode.org/iso15924/iso15924-codes.html">Oscan in National alphabet (Oscan-Etruscan alphabet)</tei:language>
+                <tei:language ident="lat" source="https://iso639-3.sil.org/code/lat" ana="https://unicode.org/iso15924/iso15924-codes.html">Latin</tei:language>  
+            </tei:langUsage>
+            <tei:textClass>
+                <tei:keywords scheme="https://www.eagle-network.eu/resources/vocabularies/typeins/">
+                    <tei:term ref="https://www.eagle-network.eu/voc/typeins/lod/119">producer's signature</tei:term>
+                </tei:keywords>
+            </tei:textClass>
+        </tei:profileDesc>
+    </tei:teiHeader>
+    <tei:facsimile>
+        <tei:graphic n="1" url="http://linsto.dipartimentidieccellenza-dilef.unifi.it/itant/img/ItAnt_Oscan_36.jpg" resp="Francesca Murano">
+            <tei:desc>Inscription ItAnt Oscan 36 (drawing by <tei:persName>Francesca Murano</tei:persName>)
+                <tei:ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">This file is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International license – (CC BY-NC-SA 4.0).</tei:ref>
+            </tei:desc>
+        </tei:graphic>
+        <tei:graphic n="2" url="https://cil.bbaw.de/ace/files/PH0010477.jpg">
+            <tei:desc>Photograph of the inscription ItAnt Oscan 36 provided by the <tei:ref target="https://cil.bbaw.de">Corpus Inscriptionum Latinarum Project</tei:ref>
+            </tei:desc>
+        </tei:graphic>
+        <tei:graphic n="3" url="https://cil.bbaw.de/ace/files/PH0010478.jpg">
+            <tei:desc>Drawing of the inscription ItAnt Oscan 36 provided by the <tei:ref target="https://cil.bbaw.de">Corpus Inscriptionum Latinarum Project</tei:ref>
+            </tei:desc>
+        </tei:graphic>       
+    </tei:facsimile>
+    <tei:text>
+        <tei:body>             
+            <tei:div type="edition" subtype="interpretative" xml:space="preserve">
+                <tei:div type="textpart" n="Oscan_Text" style="text-direction:r-to-l" rend="ductus:sinistrorse" xml:id="Oscan_Text">
+                    <tei:ab>   
+                        <tei:lb n="1" xml:id="Osc_36_l_1"/>
+                            <!-- Leida;Osc_36_l_1_w_1;h(eíre)n(neís) -->
+                            <tei:name type="praenomen" xml:lang="osc-Ital-x-oscetr" xml:id="Osc_36_l_1_w_1" ref="#p1"><tei:expan><tei:abbr>h</tei:abbr><tei:ex>eíre</tei:ex><tei:abbr>n</tei:abbr><tei:ex>neís</tei:ex></tei:expan></tei:name>
+                            <tei:pc unit="word">.</tei:pc>                        
+                            <!-- Leida;Osc_36_l_1_w_2;sattiieís -->
+                            <tei:name type="gentilicium" xml:lang="osc-Ital-x-oscetr" xml:id="Osc_36_l_1_w_2" ref="#p1">sattiieís</tei:name>
+                            <tei:pc unit="word">.</tei:pc>
+                            <!-- Leida;Osc_36_l_1_w_3;detfri -->
+                            <tei:w xml:lang="osc-Ital-x-oscetr" sameAs="#p2">detfri</tei:w> 
+                         <tei:lb n="2" xml:id="Osc_36_l_2"/>
+                            <!-- Leida;Osc_36_l_2_w_1;seganatted -->
+                            <tei:w xml:lang="osc-Ital-x-oscetr" xml:id="Osc_36_l_2_w_1">seganatted</tei:w>
+                            <!-- Leida;Osc_36_l_2_w_2;plavtad -->
+                            <tei:w xml:lang="osc-Ital-x-oscetr" xml:id="Osc_36_l_2_w_2">plavtad</tei:w>
+                         </tei:ab>
+                </tei:div>
+                <tei:div type="textpart" n="Latin_Text" style="text-direction:l-to-r" rend="ductus:dextrorse" xml:id="Latin_Text">
+                    <tei:ab>  
+                        <tei:lb n="3" xml:id="Osc_36_l_3"/>
+                            <!-- Leida;Osc_36_l_3_w_1;herenneis -->
+                            <tei:name type="praenomen" xml:lang="osc-Ital-x-oscetr" xml:id="Osc_36_l_3_w_1" ref="#p1">herenneis</tei:name>
+                            <tei:pc unit="word">.</tei:pc>
+                            <!-- Leida;Osc_36_l_3_w_2;amica -->
+                            <tei:w xml:lang="la" xml:id="Osc_36_l_3_w_2" lemmaRef="http://lila-erc.eu/data/id/lemma/87694" sameAs="#p3">amica</tei:w>
+                        <tei:lb n="4" xml:id="Osc_36_l_4"/>
+                            <!-- Leida;Osc_36_l_4_w_1;signauit -->
+                            <tei:w xml:lang="la" xml:id="Osc_36_l_4_w_1" lemmaRef="http://lila-erc.eu/data/id/lemma/124766">signauit</tei:w>
+                            <tei:pc unit="word">.</tei:pc>
+                            <!-- Leida;Osc_36_l_4_w_2;qando -->
+                            <tei:w xml:lang="la" xml:id="Osc_36_l_4_w_2" lemmaRef="http://lila-erc.eu/data/id/lemma/121084">qando</tei:w>
+                        <tei:lb n="5" xml:id="Osc_36_l_5"/>
+                            <!-- Leida;Osc_36_l_5_w_1;ponebamus -->
+                            <tei:w xml:lang="la" xml:id="Osc_36_l_5_w_1" lemmaRef="http://lila-erc.eu/data/id/lemma/118414">ponebamus</tei:w>
+                            <tei:pc unit="word">.</tei:pc>
+                            <!-- Leida;Osc_36_l_5_w_2;tegila(s) -->
+                            <tei:w xml:lang="la" xml:id="Osc_36_l_5_w_2" lemmaRef="http://lila-erc.eu/data/id/lemma/127732"><tei:expan><tei:abbr>tegila</tei:abbr><tei:ex>s</tei:ex></tei:expan></tei:w>  
+                    </tei:ab>
+                </tei:div>
+            </tei:div>
+            <tei:div type="translation" xml:lang="ita" corresp="#Oscan_Text" resp="Mariarosaria Zinzi">
+                <tei:p>Detfri di Herennus Sattius segnò con la pianta del piede</tei:p>
+                <tei:desc>
+                    <tei:persName>Mariarosaria Zinzi</tei:persName>
+                    <tei:ref type="licence" target="https://creativecommons.org/licenses/by-nc-sa/4.0/">This file is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International license – (CC BY-NC-SA 4.0).</tei:ref>
+                </tei:desc> 
+            </tei:div>
+            <tei:div type="translation" xml:lang="ita" corresp="#Latin_Text" resp="Mariarosaria Zinzi">
+                <tei:p>Amica di Herennus segnò mentre posavamo le tegole (a seccare)</tei:p>
+                <tei:desc>
+                    <tei:persName>Mariarosaria Zinzi</tei:persName>
+                    <tei:ref type="licence" target="https://creativecommons.org/licenses/by-nc-sa/4.0/">This file is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International license – (CC BY-NC-SA 4.0).</tei:ref>
+                </tei:desc> 
+            </tei:div>
+            <tei:div type="translation" xml:lang="eng" corresp="#Oscan_Text" resp="Mariarosaria Zinzi">
+                <tei:p>Detfri of Herennus Sattius stamped with the sole</tei:p>
+                <tei:desc>
+                    <tei:persName>Mariarosaria Zinzi</tei:persName>
+                    <tei:ref type="licence" target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </tei:ref>
+                </tei:desc> 
+            </tei:div>
+            <tei:div type="translation" xml:lang="eng" corresp="#Oscan_Text" resp="Mariarosaria Zinzi">
+                <tei:p>Amica of Herennus stamped while we were laying out the tiles.</tei:p>
+                <tei:desc>
+                    <tei:persName>Mariarosaria Zinzi</tei:persName>
+                    <tei:ref type="licence" target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </tei:ref>
+                </tei:desc> 
+            </tei:div>            
+            <tei:div type="apparatus" xml:lang="eng" resp="Mariarosaria Zinzi">
+                <tei:listApp>
+                    <tei:app from="Osc_36_l_4">
+                        <tei:lem corresp="Osc_36_l_4">signauit· qando·</tei:lem>
+                        <tei:rdg corresp="Osc_36_l_4_w_1">signauit· qando· a-
+                            <tei:ref target="http://zotero.org/groups/2552746/items/IKUTPHDC"><tei:bibl>Crawford, ImIt</tei:bibl></tei:ref>
+                        </tei:rdg>
+                    </tei:app>
+                    <tei:app from="Osc_36_l_5">
+                        <tei:lem corresp="Osc_36_l_5_w_3">tegila(s)</tei:lem>
+                        <tei:rdg corresp="Osc_36_l_5_w_3">tegila(m)
+                            <tei:ref target="http://zotero.org/groups/2552746/items/IKUTPHDC"><tei:bibl>Crawford, ImIt</tei:bibl></tei:ref>
+                        </tei:rdg>
+                    </tei:app>
+                </tei:listApp>                
+            </tei:div>
+            <tei:div type="commentary" xml:lang="eng">            
+                <tei:note resp="Francesca Murano">
+                    <tei:p>In the years preceding the Social War, Temple B was under construction. The supply of tiles had been entrusted to the workshop of Herennius Sattius. Remains of a furnace have been found near the temple.</tei:p>
+                    <tei:p>The tile was found in the last room of the portico located to the right of the temple. It was found leaning against the wall that divides this room from the adjacent one, over a layer of materials from the Augustan age. In the adjacent room, many carefully stocked tegulae and imbrices were found. This material must have been buried by the collapse of the portico walls. Our tile was placed in the portico together with all the others, and therefore comes from the roof of the temple (see <tei:ref target="http://zotero.org/groups/2552746/items/JU8HE8KF"><tei:bibl>La Regina 1976</tei:bibl></tei:ref>).</tei:p>
+                </tei:note>
+                <tei:note resp="Francesca Murano">
+                    <tei:p>The tile displays the signatures engraved by two fellow female slaves working in the tile workshop of Herennius Sattius.</tei:p>
+                    <tei:p>The texts are written by different hands. The two women impressed the footprints and then added inscriptions, each in their own native language (contra, <tei:ref target="http://zotero.org/groups/2552746/items/YFCQPZFY"><tei:bibl>Adams 2007</tei:bibl></tei:ref>: 160. See below). The inscriptions were engraved for fun and were not meant to be read by others. The tile was supposed to end up on the roof of the temple.</tei:p>
+                    <tei:p>The inscription is bilingual, consisting of an <tei:ref target="#Oscan_Text">Oscan text</tei:ref> and a <tei:ref target="#Latin_Text">Latin text</tei:ref> (see <tei:ref target="https://db.edcs.eu/epigr/epi_url.php?p_edcs_id=EDCS-24700287">CIL I(2) 3556a</tei:ref>), composing a textual unit.</tei:p>
+                    <tei:p>In this perspective, the use of both languages allows the two writers to show their cultural identities and literacy competences. The inscription reveals a stable situation of bilingualism, where both Latin and Oscan were available to the language community.</tei:p>
+                </tei:note>     
+                <tei:note resp="Francesca Murano">
+                    <tei:p>The two texts are constructed symmetrically. Each inscription begins with the name/status (see the Lexicon) of one of the two slaves, also identified by means of the name of their master in the genitive case. The Oscan text uses his complete onomastic formula, <tei:rs type="name" xml:lang="osc-Ital-x-oscetr">h(eíre)n(neís) sattieís</tei:rs>, while the Latin text diplays only his praenomen <tei:rs type="name" xml:lang="lat-Latn">herenneis</tei:rs>, using the Oscan inflection (see <tei:ref target="http://zotero.org/groups/2552746/items/4Y9EVVT8"><tei:bibl>Lazzeroni 1994</tei:bibl></tei:ref>).</tei:p>
+                    <tei:p>According to <tei:ref target="http://zotero.org/groups/2552746/items/6RQ7E2F8"><tei:bibl>Adams 2003</tei:bibl></tei:ref>: 124, the use of an Oscan inflection in an Oscan name in a text in Latin «suggests that Herennius was perceived as an Oscan speaker. The Oscan form in an otherwise Latin text is used as appropriate to the referent’s identity».</tei:p> 
+                    <tei:p>A bit differently, <tei:ref target="http://zotero.org/groups/2552746/items/YFCQPZFY"><tei:bibl>Adams 2007</tei:bibl></tei:ref>: 160 proposes that the Latin text was written by an «Oscan speaker who had also learnt Latin». Another point in favor of this perspective is the substandard spelling of <tei:rs type="w" xml:lang="lat-Latn" corresp="Osc_36_l_4_w_2">qando</tei:rs> suggesting a substandard pronunciation [k] for [kw].</tei:p>
+                    <tei:p>As <tei:ref target="http://zotero.org/groups/2552746/items/A56J4DB9"><tei:bibl>Clackson 2012</tei:bibl></tei:ref>: 41-42 pointed out, «By another interpretation, the text could show a period of unstable bilingualism, since both Latin and Oscan are used in the same environment, encompassing the workplace and the informal discourse of female workers. In a period when Latin was encroaching on the domains of Oscan, this text could be taken as an example of some of the negotiations of linguistic identity»</tei:p>
+                    <tei:p>The text is an example of bilingualism with Oscan and reveals the degree of cultural integration and literacy achieved by the humbler social classes.</tei:p>
+                    <tei:p>On <tei:rs type="w" xml:lang="lat-Latn" corresp="Osc_36_l_4_w_2">qando</tei:rs> and <tei:rs type="w" xml:lang="lat-Latn" corresp="Osc_36_l_5_w_2">tegila(s)</tei:rs> and their Romance outcomes, see <tei:ref target="http://zotero.org/groups/2552746/items/N8DEK8VX"><tei:bibl>Prosdocimi 2000</tei:bibl></tei:ref>: 113-114. See also the <tei:ref target="http://classes-latin-linguistics.fileli.unipi.it/">CLaSSES</tei:ref> resources for the <tei:ref target="http://classes-latin-linguistics.fileli.unipi.it/indice/index?IndiceSearch%5Btoken_id%5D=CIL-I2-3556">Latin text</tei:ref>.</tei:p>
+                    <tei:p>The Oscan text continues by describing the action performed by the two female worker: the impression of the soles of their feet in the soft clay, before the tile was dry. The text reads: <tei:ref type="phr" xml:lang="osc-Ital-x-oscetr">seganatted plavtad</tei:ref> "(she) signed (i.e. left her mark) with (her) foot".
+                    </tei:p>
+                    <tei:p>The Latin text continues by describing the circumstances in which the action of the two women took place: <tei:ref type="phr" xml:lang="lat-Latn">signauit qando ponebamus tegila</tei:ref> "(she) signed (i.e. left her mark with her foot) when we were laying out the tiles".</tei:p>
+                    <tei:p>Both inscriptions diplay the verb describing the action: <tei:rs type="w" xml:lang="osc-Ital-x-oscetr" corresp="Osc_36_l_2_w_1">seganatted</tei:rs> ~ <tei:rs type="w" xml:lang="lat-Latn" corresp="Osc_36_l_4_w_1">signauit</tei:rs>, '(he/she) left a mark'.</tei:p>
+                    <tei:p>The complete understanding of the text occurs only by reading both inscriptions, which therefore constitute a textual unit with code-switching.</tei:p>
+                </tei:note>
+                <tei:note target="Osc_36_l_1_w_3" resp="Mariarosaria Zinzi">                 
+                    <tei:p>There is no consensus as to whether <tei:rs xml:lang="osc-Ital-x-oscetr" type="w" corresp="Osc_36_l_1_w_3">detfri</tei:rs> is a personal noun or the indicator of a profession or a status.</tei:p>
+                    <tei:p>Also <tei:rs type="w" xml:lang="lat-Latn" corresp="Osc_36_l_3_w_2">amica</tei:rs> other than as a personal name could be meant as a common name, 'friend'.</tei:p>
+                </tei:note>
+                <tei:listPerson type="Onomastics">
+                    <tei:person xml:id="p1">
+                        <tei:persName xml:lang="osc-Ital-x-oscetr">
+                            <tei:name type="praenomen">h(eíre)n(neís)</tei:name>
+                            <tei:name type="gentilicium">sattiieís</tei:name>
+                        </tei:persName>
+                        <tei:persName>
+                            <tei:name type="praenomen" xml:lang="la">herenneis</tei:name>
+                        </tei:persName>
+                    </tei:person>
+                    <tei:person xml:id="p2">
+                        <tei:persName xml:lang="osc-Ital-x-oscetr">
+                            <tei:w>detfri</tei:w>
+                        </tei:persName>
+                    </tei:person>
+                    <tei:person xml:id="p3">
+                        <tei:persName>
+                            <tei:name type="praenomen" xml:lang="la">amica</tei:name>
+                        </tei:persName>
+                    </tei:person>
+                </tei:listPerson>
+            </tei:div>
+            <tei:div type="bibliography">
+                <tei:listBibl xmlns="http://www.tei-c.org/ns/1.0">
+                    <tei:biblStruct type="journalArticle" xml:id="La_Regina1976" corresp="http://zotero.org/groups/2552746/items/JU8HE8KF">
+                        <tei:analytic>
+                            <tei:title level="a">Sannio. Pietrabbondante</tei:title>
+                            <tei:author>
+                                <tei:forename>Adriano</tei:forename>
+                                <tei:surname>La Regina</tei:surname>
+                            </tei:author>
+                        </tei:analytic>
+                        <tei:monogr>
+                            <tei:title level="j">Studi Etruschi</tei:title>
+                            <tei:imprint>
+                                <tei:biblScope unit="volume">44</tei:biblScope>
+                                <tei:biblScope unit="page">283-288</tei:biblScope>
+                                <tei:date>1976</tei:date>
+                            </tei:imprint>
+                        </tei:monogr>
+                        <tei:citedRange unit="page">284</tei:citedRange>
+                    </tei:biblStruct>
+                    <tei:biblStruct type="journalArticle" xml:id="Prosdocimi1976" corresp="http://zotero.org/groups/2552746/items/GQQ2RLNI">
+                        <tei:analytic>
+                            <tei:title level="a">Sulle due nuove iscrizioni da Pietrabbondante</tei:title>
+                            <tei:author>
+                                <tei:forename>Aldo Luigi</tei:forename>
+                                <tei:surname>Prosdocimi</tei:surname>
+                            </tei:author>
+                        </tei:analytic>
+                        <tei:monogr>
+                            <tei:title level="j">Studi Etruschi</tei:title>
+                            <tei:imprint>
+                                <tei:biblScope unit="volume">XLIV</tei:biblScope>
+                                <tei:biblScope unit="page">288-289</tei:biblScope>
+                                <tei:date>1976</tei:date>
+                            </tei:imprint>
+                        </tei:monogr>
+                        <tei:citedRange unit="page">289</tei:citedRange>
+                    </tei:biblStruct>
+                    <tei:biblStruct type="journalArticle" xml:id="Lejeune1976" corresp="http://zotero.org/groups/2552746/items/X5ZN9ZSA">
+                        <tei:analytic>
+                            <tei:title level="a">s.t.</tei:title>
+                            <tei:author>
+                                <tei:forename>Michel</tei:forename>
+                                <tei:surname>Lejeune</tei:surname>
+                            </tei:author>
+                        </tei:analytic>
+                        <tei:monogr>
+                            <tei:title level="j">Studi Etruschi</tei:title>
+                            <tei:imprint>
+                                <tei:biblScope unit="volume">XLIV</tei:biblScope>
+                                <tei:biblScope unit="page">289-291</tei:biblScope>
+                                <tei:date>1976</tei:date>
+                            </tei:imprint>
+                        </tei:monogr>
+                        <tei:citedRange unit="page">290-291</tei:citedRange>
+                    </tei:biblStruct>
+                    <tei:biblStruct type="journalArticle" xml:id="Pisani1977" corresp="http://zotero.org/groups/2552746/items/IMFA8RGJ">
+                        <tei:analytic>
+                            <tei:title level="a">Seconde postille italiche</tei:title>
+                            <tei:author>
+                                <tei:forename>Vittore</tei:forename>
+                                <tei:surname>Pisani</tei:surname>
+                            </tei:author>
+                        </tei:analytic>
+                        <tei:monogr>
+                            <tei:title level="j">Studi Etruschi</tei:title>
+                            <tei:imprint>
+                                <tei:biblScope unit="volume">XLV</tei:biblScope>
+                                <tei:biblScope unit="page">346-347</tei:biblScope>
+                                <tei:date>1977</tei:date>
+                            </tei:imprint>
+                        </tei:monogr>
+                    </tei:biblStruct>
+                    <tei:biblStruct type="bookSection" xml:id="Marchese1978" corresp="http://zotero.org/groups/2552746/items/U8C8CYZH">
+                        <tei:analytic>
+                            <tei:title level="a">Pietrabbondante</tei:title>
+                            <tei:author>
+                                <tei:forename>Maria Pia</tei:forename>
+                                <tei:surname>Marchese</tei:surname>
+                            </tei:author>
+                        </tei:analytic>
+                        <tei:monogr>
+                            <tei:title level="m">Lingue e dialetti dell'Italia antica</tei:title>
+                            <tei:editor>
+                                <tei:forename>Aldo Luigi</tei:forename>
+                                <tei:surname>Prosdocimi</tei:surname>
+                            </tei:editor>
+                            <tei:imprint>
+                                <tei:pubPlace>Roma - Padova</tei:pubPlace>
+                                <tei:biblScope unit="volume">6</tei:biblScope>
+                                <tei:biblScope unit="page">839- 843</tei:biblScope>
+                                <tei:publisher>Biblioteca di storia patria</tei:publisher>
+                                <tei:date>1978</tei:date>
+                            </tei:imprint>
+                        </tei:monogr>
+                        <tei:series>
+                            <tei:title level="s">Popoli e civiltà dell’Italia antica</tei:title>
+                        </tei:series>
+                    </tei:biblStruct>
+                    <tei:biblStruct type="book" xml:id="Poccetti1979" corresp="http://zotero.org/groups/2552746/items/JFW9XW6P">
+                        <tei:monogr>
+                            <tei:title level="m">Nuovi documenti italici a complemento del Manuale di E. Vetter</tei:title>
+                            <tei:author>
+                                <tei:forename>Paolo</tei:forename>
+                                <tei:surname>Poccetti</tei:surname>
+                            </tei:author>
+                            <tei:imprint>
+                                <tei:pubPlace>Pisa</tei:pubPlace>
+                                <tei:publisher>Giardini Editore</tei:publisher>
+                                <tei:date>1979</tei:date>
+                            </tei:imprint>
+                        </tei:monogr>
+                        <tei:citedRange unit="entry">21</tei:citedRange>
+                    </tei:biblStruct>
+                    <tei:biblStruct type="journalArticle" xml:id="Untermann1979" corresp="http://zotero.org/groups/2552746/items/XVN3FAI7">
+                        <tei:analytic>
+                            <tei:title level="a">Literaturbericht Italische Sprachen I</tei:title>
+                            <tei:author>
+                                <tei:forename>Jürgen</tei:forename>
+                                <tei:surname>Untermann</tei:surname>
+                            </tei:author>
+                        </tei:analytic>
+                        <tei:monogr>
+                            <tei:title level="j">Glotta</tei:title>
+                            <tei:imprint>
+                                <tei:biblScope unit="volume">57</tei:biblScope>
+                                <tei:biblScope unit="page">293-324</tei:biblScope>
+                                <tei:date>1979</tei:date>
+                                <tei:note type="url">https://www.jstor.org/stable/40266493?seq=1#metadata_info_tab_contents</tei:note>
+                            </tei:imprint>
+                        </tei:monogr>
+                        <tei:citedRange unit="page">303</tei:citedRange>
+                    </tei:biblStruct>
+                    <tei:biblStruct type="bookSection" xml:id="La_Regina1980" corresp="http://zotero.org/groups/2552746/items/ACPAQ4RZ">
+                        <tei:analytic>
+                            <tei:title level="a">Tegolone con iscrizioni in osco e latino</tei:title>
+                            <tei:author>
+                                <tei:forename>Adriano</tei:forename>
+                                <tei:surname>La Regina</tei:surname>
+                            </tei:author>
+                        </tei:analytic>
+                        <tei:monogr>
+                            <tei:title level="m">Sannio: Pentri e Frentani dal VI al I sec. a.C. Catalogo della mostra (Isernia, Museo Nazionale, ottobre-dicembre 1980)</tei:title>
+                            <tei:imprint>
+                                <tei:pubPlace>Roma</tei:pubPlace>
+                                <tei:biblScope unit="page">169-171</tei:biblScope>
+                                <tei:publisher>De Luca</tei:publisher>
+                                <tei:date>1980</tei:date>
+                            </tei:imprint>
+                        </tei:monogr>
+                    </tei:biblStruct>
+                    <tei:biblStruct type="journalArticle" xml:id="Krummrey1981" corresp="http://zotero.org/groups/2552746/items/PKJCI93R">
+                        <tei:analytic>
+                            <tei:title level="a">Zwei Sklavinnen in einr samnitischen Ziegelei?</tei:title>
+                            <tei:author>
+                                <tei:forename>Hans</tei:forename>
+                                <tei:surname>Krummrey</tei:surname>
+                            </tei:author>
+                        </tei:analytic>
+                        <tei:monogr>
+                            <tei:title level="j">Altertum</tei:title>
+                            <tei:imprint>
+                                <tei:biblScope unit="volume">27</tei:biblScope>
+                                <tei:biblScope unit="issue">2</tei:biblScope>
+                                <tei:biblScope unit="page">69-76</tei:biblScope>
+                                <tei:date>1981</tei:date>
+                            </tei:imprint>
+                        </tei:monogr>
+                    </tei:biblStruct>
+                    <tei:biblStruct type="journalArticle" xml:id="Prosdocimi1981" corresp="http://zotero.org/groups/2552746/items/T6D5WUJW">
+                        <tei:analytic>
+                            <tei:title level="a">Nota sull'iscrizione da S. Croce del Sannio e su dít/detfri</tei:title>
+                            <tei:author>
+                                <tei:forename>Aldo Luigi</tei:forename>
+                                <tei:surname>Prosdocimi</tei:surname>
+                            </tei:author>
+                        </tei:analytic>
+                        <tei:monogr>
+                            <tei:title level="j">Studi Etruschi</tei:title>
+                            <tei:imprint>
+                                <tei:biblScope unit="volume">XLIX</tei:biblScope>
+                                <tei:biblScope unit="page">355-357</tei:biblScope>
+                                <tei:date>1981</tei:date>
+                            </tei:imprint>
+                        </tei:monogr>
+                    </tei:biblStruct>
+                    <tei:biblStruct type="bookSection" xml:id="Macchiarola1991" corresp="http://zotero.org/groups/2552746/items/SMYUURLK">
+                        <tei:analytic>
+                            <tei:title level="a">[Tegolone di Pietrabbondante]</tei:title>
+                            <tei:author>
+                                <tei:forename>I.</tei:forename>
+                                <tei:surname>Macchiarola</tei:surname>
+                            </tei:author>
+                        </tei:analytic>
+                        <tei:monogr>
+                            <tei:title level="m">Samnium: archeologia del Molise</tei:title>
+                            <tei:editor>
+                                <tei:forename>Stefania</tei:forename>
+                                <tei:surname>Capini</tei:surname>
+                            </tei:editor>
+                            <tei:editor>
+                                <tei:forename>A.</tei:forename>
+                                <tei:surname>Di Niro</tei:surname>
+                            </tei:editor>
+                            <tei:imprint>
+                                <tei:pubPlace>Roma</tei:pubPlace>
+                                <tei:biblScope unit="page">156-157</tei:biblScope>
+                                <tei:publisher>Quasar</tei:publisher>
+                                <tei:date>1991</tei:date>
+                            </tei:imprint>
+                        </tei:monogr>
+                        <citedRange unit="page">n. d14 (with pl. 3d, fig. d14)</citedRange>
+                    </tei:biblStruct>
+                    <tei:biblStruct type="journalArticle" xml:id="Franchi_De_Bellis1992" corresp="http://zotero.org/groups/2552746/items/TSZZCH8W">
+                        <tei:analytic>
+                            <tei:title level="a">Latino plautus ed osco plavta-</tei:title>
+                            <tei:author>
+                                <tei:forename>Annalisa</tei:forename>
+                                tei:<surname>Franchi De Bellis</surname>
+                            </tei:author>
+                        </tei:analytic>
+                        <tei:monogr>
+                            <tei:title level="j">Quaderni dell'Istituto di Linguistica dell'Università di Urbino</tei:title>
+                            <tei:imprint>
+                                <tei:biblScope unit="volume">7</tei:biblScope>
+                                <tei:biblScope unit="page">3-31</tei:biblScope>
+                                <tei:date>1992</tei:date>
+                            </tei:imprint>
+                        </tei:monogr>
+                    </tei:biblStruct>
+                    <tei:biblStruct type="book" xml:id="Rix1994" corresp="http://zotero.org/groups/2552746/items/3KFG5M3V">
+                        <tei:monogr>
+                            <tei:title level="m">Die Termini der Unfreiheit in den Sprachen Alt-Italiens</tei:title>
+                            <tei:author>
+                                <tei:forename>Helmut</tei:forename>
+                                <tei:surname>Rix</tei:surname>
+                            </tei:author>
+                            <tei:imprint>
+                                <tei:publisher>F. Steiner</tei:publisher>
+                                <tei:date>1994</tei:date>
+                            </tei:imprint>
+                        </tei:monogr>
+                    </tei:biblStruct>
+                    <tei:biblStruct type="bookSection" xml:id="Marinetti2000a" corresp="http://zotero.org/groups/2552746/items/FYNL948V">
+                        <tei:analytic>
+                            <tei:title level="a">"La lingua dei prischi Sanniti". Aspetti della documentazione</tei:title>
+                            <tei:author>
+                                <tei:forename>Anna</tei:forename>
+                                <tei:surname>Marinetti</tei:surname>
+                            </tei:author>
+                        </tei:analytic>
+                        <tei:monogr>
+                            <tei:title level="m">Cumae. Le conferenze del premio Salmon III</tei:title>
+                            <tei:editor>
+                                <tei:forename>Gianfranco</tei:forename>
+                                <tei:surname>De Benedittis</tei:surname>
+                            </tei:editor>
+                            <tei:imprint>
+                                <tei:pubPlace>Campobasso</tei:pubPlace>
+                                <tei:biblScope unit="page">86–103</tei:biblScope>
+                                <tei:date>2000</tei:date>
+                            </tei:imprint>
+                        </tei:monogr>
+                    </tei:biblStruct>
+                    <tei:biblStruct type="bookSection" xml:id="Marinetti2000b" corresp="http://zotero.org/groups/2552746/items/N8DEK8VX">
+                        <tei:analytic>
+                            <tei:title level="a">La romanizzazione linguistica della Penisola</tei:title>
+                            <tei:author>
+                                <tei:forename>Anna</tei:forename>
+                                <tei:surname>Marinetti</tei:surname>
+                            </tei:author>
+                        </tei:analytic>
+                        <tei:monogr>
+                            <tei:title level="m">La preistoria dell'italiano. Atti della Tavola Rotonda di Linguistica Storica. Università Ca' Foscari di (Venezia, 11-13 giugno 1998)</tei:title>
+                            <tei:editor>
+                                <tei:forename>József</tei:forename>
+                                <tei:surname>Herman</tei:surname>
+                            </tei:editor>
+                            <tei:editor>
+                                <tei:forename>Anna</tei:forename>
+                                <tei:surname>Marinetti</tei:surname>
+                            </tei:editor>
+                            <tei:editor>
+                                <tei:forename>Luca</tei:forename>
+                                <tei:surname>Mondin</tei:surname>
+                            </tei:editor>
+                            <tei:imprint>
+                                <tei:biblScope unit="page">61–79</tei:biblScope>
+                                <tei:publisher>Max Niemeyer Verlag</tei:publisher>
+                                <tei:date>2000</tei:date>
+                            </tei:imprint>
+                        </tei:monogr>
+                    </tei:biblStruct>
+                    <tei:biblStruct type="bookSection" xml:id="Prosdocimi2000" corresp="http://zotero.org/groups/2552746/items/N8DEK8VX">
+                        <tei:analytic>
+                            <tei:title level="a">Il latino sommerso</tei:title>
+                            <tei:author>
+                                <tei:forename>Aldo Luigi</tei:forename>
+                                <tei:surname>Prosdocimi</tei:surname>
+                            </tei:author>
+                        </tei:analytic>
+                        <tei:monogr>
+                            <tei:title level="m">La preistoria dell'italiano. Atti della Tavola Rotonda di Linguistica Storica. Università Ca' Foscari di (Venezia, 11-13 giugno 1998)</tei:title>
+                            <tei:editor>
+                                <tei:forename>József</tei:forename>
+                                <tei:surname>Herman</tei:surname>
+                            </tei:editor>
+                            <tei:editor>
+                                <tei:forename>Anna</tei:forename>
+                                <tei:surname>Marinetti</tei:surname>
+                            </tei:editor>
+                            <tei:editor>
+                                <tei:forename>Luca</tei:forename>
+                                <tei:surname>Mondin</tei:surname>
+                            </tei:editor>
+                            <tei:imprint>
+                                <tei:biblScope unit="page">93-120</tei:biblScope>
+                                <tei:publisher>Max Niemeyer Verlag</tei:publisher>
+                                <tei:date>2000</tei:date>                             
+                            </tei:imprint>
+                        </tei:monogr>
+                    </tei:biblStruct>
+                    <tei:biblStruct type="book" xml:id="Rix2002"  corresp="http://zotero.org/groups/2552746/items/IMWMSAVE">
+                        <tei:monogr>
+                            <tei:title level="m">Sabellische Texte. Die Texte des Oskischen, Umbrischen und Südpikenischen</tei:title>
+                            <tei:author>
+                                <tei:forename>Helmut</tei:forename>
+                                <tei:surname>Rix</tei:surname>
+                            </tei:author>
+                            <tei:imprint>
+                                <tei:pubPlace>Heidelberg</tei:pubPlace>
+                                <tei:publisher>C. Winter</tei:publisher>
+                                <tei:date>2002</tei:date>
+                            </tei:imprint>
+                        </tei:monogr>
+                        <tei:citedRange unit="entry">Sa 35</tei:citedRange>
+                    </tei:biblStruct>
+                    <tei:biblStruct type="book" xml:id="ImIt2011"  corresp="http://zotero.org/groups/2552746/items/IKUTPHDC">
+                        <tei:monogr>
+                            <tei:title level="m">Imagines Italicae: A Corpus of Italic Inscriptions</tei:title>
+                            <tei:editor>
+                                <tei:forename>Michael</tei:forename>
+                                <tei:surname>Crawford</tei:surname>
+                            </tei:editor>
+                            <tei:imprint>
+                                <tei:pubPlace>London</tei:pubPlace>
+                                <tei:publisher>Institute of Classical Studies, University of London</tei:publisher>
+                                <tei:date>2011</tei:date>
+                            </tei:imprint>
+                        </tei:monogr>
+                        <tei:citedRange unit="entry">Campania or Samnium 5 (with photograph)</tei:citedRange>
+                    </tei:biblStruct>
+                </tei:listBibl>    
+            </tei:div>
+        </tei:body>
+    </tei:text>
+</tei:TEI>

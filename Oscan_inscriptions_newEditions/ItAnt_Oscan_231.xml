@@ -1,0 +1,535 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/9.5/tei-epidoc.rng"
+schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/9.5/tei-epidoc.rng"
+schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<tei:TEI xmlns:dcr="http://www.isocat.org/ns/dcr" xml:id="ItAnt_Oscan_231"
+    xmlns:tei="http://www.tei-c.org/ns/1.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <tei:teiHeader>
+        <tei:fileDesc>
+            <tei:titleStmt>
+                <tei:title type="ItAnt_ID">Inscription ItAnt Oscan 231</tei:title>
+            </tei:titleStmt>
+            <tei:editionStmt>
+                <tei:edition>
+                    <tei:idno>ItAnt Oscan 231</tei:idno>
+                </tei:edition>
+                <tei:editor>
+                    <tei:persName>Francesca Murano</tei:persName>
+                </tei:editor>
+                <tei:editor>
+                    <tei:persName>Mariarosaria Zinzi</tei:persName>
+                </tei:editor>
+            </tei:editionStmt>         
+            <tei:publicationStmt>
+                <tei:authority>PRIN 2017 "Lingue e culture dell'Italia antica: linguistica storica e modelli digitali | Languages and Cultures of Ancient Italy. Historical Linguistics and Digital Models"</tei:authority>
+                <tei:date>2023</tei:date>
+                <tei:idno type="URI" subtype="handle"></tei:idno>
+                <tei:availability>
+                    <tei:licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">This file is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International license – (CC BY-NC-SA 4.0).  
+                    </tei:licence>
+                </tei:availability>
+            </tei:publicationStmt>   
+            <tei:sourceDesc>
+                <tei:msDesc>
+                    <tei:msIdentifier>
+                        <tei:settlement ref="https://sws.geonames.org/3179703">Castel di Sangro (AQ)</tei:settlement>
+                        <tei:institution ana="https://www.beniculturali.it/luogo/museo-civico-aufidenate">Museo Civico Aufidenate</tei:institution>
+                        <tei:altIdentifier type="cancelled">
+                            <tei:settlement ref="https://sws.geonames.org/3179703" resp="#La_Regina2010">Castel di Sangro (AQ)</tei:settlement>
+                            <tei:institution>External portico of the building that housed the Pretura</tei:institution>
+                            <tei:idno/>
+                        </tei:altIdentifier>        
+                        <tei:altIdentifier type="trismegistos">
+                            <tei:idno source="www.trismegistos.org/text/170864">TM 170864</tei:idno>
+                        </tei:altIdentifier> 
+                        <tei:altIdentifier type="traditionalID">
+                            <tei:idno source="http://zotero.org/groups/2552746/items/IMWMSAVE">ST Sa 17</tei:idno>
+                        </tei:altIdentifier> 
+                        <tei:altIdentifier type="traditionalID">
+                            <tei:idno source="http://zotero.org/groups/2552746/items/IKUTPHDC">ImIt Aufidena 1</tei:idno>
+                        </tei:altIdentifier>
+                        <tei:altIdentifier type="traditionalID">
+                            <tei:idno source="http://zotero.org/groups/2552746/items/NJFZRK23">Ve 141</tei:idno>
+                        </tei:altIdentifier>
+                    </tei:msIdentifier>
+                    <tei:msContents>
+                        <tei:summary>
+                            <tei:p>Fragmentary building inscription on a limestone block from Aufidena (Castel di Sangro, AQ). Probably the block constituted the left side of an altar (see <tei:ref target="http://zotero.org/groups/2552746/items/SWBJ2IXV"><tei:bibl>De Benedittis 2003</tei:bibl></tei:ref>).</tei:p>                            
+                            <tei:p>The inscription was found in 1931 near the modern town just beyond the Ponte della Madonna delle Grazie during the construction of a house in Contrada Orti del Principe, and then built in the external portico of the building that housed the Pretura. It is currently located at the Museo Aufidenate.</tei:p>
+                        </tei:summary>
+                    </tei:msContents>
+                    <tei:physDesc>
+                        <tei:objectDesc>     
+                            <tei:supportDesc>
+                                <tei:support>
+                                    <tei:objectType ana="http://archwort.dainst.org/en/term/4572">stone slab</tei:objectType>
+                                    <tei:note>Probably an <tei:term ref="http://vocab.getty.edu/aat/300003725">altar</tei:term> (see <tei:ref target="http://zotero.org/groups/2552746/items/SWBJ2IXV"><tei:bibl>De Benedittis 2003</tei:bibl></tei:ref>)</tei:note>
+                                    <tei:objectType ana="http://vocab.getty.edu/aat/300003725" resp="#De_Benedittis2003">altar</tei:objectType>
+                                    <tei:material ana="http://vocab.getty.edu/aat/300011286">limestone
+                                    </tei:material>
+                                    <tei:dimensions type="objectDimensions" unit="cm" precision="high" resp="#De_Benedittis2003">
+                                        <tei:height quantity="42">42</tei:height>
+                                        <tei:width quantity="52">52</tei:width>
+                                        <tei:depth quantity="36">36</tei:depth>
+                                    </tei:dimensions>
+                                    <tei:rs type="reuse">no</tei:rs>
+                                </tei:support>
+                                <tei:condition>fragmentary
+                                    <tei:note>The block was cut diagonally starting from the upper left corner towards the center, at an angle of approximately 45 degrees. Futhermore, the left part of the block is very worn, making the reading problematic</tei:note>
+                                </tei:condition>  
+                            </tei:supportDesc>
+                            <tei:layoutDesc>
+                                <tei:layout columns="1" writtenLines="3">
+                                    <tei:rs type="execution" ana="http://vocab.getty.edu/page/aat/300404794">engraved</tei:rs>
+                                    <tei:rs type="opistography">no</tei:rs>
+                                    <tei:dimensions type="lineDimension" unit="cm" precision="high" corresp="#Osc_231_l_1" resp="#De_Benedittis1992">
+                                        <tei:height quantity="5">5</tei:height>
+                                        <tei:width quantity="4.8">4,8</tei:width>
+                                    </tei:dimensions>
+                                    <tei:dimensions type="lineDimension" unit="cm" precision="high" corresp="#Osc_231_l_2" resp="#De_Benedittis1992">
+                                        <tei:height quantity="5">5</tei:height>
+                                        <tei:width quantity="4.6">4,6</tei:width>
+                                    </tei:dimensions>
+                                    <tei:dimensions type="lineDimension" unit="cm" precision="high" corresp="#Osc_231_l_3" resp="#De_Benedittis1992">
+                                        <tei:height quantity="5">5</tei:height>
+                                        <tei:width quantity="4.8">4,8</tei:width>
+                                    </tei:dimensions>
+                                </tei:layout>
+                            </tei:layoutDesc>
+                        </tei:objectDesc>
+                        <tei:handDesc>                            
+                            <tei:handNote>
+                                <tei:note type="palaeographicNotes">The position of the dot serving as a diacritic for <tei:rs type="c" xml:lang="osc-Ital-x-oscetr">ú</tei:rs> is not consistent</tei:note>
+                                <tei:dimensions type="characterDimension" unit="cm" precision="high" resp="#ImIt2011"> 
+                                    <tei:height quantity="5">5</tei:height>
+                                </tei:dimensions>
+                            </tei:handNote>
+                        </tei:handDesc>                                      
+                        <tei:scriptDesc>
+                            <tei:scriptNote>
+                                <tei:rs type="writingSystem" subtype="alphabet" ref="https://www.prin-italia-antica.unifi.it/p166.html#oscan-etruscan">Oscan National alphabet</tei:rs>
+                                <tei:rs type="wordDivision">punctuation</tei:rs>
+                            </tei:scriptNote>
+                        </tei:scriptDesc>
+                        <tei:decoDesc>
+                            <tei:decoNote>Simple moulding at the top</tei:decoNote>   
+                        </tei:decoDesc>
+                    </tei:physDesc>
+                    <tei:history>
+                        <tei:origin> 
+                            <tei:origPlace type="composed">
+                                <tei:placeName type="ancient" ref="https://pleiades.stoa.org/places/432709">Aufidena, Samnium</tei:placeName>
+                                <tei:placeName type="modern" ref="https://sws.geonames.org/3179703">Castel di Sangro (AQ)</tei:placeName>
+                            </tei:origPlace>
+                            <tei:origDate notBefore-custom="-0199" notAfter-custom="-0100" cert="medium">2nd century BC</tei:origDate>
+                        </tei:origin>
+                        <tei:provenance type="found" subtype="discovered" when="1931">
+                            <tei:placeName type="ancient" ref="https://pleiades.stoa.org/places/432709">Aufidena, Samnium</tei:placeName>
+                            <tei:placeName type="modern" ref="https://sws.geonames.org/3179703">Castel di Sangro (AQ)</tei:placeName>
+                            <tei:placeName type="detailed">Found reused, built into the wall of the external portico of the Pretura</tei:placeName>
+                        </tei:provenance>
+                        <tei:provenance type="observed" subtype="seen" when="2021" resp="Mariarosaria Zinzi">
+                            <tei:persName>Mariarosaria Zinzi</tei:persName>
+                        </tei:provenance>
+                        <tei:provenance type="observed" subtype="seen" when="2022" resp="Francesca Murano">
+                            <tei:persName>Francesca Murano</tei:persName>
+                        </tei:provenance>
+                        <tei:provenance type="observed" subtype="autopsied" when="2009" resp="#La_Regina2010">
+                            <tei:persName>Adriano La Regina</tei:persName>
+                        </tei:provenance>
+                        <tei:provenance type="observed" subtype="autopsied" when="2003" resp="#ImIt2011">
+                            <tei:persName>M.H. Crawford</tei:persName>
+                        </tei:provenance>
+                        <tei:provenance type="observed" subtype="autopsied" when="1991" resp="#De_Benedittis1992">
+                            <tei:persName>Gianfranco De Benedittis</tei:persName>                         
+                        </tei:provenance>
+                        <tei:provenance type="observed" subtype="autopsied" when="1988" resp="#La_Regina2010">
+                            <tei:persName>Adriano La Regina</tei:persName>                         
+                        </tei:provenance>
+                        <tei:provenance type="observed" subtype="autopsied" when="1937" resp="#Vetter1942">
+                            <tei:persName>Emil Vetter</tei:persName>
+                        </tei:provenance>
+                        <tei:provenance type="observed" subtype="autopsied" notAfter="2002" resp="#Rix2002">
+                            <tei:persName>Helmut Rix</tei:persName>
+                        </tei:provenance>
+                    </tei:history>                       
+                </tei:msDesc>   
+            </tei:sourceDesc> 
+        </tei:fileDesc>
+        <tei:encodingDesc>
+            <tei:p source="https://epidoc.stoa.org/gl/latest/">Marked-up according to the EpiDoc Guidelines</tei:p>
+        </tei:encodingDesc>
+        <tei:profileDesc>
+            <tei:langUsage>
+                <tei:language ident="osc" source="https://iso639-3.sil.org/code/osc">Oscan</tei:language>
+                <tei:language ident="osc-Ital-x-oscetr" source="https://www.prin-italia-antica.unifi.it/p166.html#oscan-etruscan" ana="https://unicode.org/iso15924/iso15924-codes.html">Oscan in National alphabet (Oscan-Etruscan alphabet)</tei:language>
+            </tei:langUsage>
+            <tei:textClass>
+                <tei:keywords scheme="https://www.eagle-network.eu/resources/vocabularies/typeins/">
+                    <tei:term ref="https://www.eagle-network.eu/voc/typeins/lod/86">building inscription</tei:term>
+                </tei:keywords>
+            </tei:textClass>
+        </tei:profileDesc>
+    </tei:teiHeader>
+    <tei:facsimile>
+        <tei:graphic n="1" url="http://linsto.dipartimentidieccellenza-dilef.unifi.it/itant/img/ItAnt_Oscan_231.jpg" resp="Francesca Murano">
+            <tei:desc>Inscription ItAnt Oscan 231 (drawing by <tei:persName>Francesca Murano</tei:persName>)<tei:ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">This file is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International license – (CC BY-NC-SA 4.0).</tei:ref>
+            </tei:desc>
+        </tei:graphic>
+        <tei:graphic n="2" url="https://www.studietruschi.org/wp-content/uploads/2021/07/SE74_13.pdf#page=37">
+            <tei:desc>Photograph of the inscription ItAnt Oscan 232 (from <tei:ref target="http://zotero.org/groups/2552746/items/ZK74ZFDC"><tei:bibl>La Regina 2008 [2011]</tei:bibl></tei:ref>, tav. LV b)
+                <tei:ref ana="https://www.studietruschi.org">This file is provided by the <tei:ref ana="https://www.studietruschi.org">Istituto Nazionale di Studi Etruschi ed Italici</tei:ref></tei:ref>
+            </tei:desc>
+        </tei:graphic>
+        <tei:graphic n="3" url="https://www.studietruschi.org/wp-content/uploads/2021/07/SE74_13.pdf#page=17">
+            <tei:desc>Drawing of the inscription ItAnt Oscan 232 (from <tei:ref target="http://zotero.org/groups/2552746/items/ZK74ZFDC"><tei:bibl>La Regina 2008 [2011]</tei:bibl></tei:ref>)
+                <tei:ref ana="https://www.studietruschi.org">This file is provided by the Istituto Nazionale di Studi Etruschi ed Italici</tei:ref>
+            </tei:desc>
+        </tei:graphic>
+    </tei:facsimile>
+    <tei:text>
+        <tei:body>             
+            <tei:div type="edition" subtype="interpretative" xml:space="preserve" resp="Francesca Murano">
+                <tei:div type="textpart" n="face_a" style="text-direction:r-to-l" rend="ductus:sinistrorse">
+                    <tei:ab>   
+                        <tei:lb n="1" xml:id="Osc_231_l_1"/>
+                            <tei:gap reason="lost" extent="unknown" unit="character"/>
+                            <!-- Leida;Osc_231_l_1_w_1;pettiur -->
+                            <tei:w xml:lang="osc-Ital-x-oscetr" xml:id="Osc_231_l_1_w_1">pettiur</tei:w>
+                            <tei:pc unit="word">.</tei:pc>
+                            <!-- Leida;Osc_231_l_1_w_2;ekík -->
+                            <tei:w xml:lang="osc-Ital-x-oscetr" xml:id="Osc_231_l_1_w_2">ek<tei:unclear>ík</tei:unclear></tei:w>
+                            <tei:pc unit="word">.</tei:pc>
+                            <!-- Leida;Osc_231_l_1_w_3;pú[-?- -->
+                            <tei:w xml:lang="osc-Ital-x-oscetr" xml:id="Osc_231_l_1_w_3"><tei:unclear agent="rubbing">pú</tei:unclear><tei:gap reason="lost" extent="unknown" unit="character"/></tei:w>
+                        <tei:lb n="2" xml:id="Osc_231_l_2"/>
+                            <tei:gap reason="lost" extent="unknown" unit="character"/>
+                            <!-- Leida;Osc_231_l_2_w_1;[kú]súl -->
+                            <tei:w xml:lang="osc-Ital-x-oscetr" xml:id="Osc_231_l_2_w_1"><tei:supplied reason="lost">kú</tei:supplied>súl</tei:w>
+                            <tei:pc unit="word">.</tei:pc>
+                            <!-- Leida;Osc_231_l_2_w_2;prúfass -->
+                            <tei:w xml:lang="osc-Ital-x-oscetr" xml:id="Osc_231_l_2_w_2">prúfas<tei:unclear agent="rubbing">s</tei:unclear></tei:w>
+                            <tei:pc unit="word">.</tei:pc>
+                            <!-- Leida;Osc_231_l_2_w_3;+++++[ -->
+                            <tei:w xml:lang="osc-Ital-x-oscetr" xml:id="Osc_231_l_2_w_3"><tei:gap reason="illegible" atLeast="4" atMost="6" unit="character"/><tei:gap reason="lost" extent="unknown" unit="character"/></tei:w>
+                            <tei:pc unit="word">.</tei:pc>
+                            <tei:gap reason="lost" extent="unknown" unit="character"/>
+                        <tei:lb n="3" xml:id="Osc_231_l_3"/>
+                            <tei:gap reason="lost" extent="unknown" unit="character"/>
+                            <!-- Leida;Osc_231_l_3_w_1;numneís -->
+                            <tei:w xml:lang="osc-Ital-x-oscetr" xml:id="Osc_231_l_3_w_1">numneís</tei:w>
+                            <tei:pc unit="word">.</tei:pc>
+                            <!-- Leida;Osc_231_l_3_w_2;sta[ -->
+                            <tei:w xml:lang="osc-Ital-x-oscetr" xml:id="Osc_231_l_3_w_2">st<tei:unclear>a</tei:unclear><tei:gap reason="lost" extent="unknown" unit="character"/></tei:w>
+                    </tei:ab>
+                </tei:div>
+            </tei:div>
+            <tei:div type="translation" xml:lang="ita">
+                <tei:p>] quattro, questo [...] console [...] ? del nome [...]</tei:p>
+                <tei:desc>
+                    <tei:persName>Mariarosaria Zinzi</tei:persName>
+                    <tei:ref type="licence" target="https://creativecommons.org/licenses/by-nc-sa/4.0/">This file is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International license – (CC BY-NC-SA 4.0).</tei:ref>
+                </tei:desc> 
+            </tei:div>
+            <tei:div type="translation" xml:lang="eng">
+                <tei:p>] four, this [...] consul [...] ? of the name [...]</tei:p>
+                <tei:desc>
+                    <tei:persName>Mariarosaria Zinzi</tei:persName>-->
+                    <tei:ref type="licence" target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </tei:ref>
+                </tei:desc> 
+            </tei:div>            
+            <tei:div type="apparatus" xml:lang="eng" resp="Francesca Murano">
+                <tei:listApp>                  
+                    <!-- Osc_231_l_1_w_1 -->  
+                    <tei:app from="Osc_231_l_1">
+                        <tei:lem corresp="Osc_231_l_1_w_1">pettiur</tei:lem>
+                        <tei:rdg corresp="Osc_231_l_1_w_1">pettiúr
+                        <tei:ref target="http://zotero.org/groups/2552746/items/ZK74ZFDC"><tei:bibl>La Regina 2008 [2011]</tei:bibl></tei:ref>
+                    </tei:rdg>
+                    </tei:app>
+                    <!-- Osc_231_l_1_w_2 -->  
+                    <tei:app from="Osc_231_l_1">
+                        <tei:lem corresp="Osc_231_l_1_w_2">ek<tei:unclear>ík</tei:unclear></tei:lem>
+                        <tei:rdg corresp="Osc_231_l_1_w_2">ekí̱k
+                            <tei:ref target="http://zotero.org/groups/2552746/items/ZK74ZFDC"><tei:bibl>La Regina 2008 [2011]</tei:bibl></tei:ref>
+                        </tei:rdg>
+                        <!-- <tei:rdg corresp="Osc_231_l_1_w_2">ek<tei:supplied reason="lost" evidence="previouseditor">í</tei:supplied>k
+                            <tei:ref target="http://zotero.org/groups/2552746/items/ZK74ZFDC"><tei:bibl>La Regina 2008 [2011]</tei:bibl></tei:ref>
+                        </tei:rdg> -->
+                        <tei:rdg corresp="Osc_231_l_1_w_2">ekík
+                            <tei:ref target="http://zotero.org/groups/2552746/items/IKUTPHDC"><tei:bibl>Crawford, ImIt</tei:bibl></tei:ref>
+                            <tei:ref target="http://zotero.org/groups/2552746/items/IMWMSAVE"><tei:bibl>Rix, ST</tei:bibl></tei:ref>     
+                            </tei:rdg>
+                    </tei:app>
+                   <!-- Osc_231_l_1_w_3 -->
+                    <tei:app from="Osc_231_l_1">
+                        <tei:lem corresp="Osc_231_l_1_w_3"><tei:unclear>p</tei:unclear><tei:supplied reason="lost" evidence="previouseditor">ú</tei:supplied>[</tei:lem>
+                        <tei:rdg corresp="Osc_231_l_1_w_3">pú[d]
+                            <tei:ref target="http://zotero.org/groups/2552746/items/IKUTPHDC"><tei:bibl>Crawford, ImIt</tei:bibl></tei:ref>
+                        </tei:rdg>
+                        <tei:rdg corresp="Osc_231_l_1_w_3">diú[
+                            <tei:ref target="http://zotero.org/groups/2552746/items/IMWMSAVE"><tei:bibl>Rix, ST</tei:bibl></tei:ref>
+                        </tei:rdg>
+                    </tei:app>
+                    <!-- Osc_231_l_2_w_2 -->    
+                    <tei:app from="Osc_231_l_2">
+                        <tei:lem corresp="Osc_231_l_2_w_2">prúfasṣ</tei:lem>
+                        <tei:rdg corresp="Osc_231_l_2_w_2">prúfass
+                            <tei:ref target="http://zotero.org/groups/2552746/items/ZK74ZFDC"><tei:bibl>La Regina 2008 [2011]</tei:bibl></tei:ref>
+                        </tei:rdg>
+                        <tei:rdg corresp="Osc_231_l_2_w_2">prúf̣as
+                            <tei:ref target="http://zotero.org/groups/2552746/items/IKUTPHDC"><tei:bibl>Crawford, ImIt</tei:bibl></tei:ref>
+                        </tei:rdg>
+                        <tei:rdg corresp="Osc_231_l_2_w_2">prúfṭas
+                            <tei:ref target="http://zotero.org/groups/2552746/items/IMWMSAVE"><tei:bibl>Rix, ST</tei:bibl></tei:ref>
+                        </tei:rdg>
+                    </tei:app>
+                    <!-- Osc_231_l_2_w_3 -->
+                    <tei:app from="Osc_231_l_2">
+                        <tei:lem corresp="Osc_231_l_2_w_3">[c.4-6 -?-</tei:lem>
+                        <tei:rdg corresp="Osc_231_l_2_w_3">sal(aviúd) p(a)k(úd)
+                            <tei:ref target="http://zotero.org/groups/2552746/items/IKUTPHDC"><tei:bibl>Crawford, ImIt</tei:bibl></tei:ref>
+                        </tei:rdg>
+                        <tei:rdg corresp="Osc_231_l_2_w_3">sul[
+                            <tei:ref target="http://zotero.org/groups/2552746/items/IMWMSAVE"><tei:bibl>Rix, ST</tei:bibl></tei:ref>
+                        </tei:rdg>
+                        <tei:rdg corresp="Osc_231_l_2_w_3">sul . m[
+                            <tei:ref target="http://zotero.org/groups/2552746/items/C3GTL5GJ"><tei:bibl>De Benedittis 1992</tei:bibl></tei:ref>
+                        </tei:rdg>
+                    </tei:app>
+                    <!-- Osc_231_l_3_w_1 -->
+                    <tei:app from="Osc_231_l_3">
+                        <tei:lem corresp="Osc_231_l_3_w_1">numneís</tei:lem>
+                        <tei:rdg corresp="Osc_231_l_3_w_1">númneís
+                                <tei:ref target="http://zotero.org/groups/2552746/items/ZK74ZFDC"><tei:bibl>La Regina 2008 [2011]</tei:bibl></tei:ref>
+                        </tei:rdg>
+                    </tei:app>
+                    <!-- Osc_231_l_3_w_2 -->
+                    <tei:app from="Osc_231_l_3_w_2">
+                        <tei:lem corresp="Osc_231_l_3_w_2">stạ[</tei:lem>                     
+                        <tei:rdg corresp="Osc_231_l_3_w_2">sta̱[
+                            <tei:ref target="http://zotero.org/groups/2552746/items/ZK74ZFDC"><tei:bibl>La Regina 2008 [2011]</tei:bibl></tei:ref>
+                        </tei:rdg>
+                        <!--  <tei:rdg corresp="Osc_231_l_3_w_2">st<tei:supplied reason="lost" evidence="previouseditor">a</tei:supplied>
+                            <tei:ref target="http://zotero.org/groups/2552746/items/ZK74ZFDC"><tei:bibl>La Regina 2008 [2011]</tei:bibl></tei:ref>
+                        </tei:rdg> -->
+                        <tei:rdg corresp="Osc_231_l_3_w_2">stạị́[t
+                            <tei:ref target="http://zotero.org/groups/2552746/items/IKUTPHDC"><tei:bibl>Crawford, ImIt</tei:bibl></tei:ref>
+                        </tei:rdg>
+                        <tei:rdg corresp="Osc_231_l_3_w_2">stai[t
+                            <tei:ref target="http://zotero.org/groups/2552746/items/IMWMSAVE"><tei:bibl>Rix, ST</tei:bibl></tei:ref>
+                        </tei:rdg>
+                    </tei:app>
+                </tei:listApp>                
+            </tei:div>
+            <tei:div type="commentary" xml:lang="eng" resp="Francesca Murano">
+                <tei:note>
+                <tei:p>According to <tei:ref target="http://zotero.org/groups/2552746/items/SWBJ2IXV"><tei:bibl>De Benedittis 2003</tei:bibl></tei:ref>: 13, the whole inscription must have spanned over three blocks, two of which were placed on either side of the present one.</tei:p>
+                <tei:p>There is no agreement among the editors on the nature of the support. According to <tei:ref target="http://zotero.org/groups/2552746/items/SWBJ2IXV"><tei:bibl>De Beneddittis 2003</tei:bibl></tei:ref>, he block was part of an altar. <tei:ref target="http://zotero.org/groups/2552746/items/IMWMSAVE"><tei:bibl>Rix, ST</tei:bibl></tei:ref> assumes that it was part of the epistyle of a temple.</tei:p>
+                <tei:p>The inscription was found in 1931 near the modern town just beyond the Ponte della Madonna delle Grazie during the construction of a house in Contrada Orti del Principe, and then built in the external portico of the building that housed the Pretura. It is currently at the Museo Aufidenate.</tei:p>
+               <tei:p>According to <tei:ref target="http://zotero.org/groups/2552746/items/ZK74ZFDC"><tei:bibl>La Regina 2008 [2011]</tei:bibl></tei:ref>: 442, the inscription documents a Roman interest in the community of Aufidena, manifested through some acts of evergetism.</tei:p>
+                    <tei:p>On the basis of his reading, <tei:ref target="http://zotero.org/groups/2552746/items/IKUTPHDC"><tei:bibl>Crawford, ImIt</tei:bibl></tei:ref> interprets – not convincingly – the text as follows: <tei:rs xml:lang="osc-Ital-x-oscetr" corresp="#ItAnt_Oscan_231">] pettiur- ekík· pú[d -?- kú]súl prúfas sal(aviúd) p(a)k(úd) [-?-] numneís staí[t</tei:rs> '[This is dedicated to the gods (?)] four, this which [-?- gave as] consul designatus Sal. (and) Pac. [-?- curantibus]; as a monument (?)] of [his (?)] name, it stands'.</tei:p>
+                    <tei:p><tei:ref target="http://zotero.org/groups/2552746/items/IKUTPHDC"><tei:bibl>Crawford, ImIt</tei:bibl></tei:ref>: 1235-1236 supposes «that we have a consul of the Italici during the Social War» and proposes a dating to BC 90-89.</tei:p>
+                </tei:note>
+            </tei:div>
+            <tei:div type="bibliography">
+                <tei:listBibl xmlns="http://www.tei-c.org/ns/1.0">
+                    <tei:biblStruct type="book" xml:id="ImIt2011"  corresp="http://zotero.org/groups/2552746/items/IKUTPHDC">
+                        <tei:monogr>
+                            <tei:title level="m">Imagines Italicae: A Corpus of Italic Inscriptions</tei:title>
+                            <tei:editor>
+                                <tei:forename>Michael</tei:forename>
+                                <tei:surname>Crawford</tei:surname>
+                            </tei:editor>
+                            <tei:imprint>
+                                <tei:pubPlace>London</tei:pubPlace>
+                                <tei:publisher>Institute of Classical Studies, University of London</tei:publisher>
+                                <tei:date>2011</tei:date>
+                            </tei:imprint>
+                        </tei:monogr>
+                        <tei:citedRange unit="entry">Aufidena 1 (with photograph)</tei:citedRange>
+                    </tei:biblStruct>
+                    <tei:biblStruct type="journalArticle" xml:id="La_Regina2008" corresp="http://zotero.org/groups/2552746/items/ZK74ZFDC">
+                        <tei:analytic>
+                            <tei:title level="a">Sannio. Castel di Sangro (Aufidena)</tei:title>
+                            <tei:author>
+                                <tei:forename>Adriano</tei:forename>
+                                <tei:surname>La Regina</tei:surname>
+                            </tei:author>
+                        </tei:analytic>
+                        <tei:monogr>
+                            <tei:title level="j">Studi Etruschi</tei:title>
+                            <tei:imprint>
+                                <tei:biblScope unit="volume">74</tei:biblScope>
+                                <tei:biblScope unit="page">436-442</tei:biblScope>
+                                <tei:date>2008 [2011]</tei:date>
+                            </tei:imprint>
+                        </tei:monogr>
+                        <tei:citedRange unit="page">441-442</tei:citedRange>
+                    </tei:biblStruct>
+                    <tei:biblStruct type="journalArticle" xml:id="La_Regina2010" corresp="http://zotero.org/groups/2552746/items/QTD54CJE">
+                        <tei:analytic>
+                            <tei:title level="a">Iscrizione osca rinvenuta a Castel di Sangro</tei:title>
+                            <tei:author>
+                                <tei:forename>Adriano</tei:forename>
+                                <tei:surname>La Regina</tei:surname>
+                            </tei:author>
+                        </tei:analytic>
+                        <tei:monogr>
+                            <tei:editor>
+                                <tei:forename>Mattiocco</tei:forename>
+                                <tei:surname>Ezio</tei:surname>
+                            </tei:editor>
+                            <tei:title level="j">Frammenti del passato. Archeologia e archivistica tra Castel di Sangro e Sulmona</tei:title>
+                            <tei:imprint>
+                                <tei:biblScope unit="page">45-58</tei:biblScope>
+                                <tei:date>2010</tei:date>
+                            </tei:imprint>
+                        </tei:monogr>
+                    </tei:biblStruct>
+                    <tei:biblStruct type="bookSection" xml:id="De_Benedittis2003" corresp="http://zotero.org/groups/2552746/items/SWBJ2IXV">
+                        <tei:analytic>
+                            <tei:title level="a">Le iscrizioni sannitiche dell'alta valle del Sangro</tei:title>
+                            <tei:author>
+                                <tei:forename>Gianfranco</tei:forename>
+                                <tei:surname>De Benedittis</tei:surname>
+                            </tei:author>
+                        </tei:analytic>
+                        <tei:monogr>
+                            <tei:title level="m">Segni sulla pietra. Iscrizioni e araldica della terra di Castel di Sangro</tei:title>
+                            <tei:editor>
+                                <tei:forename>Mattiocco</tei:forename>
+                                <tei:surname>Ezio</tei:surname>
+                            </tei:editor>
+                            <tei:imprint>
+                                <tei:biblScope unit="page">5-20</tei:biblScope>
+                                <tei:date>2003</tei:date>
+                            </tei:imprint>
+                        </tei:monogr>
+                        <tei:citedRange unit="page">12-15 (with photographs)</tei:citedRange>
+                    </tei:biblStruct>
+                    <tei:biblStruct type="book" xml:id="Rix2002"  corresp="http://zotero.org/groups/2552746/items/IMWMSAVE">
+                        <tei:monogr>
+                            <tei:title level="m">Sabellische Texte. Die Texte des Oskischen, Umbrischen und Südpikenischen</tei:title>
+                            <tei:author>
+                                <tei:forename>Helmut</tei:forename>
+                                <tei:surname>Rix</tei:surname>
+                            </tei:author>
+                            <tei:imprint>
+                                <tei:pubPlace>Heidelberg</tei:pubPlace>
+                                <tei:publisher>C. Winter</tei:publisher>
+                                <tei:date>2002</tei:date>
+                            </tei:imprint>
+                        </tei:monogr>
+                        <tei:citedRange unit="entry">Sa 17</tei:citedRange>
+                    </tei:biblStruct>
+                    <tei:biblStruct type="journalArticle" xml:id="De_Benedittis1992" corresp="http://zotero.org/groups/2552746/items/C3GTL5GJ">
+                        <tei:analytic><title level="a">Castel di Sangro: Iscrizione Ve 141 (autopsia 1991)</title>
+                            <tei:author>
+                                <tei:forename>Gianfranco</tei:forename>
+                                <tei:surname>De Benedittis</tei:surname>
+                            </tei:author>
+                        </tei:analytic>
+                        <tei:monogr>
+                            <tei:title level="j">Studi Etruschi</tei:title>
+                            <tei:imprint>
+                                <tei:biblScope unit="volume">58</tei:biblScope>
+                                <tei:biblScope unit="page">352-354 (with pl. LXXVII a)</tei:biblScope>
+                                <tei:date>1992</tei:date>
+                            </tei:imprint>
+                        </tei:monogr>
+                    </tei:biblStruct>
+                    <tei:biblStruct type="book" xml:id="Bottiglioni1954" corresp="http://zotero.org/groups/2552746/items/NQ4C9R6N">
+                        <tei:monogr>
+                            <tei:title level="m">Manuale dei dialetti italici</tei:title>
+                            <tei:author>
+                                <tei:forename>Gino</tei:forename>
+                                <tei:surname>Bottiglioni</tei:surname>
+                            </tei:author>
+                            <tei:imprint>
+                                <tei:pubPlace>Bologna</tei:pubPlace>
+                                <tei:publisher>STEB</tei:publisher>
+                                <tei:date>1954</tei:date>
+                            </tei:imprint>
+                        </tei:monogr>
+                        <tei:citedRange unit="entry">5b</tei:citedRange>
+                    </tei:biblStruct>
+                    <tei:biblStruct type="book" xml:id="Vetter1953" corresp="http://zotero.org/groups/2552746/items/NJFZRK23">
+                        <tei:monogr>
+                            <tei:title level="m">Handbuch der italischen Dialekte. I. Texte mit Erklarung, Glossen, Worterverzeichnis</tei:title>
+                            <tei:author>
+                                <tei:forename>E.</tei:forename>
+                                <tei:surname>Vetter</tei:surname>
+                            </tei:author>
+                            <tei:imprint>
+                                <tei:pubPlace>Heidelberg</tei:pubPlace>
+                                <tei:biblScope unit="volume">1</tei:biblScope>
+                                <tei:publisher>C. Winter</tei:publisher>
+                                <tei:date>1953</tei:date>
+                            </tei:imprint>
+                        </tei:monogr>
+                        <tei:series>
+                            <tei:title level="s">Handbuch der italischen Dialekte</tei:title>
+                            <tei:biblScope unit="volume">1</tei:biblScope>
+                        </tei:series>
+                        <tei:citedRange unit="entry">141</tei:citedRange>
+                    </tei:biblStruct>
+                    <tei:biblStruct type="book" xml:id="Pisani1953" corresp="http://zotero.org/groups/2552746/items/43PVX7RD">
+                        <tei:monogr>
+                            <tei:title level="m">Le lingue dell'Italia antica oltre il latino</tei:title>
+                            <tei:author>
+                                <tei:forename>Vittore</tei:forename>
+                                <tei:surname>Pisani</tei:surname>
+                            </tei:author>
+                            <tei:imprint>
+                                <tei:pubPlace>Torino</tei:pubPlace>
+                                <tei:biblScope unit="volume">4</tei:biblScope>
+                                <tei:publisher>Rosenberg e Sellier - 1964/2</tei:publisher>
+                                <tei:date>1953</tei:date>
+                            </tei:imprint>
+                        </tei:monogr>
+                        <tei:series>
+                            <tei:title level="s">Manuale storico della lingua latina</tei:title>
+                        </tei:series>
+                        <tei:citedRange unit="entry">35D</tei:citedRange>
+                    </tei:biblStruct>
+                    <tei:biblStruct type="journalArticle" xml:id="Vetter1942" corresp="http://zotero.org/groups/2552746/items/5TPRUYAB">
+                        <tei:analytic>
+                            <tei:title level="a">Literaturbericht für die Jahre 1934-1938. Italische Sprachen</tei:title>
+                            <tei:author>
+                                <tei:forename>Emil</tei:forename>
+                                <tei:surname>Vetter</tei:surname>
+                            </tei:author>
+                        </tei:analytic>
+                        <tei:monogr><title level="j">Glotta</title>
+                            <tei:imprint><biblScope unit="volume">XXIX</biblScope>
+                                <tei:biblScope unit="page">205-247</tei:biblScope>
+                                <tei:date>1942</tei:date>
+                            </tei:imprint>
+                        </tei:monogr>
+                        <tei:citedRange unit="page">222-223</tei:citedRange>
+                    </tei:biblStruct>
+                    <tei:biblStruct type="journalArticle" xml:id="Balzano1932" corresp="http://zotero.org/groups/2552746/items/JHTDVC6L">
+                        <tei:analytic>
+                            <tei:title level="a">Castel di Sangro (Aufidena). Iscrizioni</tei:title>
+                            <tei:author>
+                                <forename>Vincenzo</forename>
+                                <tei:surname>Balzano</tei:surname>
+                            </tei:author>
+                        </tei:analytic>
+                        <tei:monogr>
+                            <tei:title level="j">Notizie degli scavi</tei:title>
+                            <tei:imprint>
+                                <tei:biblScope unit="page">128-129</tei:biblScope>
+                                <tei:date>1932</tei:date>
+                            </tei:imprint>
+                        </tei:monogr>
+                    </tei:biblStruct>
+                </tei:listBibl>    
+            </tei:div>   
+        </tei:body>
+    </tei:text>
+</tei:TEI>

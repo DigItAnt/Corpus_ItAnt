@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/9.4/tei-epidoc.rng"
+schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/9.4/tei-epidoc.rng"
+schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<tei:TEI xmlns:dcr="http://www.isocat.org/ns/dcr" xml:id="ItAnt_Oscan_222"
+    xmlns:tei="http://www.tei-c.org/ns/1.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <tei:teiHeader>
+        <tei:fileDesc>
+            <tei:titleStmt>
+                <tei:title type="ItAnt_ID">Inscription ItAnt Oscan 222</tei:title>
+            </tei:titleStmt>
+            <tei:editionStmt>
+                <tei:edition>
+                    <tei:idno>ItAnt Oscan 222</tei:idno>
+                </tei:edition>
+                <tei:editor>
+                    <tei:persName>Francesca Murano</tei:persName>
+                </tei:editor>
+            </tei:editionStmt>         
+            <tei:publicationStmt>
+                <tei:authority>PRIN 2017 "Lingue e culture dell'Italia antica: linguistica storica e modelli digitali | Languages and Cultures of Ancient Italy. Historical Linguistics and Digital Models"</tei:authority>
+                <tei:date>2023</tei:date>
+                <tei:idno type="URI" subtype="handle"></tei:idno>
+                <tei:availability>
+                    <tei:licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">This file is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International license – (CC BY-NC-SA 4.0).  
+                    </tei:licence>
+                </tei:availability>
+            </tei:publicationStmt>   
+            <tei:sourceDesc>
+                <tei:msDesc>
+                    <tei:msIdentifier>
+                        <tei:settlement ref="https://sws.geonames.org/3180991">Campobasso</tei:settlement>
+                        <tei:institution ana="https://sabapmolise.beniculturali.it">Soprintendenza Archeologia, Belle arti e Paesaggio del Molise</tei:institution>
+                        <tei:idno type="museumID"/>
+                        <tei:altIdentifier type="trismegistos">
+                            <tei:idno source="www.trismegistos.org/text/170804">TM 170804</tei:idno>
+                        </tei:altIdentifier>                       
+                        <tei:altIdentifier type="traditionalID">
+                            <tei:idno source="http://zotero.org/groups/2552746/items/IKUTPHDC">ImIt Saepinum 9</tei:idno>
+                        </tei:altIdentifier>
+                    </tei:msIdentifier> 
+                    <tei:msContents>
+                        <tei:summary>Inscription on a loom weight from Sepino, <tei:ref target="https://pleiades.stoa.org/places/352972521">Sanctuary of San Pietro di Cantoni</tei:ref>.
+                        </tei:summary>
+                    </tei:msContents>
+                    <tei:physDesc>
+                        <tei:objectDesc>     
+                            <tei:supportDesc>
+                                <tei:support>
+                                    <tei:objectType ana="http://vocab.getty.edu/page/aat/300248042">loom weight</tei:objectType>
+                                    <tei:material/>
+                                    <tei:dimensions type="objectDimensions" unit="cm" precision="high"/>
+                                    <tei:rs type="reuse">no</tei:rs>
+                                </tei:support>
+                                <tei:condition>well-preserved</tei:condition>   
+                            </tei:supportDesc>
+                            <tei:layoutDesc>
+                                <tei:layout columns="1" writtenLines="1">
+                                    <tei:rs type="execution" ana="http://vocab.getty.edu/page/aat/300379457">scratched after firing</tei:rs>
+                                    <tei:rs type="opistography">no</tei:rs>
+                                    <tei:note type="layoutNotes"/>
+                                    <tei:dimensions type="lineDimension" unit="cm" precision="high"/> 
+                                </tei:layout>
+                            </tei:layoutDesc>
+                        </tei:objectDesc>
+                        <tei:handDesc>                            
+                            <tei:handNote>
+                                <tei:note type="palaeographicNotes"/>
+                                <tei:dimensions type="characterDimension" unit="cm" precision="high"/>
+                            </tei:handNote>
+                        </tei:handDesc>                                      
+                        <tei:scriptDesc>
+                            <tei:scriptNote>
+                                <tei:rs type="writingSystem" subtype="alphabet" ref="https://www.prin-italia-antica.unifi.it/p166.html#oscan-etruscan">Oscan National alphabet</tei:rs>
+                                <tei:rs type="wordDivision"/>
+                            </tei:scriptNote>
+                        </tei:scriptDesc>
+                        <tei:decoDesc>
+                            <tei:decoNote/>   
+                        </tei:decoDesc>
+                    </tei:physDesc>
+                    <tei:history>
+                        <tei:origin> 
+                            <tei:origPlace type="composed">
+                                <tei:placeName type="ancient" ref="https://pleiades.stoa.org/places/433073">Saepinum, Samnium</tei:placeName>
+                                <tei:placeName type="modern" ref="https://sws.geonames.org/3166720">Sepino, San Pietro di Cantoni (CB)</tei:placeName>
+                            </tei:origPlace>
+                            <tei:origDate notBefore-custom="-0399" notAfter-custom="-0001" cert="medium">4th - 1st century BC (range of Oscan inscription)</tei:origDate>
+                        </tei:origin>
+                        <tei:provenance type="found" subtype="discovered">
+                            <tei:placeName type="ancient" ref="https://pleiades.stoa.org/places/433073">Saepinum, Samnium</tei:placeName>
+                            <tei:placeName type="modern" ref="https://sws.geonames.org/3166720">Sepino, San Pietro di Cantoni (CB)</tei:placeName>
+                            <tei:placeName type="detailed">Sanctuary of <tei:ref target="https://pleiades.stoa.org/places/352972521">San Pietro di Cantoni</tei:ref></tei:placeName>
+                        </tei:provenance>
+                        <tei:provenance type="observed" subtype="autopsied" notAfter="2004" resp="#Matteini_Chiari2004">
+                            <tei:persName>M. Matteini Chiari</tei:persName>
+                        </tei:provenance>
+                    </tei:history>                       
+                </tei:msDesc>   
+            </tei:sourceDesc> 
+        </tei:fileDesc>
+        <tei:encodingDesc>
+            <tei:p source="https://epidoc.stoa.org/gl/latest/">Marked-up according to the EpiDoc Guidelines</tei:p>
+        </tei:encodingDesc>
+        <tei:profileDesc>
+            <tei:langUsage>
+                <tei:language ident="osc" source="https://iso639-3.sil.org/code/osc">Oscan</tei:language>
+                <tei:language ident="osc-Ital-x-oscetr" source="https://www.prin-italia-antica.unifi.it/p166.html#oscan-etruscan" ana="https://unicode.org/iso15924/iso15924-codes.html">Oscan in National alphabet (Oscan-Etruscan alphabet)</tei:language>
+            </tei:langUsage>
+            <tei:textClass>
+                <tei:keywords scheme="https://www.eagle-network.eu/resources/vocabularies/typeins/">
+                    <tei:term>inscription on loom weight</tei:term>
+                </tei:keywords>
+            </tei:textClass>
+        </tei:profileDesc>
+    </tei:teiHeader>
+    <tei:facsimile>
+        <tei:graphic n="1" url="http://linsto.dipartimentidieccellenza-dilef.unifi.it/itant/img/ItAnt_Oscan_222.jpg" resp="Francesca Murano">
+            <tei:desc>Inscription ItAnt Oscan 222 (drawing by <tei:persName>Francesca Murano</tei:persName>)
+                <tei:ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">This file is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International license – (CC BY-NC-SA 4.0).</tei:ref>
+            </tei:desc>
+        </tei:graphic>
+    </tei:facsimile>
+    <tei:text>
+        <tei:body>             
+            <tei:div type="edition" subtype="interpretative" xml:space="preserve">
+                <tei:div type="textpart" n="face_a" style="text-direction:r-to-l" rend="ductus:sinistrorse">
+                    <tei:ab>   
+                        <tei:lb n="1" xml:id="Osc_222_l_1"/>
+                            <!-- Leida;Osc_222_l_1_w_1;l -->
+                            <tei:w xml:lang="osc-Ital-x-oscetr" xml:id="Osc_222_l_1_w_1">l</tei:w>
+                    </tei:ab>
+                </tei:div>
+            </tei:div>
+            <tei:div type="translation" xml:lang="ita"/> 
+            <tei:div type="translation" xml:lang="eng"/>
+            <tei:div type="commentary" xml:lang="eng">
+                <tei:note>
+                    <tei:p>According to <tei:ref target="http://zotero.org/groups/2552746/items/ZZHE6PH3"><tei:bibl>Matteini Chiari, Oggetti iscritti ..., 2004</tei:bibl></tei:ref>: 177 there are other loom weights («alcuni pesi di telaio») engraved with the same letter <tei:rs type="w" xml:lang="osc-Ital-x-oscetr">L</tei:rs>.</tei:p>
+                </tei:note>
+                <tei:note>
+                    <tei:p>More than 150 loom weights have come from the excavation of the sanctuary of San Pietro di Cantoni.</tei:p> 
+                    <tei:p>According to <tei:ref target="http://zotero.org/groups/2552746/items/E8LDG4R5"><tei:bibl>Matteini Chiari, Pesi da telaio, 2004</tei:bibl></tei:ref>: 97 these loom weights appear above all as devotional offerings. In the context of sanctuaries the loom weights become a devotional object and, in some cases, they seem to have been produced for this sole purpose. Many of the weights found in fact show no traces of use or are in miniature.</tei:p> 
+                    <tei:p>Furthermore, according to <tei:ref target="http://zotero.org/groups/2552746/items/E8LDG4R5"><tei:bibl>Matteini Chiari</tei:bibl></tei:ref>: 97, it is possible that the sanctuary itself managed production activities including spinning and weaving.</tei:p>
+                </tei:note>
+            </tei:div>
+            <tei:div type="bibliography">
+                <tei:listBibl xmlns="http://www.tei-c.org/ns/1.0">               
+                    <tei:biblStruct type="book" xml:id="ImIt2011"  corresp="http://zotero.org/groups/2552746/items/IKUTPHDC">
+                        <tei:monogr>
+                            <tei:title level="m">Imagines Italicae: A Corpus of Italic Inscriptions</tei:title>
+                            <tei:editor>
+                                <tei:forename>Michael</tei:forename>
+                                <tei:surname>Crawford</tei:surname>
+                            </tei:editor>
+                            <tei:imprint>
+                                <tei:pubPlace>London</tei:pubPlace>
+                                <tei:publisher>Institute of Classical Studies, University of London</tei:publisher>
+                                <tei:date>2011</tei:date>
+                            </tei:imprint>
+                        </tei:monogr>
+                        <tei:citedRange unit="entry">Saepinum 9</tei:citedRange>
+                    </tei:biblStruct>
+                    <tei:biblStruct type="bookSection" xml:id="Matteini_Chiari2004" corresp="http://zotero.org/groups/2552746/items/E8LDG4R5">
+                        <tei:analytic>
+                            <tei:title level="a">Pesi da telaio</tei:title>
+                            <tei:author>
+                                <tei:forename>Maurizio</tei:forename>
+                                <tei:surname>Matteini Chiari</tei:surname>
+                            </tei:author>
+                        </tei:analytic>
+                        <tei:monogr>
+                            <tei:title level="m">La dea, il santo, una terra</tei:title>
+                            <tei:editor>
+                                <tei:forename>Maurizio</tei:forename>
+                                <tei:surname>Matteini Chiari</tei:surname>
+                            </tei:editor>
+                            <tei:imprint>
+                                <tei:pubPlace>Roma</tei:pubPlace>
+                                <tei:biblScope unit="page">97-104</tei:biblScope>
+                                <tei:publisher>QuinTilia Edizioni</tei:publisher>
+                                <tei:date>2004</tei:date>
+                            </tei:imprint>
+                        </tei:monogr>
+                    </tei:biblStruct>                                      
+                </tei:listBibl>
+            </tei:div>   
+        </tei:body>
+    </tei:text>
+</tei:TEI>

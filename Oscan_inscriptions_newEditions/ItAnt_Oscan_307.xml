@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/9.4/tei-epidoc.rng"
+schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/9.4/tei-epidoc.rng"
+schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<tei:TEI xmlns:dcr="http://www.isocat.org/ns/dcr" xml:id="ItAnt_Oscan_307"
+    xmlns:tei="http://www.tei-c.org/ns/1.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <tei:teiHeader>
+        <tei:fileDesc>
+            <tei:titleStmt>
+                <tei:title type="ItAnt_ID">Inscription ItAnt Oscan 307</tei:title>
+            </tei:titleStmt>
+            <tei:editionStmt>
+                <tei:edition>
+                    <tei:idno>ItAnt Oscan 307</tei:idno>
+                </tei:edition>
+                <tei:editor>
+                    <tei:persName>Francesca Murano</tei:persName>
+                </tei:editor>
+            </tei:editionStmt>         
+            <tei:publicationStmt>
+                <tei:authority>PRIN 2017 "Lingue e culture dell'Italia antica: linguistica storica e modelli digitali | Languages and Cultures of Ancient Italy. Historical Linguistics and Digital Models"</tei:authority>
+                <tei:date>2023</tei:date>
+                <tei:idno type="URI" subtype="handle"></tei:idno>
+                <tei:availability>
+                    <tei:licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">This file is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International license – (CC BY-NC-SA 4.0).  
+                    </tei:licence>
+                </tei:availability>
+            </tei:publicationStmt>   
+            <tei:sourceDesc>
+                <tei:msDesc>
+                    <tei:msIdentifier>
+                        <tei:settlement ref="https://sws.geonames.org/3172394">Napoli</tei:settlement>
+                        <tei:institution ana="https://www.museoarcheologiconapoli.it/it/">Museo Archeologico Nazionale</tei:institution>
+                        <tei:idno type="museumID">145272</tei:idno>
+                        <tei:msName/>
+                        <tei:altIdentifier type="trismegistos">
+                            <tei:idno source="www.trismegistos.org/text/170652">TM 170652</tei:idno>
+                        </tei:altIdentifier> 
+                        <tei:altIdentifier type="traditionalID">
+                            <tei:idno source="http://zotero.org/groups/2552746/items/NJFZRK23">Ve 165</tei:idno>
+                        </tei:altIdentifier>
+                        <tei:altIdentifier type="traditionalID">
+                            <tei:idno source="http://zotero.org/groups/2552746/items/IMWMSAVE">ST Hi 6</tei:idno>
+                        </tei:altIdentifier> 
+                        <tei:altIdentifier type="traditionalID">
+                            <tei:idno source="http://zotero.org/groups/2552746/items/IKUTPHDC">ImIt Aeclanum 1</tei:idno>
+                        </tei:altIdentifier>
+                    </tei:msIdentifier> 
+                    <tei:msContents>
+                        <tei:summary>Dedicatory inscription to the god Fatuus on a stone slab from Aeclanum, Passo di Mirabella, loc. Torre Bosco Ischitella
+                        </tei:summary>
+                    </tei:msContents>
+                    <tei:physDesc>
+                        <tei:objectDesc>     
+                            <tei:supportDesc>
+                                <tei:support>
+                                    <tei:objectType ana="http://archwort.dainst.org/en/term/4572">stone slab</tei:objectType>                                     <tei:rs ana="objectShape">rectangular</tei:rs>
+                                    <tei:note>This block was probably part of an <tei:term ref="http://vocab.getty.edu/aat/300003725">altar</tei:term> (see <tei:ref><tei:bibl>Sgobbo 1930</tei:bibl></tei:ref>: 410).</tei:note>
+                                    <tei:material ana="http://vocab.getty.edu/aat/300011286">limestone
+                                    </tei:material>
+                                    <tei:dimensions type="objectDimensions" unit="cm" precision="high" resp="ImIt2011">
+                                        <tei:height quantity="79">79</tei:height>
+                                        <tei:width quantity="64">64</tei:width>
+                                        <tei:depth quantity="47.5">47,5</tei:depth>
+                                    </tei:dimensions>
+                                    <tei:rs type="reuse">no</tei:rs>
+                                </tei:support>
+                                <tei:condition>well-preserved</tei:condition>   
+                            </tei:supportDesc>
+                            <tei:layoutDesc>
+                                <tei:layout columns="1" writtenLines="1">
+                                    <tei:rs type="execution" ana="http://vocab.getty.edu/page/aat/300404794">engraved</tei:rs>
+                                    <tei:rs type="opistography">no</tei:rs>
+                                    <tei:note type="layoutNotes">
+                                        <tei:p>The last three letters are smaller than the others; the 6th is the smallest one.</tei:p>
+                                        <tei:p>It is possible, as <tei:ref target="http://zotero.org/groups/2552746/items/"><tei:bibl>Crawford, ImIt</tei:bibl></tei:ref>: 957 suggests, that the engraver did not have enough space to complete the text. However, given the layout, it seems rather that it is an afterthought on the text to be engraved: at first, the gentilicium was written in abbreviated form, after which it has been completed with the morphological mark.</tei:p></tei:note>
+                                    <tei:dimensions type="lineDimension" unit="cm" precision="medium">
+                                        <tei:height atLeast="4" atMost="12.5">4 to 12,5</tei:height>
+                                        <tei:width quantity="54">54</tei:width>
+                                    </tei:dimensions> 
+                                </tei:layout>
+                            </tei:layoutDesc>
+                        </tei:objectDesc>
+                        <tei:handDesc>                            
+                            <tei:handNote>
+                                <tei:note type="palaeographicNotes"/>
+                                <tei:dimensions type="characterDimension" unit="cm" precision="high"> 
+                                    <tei:height atLeast="4" atMost="12.5">4 to 12,5</tei:height>
+                                </tei:dimensions>
+                            </tei:handNote>
+                        </tei:handDesc>                                      
+                        <tei:scriptDesc>
+                            <tei:scriptNote>
+                                <tei:rs type="writingSystem" subtype="alphabet" ref="https://www.prin-italia-antica.unifi.it/p166.html#oscan-etruscan">Oscan National alphabet</tei:rs>
+                                <tei:rs type="wordDivision">punctuation</tei:rs>
+                            </tei:scriptNote>
+                        </tei:scriptDesc>
+                        <tei:decoDesc><tei:decoNote/></tei:decoDesc>
+                    </tei:physDesc>
+                    <tei:history>
+                        <tei:origin> 
+                            <tei:origPlace type="composed">
+                                <tei:placeName type="ancient" ref="https://pleiades.stoa.org/places/442451">Aeclanum, Hirpinia</tei:placeName>
+                                <tei:placeName type="modern" ref="https://sws.geonames.org/3173383">Mirabella Eclano (AV)</tei:placeName>
+                            </tei:origPlace>
+                            <tei:origDate notBefore-custom="-0175" notAfter-custom="-0125" cert="medium">mid 2nd cent. BC</tei:origDate>
+                        </tei:origin>
+                        <tei:provenance type="found" subtype="discovered" when="1930">
+                            <tei:placeName type="ancient" ref="https://pleiades.stoa.org/places/442451">Aeclanum, Hirpinia</tei:placeName>
+                            <tei:placeName type="modern" ref="https://sws.geonames.org/3173383">Mirabella Eclano (AV)</tei:placeName>
+                            <tei:placeName type="detailed">Found in the contrada Torre Bosco-Ischitella, in the wall of a loggia in the holding of the farmer Raffaele Di Pietro.</tei:placeName>
+                        </tei:provenance>
+                        <tei:provenance type="observed" subtype="autopsied" when="2021">
+                            <tei:persName>Francesca Murano</tei:persName>
+                            <tei:persName>Monica Ballerini</tei:persName>
+                        </tei:provenance>
+                        <tei:provenance type="observed" subtype="autopsied" when="2003">
+                            <tei:persName>M. Crawford</tei:persName>
+                        </tei:provenance>
+                        <tei:provenance type="observed" subtype="autopsied" when="1930">
+                            <tei:persName>Italo Sgobbo</tei:persName>
+                        </tei:provenance>
+                    </tei:history>                       
+                </tei:msDesc>   
+            </tei:sourceDesc> 
+        </tei:fileDesc>
+        <tei:encodingDesc>
+            <tei:p source="https://epidoc.stoa.org/gl/latest/">Marked-up according to the EpiDoc Guidelines</tei:p>
+        </tei:encodingDesc>
+        <tei:profileDesc>
+            <tei:langUsage>
+                <tei:language ident="osc" source="https://iso639-3.sil.org/code/osc">Oscan</tei:language>
+                <tei:language ident="osc-Ital-x-oscetr" source="https://www.prin-italia-antica.unifi.it/p166.html#oscan-etruscan" ana="https://unicode.org/iso15924/iso15924-codes.html">Oscan in National alphabet (Oscan-Etruscan alphabet)</tei:language>
+            </tei:langUsage>
+            <tei:textClass>
+                <tei:keywords scheme="https://www.eagle-network.eu/resources/vocabularies/typeins/">
+                    <tei:term ref="https://www.eagle-network.eu/voc/typeins/lod/88">dedicatory inscription</tei:term>
+                </tei:keywords>
+            </tei:textClass>
+        </tei:profileDesc>
+    </tei:teiHeader>
+        <tei:facsimile>
+            <tei:graphic n="1" url="http://linsto.dipartimentidieccellenza-dilef.unifi.it/itant/img/ItAnt_Oscan_307.jpg" resp="Francesca Murano">
+                <tei:desc>Inscription ItAnt Oscan 307 (drawing by <tei:persName>Francesca Murano</tei:persName>)
+                    <tei:ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">This file is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International license – (CC BY-NC-SA 4.0).</tei:ref>
+                </tei:desc>
+            </tei:graphic>
+        </tei:facsimile>
+    <tei:text>
+        <tei:body>             
+            <tei:div type="edition" subtype="interpretative" xml:space="preserve">
+                <tei:div type="textpart" n="face_a" style="text-direction:r-to-l" rend="ductus:sinistrorse">
+                    <tei:ab>   
+                        <tei:lb n="1" xml:id="Osc_307_l_1"/>
+                            <!-- Leida;Osc_307_l_1_w_1;fatuveís-->
+                            <tei:name type="theonym" xml:lang="osc-Ital-x-oscetr" xml:id="Osc_307_l_1_w_1">fatuveís</tei:name>
+                    </tei:ab>
+                </tei:div>
+            </tei:div>
+            <tei:div type="translation" xml:lang="ita">
+                <tei:p>Di Fatuus</tei:p>
+                <tei:desc>
+                    <tei:persName>Francesca Murano</tei:persName>
+                    <tei:ref type="licence" target="https://creativecommons.org/licenses/by-nc-sa/4.0/">This file is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International license – (CC BY-NC-SA 4.0).</tei:ref>
+                </tei:desc> 
+            </tei:div>
+            <tei:div type="translation" xml:lang="eng">
+                <tei:p>Of Fatuus</tei:p>
+                <tei:desc>
+                    <tei:persName>Francesca Murano</tei:persName>
+                    <tei:ref type="licence" target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </tei:ref>
+                </tei:desc> 
+            </tei:div>            
+            <tei:div type="apparatus" xml:lang="eng" resp="Francesca Murano"/>
+            <tei:div type="commentary" xml:lang="eng" resp="Francesca Murano">
+                <tei:note>
+                    <tei:p>The text is a votive inscription, consisting of the name of the god in the genitive case. The votive formula is expressed by the indication of possession, as it is common also in Greek and and Latin epigraphy (see <tei:ref target="http://zotero.org/groups/2552746/items/9FANWURA"><tei:bibl>Poccetti 2009</tei:bibl></tei:ref>: 50).</tei:p>
+                </tei:note>
+            </tei:div>
+            <tei:div type="bibliography">
+                <tei:listBibl xmlns="http://www.tei-c.org/ns/1.0">
+                    <tei:biblStruct type="book" xml:id="MANN2017" corresp="http://zotero.org/groups/2552746/items/AHMB34I8">
+                        <tei:monogr>
+                            <tei:title level="m">Museo Archeologico Nazionale di Napoli. La collezione epigrafica</tei:title>
+                            <tei:editor>
+                                <tei:forename>Fausto</tei:forename>
+                                <tei:surname>Zevi</tei:surname>
+                            </tei:editor>
+                            <tei:editor>
+                                <tei:forename>Carmela</tei:forename>
+                                <tei:surname>Capaldi</tei:surname>
+                            </tei:editor>
+                            <tei:imprint>
+                                <tei:pubPlace>Napoli - Milano</tei:pubPlace>
+                                <tei:publisher>Electa</tei:publisher>
+                                <tei:date>2017</tei:date>
+                            </tei:imprint>
+                        </tei:monogr>
+                        <tei:citedRange unit="entry">CLII.19, p. 100</tei:citedRange>
+                    </tei:biblStruct>
+                    <tei:biblStruct type="book" xml:id="ImIt2011" corresp="http://zotero.org/groups/2552746/items/IKUTPHDC">
+                        <tei:monogr>
+                            <tei:title level="m">Imagines Italicae: A Corpus of Italic Inscriptions</tei:title>
+                            <tei:editor>
+                                <tei:forename>Michael</tei:forename>
+                                <tei:surname>Crawford</tei:surname>
+                            </tei:editor>
+                            <tei:imprint>
+                                <tei:pubPlace>London</tei:pubPlace>
+                                <tei:publisher>Institute of Classical Studies, University of London</tei:publisher>
+                                <tei:date>2011</tei:date>
+                            </tei:imprint>
+                        </tei:monogr>
+                        <tei:citedRange unit="entry">Aeclanum 1 (with photograph)</tei:citedRange>
+                    </tei:biblStruct>
+                    <tei:biblStruct type="book" xml:id="Rix2002" corresp="http://zotero.org/groups/2552746/items/IMWMSAVE">
+                        <tei:monogr>
+                            <tei:title level="m">Sabellische Texte. Die Texte des Oskischen, Umbrischen und Südpikenischen</tei:title>
+                            <tei:author>
+                                <tei:forename>Helmut</tei:forename>
+                                <tei:surname>Rix</tei:surname>
+                            </tei:author>
+                            <tei:imprint>
+                                <tei:pubPlace>Heidelberg</tei:pubPlace>
+                                <tei:publisher>C. Winter</tei:publisher>
+                                <tei:date>2002</tei:date>
+                            </tei:imprint>
+                        </tei:monogr>
+                        <tei:citedRange unit="entry">Hi 6</tei:citedRange>
+                    </tei:biblStruct>
+                    <tei:biblStruct type="book" xml:id="Pisani1953" corresp="http://zotero.org/groups/2552746/items/43PVX7RD">
+                        <tei:monogr>
+                            <tei:title level="m">Le lingue dell'Italia antica oltre il latino</tei:title>
+                            <tei:author>
+                                <tei:forename>Vittore</tei:forename>
+                                <tei:surname>Pisani</tei:surname>
+                            </tei:author>
+                            <tei:imprint>
+                                <tei:pubPlace>Torino</tei:pubPlace>
+                                <publisher>Rosenberg e Sellier</publisher>
+                                <date>1953</date>
+                            </tei:imprint>
+                        </tei:monogr>
+                        <tei:citedRange unit="entry">33D</tei:citedRange>
+                    </tei:biblStruct>
+                    <tei:biblStruct type="book" xml:id="Vetter1953" corresp="http://zotero.org/groups/2552746/items/NJFZRK23">
+                        <tei:monogr>
+                            <tei:title level="m">Handbuch der italischen Dialekte</tei:title>
+                            <tei:author>
+                                <tei:forename>Emil</tei:forename>
+                                <tei:surname>Vetter</tei:surname>
+                            </tei:author>
+                            <tei:imprint>
+                                <tei:pubPlace>Heidelberg</tei:pubPlace>
+                                <tei:publisher>C. Winter</tei:publisher>
+                                <tei:date>1953</tei:date>
+                            </tei:imprint>
+                        </tei:monogr>
+                        <tei:citedRange unit="entry">165</tei:citedRange>
+                    </tei:biblStruct>
+                    <tei:biblStruct type="journalArticle" xml:id="Ribezzo1931" corresp="http://zotero.org/groups/2552746/items/QRG9ZCDI">
+                        <tei:analytic>
+                            <tei:title level="a">Monumenti epigrafici oschi scoperti ad Aeclanum</tei:title>
+                            <tei:author>
+                                <tei:forename>Francesco</tei:forename>
+                                <tei:surname>Ribezzo</tei:surname>
+                            </tei:author>
+                        </tei:analytic>
+                        <tei:monogr>
+                            <tei:title level="j">Rivista Indo Greco Italica</tei:title>
+                            <tei:imprint>
+                                <tei:biblScope unit="volume">15</tei:biblScope>
+                                <tei:biblScope unit="page">198-200</tei:biblScope>
+                                <tei:date>1931</tei:date>
+                            </tei:imprint>
+                        </tei:monogr>
+                        <citedRange unit="page">199-200</citedRange>
+                    </tei:biblStruct>
+                    <tei:biblStruct type="journalArticle" xml:id="Sgobbo1930" corresp="http://zotero.org/groups/2552746/items/WPYWY87P">
+                        <tei:analytic>
+                            <tei:title level="a">Mirabello Eclano. Monumenti epigrafici oschi scoperti ad Aeclanum</tei:title>
+                            <tei:author>
+                                <tei:forename>Italo</tei:forename>
+                                <tei:surname>Sgobbo</tei:surname>
+                            </tei:author>
+                        </tei:analytic>
+                        <tei:monogr>
+                            <tei:title level="j">Notizie degli Scavi di Antichità</tei:title>
+                            <tei:imprint>
+                                <tei:biblScope unit="volume">VIII</tei:biblScope>
+                                <tei:biblScope unit="issue">9</tei:biblScope>
+                                <tei:biblScope unit="page">400-411</tei:biblScope>
+                                <tei:date>1930</tei:date>
+                            </tei:imprint>
+                        </tei:monogr>
+                        <citedRange unit="page">410 (with a photograph)</citedRange>
+                    </tei:biblStruct>    
+                </tei:listBibl>    
+            </tei:div>   
+        </tei:body>
+    </tei:text>
+</tei:TEI>

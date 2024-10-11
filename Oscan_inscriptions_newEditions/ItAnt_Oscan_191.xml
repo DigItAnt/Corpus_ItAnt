@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/9.6/tei-epidoc.rng"
+schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/9.6/tei-epidoc.rng"
+schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<tei:TEI xmlns:dcr="http://www.isocat.org/ns/dcr" xml:id="ItAnt_Oscan_191"
+    xmlns:tei="http://www.tei-c.org/ns/1.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <tei:teiHeader>
+        <tei:fileDesc>
+            <tei:titleStmt>
+                <tei:title type="ItAnt_ID">Inscription ItAnt Oscan 191</tei:title>
+            </tei:titleStmt>
+            <tei:editionStmt>
+                <tei:edition>
+                    <tei:idno>ItAnt Oscan 191</tei:idno>
+                </tei:edition>
+                <tei:editor>
+                    <tei:persName>Francesca Murano</tei:persName>
+                </tei:editor>
+            </tei:editionStmt>         
+            <tei:publicationStmt>
+                <tei:authority>PRIN 2017 "Lingue e culture dell'Italia antica: linguistica storica e modelli digitali | Languages and Cultures of Ancient Italy. Historical Linguistics and Digital Models"</tei:authority>
+                <tei:date>2023</tei:date>
+                <tei:idno type="URI" subtype="handle"></tei:idno>
+                <tei:availability>
+                    <tei:licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">This file is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International license – (CC BY-NC-SA 4.0).  
+                    </tei:licence>
+                </tei:availability>
+            </tei:publicationStmt>   
+            <tei:sourceDesc>
+                <tei:msDesc>
+                    <tei:msIdentifier>
+                        <tei:settlement ref="https://sws.geonames.org/3170820">Sepino (CB)</tei:settlement>
+                        <tei:institution>Deposito</tei:institution>
+                        <tei:idno type="museumID">11074</tei:idno>
+                        <tei:msName></tei:msName>
+                        <tei:altIdentifier type="trismegistos">
+                            <tei:idno source="www.trismegistos.org/text/171476">TM 171476</tei:idno>
+                        </tei:altIdentifier>
+                        <tei:altIdentifier type="traditionalID">
+                            <tei:idno source="http://zotero.org/groups/2552746/items/IKUTPHDC">ImIt Bouianum 27, 4</tei:idno>
+                        </tei:altIdentifier>                           
+                    </tei:msIdentifier> 
+                    <tei:msContents>
+                        <tei:summary>Stamp on tile from <tei:ref target="https://sabapmolise.cultura.gov.it/?page_id=139">Campochiaro, Sanctuary of Civitella</tei:ref>.</tei:summary>
+                    </tei:msContents>
+                    <tei:physDesc>
+                        <tei:objectDesc>     
+                            <tei:supportDesc>
+                                <tei:support>
+                                    <tei:objectType ana="http://vocab.getty.edu/page/aat/300010682">imbrex</tei:objectType>
+                                    <tei:note>three joining fragments</tei:note>
+                                    <tei:material ana="http://vocab.getty.edu/page/aat/300010669">terracotta</tei:material>
+                                    <tei:dimensions type="objectDimensions" unit="cm" precision="high" resp="#ImIt2011">
+                                        <tei:height quantity="15">15</tei:height>
+                                        <tei:width quantity="15">15</tei:width>
+                                        <tei:depth quantity="2">2</tei:depth>
+                                    </tei:dimensions>
+                                    <tei:rs type="reuse">no</tei:rs>
+                                </tei:support>
+                                <tei:condition>fragmentary</tei:condition>   
+                            </tei:supportDesc>
+                            <tei:layoutDesc>
+                                <tei:layout columns="1" writtenLines="1">
+                                    <tei:rs type="execution" ana="http://vocab.getty.edu/page/aat/300239001">stamp</tei:rs>
+                                    <tei:rs type="opistography">no</tei:rs>
+                                    <tei:note type="layoutNotes"></tei:note>
+                                    <tei:dimensions type="lineDimension" unit="cm" precision="high"/> 
+                                </tei:layout>
+                            </tei:layoutDesc>
+                        </tei:objectDesc>
+                        <tei:handDesc>                            
+                            <tei:handNote>
+                                <tei:note type="palaeographicNotes"/>
+                                <tei:dimensions type="characterDimension" unit="cm" precision="high"/>
+                            </tei:handNote>
+                        </tei:handDesc>                                      
+                        <tei:scriptDesc>
+                            <tei:scriptNote>
+                                <tei:rs type="writingSystem" subtype="alphabet" ref="https://www.prin-italia-antica.unifi.it/p166.html#oscan-etruscan">Oscan National alphabet</tei:rs>
+                                <tei:rs type="wordDivision">punctuation</tei:rs>
+                            </tei:scriptNote>
+                        </tei:scriptDesc>
+                        <tei:decoDesc>
+                            <tei:decoNote></tei:decoNote> 
+                        </tei:decoDesc>
+                    </tei:physDesc>
+                    <tei:history>
+                        <tei:origin> 
+                            <tei:origPlace type="composed">
+                                <tei:placeName type="ancient" ref="https://pleiades.stoa.org/places/432746">Campochiaro</tei:placeName>
+                                <tei:placeName type="modern" ref="https://sws.geonames.org/3180985">Campochiaro (CB)</tei:placeName>
+                            </tei:origPlace>
+                            <tei:origDate notBefore-custom="-0199" notAfter-custom="-0100" cert="medium">2nd century BC</tei:origDate>
+                        </tei:origin>
+                        <tei:provenance type="found" subtype="discovered">
+                            <tei:placeName type="ancient" ref="https://pleiades.stoa.org/places/432746">Campochiaro</tei:placeName>
+                            <tei:placeName type="modern" ref="https://sws.geonames.org/3180985">Campochiaro (CB)</tei:placeName>
+                            <tei:placeName type="detailed">loc. Campochiaro</tei:placeName>
+                        </tei:provenance>
+                        <tei:provenance type="observed" subtype="autopsied" when="2003">
+                            <tei:persName>M. H. Crawford</tei:persName>
+                        </tei:provenance>
+                    </tei:history>                       
+                </tei:msDesc>   
+            </tei:sourceDesc> 
+        </tei:fileDesc>
+        <tei:encodingDesc>
+            <tei:p source="https://epidoc.stoa.org/gl/latest/">Marked-up according to the EpiDoc Guidelines</tei:p>
+        </tei:encodingDesc>
+        <tei:profileDesc>
+            <tei:langUsage>
+                <tei:language ident="osc" source="https://iso639-3.sil.org/code/osc">Oscan</tei:language>
+                <tei:language ident="osc-Ital-x-oscetr" source="https://www.prin-italia-antica.unifi.it/p166.html#oscan-etruscan" ana="https://unicode.org/iso15924/iso15924-codes.html">Oscan in National alphabet (Oscan-Etruscan alphabet)</tei:language>
+            </tei:langUsage>
+            <tei:textClass>
+                <tei:keywords scheme="https://www.eagle-network.eu/resources/vocabularies/typeins/">
+                    <tei:term ref="https://www.eagle-network.eu/voc/typeins/lod/118">tile stamp</tei:term>
+                </tei:keywords>
+            </tei:textClass>
+        </tei:profileDesc>
+    </tei:teiHeader>
+    <tei:facsimile>
+        <tei:graphic n="1" url="http://linsto.dipartimentidieccellenza-dilef.unifi.it/itant/img/ItAnt_Oscan_191.jpg">
+            <tei:desc>Inscription ItAnt Oscan 191 (drawing by <tei:persName>Francesca Murano</tei:persName>)
+                <tei:ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">This file is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International license – (CC BY-NC-SA 4.0).</tei:ref>
+            </tei:desc>
+        </tei:graphic>
+    </tei:facsimile>
+    <tei:text>
+        <tei:body>             
+            <tei:div type="edition" subtype="interpretative" xml:space="preserve">
+                <tei:div type="textpart" n="face_a" style="text-direction:r-to-l" rend="ductus:sinistrorse">
+                    <tei:ab>   
+                        <tei:lb n="1" xml:id="Osc_332_l_1"/>
+                            <!-- Leida;Osc_332_l_1_w_1;[g(avieís)] -->
+                            <tei:name type ="praenomen" xml:lang="osc-Ital-x-oscetr" xml:id="Osc_332_l_1_w_1" ref="#p1"><tei:expan><tei:supplied reason="lost">g</tei:supplied><tei:ex>avieís</tei:ex></tei:expan></tei:name>
+                            <tei:pc unit="word"><tei:supplied reason="lost">.</tei:supplied></tei:pc>
+                            <!-- Leida;Osc_332_l_1_w_2;[pa]pi(eís) -->
+                            <tei:name type="gentilicium" xml:lang="osc-Ital-x-oscetr" xml:id="Osc_332_l_1_w_2" ref="#p1"><tei:expan><tei:abbr><tei:supplied reason="lost">pa</tei:supplied>pi</tei:abbr><tei:ex>eís</tei:ex></tei:expan></tei:name>
+                            <tei:pc unit="word">.</tei:pc>
+                            <!-- Leida;Osc_332_l_1_w_3;m(i)t(eleís) -->
+                            <tei:name type="patronymic" xml:lang="osc-Ital-x-oscetr" xml:id="Osc_332_l_1_w_3" ref="#p1"><tei:expan><tei:abbr>m</tei:abbr><tei:ex>i</tei:ex><tei:abbr>t</tei:abbr><tei:ex>eleís</tei:ex></tei:expan></tei:name>
+                            <tei:pc unit="word">.</tei:pc>
+                            <!-- Leida;Osc_332_l_1_w_4;m(edikkiaí) -->
+                            <tei:w xml:lang="osc-Ital-x-oscetr" xml:id="Osc_332_l_1_w_4"><tei:expan><tei:abbr>m</tei:abbr><tei:ex>edikkiaí</tei:ex></tei:expan></tei:w>
+                            <tei:pc unit="word"><tei:supplied reason="lost">.</tei:supplied></tei:pc>
+                            <!-- Leida;Osc_332_l_1_w_5;[t(úvtíkaí)] -->
+                            <tei:w xml:lang="osc-Ital-x-oscetr" xml:id="Osc_332_l_1_w_5"><tei:expan><tei:abbr><tei:supplied reason="lost">t</tei:supplied></tei:abbr><tei:ex>úvtíkaí</tei:ex></tei:expan></tei:w>
+                            <tei:pc unit="word"><tei:supplied reason="lost">.</tei:supplied></tei:pc>
+                            <!-- Leida;Osc_332_l_1_w_6;[X] -->
+                            <tei:num value="10" xml:lang="osc-Ital-x-oscetr" xml:id="Osc_332_l_1_w_6"><tei:supplied reason="lost">X</tei:supplied></tei:num>
+                    </tei:ab>
+                </tei:div>
+            </tei:div>
+            <tei:div type="translation" xml:lang="ita">
+                <tei:p>Durante la meddikia tutica di Gavius Papius, figlio di Mitulus per la decima volta (?)</tei:p>
+                <tei:desc>
+                    <tei:persName>Francesca Murano</tei:persName>
+                    <tei:ref type="licence" target="https://creativecommons.org/licenses/by-nc-sa/4.0/">This file is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International license – (CC BY-NC-SA 4.0).</tei:ref>
+                </tei:desc> 
+            </tei:div>
+            <tei:div type="translation" xml:lang="eng">
+                <tei:p>During the meddikia tutica of Gavius Papius, son of Mitulus, for the tenth time (?)</tei:p>
+                <tei:desc>
+                    <tei:persName>Francesca Murano</tei:persName>
+                    <tei:ref type="licence" target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </tei:ref>
+                </tei:desc> 
+            </tei:div>            
+            <tei:div type="apparatus" xml:lang="eng" resp="Francesca Murano"/>
+            <tei:div type="commentary" xml:lang="eng" resp="Francesca Murano">
+                <tei:note>
+                    <tei:p>The same stamp appears complete on <tei:ref target="ItAnt_Oscan_190.xml">ItAnt Oscan 190</tei:ref> (from Campochiaro), and fragmentarily on <tei:ref target="ItAnt_Oscan_332.xml">ItAnt Oscan 332</tei:ref> (from Bojano) and <tei:ref target="ItAnt_Oscan_333.xml">ItAnt Oscan 333</tei:ref> (from Campochiaro) and <tei:ref target="ItAnt_Oscan_323.xml">ItAnt Oscan 323</tei:ref> (from Castello del Matese). See <tei:ref target="http://zotero.org/groups/2552746/items/IKUTPHDC"><tei:bibl>Crawford, ImIt 2011</tei:bibl></tei:ref>: 1021 and <tei:ref target="http://zotero.org/groups/2552746/items/M3DYL9LE"><tei:bibl>Soricelli 2013</tei:bibl></tei:ref>.</tei:p></tei:note>
+                <tei:note>
+                    <tei:p>Stamps from Bovianum present three possible syntactic orders. The vast majority of them have the <tei:rs type="phr" xml:lang="osc-Ital-x-oscetr">m . t.</tei:rs> abbreviation before the onomastic formula, in rare cases the abbreviation follows. The third case is constituted by few stamps that bear two names with <tei:rs type="phr" xml:lang="osc-Ital-x-oscetr">m . t.</tei:rs> interposed.</tei:p>
+                    <tei:p>For a discussion see<tei:ref target="http://zotero.org/groups/2552746/items/QKITXKNI"><tei:bibl>Murano 2024</tei:bibl></tei:ref>, proposing that the mention of the meddix tuticus appears as an indication of auctoritas but also of chronology (eponymy). In the stamps with <tei:rs type="phr" xml:lang="osc-Ital-x-oscetr">m . t.</tei:rs> following the name, as in this case, the abbreviation indicates the name of the magistracy as an abstract noun (see also <tei:ref target="http://zotero.org/groups/2552746/items/7ELVH5HA"><tei:bibl>Capini - La Regina 2015</tei:bibl></tei:ref>) and the phrase should be resolved, with probability, in the ablative or in the locative (as in the iúvilas inscriptions), with the personal name of the magistrate in the genitive. We have chosen to resolve the abbreviation in the locative following the example of iúvilas inscriptions (from Capua) and Lu 5 (from Rossano di Vaglio).</tei:p>
+                </tei:note>
+                <tei:note target="Osc_191_l_1_w_6">
+                    <tei:p>The last sign of the stamp, <tei:rs type="w" xml:lang="osc-Ital-x-oscetr" corresp="Osc_190_l_1_w_6">X</tei:rs>, probably refers to the possibility that Gavius Papius held the magistrate position for ten times.</tei:p>
+                    <tei:p>Contra <tei:ref target="http://zotero.org/groups/2552746/items/IKUTPHDC"><tei:bibl>Crawford, ImIt 2011</tei:bibl></tei:ref>: 1022: «We think it demographically implausible that G. Papius should have been meddix tuticus on ten occasions, and suspect that the X refers to a now irrecoverable aspect of the production process».</tei:p> 
+                </tei:note>
+                <tei:listPerson type="Onomastics">
+                    <tei:person xml:id="p1" xml:lang="osc-Ital-x-oscetr">
+                        <tei:persName>
+                            <tei:name type="praenomen">[g(avieís)]</tei:name>
+                            <tei:name type="gentilicium">[pa]pi(eís)</tei:name>
+                            <tei:name type="patronymic">m(i)t(eleís)</tei:name>
+                        </tei:persName>
+                    </tei:person>
+                </tei:listPerson>
+            </tei:div>
+            <tei:div type="bibliography">
+                <tei:listBibl xmlns="http://www.tei-c.org/ns/1.0">
+                    <tei:biblStruct type="journalArticle" xml:id="Murano2024" corresp="http://zotero.org/groups/2552746/items/QKITXKNI">
+                        <tei:analytic><tei:title level="a">Ancora sui bolli sanniti con sigla m.t.</tei:title>
+                            <tei:author>
+                                <tei:forename>Francesca</tei:forename>
+                                <tei:surname>Murano</tei:surname>
+                            </tei:author>
+                        </tei:analytic>
+                        <tei:monogr>
+                            <tei:title level="j">Studi Etruschi</tei:title>
+                            <tei:imprint>
+                                <tei:biblScope unit="volume">84</tei:biblScope>
+                                <tei:biblScope unit="page"/>
+                                <tei:date>2024</tei:date>
+                            </tei:imprint>
+                        </tei:monogr>
+                    </tei:biblStruct>
+                    <tei:biblStruct type="bookSection" xml:id="Capini2015" corresp="http://zotero.org/groups/2552746/items/7ELVH5HA">
+                        <tei:analytic>
+                            <tei:title level="a">Campochiaro, Civitella, loc., herekleis (gen.)/ Hercules</tei:title>
+                            <tei:author>
+                                <tei:forename>Stefania</tei:forename>
+                                <tei:surname>Capini</tei:surname>
+                            </tei:author>
+                            <tei:author><forename>Adriano</forename>
+                                <tei:surname>La Regina</tei:surname>
+                            </tei:author>
+                        </tei:analytic>
+                        <tei:monogr>
+                            <tei:title level="m">Fana, templa, delubra. Corpus dei luoghi di culto dell'Italia antica (FTD) - 3 : Regio IV: Alife, Bojano, Sepino</tei:title>
+                            <tei:editor>
+                                <tei:forename>Stefania</tei:forename>
+                                <tei:surname>Capini</tei:surname>
+                            </tei:editor>
+                            <tei:editor>
+                                <tei:forename>Patrizia</tei:forename>
+                                <tei:surname>Curci</tei:surname>
+                            </tei:editor>
+                            <tei:editor><forename>Maria Romana</forename>
+                                <tei:surname>Picuti</tei:surname>
+                            </tei:editor>
+                            <tei:imprint><pubPlace>Paris</pubPlace>
+                                <tei:biblScope unit="page">43-56</tei:biblScope>
+                                <tei:publisher>Collège de France</tei:publisher>
+                                <tei:date>2015</tei:date>                             
+                            </tei:imprint>
+                        </tei:monogr>
+                        <tei:citedRange unit="entry">26</tei:citedRange>
+                    </tei:biblStruct>
+                    <tei:biblStruct type="book" xml:id="ImIt2011"  corresp="http://zotero.org/groups/2552746/items/IKUTPHDC">
+                        <tei:monogr>
+                            <tei:title level="m">Imagines Italicae: A Corpus of Italic Inscriptions</tei:title>
+                            <tei:editor>
+                                <tei:forename>Michael</tei:forename>
+                                <tei:surname>Crawford</tei:surname>
+                            </tei:editor>
+                            <tei:imprint>
+                                <tei:pubPlace>London</tei:pubPlace>
+                                <tei:publisher>Institute of Classical Studies, University of London</tei:publisher>
+                                <tei:date>2011</tei:date>
+                            </tei:imprint>
+                        </tei:monogr>
+                        <tei:citedRange unit="entry">Bouianum  27, 4</tei:citedRange>
+                    </tei:biblStruct>
+                </tei:listBibl>    
+            </tei:div>   
+        </tei:body>
+    </tei:text>
+</tei:TEI>

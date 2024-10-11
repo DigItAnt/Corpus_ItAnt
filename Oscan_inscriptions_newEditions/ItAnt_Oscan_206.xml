@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/9.5/tei-epidoc.rng"
+schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/9.5/tei-epidoc.rng"
+schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<tei:TEI xmlns:dcr="http://www.isocat.org/ns/dcr" xml:id="ItAnt_Oscan_206"
+    xmlns:tei="http://www.tei-c.org/ns/1.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <tei:teiHeader>
+        <tei:fileDesc>
+            <tei:titleStmt>
+                <tei:title type="ItAnt_ID">Inscription ItAnt Oscan 206</tei:title>
+            </tei:titleStmt>
+            <tei:editionStmt>
+                <tei:edition>
+                    <tei:idno>ItAnt Oscan 206</tei:idno>
+                </tei:edition>
+                <tei:editor>
+                    <tei:persName>Francesca Murano</tei:persName>
+                </tei:editor>
+            </tei:editionStmt>         
+            <tei:publicationStmt>
+                <tei:authority>PRIN 2017 "Lingue e culture dell'Italia antica: linguistica storica e modelli digitali | Languages and Cultures of Ancient Italy. Historical Linguistics and Digital Models"</tei:authority>
+                <tei:date>2023</tei:date>
+                <tei:idno type="URI" subtype="handle"></tei:idno>
+                <tei:availability>
+                    <tei:licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">This file is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International license – (CC BY-NC-SA 4.0).  
+                    </tei:licence>
+                </tei:availability>
+            </tei:publicationStmt>   
+            <tei:sourceDesc>
+                <tei:msDesc>
+                    <tei:msIdentifier>
+                        <tei:settlement ref="https://sws.geonames.org/3180991">Campobasso</tei:settlement>
+                        <tei:institution ana="https://sabapmolise.cultura.gov.it/">Soprintendenza Archeologia, belle arti e paesaggio del Molise</tei:institution>
+                        <tei:idno type="museumID" resp="#Di_Niro1980">501</tei:idno>
+                        <tei:msName></tei:msName>
+                        <tei:altIdentifier type="trismegistos">
+                            <tei:idno source="www.trismegistos.org/text/170856">TM 170856</tei:idno>
+                        </tei:altIdentifier>
+                        <tei:altIdentifier type="traditionalID">
+                            <tei:idno source="http://zotero.org/groups/2552746/items/IMWMSAVE">ST Sa 56</tei:idno>
+                        </tei:altIdentifier>
+                        <tei:altIdentifier type="traditionalID">
+                            <tei:idno source="http://zotero.org/groups/2552746/items/IKUTPHDC">ImIt Fagifulae 5, 1</tei:idno>
+                        </tei:altIdentifier>
+                    </tei:msIdentifier> 
+                    <tei:msContents>
+                        <tei:summary>Inscription on patera, from the <tei:ref target="https://cultura.gov.it/luogo/santuario-di-s-giovanni-in-galdo">sanctuary of S. Giovanni in Galdo</tei:ref>, località Colle Rimontato (CB).</tei:summary>
+                    </tei:msContents>
+                    <tei:physDesc>
+                        <tei:objectDesc>     
+                            <tei:supportDesc>
+                                <tei:support>
+                                    <tei:objectType ana="http://vocab.getty.edu/page/aat/300260178">patera</tei:objectType>
+                                    <tei:note>type Lamboglia B, 5 = Morel 2255 or 2257</tei:note>
+                                    <tei:material ana="http://vocab.getty.edu/page/aat/300387491">pottery (black slip)</tei:material>
+                                    <tei:dimensions type="objectDimensions" unit="cm" precision="high" resp="#Di_Niro1980">
+                                        <tei:height quantity="4.2">4,2</tei:height>
+                                        <tei:dim type="diameter" quantity="22">22</tei:dim>
+                                    </tei:dimensions>
+                                    <tei:rs type="reuse">no</tei:rs>
+                                </tei:support>
+                                <tei:condition>fragmentary</tei:condition>   
+                            </tei:supportDesc>
+                            <tei:layoutDesc>
+                                <tei:layout columns="1" writtenLines="1">
+                                    <tei:rs type="execution" ana="http://vocab.getty.edu/page/aat/300379457">scratched after firing</tei:rs>
+                                    <tei:rs type="opistography">no</tei:rs>
+                                    <tei:note type="layoutNotes">scratched on underside</tei:note>
+                                    <tei:dimensions type="lineDimension" unit="cm" precision="high">
+                                        <tei:height quantity="1.8">1,8</tei:height>
+                                        <tei:width></tei:width>
+                                    </tei:dimensions> 
+                                </tei:layout>
+                            </tei:layoutDesc>
+                        </tei:objectDesc>
+                        <tei:handDesc>                            
+                            <tei:handNote>
+                                <tei:note type="palaeographicNotes"></tei:note>
+                                <tei:dimensions type="characterDimension" unit="cm" precision="high"> 
+                                    <tei:height quantity="1.8">1,8</tei:height>
+                                </tei:dimensions>
+                            </tei:handNote>
+                        </tei:handDesc>                                      
+                        <tei:scriptDesc>
+                            <tei:scriptNote>
+                                <tei:rs type="writingSystem" subtype="alphabet" ref="https://www.prin-italia-antica.unifi.it/p166.html#oscan-etruscan">Oscan National alphabet</tei:rs>
+                                <tei:rs type="wordDivision">punctuation</tei:rs>
+                            </tei:scriptNote>
+                        </tei:scriptDesc>
+                        <tei:decoDesc>
+                            <tei:decoNote></tei:decoNote>   
+                        </tei:decoDesc>
+                    </tei:physDesc>
+                    <tei:history>
+                        <tei:origin> 
+                            <tei:origPlace type="composed">
+                                <tei:placeName type="ancient" ref="https://pleiades.stoa.org/places/432827">Fagifulae, Samnium</tei:placeName>
+                                <tei:placeName type="modern" ref="https://sws.geonames.org/3168241">San Giovanni in Galdo (CB)</tei:placeName>
+                            </tei:origPlace>
+                            <tei:origDate notBefore-custom="-199" notAfter-custom="-0100" cert="medium" evidence="archaeological-context" resp="#ImIt2011">2nd century BC</tei:origDate>
+                        </tei:origin>
+                        <tei:provenance type="found" subtype="discovered" when="1974">
+                            <tei:placeName type="ancient" ref="https://pleiades.stoa.org/places/432827">Fagifulae, Samnium</tei:placeName>
+                            <tei:placeName type="modern" ref="https://sws.geonames.org/3168241">San Giovanni in Galdo (CB), località Colle Rimontato</tei:placeName>
+                            <tei:placeName type="detailed" resp="#ImIt2011">found during the excavation of the <tei:ref target="https://cultura.gov.it/luogo/santuario-di-s-giovanni-in-galdo">sanctuary</tei:ref>, in a dump located between the back of the temple and the back terrace wall</tei:placeName>
+                        </tei:provenance>
+                        <tei:provenance type="observed" subtype="autopsied" when="1974">
+                            <tei:persName>A. Di Niro</tei:persName>
+                        </tei:provenance>
+                    </tei:history>                       
+                </tei:msDesc>   
+            </tei:sourceDesc> 
+        </tei:fileDesc>
+        <tei:encodingDesc>
+            <tei:p source="https://epidoc.stoa.org/gl/latest/">Marked-up according to the EpiDoc Guidelines</tei:p>
+        </tei:encodingDesc>
+        <tei:profileDesc>
+            <tei:langUsage>
+                <tei:language ident="osc" source="https://iso639-3.sil.org/code/osc">Oscan</tei:language>
+                <tei:language ident="osc-Ital-x-oscetr" source="https://www.prin-italia-antica.unifi.it/p166.html#oscan-etruscan" ana="https://unicode.org/iso15924/iso15924-codes.html">Oscan in National alphabet (Oscan-Etruscan alphabet)</tei:language>
+            </tei:langUsage>
+            <tei:textClass>
+                <tei:keywords scheme="https://www.eagle-network.eu/resources/vocabularies/typeins/">
+                    <tei:term ref="https://www.eagle-network.eu/voc/typeins/lod/105">inscription on vase</tei:term>
+                </tei:keywords>
+            </tei:textClass>
+        </tei:profileDesc>
+    </tei:teiHeader>
+    <tei:facsimile>
+        <tei:graphic n="1" url="http://linsto.dipartimentidieccellenza-dilef.unifi.it/itant/img/ItAnt_Oscan_206.jpg" resp="Francesca Murano">
+            <tei:desc>Inscription ItAnt Oscan 206 (drawing by <tei:persName>Francesca Murano</tei:persName>)
+                <tei:ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">This file is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International license – (CC BY-NC-SA 4.0).</tei:ref>
+            </tei:desc>
+        </tei:graphic>
+        <tei:graphic n="2" url="https://www.studietruschi.org/wp-content/uploads/2021/07/SE46_22.pdf#page=54">
+            <tei:desc>Drawing of the inscription ItAnt Oscan 206 (from <tei:ref target="http://zotero.org/groups/2552746/items/4CKMVEWZ"><tei:bibl>Di Niro 1978 [1979]</tei:bibl></tei:ref>, no. M1)
+            <tei:ref ana="https://www.studietruschi.org">This file is provided by the Istituto Nazionale di Studi Etruschi ed Italici</tei:ref>
+            </tei:desc>
+        </tei:graphic>
+    </tei:facsimile> 
+    <tei:text>
+        <tei:body>             
+            <tei:div type="edition" subtype="interpretative" xml:space="preserve">
+                <tei:div type="textpart" n="face_a" style="text-direction:r-to-l" rend="ductus:sinistrorse">
+                    <tei:ab>   
+                        <tei:lb n="1" xml:id="Osc_206_l_1"/>
+                            <!-- Leida;Osc_206_l_1_w_1;m(?) -->
+                            <tei:name xml:lang="osc-Ital-x-oscetr" xml:id="Osc_206_l_1_w_1" ref="#p1"><tei:expan><tei:abbr>m</tei:abbr><tei:ex></tei:ex></tei:expan></tei:name>
+                        <tei:pc unit="word">.</tei:pc>
+                        <!-- Leida;Osc_206_l_1_w_2;kid(?) -->
+                            <tei:name xml:lang="osc-Ital-x-oscetr" xml:id="Osc_206_l_1_w_2" ref="#p1"><tei:expan><tei:abbr>kid</tei:abbr><tei:ex></tei:ex></tei:expan></tei:name>
+                    </tei:ab>
+                </tei:div>
+            </tei:div>
+            <tei:div type="translation" xml:lang="ita"/>
+            <tei:div type="translation" xml:lang="eng"/>            
+            <tei:div type="apparatus" xml:lang="eng" resp="Francesca Murano">
+                <tei:listApp>
+                    <tei:app from="#Osc_206_l_1">
+                        <tei:lem corresp="#Osc_206_l_1_w_2">kid( )</tei:lem>
+                        <tei:rdg corresp="#Osc_206_l_1_w_2">kid vel kud
+                            <tei:ref target="http://zotero.org/groups/2552746/items/IKUTPHDC"><tei:bibl>Crawford, ImIt 2011</tei:bibl></tei:ref>
+                        </tei:rdg>
+                        <tei:rdg corresp="#Osc_206_l_1_w_2">kúd
+                            <tei:ref target="http://zotero.org/groups/2552746/items/IMWMSAVE"><tei:bibl>Rix, ST 2002</tei:bibl></tei:ref>
+                        </tei:rdg>
+                    </tei:app>
+                </tei:listApp>
+            </tei:div>
+            <tei:div type="commentary" xml:lang="eng" resp="Francesca Murano">
+                <tei:note>
+                    <tei:p>The text displays an onomastic formula.</tei:p>
+                    <tei:p>The text is edited according to the edition by <tei:ref target="http://zotero.org/groups/2552746/items/4CKMVEWZ"><tei:bibl>Di Niro 1978 [1979]</tei:bibl></tei:ref>, author of the only autoptic examination.</tei:p>
+                </tei:note>
+                <tei:listPerson type="Onomastics">
+                    <tei:person xml:id="p1" xml:lang="osc-Ital-x-oscetr">
+                        <tei:persName>
+                            <tei:name type="praenomen">m( )</tei:name>
+                            <tei:name type="gentilicium">kid( )</tei:name>
+                        </tei:persName>
+                    </tei:person>         
+                </tei:listPerson>
+            </tei:div>
+            <tei:div type="bibliography">
+                <tei:listBibl xmlns="http://www.tei-c.org/ns/1.0">
+                    <tei:biblStruct type="book" xml:id="ImIt2011" corresp="http://zotero.org/groups/2552746/items/IKUTPHDC">
+                            <tei:monogr>
+                                <tei:title level="m">Imagines Italicae: A Corpus of Italic Inscriptions</tei:title>
+                                <tei:editor>
+                                    <tei:forename>Michael</tei:forename>
+                                    <tei:surname>Crawford</tei:surname>
+                                </tei:editor>
+                                <tei:imprint>
+                                    <tei:pubPlace>London</tei:pubPlace>
+                                    <tei:publisher>Institute of Classical Studies, University of London</tei:publisher>
+                                    <tei:date>2011</tei:date>
+                                </tei:imprint>
+                            </tei:monogr>
+                            <tei:citedRange unit="entry">Fagifulae 5, 1</tei:citedRange>
+                        </tei:biblStruct>
+                        <tei:biblStruct type="book" xml:id="Rix2002" corresp="http://zotero.org/groups/2552746/items/IMWMSAVE">
+                            <tei:monogr>
+                                <tei:title level="m">Sabellische Texte. Die Texte des Oskischen, Umbrischen und Südpikenischen</tei:title>
+                                <tei:author>
+                                    <tei:forename>Helmut</tei:forename>
+                                    <tei:surname>Rix</tei:surname>
+                                </tei:author>
+                                <tei:imprint>
+                                    <tei:pubPlace>Heidelberg</tei:pubPlace>
+                                    <tei:publisher>C. Winter</tei:publisher>
+                                    <tei:date>2002</tei:date>
+                                </tei:imprint>
+                            </tei:monogr>
+                            <tei:citedRange unit="entry">Sa 56</tei:citedRange>
+                        </tei:biblStruct>
+                    <tei:biblStruct type="bookSection" xml:id="Di_Niro1980" corresp="http://zotero.org/groups/2552746/items/AZ3R3KWC">
+                        <tei:analytic>
+                            <tei:title level="a">San Giovanni in Galdo</tei:title>
+                            <tei:author>
+                                <tei:forename>Angela</tei:forename>
+                                <tei:surname>Di Niro</tei:surname>
+                            </tei:author>
+                        </tei:analytic>
+                        <tei:monogr>
+                            <tei:title level="m">Sannio: Pentri e Frentani dal VI al I sec. a.C. Catalogo della mostra (Isernia, Museo Nazionale, ottobre-dicembre 1980)</tei:title>
+                            <tei:imprint>
+                                <tei:pubPlace>Roma</tei:pubPlace>
+                                <tei:biblScope unit="page">269-281</tei:biblScope>
+                                <tei:publisher>De Luca</tei:publisher>
+                                <tei:date>1980</tei:date>
+                            </tei:imprint>
+                        </tei:monogr>
+                        <tei:citedRange unit="page">276, no. 1</tei:citedRange>
+                    </tei:biblStruct>
+                    <tei:biblStruct type="book" xml:id="Poccetti1979" corresp="http://zotero.org/groups/2552746/items/JFW9XW6P">
+                        <tei:monogr>
+                            <tei:title level="m">Nuovi documenti italici a complemento del Manuale di E. Vetter</tei:title>                           
+                            <tei:author>
+                                <tei:forename>Paolo</tei:forename>
+                                <tei:surname>Poccetti</tei:surname>
+                            </tei:author>
+                            <tei:imprint>
+                                <tei:pubPlace>Pisa</tei:pubPlace>
+                                <tei:publisher>Giardini Editore</tei:publisher>
+                                <tei:date>1979</tei:date>
+                            </tei:imprint>
+                        </tei:monogr>
+                        <tei:citedRange unit="entry">92</tei:citedRange>
+                        </tei:biblStruct>
+                    <tei:biblStruct type="journalArticle" xml:id="Di_Niro1978" corresp="http://zotero.org/groups/2552746/items/4CKMVEWZ">
+                        <tei:analytic>
+                            <tei:title level="a">S. Giovanni in Galdo (CB)</tei:title>
+                            <tei:author>
+                                <tei:forename>Angela</tei:forename>
+                                <tei:surname>Di Niro</tei:surname>
+                            </tei:author>
+                        </tei:analytic>
+                        <tei:monogr>
+                            <tei:title level="j">Studi Etruschi</tei:title>
+                            <tei:imprint>
+                                <tei:biblScope unit="issue">46</tei:biblScope>
+                                <tei:biblScope unit="page">444-455</tei:biblScope>
+                                <tei:date>1978</tei:date>
+                            </tei:imprint>
+                        </tei:monogr>
+                        <tei:citedRange unit="page">455, no. 91 (with drawing p. 446, no. M1)</tei:citedRange>
+                    </tei:biblStruct>  
+                </tei:listBibl>    
+            </tei:div>   
+        </tei:body>
+    </tei:text>
+</tei:TEI>

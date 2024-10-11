@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/9.5/tei-epidoc.rng"
+schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/9.5/tei-epidoc.rng"
+schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<tei:TEI xmlns:dcr="http://www.isocat.org/ns/dcr" xml:id="ItAnt_Oscan_131"
+    xmlns:tei="http://www.tei-c.org/ns/1.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <tei:teiHeader>
+        <tei:fileDesc>
+            <tei:titleStmt>
+                <tei:title type="ItAnt_ID">Inscription ItAnt Oscan 131</tei:title>
+            </tei:titleStmt>
+            <tei:editionStmt>
+                <tei:edition>
+                    <tei:idno>ItAnt Oscan 131</tei:idno>
+                </tei:edition>
+                <tei:editor>
+                    <tei:persName>Francesca Murano</tei:persName>
+                </tei:editor>
+            </tei:editionStmt>         
+            <tei:publicationStmt>
+                <tei:authority>PRIN 2017 "Lingue e culture dell'Italia antica: linguistica storica e modelli digitali | Languages and Cultures of Ancient Italy. Historical Linguistics and Digital Models"</tei:authority>
+                <tei:date>2023</tei:date>
+                <tei:idno type="URI" subtype="handle"></tei:idno>
+                <tei:availability>
+                    <tei:licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">This file is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International license – (CC BY-NC-SA 4.0).  
+                    </tei:licence>
+                </tei:availability>
+            </tei:publicationStmt>   
+            <tei:sourceDesc>
+                <tei:msDesc>
+                    <tei:msIdentifier>
+                        <tei:settlement ref="https://sws.geonames.org/3180991">Campobasso</tei:settlement>
+                        <tei:institution ana="https://sabapmolise.beniculturali.it">Soprintendenza Archeologia, Belle arti e Paesaggio del Molise</tei:institution>
+                        <tei:idno type="museumID">12743</tei:idno>
+                        <tei:msName></tei:msName>
+                        <tei:altIdentifier type="trismegistos">
+                            <tei:idno source="www.trismegistos.org/text/171555">TM 171555</tei:idno>
+                        </tei:altIdentifier>
+                         
+                        <tei:altIdentifier type="traditionalID">
+                            <tei:idno source="http://zotero.org/groups/2552746/items/IKUTPHDC">ImIt Bouianum 106, 11</tei:idno>
+                        </tei:altIdentifier>
+                    </tei:msIdentifier> 
+                    <tei:msContents>
+                        <tei:summary>Inscription on a fragment of black slip plate (patera) from Monte Vairano (Campobasso).
+                        </tei:summary>
+                    </tei:msContents>
+                    <tei:physDesc>
+                        <tei:objectDesc>     
+                            <tei:supportDesc>
+                                <tei:support>
+                                    <tei:objectType ana="http://vocab.getty.edu/page/aat/300260178">patera</tei:objectType>
+                                    <tei:rs type="objectShape">Morel 2255</tei:rs>
+                                    <tei:material ana="http://vocab.getty.edu/page/aat/300387491">pottery (black slip)</tei:material>
+                                    <tei:dimensions type="objectDimensions" unit="cm" precision="high">
+                                        <tei:height quantity="3.5">3,5</tei:height>
+                                        <tei:dim type="diameter" quantity="3.6">3,6</tei:dim>
+                                    </tei:dimensions>
+                                    <tei:rs type="reuse">no</tei:rs>
+                                </tei:support>
+                                <tei:condition>very fragmentary</tei:condition>   
+                            </tei:supportDesc>
+                            <tei:layoutDesc>
+                                <tei:layout columns="1" writtenLines="1">
+                                    <tei:rs type="execution" ana="http://vocab.getty.edu/page/aat/300379457">scratched after firing</tei:rs>
+                                    <tei:rs type="opistography">no</tei:rs>
+                                    <tei:note type="layoutNotes">scratched on outside of wall</tei:note>
+                                    <tei:dimensions type="lineDimension" unit="cm" precision="high">
+                                        <tei:height quantity="4.2">4.2</tei:height>
+                                    </tei:dimensions> 
+                                </tei:layout>
+                            </tei:layoutDesc>
+                        </tei:objectDesc>
+                        <tei:handDesc>                            
+                            <tei:handNote>
+                                <tei:note type="palaeographicNotes"/>
+                                <tei:dimensions type="characterDimension" unit="cm" precision="high"> 
+                                    <tei:height quantity="4.2">4.2</tei:height>
+                                </tei:dimensions>
+                            </tei:handNote>
+                        </tei:handDesc>                                      
+                        <tei:scriptDesc>
+                            <tei:scriptNote>
+                                <tei:rs type="writingSystem" subtype="alphabet" ref="https://www.prin-italia-antica.unifi.it/p166.html#oscan-etruscan">Oscan National alphabet</tei:rs>
+                                <tei:rs type="wordDivision"></tei:rs>
+                            </tei:scriptNote>
+                        </tei:scriptDesc>
+                        <tei:decoDesc>
+                            <tei:decoNote/>   
+                        </tei:decoDesc>
+                    </tei:physDesc>
+                    <tei:history>
+                        <tei:origin> 
+                            <tei:origPlace type="composed">
+                                <tei:placeName type="ancient" ref="https://pleiades.stoa.org/places/432965">Monte Vairano</tei:placeName>
+                                <tei:placeName type="modern" ref="https://sws.geonames.org/3164966">Monte Vairano (Campobasso)</tei:placeName>
+                            </tei:origPlace>
+                            <tei:origDate notBefore-custom="-0199" notAfter-custom="-0100" cert="medium">2nd century BC</tei:origDate>
+                        </tei:origin>
+                        <tei:provenance type="found" subtype="discovered" when="1985">
+                            <tei:placeName type="ancient" ref="https://pleiades.stoa.org/places/432965">Monte Vairano</tei:placeName>
+                            <tei:placeName type="modern" ref="https://sws.geonames.org/3164966">Monte Vairano (Campobasso)</tei:placeName>
+                            <tei:placeName type="detailed">found in the area of Porta Monteverde, in Room C, the so-called "House of LN"</tei:placeName>
+                        </tei:provenance>
+                        <tei:provenance type="observed" subtype="autopsied" when="1985">
+                            <tei:persName>G. De Benedittis</tei:persName>
+                        </tei:provenance>
+                    </tei:history>                       
+                </tei:msDesc>   
+            </tei:sourceDesc> 
+        </tei:fileDesc>
+        <tei:encodingDesc>
+            <tei:p source="https://epidoc.stoa.org/gl/latest/">Marked-up according to the EpiDoc Guidelines</tei:p>
+        </tei:encodingDesc>
+        <tei:profileDesc>
+            <tei:langUsage>
+                <tei:language ident="osc" source="https://iso639-3.sil.org/code/osc">Oscan</tei:language>
+                <tei:language ident="osc-Ital-x-oscetr" source="https://www.prin-italia-antica.unifi.it/p166.html#oscan-etruscan" ana="https://unicode.org/iso15924/iso15924-codes.html">Oscan in National alphabet (Oscan-Etruscan alphabet)</tei:language>
+            </tei:langUsage>
+            <tei:textClass>
+                <tei:keywords scheme="https://www.eagle-network.eu/resources/vocabularies/typeins/">
+                    <tei:term ref="https://www.eagle-network.eu/voc/typeins/lod/105">inscription on vase</tei:term>
+                </tei:keywords>
+            </tei:textClass>
+        </tei:profileDesc>
+    </tei:teiHeader>
+    <tei:facsimile>
+        <tei:graphic n="1" url="http://linsto.dipartimentidieccellenza-dilef.unifi.it/itant/img/ItAnt_Oscan_131.jpg">
+            <tei:desc>Inscription ItAnt Oscan 131 (drawing by <tei:persName>Francesca Murano</tei:persName>)
+                <tei:ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">This file is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International license – (CC BY-NC-SA 4.0).</tei:ref>
+            </tei:desc>
+        </tei:graphic>
+        <tei:graphic n="2" url="https://www.studietruschi.org/wp-content/uploads/2021/07/SE53_19.pdf#page=46">
+            <tei:desc>Photograph of the inscription ItAnt Oscan 131 (from <tei:ref target="http://zotero.org/groups/2552746/items/42NCDB24"><tei:bibl>De Benedittis 1985 [1987]</tei:bibl></tei:ref>: pl. XLVI, no. 14)
+                <tei:ref ana="https://www.studietruschi.org">This file is provided by the Istituto Nazionale di Studi Etruschi ed Italici</tei:ref></tei:desc>
+        </tei:graphic>
+        <tei:graphic n="3" url="http://www.samnitium.com/wp-content/uploads/2016/12/casa-ln-ottimizzato.pdf#page=68">
+            <tei:desc>Photograph of the patera (from <tei:ref target="http://zotero.org/groups/2552746/items/EFVDHXGP"><tei:bibl>De Benedittis 1988</tei:bibl></tei:ref>, 67 no. 6)
+                <tei:ref ana="http://www.samnitium.com/?p=879">This file is provided by the author</tei:ref></tei:desc>
+        </tei:graphic>
+        <tei:graphic n="4" url="http://www.samnitium.com/wp-content/uploads/2016/12/casa-ln-ottimizzato.pdf#page=137">
+            <tei:desc>Drawing of the inscription ItAnt Oscan 131 (from <tei:ref target="http://zotero.org/groups/2552746/items/EFVDHXGP"><tei:bibl>De Benedittis 1988</tei:bibl></tei:ref>, pl. 1, 6)
+                <tei:ref ana="http://www.samnitium.com/?p=879">This file is provided by the author</tei:ref></tei:desc>
+        </tei:graphic>
+    </tei:facsimile>
+    <tei:text>
+        <tei:body>             
+            <tei:div type="edition" subtype="interpretative" xml:space="preserve">
+                <tei:div type="textpart" n="face_a" style="text-direction:r-to-l" rend="ductus:sinistrorse">
+                    <tei:ab>   
+                        <tei:lb n="1" xml:id="Osc_131_l_1"/>
+                            <!-- Leida;Osc_131_l_1_w_1;n -->
+                            <tei:w xml:lang="osc-Ital-x-oscetr" xml:id="Osc_131_l_1_w_1"><tei:hi rend="ligature">ln</tei:hi></tei:w>
+                    </tei:ab>
+                </tei:div>
+            </tei:div>
+            <tei:div type="apparatus" xml:lang="eng" resp="Francesca Murano">
+                <tei:listApp>
+                    <tei:app from="#Osc_127_l_1">
+                        <tei:lem corresp="#Osc_127_l_1_w_1">n</tei:lem>
+                        <tei:rdg corresp="#Osc_127_l_1_w_1">a vel ú
+                            <tei:ref target="http://zotero.org/groups/2552746/items/EFVDHXGP"><tei:bibl>De Benedittis 1988</tei:bibl></tei:ref>
+                        </tei:rdg>
+                    </tei:app>
+                </tei:listApp>                
+            </tei:div>
+            <tei:div type="commentary" xml:lang="eng" resp="Francesca Murano">
+                <tei:note>
+                    <tei:p>The inscription was found in the so-called "House of LN", along with other engraved materials, including, (<tei:ref target="ItAnt_Oscan_121.xml">ItAnt Oscan 121</tei:ref>, <tei:ref target="ItAnt_Oscan_122.xml">ItAnt Oscan 122</tei:ref>), <tei:ref target="ItAnt_Oscan_123.xml">ItAnt Oscan 123</tei:ref>, <tei:ref target="ItAnt_Oscan_124.xml">ItAnt Oscan 124</tei:ref>, <tei:ref target="ItAnt_Oscan_125.xml">ItAnt Oscan 125</tei:ref>, <tei:ref target="ItAnt_Oscan_126.xml">ItAnt Oscan 126</tei:ref>, <tei:ref target="ItAnt_Oscan_127.xml">ItAnt Oscan 127</tei:ref>, <tei:ref target="ItAnt_Oscan_128.xml">ItAnt Oscan 128</tei:ref>, <tei:ref target="ItAnt_Oscan_129.xml">ItAnt Oscan 129</tei:ref>, <tei:ref target="ItAnt_Oscan_130.xml">ItAnt Oscan 130</tei:ref>, <tei:ref target="ItAnt_Oscan_132.xml">ItAnt Oscan 132</tei:ref>, <tei:ref target="ItAnt_Oscan_133.xml">ItAnt Oscan 133</tei:ref>, <tei:ref target="ItAnt_Oscan_134.xml">ItAnt Oscan 134</tei:ref>, <tei:ref target="ItAnt_Oscan_135.xml">ItAnt Oscan 135</tei:ref> and <tei:ref target="ItAnt_Oscan_136.xml">ItAnt Oscan 136</tei:ref>) loom weights (<tei:ref target="ItAnt_Oscan_221.xml">ItAnt Oscan 221</tei:ref>), and Rhodian amphorae. Below the floor of the room was found a bronze coin of Ebusus (see <tei:ref target="http://zotero.org/groups/2552746/items/EFVDHXGP"><tei:bibl>De Benedittis 1988</tei:bibl></tei:ref>, 54-55 and 116-117.</tei:p>
+                    <tei:p>For a discussion on the interpretation of the building and its dating, see <tei:ref target="http://zotero.org/groups/2552746/items/IKUTPHDC"><tei:bibl>Crawford, ImIt 2011</tei:bibl></tei:ref>, 1108.</tei:p>
+                </tei:note>                
+            </tei:div>
+            <tei:div type="bibliography">
+                <tei:listBibl xmlns="http://www.tei-c.org/ns/1.0">                
+                    <tei:biblStruct type="book" xml:id="ImIt2011"  corresp="http://zotero.org/groups/2552746/items/IKUTPHDC">
+                        <tei:monogr>
+                            <tei:title level="m">Imagines Italicae: A Corpus of Italic Inscriptions</tei:title>
+                            <tei:editor>
+                                <tei:forename>Michael</tei:forename>
+                                <tei:surname>Crawford</tei:surname>
+                            </tei:editor>
+                            <tei:imprint>
+                                <tei:pubPlace>London</tei:pubPlace>
+                                <tei:publisher>Institute of Classical Studies, University of London</tei:publisher>
+                                <tei:date>2011</tei:date>
+                            </tei:imprint>
+                        </tei:monogr>
+                        <tei:citedRange unit="entry">Bouianum 106, 11</tei:citedRange>
+                    </tei:biblStruct>
+                    <tei:biblStruct type="book" xml:id="De_Benedittis1988" corresp="http://zotero.org/groups/2552746/items/EFVDHXGP">
+                        <tei:monogr>
+                            <tei:title level="m">Monte Vairano. La casa di "LN". Catalogo della mostra</tei:title>
+                            <tei:editor>
+                                <tei:forename>Gianfranco</tei:forename>
+                                <tei:surname>De Benedittis</tei:surname>
+                            </tei:editor>
+                            <tei:imprint>
+                                <tei:pubPlace>Campobasso</tei:pubPlace>
+                                <tei:date>1988</tei:date> 
+                            </tei:imprint>
+                        </tei:monogr>
+                        <tei:citedRange unit="page">67-68, no. 6 (with photograph, and drawing, pl. 1, 6)</tei:citedRange>
+                    </tei:biblStruct>
+                    <tei:biblStruct type="journalArticle" xml:id="De_Benedittis1985" corresp="http://zotero.org/groups/2552746/items/42NCDB24">
+                        <tei:analytic>
+                            <tei:title level="a">Monte Vairano (CB): i graffiti dell’ambiente C dello scavo relativo a Porta Meridionale</tei:title>
+                            <tei:author>
+                                <tei:forename>Gianfranco</tei:forename>
+                                <tei:surname>De Benedittis</tei:surname>
+                            </tei:author>
+                        </tei:analytic>
+                        <tei:monogr>
+                            <tei:title level="j">Studi Etruschi</tei:title>
+                            <tei:imprint>
+                                <tei:biblScope unit="volume">53</tei:biblScope>
+                                <tei:biblScope unit="page">241-245</tei:biblScope>
+                                <tei:date>1985 [1987]</tei:date>
+                            </tei:imprint>
+                        </tei:monogr>
+                        <tei:citedRange unit="page">244, no. 14 (with photograph, pl. XLVI, no. 14)</tei:citedRange>
+                    </tei:biblStruct>   
+                </tei:listBibl>    
+            </tei:div>   
+        </tei:body>
+    </tei:text>
+</tei:TEI>

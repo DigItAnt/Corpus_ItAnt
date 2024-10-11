@@ -1,0 +1,318 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/9.6/tei-epidoc.rng"
+schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/9.6/tei-epidoc.rng"
+schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<tei:TEI xmlns:dcr="http://www.isocat.org/ns/dcr" xml:id="ItAnt_Oscan_623"
+    xmlns:tei="http://www.tei-c.org/ns/1.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <tei:teiHeader>
+        <tei:fileDesc>
+            <tei:titleStmt>
+                <tei:title type="ItAnt_ID">Inscription ItAnt Oscan 623</tei:title>
+            </tei:titleStmt>
+            <tei:editionStmt>
+                <tei:edition>
+                    <tei:idno>ItAnt Oscan 623</tei:idno>
+                </tei:edition>
+                <tei:editor>
+                    <tei:persName>Francesca Murano</tei:persName>
+                </tei:editor>
+            </tei:editionStmt>         
+            <tei:publicationStmt>
+                <tei:authority>PRIN 2017 "Lingue e culture dell'Italia antica: linguistica storica e modelli digitali | Languages and Cultures of Ancient Italy. Historical Linguistics and Digital Models"</tei:authority>
+                <tei:date>2023</tei:date>
+                <tei:idno type="URI" subtype="handle"></tei:idno>
+                <tei:availability>
+                    <tei:licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">This file is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International license – (CC BY-NC-SA 4.0).  
+                    </tei:licence>
+                </tei:availability>
+            </tei:publicationStmt>   
+            <tei:sourceDesc>
+                <tei:msDesc>
+                    <tei:msIdentifier>                      
+                        <tei:settlement ref="https://sws.geonames.org/3181939">Boiano (CB)</tei:settlement>
+                        <tei:institution>Chiovitti Collection</tei:institution>
+                        <tei:idno type="museumID"/>
+                        <tei:msName></tei:msName>
+                        <tei:altIdentifier type="trismegistos">
+                            <tei:idno source="www.trismegistos.org/text/171417">TM 171417</tei:idno>
+                        </tei:altIdentifier>
+                        <tei:altIdentifier type="traditionalID">
+                            <tei:idno source="http://zotero.org/groups/2552746/items/IMWMSAVE">ST tSa 1</tei:idno>
+                        </tei:altIdentifier>
+                        <tei:altIdentifier type="traditionalID">
+                            <tei:idno source="http://zotero.org/groups/2552746/items/IKUTPHDC">ImIt Bouianum 3, 2</tei:idno>
+                        </tei:altIdentifier>                   
+                        <tei:altIdentifier type="traditionalID">
+                        <tei:idno source="http://zotero.org/groups/2552746/items/NJFZRK23">Ve 160 a</tei:idno>
+                        </tei:altIdentifier>
+                    </tei:msIdentifier>
+                    <tei:msContents>
+                        <tei:summary>Stamp on fragment of tile from Boiano. The inscription is known only from a sketch by <tei:ref target="https://en.wikipedia.org/wiki/Bonifacio_Chiovitti">Bonifacio Chiovitti</tei:ref>.</tei:summary>
+                    </tei:msContents>
+                    <tei:physDesc>
+                        <tei:objectDesc>     
+                            <tei:supportDesc>
+                                <tei:support>
+                                    <tei:objectType ana="http://vocab.getty.edu/page/aat/300010699">tegula</tei:objectType>
+                                    <tei:material ana="http://vocab.getty.edu/page/aat/300010669">terracotta</tei:material>
+                                    <tei:dimensions type="objectDimensions" unit="cm" precision="high"/>
+                                    <tei:rs type="reuse">no</tei:rs>
+                                </tei:support>
+                                <tei:condition>lost inscription</tei:condition>   
+                            </tei:supportDesc>
+                            <tei:layoutDesc>
+                                <tei:layout columns="1" writtenLines="1">
+                                    <tei:rs type="execution" ana="http://vocab.getty.edu/page/aat/300239001">stamp</tei:rs>
+                                    <tei:rs type="opistography">no</tei:rs>
+                                    <tei:note type="layoutNotes"/>
+                                    <tei:dimensions type="lineDimension" unit="cm" precision="high"/> 
+                                </tei:layout>
+                            </tei:layoutDesc>
+                        </tei:objectDesc>
+                        <tei:handDesc>                            
+                            <tei:handNote>
+                                <tei:note type="palaeographicNotes">Letters in ligature (<tei:rs type="c" xml:lang="osc-Ital-x-oscetr">PAAP</tei:rs> and <tei:rs type="c" xml:lang="osc-Ital-x-oscetr">AA</tei:rs> in <tei:rs type="name" xml:lang="osc-Ital-x-oscetr">STAA(TIEÍS)</tei:rs>)</tei:note>
+                                <tei:dimensions type="characterDimension" unit="cm" precision="high"/>
+                            </tei:handNote>
+                        </tei:handDesc>                                      
+                        <tei:scriptDesc>
+                            <tei:scriptNote>
+                                <tei:rs type="writingSystem" subtype="alphabet" ref="https://www.prin-italia-antica.unifi.it/p166.html#oscan-etruscan">Oscan National alphabet</tei:rs>
+                                <tei:rs type="wordDivision">punctuation</tei:rs>
+                            </tei:scriptNote>
+                        </tei:scriptDesc>
+                        <tei:decoDesc>
+                            <tei:decoNote></tei:decoNote>   
+                        </tei:decoDesc>
+                    </tei:physDesc>
+                    <tei:history>
+                        <tei:origin> 
+                            <tei:origPlace type="composed">
+                                <tei:placeName type="ancient" ref="https://pleiades.stoa.org/places/432725">Bovianum, Samnium</tei:placeName>
+                                <tei:placeName type="modern" ref="https://sws.geonames.org/3181939">Boiano (CB)</tei:placeName>
+                            </tei:origPlace>
+                            <tei:origDate notBefore-custom="-0200" notAfter-custom="-0199" cert="medium" resp="#ImIt2011">2nd century BC</tei:origDate>
+                        </tei:origin>
+                        <tei:provenance type="found" subtype="discovered" notAfter="1881">
+                            <tei:placeName type="ancient" ref="https://pleiades.stoa.org/places/432725">Bovianum, Samnium</tei:placeName>
+                            <tei:placeName type="modern" ref="https://sws.geonames.org/3181939">Boiano (CB)</tei:placeName>
+                            <tei:placeName type="detailed"/>
+                        </tei:provenance>
+                        <tei:provenance type="observed" subtype="autopsied"  notAfter="1881">
+                            <tei:persName>Bonifacio Chiovitti</tei:persName>
+                        </tei:provenance>
+                        <tei:provenance type="observed" subtype="autopsied"  notAfter="1913">
+                            <tei:persName>Amedeo Maiuri</tei:persName>
+                        </tei:provenance>
+                    </tei:history>                       
+                </tei:msDesc>   
+            </tei:sourceDesc> 
+        </tei:fileDesc>
+        <tei:encodingDesc>
+            <tei:p source="https://epidoc.stoa.org/gl/latest/">Marked-up according to the EpiDoc Guidelines</tei:p>
+        </tei:encodingDesc>
+        <tei:profileDesc>
+            <tei:langUsage>
+                <tei:language ident="osc" source="https://iso639-3.sil.org/code/osc">Oscan</tei:language>
+                <tei:language ident="osc-Ital-x-oscetr" source="https://www.prin-italia-antica.unifi.it/p166.html#oscan-etruscan" ana="https://unicode.org/iso15924/iso15924-codes.html">Oscan in National alphabet (Oscan-Etruscan alphabet)</tei:language>
+            </tei:langUsage>
+            <tei:textClass>
+                <tei:keywords scheme="https://www.eagle-network.eu/resources/vocabularies/typeins/">
+                    <tei:term ref="https://www.eagle-network.eu/voc/typeins/lod/118">tile stamp</tei:term>
+                </tei:keywords>
+            </tei:textClass>
+        </tei:profileDesc>
+    </tei:teiHeader>
+    <tei:facsimile>
+        <tei:graphic n="1" url="http://linsto.dipartimentidieccellenza-dilef.unifi.it/itant/img/ItAnt_Oscan_623.jpg">
+            <tei:desc>Inscription ItAnt Oscan 623 (drawing by <tei:persName>Bonifacio Chiovitti</tei:persName>)
+                <tei:ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">This file is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International license – (CC BY-NC-SA 4.0).</tei:ref>
+            </tei:desc>
+        </tei:graphic>
+    </tei:facsimile>
+    <tei:text>
+        <tei:body>             
+            <tei:div type="edition" subtype="interpretative" xml:space="preserve">
+                <tei:div type="textpart" n="face_a" style="text-direction:r-to-l" rend="ductus:sinistrorse">
+                    <tei:ab>   
+                        <tei:lb n="1" xml:id="Osc_623_l_1"/>
+                        <!-- Leida;Osc__623_l_1_w_1;[n]i(umsieís) -->
+                            <tei:name type="praenomen" xml:lang="osc-Ital-x-oscetr" xml:id="Osc_623_l_1_w_1" ref="#p1"><tei:expan><tei:abbr><tei:supplied reason="lost">n</tei:supplied>i</tei:abbr><tei:ex>umsieís</tei:ex></tei:expan></tei:name>
+                        <!-- Leida;Osc_623_l_1_w_2;staa(tieís) -->
+                            <tei:name type="gentilicium" xml:lang="osc-Ital-x-oscetr" xml:id="Osc_623_l_1_w_2" ref="#p1"><tei:expan><tei:abbr>st<tei:hi rend="ligature">aa</tei:hi></tei:abbr><tei:ex>tieís</tei:ex></tei:expan></tei:name>
+                       <!-- Leida;Osc_623_l_1_w_3;m(edikkiaí) -->
+                            <tei:w xml:lang="osc-Ital-x-oscetr" xml:id="Osc_623_l_1_w_3"><tei:expan><tei:abbr>m</tei:abbr><tei:ex>edikkiaí</tei:ex></tei:expan></tei:w>
+                       <!-- . -->
+                            <tei:pc unit="word">.</tei:pc>
+                       <!-- Leida;Osc_623_l_1_w_4;t(úvtíkaí) -->
+                            <tei:w xml:lang="osc-Ital-x-oscetr" xml:id="Osc_623_l_1_w_4"><tei:expan><tei:abbr>t</tei:abbr><tei:ex>úvtíkaí</tei:ex></tei:expan></tei:w>
+                       <!-- Leida;Osc_623_l_1_w_5;g(aavis) -->
+                            <tei:name type="praenomen" xml:lang="osc-Ital-x-oscetr" xml:id="Osc_623_l_1_w_5" ref="#p2"><tei:expan><tei:abbr>g</tei:abbr><tei:ex>aavis</tei:ex></tei:expan></tei:name>
+                        <!-- Leida;Osc_623_l_1_w_6;paa[p(iis)] -->
+                            <tei:name type="gentilicium" xml:lang="osc-Ital-x-oscetr" xml:id="Osc_623_l_1_w_6" ref="#p2"><tei:expan><tei:abbr><tei:hi rend="ligature">paa<tei:supplied reason="lost">p</tei:supplied></tei:hi></tei:abbr><tei:ex>iis</tei:ex></tei:expan></tei:name>
+                        <!-- Leida;Osc_623_l_1_w_6;[mit(eleís)] -->
+                            <tei:name type="gentilicium" xml:lang="osc-Ital-x-oscetr" xml:id="Osc_623_l_1_w_7" ref="#p2"><tei:expan><tei:abbr><tei:supplied reason="lost">mit</tei:supplied></tei:abbr><tei:ex>eleís</tei:ex></tei:expan></tei:name>
+                    </tei:ab>
+                </tei:div>           
+            </tei:div>
+            <tei:div type="translation" xml:lang="ita">
+                <tei:p>Durante la meddikia tutica di Numerius Statius, il meddix tuticus Gavius Papius figlio di Mitulus (eseguì (o sim.))</tei:p>
+                <tei:desc>
+                    <tei:persName>Francesca Murano</tei:persName>
+                    <tei:ref type="licence" target="https://creativecommons.org/licenses/by-nc-sa/4.0/">This file is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International license – (CC BY-NC-SA 4.0).</tei:ref>
+                </tei:desc> 
+            </tei:div>
+            <tei:div type="translation" xml:lang="eng">
+                <tei:p>During the meddikia tutica of Numerius Statius, the meddix tuticus Gavius Papius son of Mitulus (carried out (the work, or sim.))</tei:p>
+                <tei:desc>
+                    <tei:persName>Francesca Murano</tei:persName>
+                    <tei:ref type="licence" target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </tei:ref>
+                </tei:desc> 
+            </tei:div>            
+            <tei:div type="apparatus" xml:lang="eng"/>
+            <tei:div type="commentary" xml:lang="eng" resp="Francesca Murano">
+                <tei:note>
+                    <tei:p>The stamp is known only from a sketch by <tei:ref target="https://en.wikipedia.org/wiki/Bonifacio_Chiovitti">Bonifacio Chiovitti</tei:ref>. It belonged to his collection, which included around twenty other fragments recording the same text:
+                        <tei:ref target="ItAnt_Oscan_314.xml">ItAnt Oscan 314</tei:ref>, 
+                        <tei:ref target="ItAnt_Oscan_603.xml">603</tei:ref>,
+                        <tei:ref target="ItAnt_Oscan_604.xml">604</tei:ref>, 
+                        <tei:ref target="ItAnt_Oscan_605.xml">605</tei:ref>, 
+                        <tei:ref target="ItAnt_Oscan_606.xml">606</tei:ref>, 
+                        <tei:ref target="ItAnt_Oscan_607.xml">607</tei:ref>, 
+                        <tei:ref target="ItAnt_Oscan_608.xml">608</tei:ref>, 
+                        <tei:ref target="ItAnt_Oscan_609.xml">609</tei:ref>, 
+                        <tei:ref target="ItAnt_Oscan_610.xml">610</tei:ref>, 
+                        <tei:ref target="ItAnt_Oscan_611.xml">611</tei:ref>, 
+                        <tei:ref target="ItAnt_Oscan_612.xml">612</tei:ref>, 
+                        <tei:ref target="ItAnt_Oscan_613.xml">613</tei:ref>, 
+                        <tei:ref target="ItAnt_Oscan_614.xml">614</tei:ref>, 
+                        <tei:ref target="ItAnt_Oscan_615.xml">615</tei:ref>, 
+                        <tei:ref target="ItAnt_Oscan_616.xml">616</tei:ref>, 
+                        <tei:ref target="ItAnt_Oscan_617.xml">617</tei:ref>, 
+                        <tei:ref target="ItAnt_Oscan_618.xml">618</tei:ref>, 
+                        <tei:ref target="ItAnt_Oscan_619.xml">619</tei:ref>, 
+                        <tei:ref target="ItAnt_Oscan_620.xml">620</tei:ref>,  
+                        <tei:ref target="ItAnt_Oscan_621.xml">621</tei:ref>,  
+                        <tei:ref target="ItAnt_Oscan_622.xml">622</tei:ref>,  
+                        623,  
+                        <tei:ref target="ItAnt_Oscan_624.xml">624</tei:ref>. 
+                        The same text appears on a fragment from Campochiaro (<tei:ref target="ItAnt_Oscan_315.xml">ItAnt Oscan 315</tei:ref>) and another from Castello del Matese (<tei:ref target="ItAnt_Oscan_316.xml">ItAnt Oscan 316</tei:ref>).</tei:p>
+                </tei:note>
+                <tei:note>
+                    <tei:p>The stamp bears the mention of the office of meddix tuticus interposed between two personal designations, according to a textual typology that is also found in two other cases from Bojano and Campochiaro.</tei:p>
+                    <tei:p>Stamps from Bovianum present three possible syntactic configurations. The vast majority of stamps have the <tei:rs type="phr" xml:lang="osc-Ital-x-oscetr">m . t.</tei:rs> abbreviation before the onomastic formula, in rare cases the abbreviation follows. The third case is constituted by the few stamps that bear two names with <tei:rs type="phr" xml:lang="osc-Ital-x-oscetr">m . t.</tei:rs> interposed.</tei:p>
+                    <tei:p>For a discussion see <tei:ref target="http://zotero.org/groups/2552746/items/QKITXKNI"><tei:bibl>Murano 2024</tei:bibl></tei:ref>, proposing that the mention of the meddix tuticus appears as an indication of auctoritas but also of chronology (eponymy). In the stamps with <tei:rs type="phr" xml:lang="osc-Ital-x-oscetr">m . t.</tei:rs> followed by the name, the text indicates the name of the magistracy and the phrase is to be resolved in the nominative. In the stamps with <tei:rs type="phr" xml:lang="osc-Ital-x-oscetr">m . t.</tei:rs> following the name, the abbreviation indicates the name of the magistracy as an abstract noun (see also <tei:ref target="http://zotero.org/groups/2552746/items/7ELVH5HA"><tei:bibl>Capini - La Regina 2015</tei:bibl></tei:ref>) and the phrase should be resolved, with probability, in the ablative or in the locative (as in the iúvilas inscriptions), with the personal name of the magistrate in the genitive. We have chosen to resolve the abbreviation in the locative following the example of iúvilas inscriptions (from Capua) and Lu 5 (from Rossano di Vaglio).</tei:p>
+                    <tei:p>In the stamps with two names, as in this case, the magistrate (with the formula genitive + abstract noun) and the executor of the works (in the nominative) appear; the placement of the stamp on the tiles makes the use of the verb superfluous.</tei:p>                    
+                    <tei:p>Different solutions had been proposed. <tei:ref target="http://zotero.org/groups/2552746/items/ZKHTXB3K"><tei:bibl>Prosdocimi 1980</tei:bibl></tei:ref>: 196-232 assumes that in the formulas in which the name is followed by <tei:rs type="phr" xml:lang="osc-Ital-x-oscetr">m . t.</tei:rs> the eponymous function prevails, while in the formulas with <tei:rs type="phr" xml:lang="osc-Ital-x-oscetr">m . t.</tei:rs> followed by the name, the text emphasises that the magistrate was the executor of the work. In stamps with <tei:rs type="phr" xml:lang="osc-Ital-x-oscetr">m . t.</tei:rs> interposed, two different predications must be recognised: the first designation referring to the person who carried out the work, the second (<tei:rs type="phr" xml:lang="osc-Ital-x-oscetr">m . t.</tei:rs> + name) having an eponymous function. Both are to be resolved in the nominative.</tei:p>
+                    <tei:p>Contra <tei:ref target="http://zotero.org/groups/2552746/items/IKUTPHDC"><tei:bibl>Crawford, ImIt 2011</tei:bibl></tei:ref>: 43 translating name + <tei:rs type="phr" xml:lang="osc-Ital-x-oscetr">m . t.</tei:rs> as 'The meddix tuticus ...' and <tei:rs type="phr" xml:lang="osc-Ital-x-oscetr">m . t.</tei:rs> + name as '...  meddix tuticus, (was in office) (?)'. Stamps with name + <tei:rs type="phr" xml:lang="osc-Ital-x-oscetr">m . t.</tei:rs> + name are interpreted as composed of the name of the producer (to be resolved in the genitive) followed by the name of the magistrate in charge, mentioned with an eponymous or dedicatory function.</tei:p>
+                    <tei:p><tei:ref target="http://zotero.org/groups/2552746/items/M3DYL9LE"><tei:bibl>Soricelli 2013</tei:bibl></tei:ref>: 239-240 proposes that the meddix (the second name) would appear in the text as the individual responsible or executor of the construction project, whereas the first person mentioned is the one who had been contracted to produce a specific quantity of brick material.</tei:p>
+                    <tei:p>A completely different hypothesis is provided by <tei:ref target="http://zotero.org/groups/2552746/items/M825PZQH"><tei:bibl>La Regina 1989</tei:bibl></tei:ref>: 328, who suggests that both names are those of magistrates, with the second name being that of a suffect. Stamps with the name followed by <tei:rs type="phr" xml:lang="osc-Ital-x-oscetr">m . t.</tei:rs> are translated as 'The meddix tuticus ...' and stamps with <tei:rs type="phr" xml:lang="osc-Ital-x-oscetr">m . t.</tei:rs> followed by the name as '... in magistratu publico' (see <tei:ref target="http://zotero.org/groups/2552746/items/7ELVH5HA"><tei:bibl>Capini - La Regina 2015</tei:bibl></tei:ref>).</tei:p>
+                </tei:note>
+                <tei:listPerson type="Onomastics">
+                    <tei:person xml:id="p1" xml:lang="osc-Ital-x-oscetr">
+                        <tei:persName>
+                            <tei:name type="praenomen" ref="Osc_623_l_1_w_1">[n]i(umseís)</tei:name>
+                            <tei:name type="gentilicium" ref="Osc_623_l_1_w_2">staa(tieís)</tei:name>
+                        </tei:persName>
+                    </tei:person>
+                        <tei:person xml:id="p2" xml:lang="osc-Ital-x-oscetr">
+                            <tei:persName>
+                                <tei:name type="praenomen" ref="Osc_623_l_1_w_5">g(aavis)</tei:name>
+                                <tei:name type="gentilicium" ref="Osc_623_l_1_w_6">paa[p(iis)]</tei:name>
+                                <tei:name type="patronymic" ref="Osc_623_l_1_w_7">[mit(eleís)]</tei:name>
+                            </tei:persName>
+                        </tei:person>
+                </tei:listPerson>
+            </tei:div>
+            <tei:div type="bibliography">
+                <tei:listBibl xmlns="http://www.tei-c.org/ns/1.0">
+                    <tei:biblStruct type="journalArticle" xml:id="Murano2024" corresp="http://zotero.org/groups/2552746/items/QKITXKNI">
+                        <tei:analytic>
+                            <tei:title level="a">Ancora sui bolli sanniti con sigla m.t.</tei:title>
+                            <tei:author>
+                                <tei:forename>Francesca</tei:forename>
+                                <tei:surname>Murano</tei:surname>
+                            </tei:author>
+                        </tei:analytic>
+                        <tei:monogr>
+                            <tei:title level="j">Studi Etruschi</tei:title>
+                            <tei:imprint>
+                                <tei:biblScope unit="volume">84</tei:biblScope>
+                                <tei:biblScope unit="page"/>
+                                <tei:date>2024</tei:date>
+                            </tei:imprint>
+                        </tei:monogr>
+                    </tei:biblStruct>
+                        
+                    <tei:biblStruct type="book" xml:id="ImIt2011" corresp="http://zotero.org/groups/2552746/items/IKUTPHDC">
+                        <tei:monogr>
+                            <tei:title level="m">Imagines Italicae: A Corpus of Italic Inscriptions</tei:title>
+                            <tei:editor>
+                                <tei:forename>Michael</tei:forename>
+                                <tei:surname>Crawford</tei:surname>
+                            </tei:editor>
+                            <tei:imprint>
+                                <tei:pubPlace>London</tei:pubPlace>
+                                <tei:publisher>Institute of Classical Studies, University of London</tei:publisher>
+                                <tei:date>2011</tei:date>
+                            </tei:imprint>
+                        </tei:monogr>
+                        <tei:citedRange unit="page">991, s. no. 2, and with Chiovitti's drawing</tei:citedRange>
+                    </tei:biblStruct>
+                    <tei:biblStruct type="book" xml:id="Rix2002" corresp="http://zotero.org/groups/2552746/items/IMWMSAVE">
+                        <tei:monogr>
+                            <tei:title level="m">Sabellische Texte. Die Texte des Oskischen, Umbrischen und Südpikenischen</tei:title>
+                            <tei:author>
+                                <tei:forename>Helmut</tei:forename>
+                                <tei:surname>Rix</tei:surname>
+                            </tei:author>
+                            <tei:imprint>
+                                <tei:pubPlace>Heidelberg</tei:pubPlace>
+                                <tei:publisher>C. Winter</tei:publisher>
+                                <tei:date>2002</tei:date>
+                            </tei:imprint>
+                        </tei:monogr>
+                        <tei:citedRange unit="entry">tSa 1</tei:citedRange>
+                    </tei:biblStruct>
+                    <tei:biblStruct type="book" xml:id="Vetter1953" corresp="http://zotero.org/groups/2552746/items/NJFZRK23">
+                        <tei:monogr>
+                            <tei:title level="m">Handbuch der italischen Dialekte</tei:title>
+                            <tei:author>
+                                <tei:forename>Emil</tei:forename>
+                                <tei:surname>Vetter</tei:surname>
+                            </tei:author>
+                            <tei:imprint>
+                                <tei:pubPlace>Heidelberg</tei:pubPlace>
+                                <tei:publisher>C. Winter</tei:publisher>
+                                <tei:date>1953</tei:date>
+                            </tei:imprint>
+                        </tei:monogr>
+                        <tei:citedRange unit="entry">160 a</tei:citedRange>
+                    </tei:biblStruct>
+                    <tei:biblStruct type="journalArticle" xml:id="Maiuri1913"
+                        corresp="http://zotero.org/groups/2552746/items/2M47XXTK">
+                        <tei:analytic>
+                            <tei:title level="a">Boiano. Tegoloni con bolli oschi</tei:title>
+                            <tei:author>
+                                <tei:forename>Amedeo</tei:forename>
+                                <tei:surname>Maiuri</tei:surname>
+                            </tei:author>
+                        </tei:analytic>
+                        <tei:monogr>
+                            <tei:title level="j">Notizie degli Scavi di Antichità</tei:title>
+                            <tei:imprint>
+                                <tei:biblScope unit="volume">X</tei:biblScope>
+                                <tei:biblScope unit="page">480-484</tei:biblScope>
+                                <tei:date>1913</tei:date>
+                            </tei:imprint>
+                        </tei:monogr>
+                        <tei:citedRange unit="page">483-484 (with drawing)</tei:citedRange>
+                    </tei:biblStruct>
+                </tei:listBibl>    
+            </tei:div>   
+        </tei:body>
+    </tei:text>
+</tei:TEI>

@@ -1,0 +1,339 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/9.6/tei-epidoc.rng"
+schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/9.6/tei-epidoc.rng"
+schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<tei:TEI xmlns:dcr="http://www.isocat.org/ns/dcr" xml:id="ItAnt_Oscan_382"
+    xmlns:tei="http://www.tei-c.org/ns/1.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <tei:teiHeader>
+        <tei:fileDesc>
+            <tei:titleStmt>
+                <tei:title type="ItAnt_ID">Inscription ItAnt Oscan 382</tei:title>
+            </tei:titleStmt>
+            <tei:editionStmt>
+                <tei:edition>
+                    <tei:idno>ItAnt Oscan 382</tei:idno>
+                </tei:edition>
+                <tei:editor>
+                    <tei:persName>Alessia De Maria</tei:persName>
+                </tei:editor>
+            </tei:editionStmt>         
+            <tei:publicationStmt>
+                <tei:authority>PRIN 2017 "Lingue e culture dell'Italia antica: linguistica storica e modelli digitali | Languages and Cultures of Ancient Italy. Historical Linguistics and Digital Models"</tei:authority>
+                <tei:date>2023</tei:date>
+                <tei:idno type="URI" subtype="handle"></tei:idno>
+                <tei:availability>
+                    <tei:licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">This file is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International license – (CC BY-NC-SA 4.0).  
+                    </tei:licence>
+                </tei:availability>
+            </tei:publicationStmt>   
+            <tei:sourceDesc>
+                <tei:msDesc>
+                    <tei:msIdentifier>
+                        <tei:settlement ref="https://sws.geonames.org/3180991">Campobasso</tei:settlement>
+                        <tei:institution ana="https://sabapmolise.beniculturali.it">Soprintendenza Archeologia, Belle arti e Paesaggio del Molise</tei:institution>
+                        <tei:idno type="museumID"></tei:idno>
+                        <tei:msName></tei:msName>
+                        <tei:altIdentifier type="trismegistos">
+                            <tei:idno source="www.trismegistos.org/text/170693">TM 170693</tei:idno>
+                        </tei:altIdentifier> 
+                        <tei:altIdentifier type="traditionalID">
+                            <tei:idno source="http://zotero.org/groups/2552746/items/IMWMSAVE">ST tSa 17</tei:idno>
+                        </tei:altIdentifier> 
+                        <tei:altIdentifier type="traditionalID">
+                            <tei:idno source="http://zotero.org/groups/2552746/items/IKUTPHDC">ImIt Bouianum 17, 1</tei:idno>
+                        </tei:altIdentifier>
+                    </tei:msIdentifier> 
+                    <tei:msContents>
+                        <tei:summary>Fragmentary stamp on a roof tile (imbrex) from <tei:ref target="https://sabapmolise.cultura.gov.it/?page_id=139">Campochiaro, Sanctuary of Civitella</tei:ref>.
+                        </tei:summary>
+                    </tei:msContents>
+                    <tei:physDesc>
+                        <tei:objectDesc>     
+                            <tei:supportDesc>
+                                <tei:support>
+                                    <tei:objectType ana="http://vocab.getty.edu/page/aat/300010699">tegula</tei:objectType>
+                                    <tei:material ana="http://vocab.getty.edu/page/aat/300010669">terracotta</tei:material>
+                                    <tei:dimensions type="objectDimensions" unit="cm" precision="high">
+                                        <tei:height quantity="7.1">7,1</tei:height>
+                                        <tei:width quantity="5.1">5,1</tei:width>
+                                        <tei:depth quantity="1.7">1,7</tei:depth>
+                                    </tei:dimensions>
+                                    <tei:rs type="reuse">no</tei:rs>
+                                </tei:support>
+                                <tei:condition>very fragmentary</tei:condition>   
+                            </tei:supportDesc>
+                            <tei:layoutDesc>
+                                <tei:layout columns="1" writtenLines="1">
+                                    <tei:rs type="execution" ana="http://vocab.getty.edu/page/aat/300239001">stamp</tei:rs>
+                                    <tei:rs type="opistography">no</tei:rs>
+                                    <tei:note type="layoutNotes">in (very faint) sunken rectangular frame</tei:note>
+                                    <tei:dimensions type="lineDimension" unit="cm" precision="high">
+                                        <tei:height quantity="1.5">1,5</tei:height>                                      
+                                    </tei:dimensions> 
+                                </tei:layout>
+                            </tei:layoutDesc>
+                        </tei:objectDesc>
+                        <tei:handDesc>                            
+                            <tei:handNote>
+                                <tei:note type="palaeographicNotes">Use of lunate <tei:rs type="c" xml:lang="osc-Ital-x-oscetr">G</tei:rs>.</tei:note>
+                                <tei:dimensions type="characterDimension" unit="cm" precision="high"> 
+                                    <tei:height quantity="1.5">1,5</tei:height>
+                                </tei:dimensions>
+                            </tei:handNote>
+                        </tei:handDesc>                                      
+                        <tei:scriptDesc>
+                            <tei:scriptNote>
+                                <tei:rs type="writingSystem" subtype="alphabet" ref="https://www.prin-italia-antica.unifi.it/p166.html#oscan-etruscan">Oscan National alphabet</tei:rs>
+                                <tei:rs type="wordDivision">punctuation</tei:rs>
+                            </tei:scriptNote>
+                        </tei:scriptDesc>
+                        <tei:decoDesc>
+                            <tei:decoNote></tei:decoNote>   
+                        </tei:decoDesc>
+                    </tei:physDesc>
+                    <tei:history>
+                        <tei:origin> 
+                            <tei:origPlace type="composed">
+                                <tei:placeName type="ancient" ref="https://pleiades.stoa.org/places/432746">Campochiaro</tei:placeName>
+                                <tei:placeName type="modern" ref="https://sws.geonames.org/3180985">Campochiaro (CB)</tei:placeName>
+                            </tei:origPlace>
+                            <tei:origDate notBefore-custom="-0125" notAfter-custom="-0101" cert="medium" evidence="lettering" resp="#ImIt2011">end of the 2nd century BC</tei:origDate>
+                        </tei:origin>
+                        <tei:provenance type="found" subtype="discovered" when="1973">
+                            <tei:placeName type="ancient" ref="https://pleiades.stoa.org/places/432746">Campochiaro</tei:placeName>
+                            <tei:placeName type="modern" ref="https://sws.geonames.org/3180985">Campochiaro (CB)</tei:placeName>
+                            <tei:placeName type="detailed">Loc. Civitella, on the surface</tei:placeName>
+                        </tei:provenance>
+                        <tei:provenance type="observed" subtype="autopsied" when="1973">
+                            <tei:persName>S. Capini</tei:persName>
+                        </tei:provenance>
+                        <tei:provenance type="observed" subtype="seen" when="2023">
+                            <tei:persName>Francesca Murano</tei:persName>
+                        </tei:provenance>
+                    </tei:history>                       
+                </tei:msDesc>   
+            </tei:sourceDesc> 
+        </tei:fileDesc>
+        <tei:encodingDesc>
+            <tei:p source="https://epidoc.stoa.org/gl/latest/">Marked-up according to the EpiDoc Guidelines</tei:p>
+        </tei:encodingDesc>
+        <tei:profileDesc>
+            <tei:langUsage>
+                <tei:language ident="osc" source="https://iso639-3.sil.org/code/osc">Oscan</tei:language>
+                <tei:language ident="osc-Ital-x-oscetr" source="https://www.prin-italia-antica.unifi.it/p166.html#oscan-etruscan" ana="https://unicode.org/iso15924/iso15924-codes.html">Oscan in National alphabet (Oscan-Etruscan alphabet)</tei:language>
+            </tei:langUsage>
+            <tei:textClass>
+                <tei:keywords scheme="https://www.eagle-network.eu/resources/vocabularies/typeins/">
+                    <tei:term ref="https://www.eagle-network.eu/voc/typeins/lod/118">tile stamp</tei:term>
+                </tei:keywords>
+            </tei:textClass>
+        </tei:profileDesc>
+    </tei:teiHeader>
+    <tei:facsimile>
+        <tei:graphic n="1" url="http://linsto.dipartimentidieccellenza-dilef.unifi.it/itant/img/ItAnt_Oscan_382.jpg">
+            <tei:desc>Inscription ItAnt Oscan 382 (drawing by Francesca Murano)
+                <tei:ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">This file is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International license – (CC BY-NC-SA 4.0).</tei:ref>
+            </tei:desc>
+        </tei:graphic>
+        <tei:graphic n="2" url="https://www.studietruschi.org/wp-content/uploads/2021/07/SE46_22.pdf#page=89">
+            <tei:desc>Photograph of the inscription ItAnt Oscan 382 (from <tei:ref target="http://zotero.org/groups/2552746/items/4NH3LHWF"><tei:bibl>Capini 1978 [1979]</tei:bibl></tei:ref>, pl. LXXIX, G 12 a).
+                <tei:ref ana="https://www.studietruschi.org">This file is provided by the Istituto Nazionale di Studi Etruschi ed Italici</tei:ref>
+            </tei:desc>
+        </tei:graphic>
+        <tei:graphic n="3" url="https://www.studietruschi.org/wp-content/uploads/2021/07/SE46_22.pdf#page=38">
+            <tei:desc>Inscription ItAnt Oscan 377, drawing from <tei:ref target="http://zotero.org/groups/2552746/items/4NH3LHWF"><tei:bibl>Capini 1978 [1979]</tei:bibl></tei:ref>, p. 430, G 12 a.
+                <tei:ref ana="https://www.studietruschi.org">This file is provided by the Istituto Nazionale di Studi Etruschi ed Italici</tei:ref>
+            </tei:desc>
+        </tei:graphic>
+    </tei:facsimile>
+    <tei:text>
+        <tei:body>             
+            <tei:div type="edition" subtype="interpretative" xml:space="preserve">
+                <tei:div type="textpart" n="face_a" style="text-direction:r-to-l" rend="ductus:sinistrorse">
+                    <tei:ab>   
+                        <tei:lb n="1" xml:id="Osc_382_l_1"/>
+                            <!-- Leida;Osc_382_l_1_w_1;m(eddíss) -->
+                            <tei:w xml:lang="osc-Ital-x-oscetr" xml:id="Osc_382_l_1_w_1"><tei:expan><tei:abbr>m</tei:abbr><tei:ex>eddíss</tei:ex></tei:expan></tei:w>
+                            <tei:pc unit="word">.</tei:pc>
+                            <!-- Leida;Osc_382_l_1_w_2;t(úvtíks) -->
+                            <tei:w xml:lang="osc-Ital-x-oscetr" xml:id="Osc_382_l_1_w_2"><tei:expan><tei:abbr>t</tei:abbr><tei:ex>úvtíks</tei:ex></tei:expan></tei:w>
+                            <tei:pc unit="word">.</tei:pc>
+                            <!-- Leida;Osc_382_l_1_w_3;g(avis) -->
+                            <tei:name type="praenomen" xml:lang="osc-Ital-x-oscetr" xml:id="Osc_382_l_1_w_3" ref="#p1"><tei:expan><tei:abbr>g</tei:abbr><tei:ex>avis</tei:ex></tei:expan></tei:name>
+                            <tei:pc unit="word">.</tei:pc>
+                            <!-- Leida;Osc_382_l_1_w_4;stạ(íis) -->
+                            <tei:name type="gentilicium" xml:lang="osc-Ital-x-oscetr" xml:id="Osc_382_l_1_w_4" ref="#p1"><tei:expan><tei:abbr>st<tei:unclear>a</tei:unclear></tei:abbr><tei:ex>íis</tei:ex></tei:expan></tei:name>
+                            <tei:supplied reason="lost">.</tei:supplied>
+                        <!-- patronymic -->
+                            <tei:name type="gentilicium" xml:lang="osc-Ital-x-oscetr" ref="#p1"><tei:gap reason="lost" unit="character" extent="unknown" evidence="internal"></tei:gap></tei:name>
+                    </tei:ab>
+                </tei:div>
+            </tei:div>
+            <tei:div type="translation" xml:lang="ita">
+                <tei:p>Il meddix tuticus Gavius Staius [ ]</tei:p>
+                <tei:desc>
+                    <tei:persName>Alessia De Maria</tei:persName>
+                    <tei:ref type="licence" target="https://creativecommons.org/licenses/by-nc-sa/4.0/">This file is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International license – (CC BY-NC-SA 4.0).</tei:ref>
+                </tei:desc> 
+            </tei:div>
+            <tei:div type="translation" xml:lang="eng">
+                <tei:p>The meddix tuticus Gavius Staius [ ]</tei:p>
+                <tei:desc>
+                    <tei:persName>Alessia De Maria</tei:persName>
+                    <tei:ref type="licence" target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </tei:ref>
+                </tei:desc> 
+            </tei:div>            
+            <tei:div type="apparatus" xml:lang="eng"/>
+            <tei:div type="commentary" xml:lang="eng" resp="Francesca Murano">
+                <tei:note>
+                    <tei:p>The text was marked using the same stamp-tool used for <tei:ref target="ItAnt_Oscan_383.xml">ItAnt Oscan 383</tei:ref> and <tei:ref target="ItAnt_Oscan_384.xml">384</tei:ref>. <tei:ref target="http://zotero.org/groups/2552746/items/7ELVH5HA"><tei:bibl>Capini - La Regina 2015</tei:bibl></tei:ref>: no. 19b identified the same text also in the stamps <tei:ref target="ItAnt_Oscan_410.xml">ItAnt Oscan 410</tei:ref> and <tei:ref target="ItAnt_Oscan_411.xml">ItAnt Oscan 411</tei:ref> (differently <tei:ref target="http://zotero.org/groups/2552746/items/4NH3LHWF"><tei:bibl>Capini 1978</tei:bibl></tei:ref>).</tei:p>
+                    <tei:p><tei:ref target="http://zotero.org/groups/2552746/items/LRFXVEPR"><tei:bibl>Antonini 1981</tei:bibl></tei:ref> had erroneously proposed that the stamp belonged to the same type of <tei:ref target="ItAnt_Oscan_377.xml">ItAnt Oscan 377</tei:ref> and <tei:ref target="ItAnt_Oscan_378.xml">378</tei:ref>. As <tei:ref target="http://zotero.org/groups/2552746/items/5SC4ZP35"><tei:bibl>De Benedittis 1983</tei:bibl></tei:ref>:313 pointed out, these stamps show the letter <tei:rs type="c" xml:lang="osc-Ital-x-oscetr">G</tei:rs> with a different shape (see also <tei:ref target="http://zotero.org/groups/2552746/items/4NH3LHWF"><tei:bibl>Capini 1978</tei:bibl></tei:ref>: 427).</tei:p>
+                </tei:note>
+                <tei:note>
+                    <tei:p>According to <tei:ref target="http://zotero.org/groups/2552746/items/IKUTPHDC"><tei:bibl>ImIt 2011</tei:bibl></tei:ref>: 1009, «It is conceivable that this stamp is the same as ST tSa 31 = Bouianum 18 [scil. <tei:ref target="ItAnt_Oscan_485.xml">ItAnt Oscan 485</tei:ref>].
+                    </tei:p>
+                </tei:note>
+                <tei:note>
+                    <tei:p>Based on material evidence (the use of the same type of a rare gray clay), <tei:ref target="http://zotero.org/groups/2552746/items/7ELVH5HA"><tei:bibl>Capini - La Regina 2015</tei:bibl></tei:ref>: nos. 17-18 proposes that this series of stamps could be completed with that of nos. <tei:ref target="ItAnt_Oscan_486.xml">ItAnt Oscan 486</tei:ref> and <tei:ref target="ItAnt_Oscan_487.xml">487</tei:ref>, deriving from a different stamp-tool.</tei:p>
+                </tei:note>
+                <tei:note>
+                    <tei:p>For a discussion about the stamps from Bovianum, see <tei:ref target="http://zotero.org/groups/2552746/items/QKITXKNI"><tei:bibl>Murano 2024</tei:bibl></tei:ref>.</tei:p>
+                </tei:note>
+                <tei:listPerson type="Onomastics">
+                    <tei:person xml:id="p1" xml:lang="osc-Ital-x-oscetr">
+                        <tei:persName>
+                            <tei:name type="praenomen">g(avis)</tei:name>
+                            <tei:name type="gentilicium">sta(íis)</tei:name>
+                            <tei:name type="patronymic">[ ]</tei:name>
+                        </tei:persName>
+                    </tei:person>
+                </tei:listPerson>
+            </tei:div>
+            <tei:div type="bibliography">
+                <tei:listBibl xmlns="http://www.tei-c.org/ns/1.0">
+                    <tei:biblStruct type="bookSection" xml:id="Capini2015" corresp="http://zotero.org/groups/2552746/items/7ELVH5HA">
+                        <tei:analytic>
+                            <tei:title level="a">Campochiaro, Civitella, loc., herekleis (gen.)/ Hercules</tei:title>
+                            <tei:author>
+                                <tei:forename>Stefania</tei:forename>
+                                <tei:surname>Capini</tei:surname>
+                            </tei:author>
+                            <tei:author>
+                                <tei:forename>Adriano</tei:forename>
+                                <tei:surname>La Regina</tei:surname>
+                            </tei:author>
+                        </tei:analytic>
+                        <tei:monogr>
+                            <tei:title level="m">Fana, templa, delubra. Corpus dei luoghi di culto dell'Italia antica (FTD) - 3 : Regio IV: Alife, Bojano, Sepino</tei:title>
+                            <tei:editor>
+                                <tei:forename>Stefania</tei:forename>
+                                <tei:surname>Capini</tei:surname>
+                            </tei:editor>
+                            <tei:editor>
+                                <tei:forename>Patrizia</tei:forename>
+                                <tei:surname>Curci</tei:surname>
+                            </tei:editor>
+                            <tei:editor>
+                                <tei:forename>Maria Romana</tei:forename>
+                                <tei:surname>Picuti</tei:surname>
+                            </tei:editor>
+                            <tei:imprint>
+                                <tei:pubPlace>Paris</tei:pubPlace>
+                                <tei:biblScope unit="page">43-56</tei:biblScope>
+                                <tei:publisher>Collège de France</tei:publisher>
+                                <tei:date>2015</tei:date>                             
+                            </tei:imprint>
+                        </tei:monogr>
+                        <tei:citedRange unit="entry">17</tei:citedRange>
+                    </tei:biblStruct>
+                    <tei:biblStruct type="book" xml:id="ImIt2011" corresp="http://zotero.org/groups/2552746/items/IKUTPHDC">
+                        <tei:monogr>
+                            <tei:title level="m">Imagines Italicae: A Corpus of Italic Inscriptions</tei:title>
+                            <tei:editor>
+                                <tei:forename>Michael</tei:forename>
+                                <tei:surname>Crawford</tei:surname>
+                            </tei:editor>
+                            <tei:imprint>
+                                <tei:pubPlace>London</tei:pubPlace>
+                                <tei:publisher>Institute of Classical Studies, University of London</tei:publisher>
+                                <tei:date>2011</tei:date>
+                            </tei:imprint>
+                        </tei:monogr>
+                        <tei:citedRange unit="entry">Bouianum 17, 1 (with photograph)</tei:citedRange>
+                    </tei:biblStruct>
+                    <tei:biblStruct type="book" xml:id="Rix2002" corresp="http://zotero.org/groups/2552746/items/IMWMSAVE">
+                        <tei:monogr>
+                            <tei:title level="m">Sabellische Texte. Die Texte des Oskischen, Umbrischen und Südpikenischen</tei:title>
+                            <tei:author>
+                                <tei:forename>Helmut</tei:forename>
+                                <tei:surname>Rix</tei:surname>
+                            </tei:author>
+                            <tei:imprint>
+                                <tei:pubPlace>Heidelberg</tei:pubPlace>
+                                <tei:publisher>C. Winter</tei:publisher>
+                                <tei:date>2002</tei:date>
+                            </tei:imprint>
+                        </tei:monogr>
+                        <tei:citedRange unit="entry">tSa 17</tei:citedRange>
+                    </tei:biblStruct>
+                    <tei:biblStruct type="journalArticle" xml:id="De_Benedittis1983" corresp="http://zotero.org/groups/2552746/items/5SC4ZP35">
+                        <tei:analytic>
+                            <tei:title level="a">Osco. Appunti sulla sezione BA dell’articolo di R. Antonini (REI IX,  pp. 316-322)</tei:title>
+                            <tei:author>
+                                <tei:name>Gianfranco De Benedittis</tei:name>
+                            </tei:author>
+                        </tei:analytic>
+                        <tei:monogr>
+                            <tei:title level="j">Studi Etruschi</tei:title>
+                            <tei:imprint>
+                                <tei:biblScope unit="volume">51</tei:biblScope>
+                                <tei:biblScope unit="page">310-314</tei:biblScope>
+                                <tei:date>1983 [1985]</tei:date>
+                            </tei:imprint>
+                        </tei:monogr>
+                        <tei:citedRange unit="page">313, no. 10a</tei:citedRange>
+                    </tei:biblStruct>
+                    <tei:biblStruct type="journalArticle" xml:id="Antonini1981" corresp="http://zotero.org/groups/2552746/items/LRFXVEPR">
+                        <tei:analytic>
+                            <tei:title level="a">Italico</tei:title>
+                            <tei:author>
+                                <tei:forename>Rosalba</tei:forename>
+                                <tei:surname>Antonini</tei:surname>
+                            </tei:author>
+                        </tei:analytic>
+                        <tei:monogr>
+                            <tei:title level="j">Studi Etruschi</tei:title>
+                            <tei:imprint>
+                                <tei:biblScope unit="volume">49</tei:biblScope>
+                                <tei:biblScope unit="page">299-351</tei:biblScope>
+                                <tei:date>1981</tei:date>
+                            </tei:imprint>
+                        </tei:monogr>
+                        <tei:citedRange unit="page">321, no. 17a</tei:citedRange>
+                    </tei:biblStruct>
+                    <tei:biblStruct type="journalArticle" xml:id="Capini1978" corresp="http://zotero.org/groups/2552746/items/4NH3LHWF">
+                        <tei:analytic>
+                            <tei:title level="a">Campochiaro</tei:title>
+                            <tei:author>
+                                <tei:forename>Stefania</tei:forename>
+                                <tei:surname>Capini</tei:surname>
+                            </tei:author>
+                        </tei:analytic>
+                        <tei:monogr>
+                            <tei:title level="j">Studi Etruschi</tei:title>
+                            <tei:imprint>
+                                <tei:biblScope unit="volume">46</tei:biblScope>
+                                <tei:biblScope unit="page">420-444</tei:biblScope>
+                                <tei:date>1978</tei:date>
+                            </tei:imprint>
+                        </tei:monogr>
+                        <tei:citedRange unit="page">426-427, no. 40 - G 12 a (with pl. LXXIX and drawing, p. 430 - G 12 a)</tei:citedRange>
+                    </tei:biblStruct>                
+                </tei:listBibl>    
+            </tei:div>   
+        </tei:body>
+    </tei:text>
+</tei:TEI>

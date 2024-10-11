@@ -1,0 +1,321 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/9.4/tei-epidoc.rng"
+schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/9.4/tei-epidoc.rng"
+schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<tei:TEI xmlns:dcr="http://www.isocat.org/ns/dcr" xml:id="ItAnt_Oscan_297"
+    xmlns:tei="http://www.tei-c.org/ns/1.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <tei:teiHeader>
+        <tei:fileDesc>
+            <tei:titleStmt>
+                <tei:title type="ItAnt_ID">Inscription ItAnt Oscan 297</tei:title>
+            </tei:titleStmt>
+            <tei:editionStmt>
+                <tei:edition>
+                    <tei:idno>ItAnt Oscan 297</tei:idno>
+                </tei:edition>
+                <tei:editor>
+                    <tei:persName>Francesca Murano</tei:persName>
+                </tei:editor>
+            </tei:editionStmt>         
+            <tei:publicationStmt>
+                <tei:authority>PRIN 2017 "Lingue e culture dell'Italia antica: linguistica storica e modelli digitali | Languages and Cultures of Ancient Italy. Historical Linguistics and Digital Models"</tei:authority>
+                <tei:date>2023</tei:date>
+                <tei:idno type="URI" subtype="handle"></tei:idno>
+                <tei:availability>
+                    <tei:licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">This file is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International license – (CC BY-NC-SA 4.0).  
+                    </tei:licence>
+                </tei:availability>
+            </tei:publicationStmt>   
+            <tei:sourceDesc>
+                <tei:msDesc>
+                    <tei:msIdentifier>
+                        <tei:settlement>lost inscription</tei:settlement>
+                        <tei:institution/>
+                        <tei:idno type="museumID"/>
+                        <tei:altIdentifier type="trismegistos">
+                            <tei:idno source="www.trismegistos.org/text/170894">TM 170894</tei:idno>
+                        </tei:altIdentifier>
+                        <tei:altIdentifier type="traditionalID">
+                            <tei:idno source="http://zotero.org/groups/2552746/items/IMWMSAVE">ST Fr 15</tei:idno>
+                        </tei:altIdentifier>                         
+                        <tei:altIdentifier type="traditionalID">
+                            <tei:idno source="http://zotero.org/groups/2552746/items/IKUTPHDC">ImIt Histonium 11</tei:idno>
+                        </tei:altIdentifier>                        
+                    </tei:msIdentifier> 
+                    <tei:msContents>
+                        <tei:summary>Lost inscription on a fragment of a tegula from Montenero di Bisaccia (Campobasso)</tei:summary>
+                    </tei:msContents>
+                    <tei:physDesc>
+                        <tei:objectDesc>     
+                            <tei:supportDesc>
+                                <tei:support>
+                                    <tei:objectType ana="http://vocab.getty.edu/page/aat/300010699">tegula</tei:objectType>                                   
+                                    <tei:material ana="http://vocab.getty.edu/aat/300010669">terracotta</tei:material>                                  
+                                    <tei:dimensions type="objectDimensions" unit="cm" precision="high">
+                                        <tei:height quantity="27">27</tei:height>
+                                        <tei:width quantity="26">26</tei:width>                                       
+                                    </tei:dimensions>                               
+                                    <tei:rs type="reuse">no</tei:rs>
+                                </tei:support>
+                                <tei:condition>lost inscription</tei:condition>   
+                            </tei:supportDesc>
+                            <tei:layoutDesc>
+                                <tei:layout columns="1" writtenLines="3">
+                                    <tei:rs type="execution" ana="http://vocab.getty.edu/page/aat/300379457">scratched before firing</tei:rs>
+                                    <tei:rs type="opistography">no</tei:rs>                                  
+                                    <tei:dimensions type="lineDimension"/>
+                                </tei:layout>
+                            </tei:layoutDesc>
+                        </tei:objectDesc>
+                        <tei:handDesc>                            
+                            <tei:handNote>
+                                <tei:note type="palaeographicNotes"><tei:ref type="c" xml:lang="osc-Ital-x-oscetr">a</tei:ref> diplays a variety of forms. (Perhaps) use of : as punctuation mark</tei:note>
+                                <tei:dimensions type="characterDimension" unit="cm" precision="high">
+                                    <tei:height quantity="4">4</tei:height>
+                                </tei:dimensions>
+                            </tei:handNote>
+                        </tei:handDesc>                                      
+                        <tei:scriptDesc>
+                            <tei:scriptNote>
+                                <tei:rs type="writingSystem" subtype="alphabet" ref="https://www.prin-italia-antica.unifi.it/p166.html#oscan-etruscan">Oscan National alphabet</tei:rs>
+                                <tei:rs type="wordDivision">punctuation</tei:rs>
+                            </tei:scriptNote>
+                        </tei:scriptDesc>                       
+                    </tei:physDesc>
+                    <tei:history>
+                        <tei:origin> 
+                            <tei:origPlace type="composed">
+                                <tei:placeName type="ancient" ref="https://pleiades.stoa.org/places/413171">Histonium</tei:placeName>
+                                <tei:placeName type="modern" ref="https://sws.geonames.org/6541850">Montenero di Bisaccia (Campobasso)</tei:placeName>
+                            </tei:origPlace>
+                            <tei:origDate notBefore-custom="-0399" notAfter-custom="-0300" cert="medium" evidence="spelling">before 300 BC</tei:origDate>
+                        </tei:origin>
+                        <tei:provenance type="found" subtype="discovered" notAfter="1923">
+                            <tei:placeName type="ancient" ref="https://pleiades.stoa.org/places/413171">Histonium</tei:placeName>
+                            <tei:placeName type="modern" ref="https://sws.geonames.org/6541850">Montenero di Bisaccia (Campobasso)</tei:placeName>
+                            <tei:placeName type="detailed"></tei:placeName>
+                        </tei:provenance>
+                        <tei:provenance type="observed" subtype="autopsied" notAfter="1923">
+                            <tei:persName>A.E. Paterno</tei:persName>
+                        </tei:provenance>
+                    </tei:history>                       
+                </tei:msDesc>   
+            </tei:sourceDesc> 
+        </tei:fileDesc>
+        <tei:encodingDesc>
+            <tei:p source="https://epidoc.stoa.org/gl/latest/">Marked-up according to the EpiDoc Guidelines</tei:p>
+        </tei:encodingDesc>
+        <tei:profileDesc>
+            <tei:langUsage>
+                <tei:language ident="osc" source="https://iso639-3.sil.org/code/osc">Oscan</tei:language>
+                <tei:language ident="osc-Ital-x-oscetr" source="https://www.prin-italia-antica.unifi.it/p166.html#oscan-etruscan" ana="https://unicode.org/iso15924/iso15924-codes.html">Oscan in National alphabet (Oscan-Etruscan alphabet)</tei:language>
+            </tei:langUsage>
+            <tei:textClass>
+                <tei:keywords scheme="https://www.eagle-network.eu/resources/vocabularies/typeins/">
+                    <tei:term ref="https://www.eagle-network.eu/voc/typeins/lod/106">unknown</tei:term>
+                </tei:keywords>
+            </tei:textClass>
+        </tei:profileDesc>
+    </tei:teiHeader>   
+    <tei:facsimile> 
+        <tei:graphic n="1" url="http://linsto.dipartimentidieccellenza-dilef.unifi.it/itant/img/ItAnt_Oscan_297.jpg" resp="Francesca Murano">
+            <tei:desc>Inscription ItAnt Oscan 297. Reprocessing of <tei:ref target="http://zotero.org/groups/2552746/items/MMX8HKC4"><tei:bibl>Paterno 1923</tei:bibl></tei:ref>, p. <tei:ref target="http://win.bisaccia.org/ARCHIVIO/Originidelcomune_Paterno.pdf#page=12">23</tei:ref>)
+                <tei:ref target="https://associazionebisaccia.blogspot.com/">The original file is provided by the Associazione di promozione sociale Bisaccia</tei:ref>              
+            </tei:desc>
+        </tei:graphic>               
+    </tei:facsimile>
+    <tei:text>
+        <tei:body>             
+            <tei:div type="edition" subtype="interpretative" xml:space="preserve">
+                <tei:div type="textpart" n="face_a" style="text-direction:r-to-l" rend="ductus:sinistrorse">
+                    <tei:ab>
+<!-- l. 1 -->                        
+                        <tei:lb n="1" xml:id="Osc_297_l_1"/>
+<!-- gap -->
+                        <tei:gap reason="lost" extent="unknown" unit="character"/>
+<!-- Leida;Osc_297_l_1_w_1;pak++ -->                        
+                                <tei:name type="praenomen" xml:lang="osc-Ital-x-oscetr" xml:id="Osc_297_l_1_w_1"><tei:unclear>p</tei:unclear>ak<tei:gap reason="illegible" quantity="2" unit="character"/></tei:name>
+                        <tei:pc unit="word">:</tei:pc>
+<!-- gap -->
+                        <tei:gap reason="lost" extent="unknown" unit="character"/>
+<!-- l. 2 -->                        
+                        <tei:lb n="2" xml:id="Osc_297_l_2"/>
+<!-- gap -->
+                        <tei:gap reason="lost" extent="unknown" unit="character"/>
+<!-- Leida;Osc_297_l_2_w_1;+reka -->                        
+                                <tei:w xml:lang="osc-Ital-x-oscetr" xml:id="Osc_297_l_2_w_1"><tei:gap reason="illegible" quantity="1" unit="character"/>reka</tei:w>
+<!-- gap -->
+                        <tei:gap reason="lost" extent="unknown" unit="character"/>
+<!-- l. 3 -->                        
+                        <tei:lb n="3" xml:id="Osc_297_l_3"/>
+<!-- gap -->                        
+                        <tei:gap reason="lost" extent="unknown" unit="character"/>
+<!-- Leida;Osc_297_l_3_w_1;stati[s -->                               
+                            <tei:name type="praenomen" xml:lang="osc-Ital-x-oscetr" xml:id="Osc_297_l_3_w_1"><tei:unclear>s</tei:unclear>tati<tei:supplied reason="lost">s</tei:supplied></tei:name>
+<!-- gap -->
+                        <tei:gap reason="lost" extent="unknown" unit="character"/>
+                    </tei:ab>
+                </tei:div>
+        </tei:div>
+            <tei:div type="translation" xml:lang="ita">
+                <tei:p>Pacio [...] Stazio</tei:p>
+                <tei:desc>
+                    <tei:persName>Francesca Murano</tei:persName>
+                    <tei:ref type="licence" target="https://creativecommons.org/licenses/by-nc-sa/4.0/">This file is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International license – (CC BY-NC-SA 4.0).</tei:ref>
+                </tei:desc> 
+            </tei:div>
+            <tei:div type="translation" xml:lang="eng">
+                <tei:p>Pacius [...] Statius</tei:p>
+                <tei:desc>
+                    <tei:persName>Francesca Murano</tei:persName>
+                    <tei:ref type="licence" target="https://creativecommons.org/licenses/by-nc-sa/4.0/">This file is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International license – (CC BY-NC-SA 4.0).</tei:ref>
+                </tei:desc>
+            </tei:div>            
+            <tei:div type="apparatus" xml:lang="eng">
+                <tei:listApp>
+                    <tei:app from="Osc_297_l_1">
+                        <tei:lem corresp="Osc_297_l_1_w_1">p̣ak++</tei:lem>
+                        <tei:rdg corresp="Osc_297_l_1_w_1">pak(i)ụi
+                            <tei:ref target="http://zotero.org/groups/2552746/items/IKUTPHDC"><tei:bibl>Crawford, ImIt</tei:bibl></tei:ref>
+                        </tei:rdg>
+                        <tei:rdg corresp="Osc_297_l_1_w_1">pak+t
+                            <tei:ref target="http://zotero.org/groups/2552746/items/DRN85687"><tei:bibl>La Regina 1966</tei:bibl></tei:ref>
+                            <tei:ref target="http://zotero.org/groups/2552746/items/IMWMSAVE"><tei:bibl>Rix, ST</tei:bibl></tei:ref>
+                        </tei:rdg>                       
+                    </tei:app>
+                    <tei:app from="Osc_297_l_2">
+                        <tei:lem corresp="Osc_297_l_2_w_1">]+reka[</tei:lem>
+                        <tei:rdg corresp="Osc_297_l_2_w_1">]areka[                            
+                            <tei:ref target="http://zotero.org/groups/2552746/items/IKUTPHDC"><tei:bibl>Crawford, ImIt</tei:bibl></tei:ref>
+                        </tei:rdg>                                           
+                    </tei:app>
+                    <tei:app from="Osc_297_l_3">
+                        <tei:lem corresp="Osc_297_l_3_w_1">ṣtati[s</tei:lem>
+                        <tei:rdg corresp="Osc_297_l_3_w_2">]utati[                            
+                            <tei:ref target="http://zotero.org/groups/2552746/items/DRN85687"><tei:bibl>La Regina 1966</tei:bibl></tei:ref>
+                            <tei:ref target="http://zotero.org/groups/2552746/items/LRFXVEPR"><tei:bibl>Antonini 1981</tei:bibl></tei:ref>
+                        </tei:rdg>
+                        <tei:rdg corresp="Osc_297_l_3_w_1">]utatẹ
+                            <tei:ref target="http://zotero.org/groups/2552746/items/IMWMSAVE"><tei:bibl>Rix, ST</tei:bibl></tei:ref>
+                        </tei:rdg>                    
+                    </tei:app>
+                </tei:listApp>
+            </tei:div>               
+            <tei:div type="commentary" xml:lang="eng" resp="Francesca Murano">
+                <tei:note>
+                    <tei:p>The inscription is lost and only known from the publication by <tei:ref target="http://zotero.org/groups/2552746/items/MMX8HKC4"><tei:bibl>Paterno 1923</tei:bibl></tei:ref>. The reading of the inscription can only be based on the facsimile provided by this scholar.</tei:p>
+                </tei:note>
+                <tei:note target="Osc_297_l_1_w_1">
+                    <tei:p>The first line of the inscription diplays the praenomen <tei:rs type="name" xml:lang="osc-Ital-x-oscetr">Pakis</tei:rs>.</tei:p> 
+                    <tei:p>The last letter of the line is difficult to decipher (see the Apparatus). <tei:ref target="http://zotero.org/groups/2552746/items/IKUTPHDC"><tei:bibl>Crawford, ImIt</tei:bibl></tei:ref> : 1279 proposes a reading <tei:rs type="name" xml:lang="osc-Ital-x-oscetr" corresp="Osc_297_l_1_w_1">pak(i)ui</tei:rs>, dat.sg.</tei:p>
+                    <tei:p>Considering support and writing tecnique and considering that the reading is done on a facsimile, it can not be excluded that the reading is <tei:rs type="name" xml:lang="osc-Ital-x-oscetr" corresp="Osc_297_l_1_w_1">pakis</tei:rs>, nom.sg. A suggestion in this sense is already provided by <tei:ref target="http://zotero.org/groups/2552746/items/LRFXVEPR"><tei:bibl>Antonini 1981</tei:bibl></tei:ref>: 323.</tei:p>
+                </tei:note>
+                <tei:note target="Osc_297_l_3_w_1">
+                    <tei:p>The last line of the inscription probably diplays the praenomen <tei:rs type="name" xml:lang="osc-Ital-x-oscetr">Statis</tei:rs>.</tei:p>
+                </tei:note>
+            </tei:div>
+            <tei:div type="bibliography">
+                <tei:listBibl xmlns="http://www.tei-c.org/ns/1.0">                                     
+                    <tei:biblStruct type="book" xml:id="ImIt2011" corresp="http://zotero.org/groups/2552746/items/IKUTPHDC">
+                        <tei:monogr>
+                            <tei:title level="m">Imagines Italicae: A Corpus of Italic Inscriptions</tei:title>
+                            <tei:editor>
+                                <tei:forename>Michael</tei:forename>
+                                <tei:surname>Crawford</tei:surname>
+                            </tei:editor>
+                            <tei:imprint>
+                                <tei:pubPlace>London</tei:pubPlace>
+                                <tei:publisher>Institute of Classical Studies, University of London</tei:publisher>
+                                <tei:date>2011</tei:date>
+                            </tei:imprint>
+                        </tei:monogr>
+                        <tei:citedRange unit="entry">Histonium 11 (with drawing from Paterno 1923)</tei:citedRange>
+                    </tei:biblStruct>
+                    <tei:biblStruct type="book" xml:id="Rix2002" corresp="http://zotero.org/groups/2552746/items/IMWMSAVE">
+                        <tei:monogr>
+                            <tei:title level="m">Sabellische Texte. Die Texte des Oskischen, Umbrischen und Südpikenischen</tei:title>
+                            <tei:author>
+                                <tei:forename>Helmut</tei:forename>
+                                <tei:surname>Rix</tei:surname>
+                            </tei:author>
+                            <tei:imprint>
+                                <tei:pubPlace>Heidelberg</tei:pubPlace>
+                                <tei:publisher>C. Winter</tei:publisher>
+                                <tei:date>2002</tei:date>
+                            </tei:imprint>
+                        </tei:monogr>
+                        <tei:citedRange unit="entry">Fr 15</tei:citedRange>
+                    </tei:biblStruct>
+                    <tei:biblStruct type="journalArticle" xml:id="Antonini1981" corresp="http://zotero.org/groups/2552746/items/LRFXVEPR">
+                        <tei:analytic>
+                            <tei:title level="a">Italico</tei:title>
+                            <tei:author>
+                                <tei:forename>Rosalba</tei:forename>
+                                <tei:surname>Antonini</tei:surname>
+                            </tei:author>
+                        </tei:analytic>
+                        <tei:monogr>
+                            <tei:title level="j">Studi Etruschi</tei:title>
+                            <tei:imprint>
+                                <tei:biblScope unit="volume">49</tei:biblScope>
+                                <tei:biblScope unit="page">299-351</tei:biblScope>
+                                <tei:date>1981</tei:date>
+                            </tei:imprint>
+                        </tei:monogr>
+                        <tei:citedRange unit="page">323, no. 2</tei:citedRange>
+                    </tei:biblStruct>
+                    <tei:biblStruct type="book" xml:id="Poccetti1979" corresp="http://zotero.org/groups/2552746/items/JFW9XW6P">
+                        <tei:monogr>
+                            <tei:title level="m">Nuovi documenti italici a complemento del Manuale di E. Vetter</tei:title>
+                            <tei:author>
+                                <tei:forename>Paolo</tei:forename>
+                                <tei:surname>Poccetti</tei:surname>
+                            </tei:author>
+                            <tei:imprint>
+                                <tei:pubPlace>Pisa</tei:pubPlace>
+                                <tei:publisher>Giardini Editore</tei:publisher>
+                                <tei:date>1979</tei:date>
+                            </tei:imprint>
+                        </tei:monogr>
+                        <tei:citedRange unit="entry">104</tei:citedRange>
+                    </tei:biblStruct>
+                    <tei:biblStruct type="journalArticle" xml:id="La_Regina1966" corresp="http://zotero.org/groups/2552746/items/DRN85687">
+                        <tei:analytic>
+                            <tei:title level="a">Le iscrizioni osche di Pietrabbondante e la questione di Bovianum Vetus</tei:title>
+                            <tei:author>
+                                <tei:forename>Adriano</tei:forename>
+                                <tei:surname>La Regina</tei:surname>
+                            </tei:author>
+                        </tei:analytic>
+                        <tei:monogr>
+                            <tei:title level="j">Rheinisches Museum für Philologie</tei:title>                            <tei:imprint>
+                                <tei:biblScope unit="volume">109</tei:biblScope>
+                                <tei:biblScope unit="issue">3</tei:biblScope>
+                                <tei:biblScope unit="page">260-286</tei:biblScope>
+                                <tei:date>1966</tei:date>
+                            </tei:imprint>
+                        </tei:monogr>
+                        <tei:citedRange unit="page">271, no. 19 (with drawing, pl. VIII from Paterno 1923)</tei:citedRange>
+                    </tei:biblStruct>
+                    <tei:biblStruct type="book" xml:id="Paterno1923" corresp="http://zotero.org/groups/2552746/items/MMX8HKC4">
+                        <tei:monogr>
+                            <tei:title level="m">Origini del Comune di Montenero di Bisaccia</tei:title>
+                            <tei:author>
+                                <tei:forename>Emilio Ambrogio</tei:forename>
+                                <tei:surname>Paterno</tei:surname>
+                            </tei:author>
+                            <tei:imprint>
+                                <tei:pubPlace>Vasto</tei:pubPlace>
+                                <tei:publisher>Anelli</tei:publisher>
+                                <tei:date>1923</tei:date>
+                            </tei:imprint>
+                        </tei:monogr>
+                        <tei:citedRange unit="page">19-22</tei:citedRange>
+                    </tei:biblStruct>
+                </tei:listBibl>
+            </tei:div>
+        </tei:body>
+    </tei:text>
+</tei:TEI>

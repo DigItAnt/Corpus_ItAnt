@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.stoa.org/epidoc/schema/9.2/tei-epidoc.rng"
+    schematypens="http://relaxng.org/ns/structure/1.0"?> 
+<?xml-model href="https://www.stoa.org/epidoc/schema/9.2/tei-epidoc.rng"
+    schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<tei:TEI xmlns:dcr="http://www.isocat.org/ns/dcr" xml:id="ItAnt_Oscan_562"
+    xmlns:tei="http://www.tei-c.org/ns/1.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <tei:teiHeader>
+        <tei:fileDesc>
+            <tei:titleStmt>
+                <tei:title type="ItAnt_ID">Inscription ItAnt Oscan 562</tei:title>
+            </tei:titleStmt>
+            <tei:editionStmt>
+                <tei:edition>
+                    <tei:idno>ItAnt Oscan 562</tei:idno>
+                </tei:edition>
+                <tei:editor>
+                    <tei:persName>Francesco Benassai</tei:persName>
+                </tei:editor>
+            </tei:editionStmt>         
+            <tei:publicationStmt>
+                <tei:authority>PRIN 2017 "Lingue e culture dell'Italia antica: linguistica storica e modelli digitali | Languages and Cultures of Ancient Italy. Historical Linguistics and Digital Models"</tei:authority>
+                <tei:date>2023</tei:date>
+                <tei:idno type="URI" subtype="handle"></tei:idno>
+                <tei:availability>
+                    <tei:licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">This file is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International license – (CC BY-NC-SA 4.0).  
+                    </tei:licence>
+                </tei:availability>
+            </tei:publicationStmt>   
+            <tei:sourceDesc>
+                <tei:msDesc>
+                    <tei:msIdentifier>
+                        <tei:settlement ref="https://sws.geonames.org/3180991">Campobasso</tei:settlement>
+                        <tei:institution ana="https://sabapmolise.beniculturali.it">Soprintendenza Archeologia, Belle arti e Paesaggio del Molise</tei:institution>
+                        <tei:idno type="museumID">455</tei:idno>
+                        <tei:altIdentifier type="cancelled">
+                            <tei:settlement ref="https://sws.geonames.org/3178796">Chieti</tei:settlement>
+                            <tei:institution ref="http://musei.beniculturali.it/en/museums?mid=61">Museo archeologico nazionale d'Abruzzo - Villa Frigerj</tei:institution>
+                            <tei:idno>4405</tei:idno>
+                        </tei:altIdentifier>  
+                        <tei:altIdentifier type="trismegistos">
+                            <tei:idno source="www.trismegistos.org/text/170836">TM 170836</tei:idno>
+                        </tei:altIdentifier> 
+                        <tei:altIdentifier type="traditionalID">
+                            <tei:idno source="http://zotero.org/groups/2552746/items/IMWMSAVE">ST tSa 48</tei:idno>
+                        </tei:altIdentifier> 
+                        <tei:altIdentifier type="traditionalID">
+                            <tei:idno source="http://zotero.org/groups/2552746/items/IKUTPHDC">ImIt Teruentum 29</tei:idno>
+                        </tei:altIdentifier>
+                    </tei:msIdentifier> 
+                    <tei:msContents>
+                        <tei:summary>Stamp on a roof tile (tegula) from the <tei:ref target="https://www.musei.molise.beniculturali.it/musei?mid=6691&amp;nome=santuario-italico">sanctuary of Pietrabbondante</tei:ref>.
+                        </tei:summary>
+                    </tei:msContents>
+                    <tei:physDesc>
+                        <tei:objectDesc>     
+                            <tei:supportDesc>
+                                <tei:support>
+                                    <tei:objectType ana="http://vocab.getty.edu/page/aat/300010699">tegula</tei:objectType>
+                                    <tei:material ana="http://vocab.getty.edu/page/aat/300010669">terracotta
+                                    </tei:material>
+                                    <tei:dimensions type="objectDimensions" unit="cm" precision="high">
+                                        <tei:height quantity="17">17</tei:height>
+                                        <tei:width quantity="23">23</tei:width>
+                                        <tei:depth quantity="4">4</tei:depth>
+                                    </tei:dimensions>
+                                    <tei:rs type="reuse">no</tei:rs>
+                                </tei:support>
+                                <tei:condition>well-preserved</tei:condition>   
+                            </tei:supportDesc>
+                            <tei:layoutDesc>
+                                <tei:layout columns="1" writtenLines="2">
+                                    <tei:rs type="execution" ana="http://vocab.getty.edu/page/aat/300239001">stamp</tei:rs>
+                                    <tei:rs type="opistography">no</tei:rs>
+                                    <tei:note type="layoutNotes">in sunken rectangular frame</tei:note>
+                                    <tei:dimensions type="lineDimension" unit="cm" precision="high">
+                                        <tei:height quantity="2">2</tei:height>
+                                        <tei:width quantity="4.5">4,5</tei:width>
+                                    </tei:dimensions> 
+                                </tei:layout>
+                            </tei:layoutDesc>
+                        </tei:objectDesc>
+                        <tei:handDesc>                            
+                            <tei:handNote>
+                                <tei:note type="palaeographicNotes">Rounded <tei:rs type="c" xml:lang="osc-Ital-x-oscetr">S</tei:rs>. A sort of boustrophedon: the first line is left-to-right, the second line is right-to-left, with the first letter reversed and the second one rotated 90 degrees left. According to <tei:ref target="http://zotero.org/groups/2552746/items/IKUTPHDC"><tei:bibl>Crawford, ImIt 2011</tei:bibl></tei:ref> «the apparent diacritical of the "í" is a flaw in the stamp».</tei:note>
+                                <tei:dimensions type="characterDimension" unit="cm" precision="high"> 
+                                    <tei:height quantity="2">2</tei:height>
+                                </tei:dimensions>
+                            </tei:handNote>
+                        </tei:handDesc>                                      
+                        <tei:scriptDesc>
+                            <tei:scriptNote>
+                                <tei:rs type="writingSystem" subtype="alphabet" ref="https://www.prin-italia-antica.unifi.it/p166.html#oscan-etruscan">Oscan National alphabet</tei:rs>
+                                <tei:rs type="wordDivision">scriptio continua</tei:rs>
+                            </tei:scriptNote>
+                        </tei:scriptDesc>
+                        <tei:decoDesc>
+                            <tei:decoNote></tei:decoNote>   
+                        </tei:decoDesc>
+                    </tei:physDesc>
+                    <tei:history>
+                        <tei:origin> 
+                            <tei:origPlace type="composed">
+                                <tei:placeName type="ancient" ref="https://pleiades.stoa.org/places/433078">Samnium</tei:placeName>
+                                <tei:placeName type="modern" ref="https://sws.geonames.org/3170820">Pietrabbondante (IS)</tei:placeName>
+                            </tei:origPlace>
+                            <tei:origDate notBefore-custom="-0125" notAfter-custom="-0100" cert="medium" evidence="lettering" resp="#ImIt2011">late 2nd century BC</tei:origDate>
+                        </tei:origin>
+                        <tei:provenance type="found" subtype="discovered" when="1961">
+                            <tei:placeName type="ancient" ref="https://pleiades.stoa.org/places/433078">Samnium</tei:placeName>
+                            <tei:placeName type="modern" ref="https://sws.geonames.org/3170820">Pietrabbondante (IS)</tei:placeName>
+                            <tei:placeName type="detailed">Sporadic finding</tei:placeName>
+                        </tei:provenance>
+                        <tei:provenance type="observed" subtype="autopsied" when="1961">
+                            <tei:persName>A. La Regina</tei:persName>
+                        </tei:provenance>
+                        <tei:provenance type="observed" subtype="autopsied" when="2005">
+                            <tei:persName>M. Crawford</tei:persName>
+                        </tei:provenance>
+                    </tei:history>                       
+                </tei:msDesc>   
+            </tei:sourceDesc> 
+        </tei:fileDesc>
+        <tei:encodingDesc>
+            <tei:p source="https://epidoc.stoa.org/gl/latest/">Marked-up according to the EpiDoc Guidelines</tei:p>
+        </tei:encodingDesc>
+        <tei:profileDesc>
+            <tei:langUsage>
+                <tei:language ident="osc" source="https://iso639-3.sil.org/code/osc">Oscan</tei:language>
+                <tei:language ident="osc-Ital-x-oscetr" source="https://www.prin-italia-antica.unifi.it/p166.html#oscan-etruscan" ana="https://unicode.org/iso15924/iso15924-codes.html">Oscan in National alphabet (Oscan-Etruscan alphabet)</tei:language>
+            </tei:langUsage>
+            <tei:textClass>
+                <tei:keywords scheme="https://www.eagle-network.eu/resources/vocabularies/typeins/">
+                    <tei:term ref="https://www.eagle-network.eu/voc/typeins/lod/118">tile stamp</tei:term>
+                </tei:keywords>
+            </tei:textClass>
+        </tei:profileDesc>
+    </tei:teiHeader>
+    <tei:facsimile>
+        <tei:graphic n="1" url="http://linsto.dipartimentidieccellenza-dilef.unifi.it/itant/img/ItAnt_Oscan_562.jpg">
+            <tei:desc>Inscription ItAnt Oscan 562 (drawing by <tei:persName>Francesca Murano</tei:persName>)
+                <tei:ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">This file is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International license – (CC BY-NC-SA 4.0).</tei:ref>
+            </tei:desc>
+        </tei:graphic>
+    </tei:facsimile>
+    <tei:text>
+        <tei:body>             
+            <tei:div type="edition" subtype="interpretative" xml:space="preserve">
+                <tei:div type="textpart" n="face_a" style="text-direction:boustrophedon" rend="ductus:boustrophedon">
+                    <tei:ab>   
+                        <tei:lb n="1" xml:id="Osc_562_l_1" style="text-direction:l-to-r" rend="ductus:dextrorse"/>
+<!-- Leida;Osc_562_l_1;mí( ) -->
+                            <tei:name type="praenomen" xml:lang="osc-Ital-x-oscetr" xml:id="Osc_562_l_1_w_1" ref="#p1"><tei:expan><tei:abbr>mí</tei:abbr><tei:ex></tei:ex></tei:expan></tei:name>
+                            <tei:pc unit="word">.</tei:pc>
+                        <tei:lb n="2" xml:id="Osc_562_l_2" style="text-direction:r-to-l" rend="ductus:sinistrorse"/>
+<!-- Leida;Osc_562_l_2; st( ) -->
+                            <tei:name type="gentilicium" xml:lang="osc-Ital-x-oscetr" xml:id="Osc_562_l_2_w_1" ref="#p1"><tei:expan><tei:abbr>st</tei:abbr><tei:ex></tei:ex></tei:expan></tei:name>
+                    </tei:ab>
+                </tei:div>
+            </tei:div>
+            <tei:div type="translation" xml:lang="ita">
+                <tei:p>Mi( ) St( )</tei:p>
+                <tei:desc>
+                    <tei:persName>Francesco Benassai</tei:persName>
+                    <tei:ref type="licence" target="https://creativecommons.org/licenses/by-nc-sa/4.0/">This file is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International license – (CC BY-NC-SA 4.0).</tei:ref>
+                </tei:desc> 
+            </tei:div>
+            <tei:div type="translation" xml:lang="eng">
+                <tei:p>Mi( ) St( )</tei:p>
+                <tei:desc>
+                    <tei:persName>Francesco Benassai</tei:persName>
+                    <tei:ref type="licence" target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </tei:ref>
+                </tei:desc> 
+            </tei:div>            
+            <tei:div type="apparatus" xml:lang="eng" resp="Francesco Benassai">
+                <tei:listApp>
+                    <tei:app from="#Osc_562_l_1">
+                        <tei:lem corresp="#Osc_562_l_1_w_1">mí( )</tei:lem>                                             <tei:rdg corresp="#Osc_561_l_1_w_1">mi(nis)
+                        <tei:ref target="http://zotero.org/groups/2552746/items/IKUTPHDC"><tei:bibl>ImIt 2011</tei:bibl></tei:ref>
+                        </tei:rdg>
+                    </tei:app>                  
+                </tei:listApp>                
+            </tei:div>
+            <tei:div type="commentary" xml:lang="eng" resp="Francesca Murano">
+                <tei:note target="#Osc_562_l_1_w_1">
+                    <tei:p>The diacritical of the <tei:rs type="c" xml:lang="osc-Ital-x-oscetr" corresp="Osc_562_l_1_w_1">í</tei:rs> in <tei:rs type="name" xml:lang="osc-Ital-x-oscetr" corresp="Osc_562_l_1_w_1">mí( )</tei:rs> makes it difficult to recognize the praenomen <tei:rs type="name" xml:lang="osc-Ital-x-oscetr" corresp="Osc_562_l_1_w_1">minies</tei:rs>.</tei:p>
+                    <tei:p><tei:ref target="http://zotero.org/groups/2552746/items/IKUTPHDC"><tei:bibl>Crawford, ImIt 2011</tei:bibl></tei:ref>: 1192 assumes that the diacritical is apparent («a flaw in the stamp»).</tei:p>
+                    <tei:p>For the gentilicium, both an extension <tei:rs type="name" xml:lang="osc-Ital-x-oscetr" corresp="Osc_562_l_1_w_2">st(aíis)</tei:rs> and an extension <tei:rs type="name" xml:lang="osc-Ital-x-oscetr" corresp="Osc_562_l_1_w_2">st(aatis)</tei:rs> are possible.</tei:p>
+                </tei:note>
+                <tei:listPerson type="Onomastics">
+                    <tei:person xml:id="p1" xml:lang="osc-Ital-x-oscetr">
+                        <tei:persName>
+                            <tei:name type="praenomen">mí( )</tei:name>
+                            <tei:name type="gentilicium">st( )</tei:name>
+                        </tei:persName>
+                    </tei:person>
+                </tei:listPerson>
+            </tei:div>
+            <tei:div type="bibliography">
+                <tei:listBibl xmlns="http://www.tei-c.org/ns/1.0">
+                    <tei:biblStruct type="journalArticle" xml:id="La_Regina1966" corresp="http://zotero.org/groups/2552746/items/DRN85687">
+                        <tei:analytic>
+                            <tei:title level="a">Le iscrizioni osche di Pietrabbondante e la questione di Bovianum Vetus</tei:title>
+                            <tei:author>
+                                <tei:forename>Adriano</tei:forename>
+                                <tei:surname>La Regina</tei:surname>
+                            </tei:author>
+                        </tei:analytic>
+                        <tei:monogr>
+                            <tei:title level="j">Rheinisches Museum für Philologie</tei:title>
+                            <tei:imprint>
+                                <tei:biblScope unit="volume">109</tei:biblScope>
+                                <tei:biblScope unit="issue">3</tei:biblScope>
+                                <tei:biblScope unit="page">260-286</tei:biblScope>
+                                <tei:date>1966</tei:date>   
+                            </tei:imprint>
+                        </tei:monogr>
+                        <tei:citedRange unit="page">pp. 267-8, no. 10 (with drawing, pl. VIII, no. 10)</tei:citedRange>
+                    </tei:biblStruct>
+                    <tei:biblStruct type="journalArticle" xml:id="Marchese1974" corresp="http://zotero.org/groups/2552746/items/CC4JTQR9">
+                        <tei:analytic>
+                            <tei:title level="a">Sulle nuove (e antiche) iscrizioni di Pietrabbondante</tei:title>
+                            <tei:author>
+                                <tei:forename>Maria Pia</tei:forename>
+                                <tei:surname>Marchese</tei:surname>
+                            </tei:author>
+                        </tei:analytic>
+                        <tei:monogr>
+                            <tei:title level="j">Studi Etruschi</tei:title>
+                            <tei:imprint>
+                                <tei:biblScope unit="volume">XLII</tei:biblScope>
+                                <tei:biblScope unit="page">371-378</tei:biblScope>
+                                <tei:date>1974</tei:date>
+                            </tei:imprint>
+                        </tei:monogr>
+                        <tei:citedRange unit="page">377, no. 17</tei:citedRange>
+                    </tei:biblStruct>
+                    <tei:biblStruct type="book" xml:id="Poccetti1979" corresp="http://zotero.org/groups/2552746/items/JFW9XW6P">
+                        <tei:monogr>
+                            <tei:title level="m">Nuovi documenti italici a complemento del Manuale di E. Vetter</tei:title>                          
+                            <tei:author>
+                                <tei:forename>Paolo</tei:forename>
+                                <tei:surname>Poccetti</tei:surname>
+                            </tei:author>
+                            <tei:imprint>
+                                <tei:pubPlace>Pisa</tei:pubPlace>
+                                <tei:publisher>Giardini Editore</tei:publisher>
+                                <tei:date>1979</tei:date>
+                            </tei:imprint>
+                        </tei:monogr>
+                        <tei:citedRange unit="entry">30</tei:citedRange>
+                    </tei:biblStruct>
+                    <tei:biblStruct type="book" xml:id="Rix2002" corresp="http://zotero.org/groups/2552746/items/IMWMSAVE">
+                        <tei:monogr>
+                            <tei:title level="m">Sabellische Texte. Die Texte des Oskischen, Umbrischen und Südpikenischen</tei:title>
+                            <tei:author>
+                                <tei:forename>Helmut</tei:forename>
+                                <tei:surname>Rix</tei:surname>
+                            </tei:author>
+                            <tei:imprint>
+                                <tei:pubPlace>Heidelberg</tei:pubPlace>
+                                <tei:publisher>C. Winter</tei:publisher>
+                                <tei:date>2002</tei:date>
+                            </tei:imprint>
+                        </tei:monogr>
+                        <tei:citedRange unit="entry">tSa 48</tei:citedRange>
+                    </tei:biblStruct>
+                    <tei:biblStruct type="book" xml:id="ImIt2011" corresp="http://zotero.org/groups/2552746/items/IKUTPHDC">
+                        <tei:monogr>
+                            <tei:title level="m">Imagines Italicae: A Corpus of Italic Inscriptions</tei:title>
+                            <tei:editor>
+                                <tei:forename>Michael</tei:forename>
+                                <tei:surname>Crawford</tei:surname>
+                            </tei:editor>
+                            <tei:imprint>
+                                <tei:pubPlace>London</tei:pubPlace>
+                                <tei:publisher>Institute of Classical Studies, University of London</tei:publisher>
+                                <tei:date>2011</tei:date>
+                            </tei:imprint>
+                        </tei:monogr>
+                        <tei:citedRange unit="entry">Teruentum 29 Stamp (with photograph)</tei:citedRange>
+                    </tei:biblStruct>    
+                </tei:listBibl>    
+            </tei:div>   
+        </tei:body>
+    </tei:text>
+</tei:TEI>

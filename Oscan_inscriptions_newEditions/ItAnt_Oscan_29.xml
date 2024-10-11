@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/9.5/tei-epidoc.rng"
+schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/9.5/tei-epidoc.rng"
+schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<tei:TEI xmlns:dcr="http://www.isocat.org/ns/dcr" xml:id="ItAnt_Oscan_29"
+    xmlns:tei="http://www.tei-c.org/ns/1.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <tei:teiHeader>
+        <tei:fileDesc>
+            <tei:titleStmt>
+                <tei:title type="ItAnt_ID">Inscription ItAnt Oscan 29</tei:title>
+            </tei:titleStmt>
+            <tei:editionStmt>
+                <tei:edition>
+                    <tei:idno>ItAnt Oscan 29</tei:idno>
+                </tei:edition>
+                <tei:editor>
+                    <tei:persName>Francesca Murano</tei:persName>
+                </tei:editor>
+            </tei:editionStmt>         
+            <tei:publicationStmt>
+                <tei:authority>PRIN 2017 "Lingue e culture dell'Italia antica: linguistica storica e modelli digitali | Languages and Cultures of Ancient Italy. Historical Linguistics and Digital Models"</tei:authority>
+                <tei:date>2023</tei:date>
+                <tei:idno type="URI" subtype="handle"></tei:idno>
+                <tei:availability>
+                    <tei:licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">This file is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International license – (CC BY-NC-SA 4.0).  
+                    </tei:licence>
+                </tei:availability>
+            </tei:publicationStmt>   
+            <tei:sourceDesc>
+                <tei:msDesc>
+                    <tei:msIdentifier resp="#DeBenedittis2016">
+                        <tei:settlement ref="https://sws.geonames.org/3180991">Campobasso</tei:settlement>
+                        <tei:institution ana="https://www.musei.molise.beniculturali.it/musei?mid=208&amp;nome=museo-sannitico">Museo Sannitico</tei:institution>
+                        <tei:idno type="museumID"/>                       
+                        <tei:msName>The thymiaterion from Colle d'Anchise</tei:msName>
+                        <tei:altIdentifier type="cancelled">
+                            <tei:settlement ref="https://sws.geonames.org/3181939">Boiano</tei:settlement>
+                            <tei:institution>Bernardo colection (private collection)</tei:institution>
+                            <tei:idno/>
+                        </tei:altIdentifier>
+                        <tei:altIdentifier type="trismegistos">
+                            <tei:idno source="www.trismegistos.org/text/170769">TM 170769</tei:idno>
+                        </tei:altIdentifier>                         
+                        <tei:altIdentifier type="traditionalID">
+                            <tei:idno source="http://zotero.org/groups/2552746/items/IKUTPHDC">ImIt Bouianum 93</tei:idno>
+                        </tei:altIdentifier>
+                    </tei:msIdentifier> 
+                    <tei:msContents>
+                        <tei:summary>Dedicatory inscription on a bronze thymiaterion; probably found in Colle d'Anchise (CB).
+                        </tei:summary>
+                    </tei:msContents>
+                    <tei:physDesc>
+                        <tei:objectDesc>     
+                            <tei:supportDesc>
+                                <tei:support>
+                                    <tei:objectType ana="http://vocab.getty.edu/page/aat/300265006">thymiaterion</tei:objectType>                                     <tei:rs ana="objectShape"/>  
+                                    <tei:note>probably a Samnite manufacture, on Etruscan cultural model (see <tei:ref target="http://zotero.org/groups/2552746/items/CZWSFYAR"><tei:bibl>De Benedittis 2003</tei:bibl></tei:ref>)</tei:note>
+                                    <tei:material ana="http://vocab.getty.edu/aat/300010957">bronze
+                                    </tei:material>
+                                    <tei:dimensions type="objectDimensions" unit="cm" precision="high" resp="#ImIt2011">
+                                        <tei:height quantity="27.5">27,5</tei:height>
+                                        <tei:width/>
+                                        <tei:depth/>
+                                    </tei:dimensions>
+                                    <tei:rs type="reuse">no</tei:rs>
+                                </tei:support>
+                                <tei:condition>well-preserved</tei:condition>   
+                            </tei:supportDesc>
+                            <tei:layoutDesc>
+                                <tei:layout columns="1" writtenLines="1">
+                                    <tei:rs type="execution" ana="http://vocab.getty.edu/page/aat/300404794">engraved</tei:rs>
+                                    <tei:rs type="opistography">no</tei:rs>
+                                    <tei:note type="layoutNotes">engraved round the upper surface ofthe base</tei:note>
+                                    <tei:dimensions type="lineDimension" unit="cm" precision="high" resp="#ImIt2011">
+                                        <tei:height quantity="0.75">0,75</tei:height>
+                                        <tei:width/>
+                                    </tei:dimensions> 
+                                </tei:layout>
+                            </tei:layoutDesc>
+                        </tei:objectDesc>
+                        <tei:handDesc>                            
+                            <tei:handNote>
+                                <tei:note type="palaeographicNotes">Words divided by double or triple interpunct. Inconsistent use of letters with diacritic. <tei:ref type="c" xml:lang="osc-Ital-x-oscetr">E</tei:ref> is rendered by double vertical dashes (<tei:ref type="c" xml:lang="osc-Ital-x-oscetr">||</tei:ref>).</tei:note>
+                                <tei:dimensions type="characterDimension" unit="cm" precision="high" resp="#ImIt2011">
+                                    <tei:height quantity="0.75">0,75</tei:height>
+                                </tei:dimensions>
+                            </tei:handNote>
+                        </tei:handDesc>                                      
+                        <tei:scriptDesc>
+                            <tei:scriptNote>
+                                <tei:rs type="writingSystem" subtype="alphabet" ref="https://www.prin-italia-antica.unifi.it/p166.html#oscan-etruscan">Oscan National alphabet</tei:rs>
+                                <tei:rs type="wordDivision">punctuation</tei:rs>
+                            </tei:scriptNote>
+                        </tei:scriptDesc>
+                        <tei:decoDesc>
+                            <tei:decoNote>Four doves decorate the corners of the plate; the shaft is decorated with a snake-like figure</tei:decoNote>   
+                        </tei:decoDesc>
+                    </tei:physDesc>
+                    <tei:history>
+                        <tei:origin> 
+                            <tei:origPlace type="composed">
+                                <tei:placeName type="ancient" ref="https://pleiades.stoa.org/places/433078">Samnium</tei:placeName>
+                                <tei:placeName type="modern" ref="https://sws.geonames.org/3178413">Colle d'Anchise (CB)</tei:placeName>
+                            </tei:origPlace>
+                            <tei:origDate notBefore-custom="-0325" notAfter-custom="-0300" cert="medium" evidence="lettering" resp="#DeBenedittis2003">late 4th century BC</tei:origDate>
+                        </tei:origin>
+                        <tei:provenance type="found" subtype="discovered" notAfter="1932">
+                            <tei:placeName type="ancient" ref="https://pleiades.stoa.org/places/433078">Samnium</tei:placeName>
+                            <tei:placeName type="modern" ref="https://sws.geonames.org/3178413">Colle d'Anchise (CB)</tei:placeName>
+                            <tei:placeName type="detailed">from a tomb, as part of the grave goods of a woman, belonging to the local aristocracy, Ofellia wife of Marahius, dedicatee of our thymiaterion. In addition to it, the grave goods also include a pyx, an unguentary, a lekythos, a loom weight, a mirror and two locally produced perfume bottles. The high social status of the woman is evidenced by the presence of the bronze thymiaterion, silver fibulae and a gold ring (see <tei:ref target="http://zotero.org/groups/2552746/items/5HBEYFHQ"><tei:bibl>De Benedittis 2016</tei:bibl></tei:ref>: 72-79).</tei:placeName>
+                        </tei:provenance>
+                        <tei:provenance type="observed" subtype="seen" when="2021">
+                            <tei:persName>Francesca Murano</tei:persName>
+                        </tei:provenance>
+                        <tei:provenance type="observed" subtype="autopsied" when="2005">
+                            <tei:persName>M.H. Crawford</tei:persName>
+                        </tei:provenance>
+                        <tei:provenance type="observed" subtype="autopsied" when="2002">
+                            <tei:persName>Gianfranco De Benedittis</tei:persName>
+                        </tei:provenance>
+                    </tei:history>                       
+                </tei:msDesc>   
+            </tei:sourceDesc> 
+        </tei:fileDesc>
+        <tei:encodingDesc>
+            <tei:p source="https://epidoc.stoa.org/gl/latest/">Marked-up according to the EpiDoc Guidelines</tei:p>
+        </tei:encodingDesc>
+        <tei:profileDesc>
+            <tei:langUsage>
+                <tei:language ident="osc" source="https://iso639-3.sil.org/code/osc">Oscan</tei:language>
+                <tei:language ident="osc-Ital-x-oscetr" source="https://www.prin-italia-antica.unifi.it/p166.html#oscan-etruscan" ana="https://unicode.org/iso15924/iso15924-codes.html">Oscan in National alphabet (Oscan-Etruscan alphabet)</tei:language>
+            </tei:langUsage>
+            <tei:textClass>
+                <tei:keywords scheme="https://www.eagle-network.eu/resources/vocabularies/typeins/">
+                    <tei:term ref="https://www.eagle-network.eu/voc/typeins/lod/88">dedicatory inscription</tei:term>
+                </tei:keywords>
+            </tei:textClass>
+        </tei:profileDesc>
+    </tei:teiHeader>
+    <tei:facsimile>
+        <tei:graphic n="1" url="http://linsto.dipartimentidieccellenza-dilef.unifi.it/itant/img/ItAnt_Oscan_29.jpg" resp="Francesca Murano">
+            <tei:desc>Inscription ItAnt Oscan 29 (drawing by <tei:persName>Francesca Murano</tei:persName>)
+                <tei:ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">This file is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International license – (CC BY-NC-SA 4.0).</tei:ref>
+            </tei:desc>
+        </tei:graphic>
+        <tei:graphic n="2" url="https://www.studietruschi.org/wp-content/uploads/2021/06/SE69_15.pdf#page=9">
+            <tei:desc>Drawing of the inscription ItAnt Oscan 29 (from <tei:ref target="http://zotero.org/groups/2552746/items/CZWSFYAR"><tei:bibl>De Benedittis 2003</tei:bibl></tei:ref>)
+                <tei:ref ana="https://www.studietruschi.org">This file is provided by the Istituto Nazionale di Studi Etruschi ed Italici</tei:ref>
+            </tei:desc>
+        </tei:graphic>
+        <tei:graphic n="3" url="http://www.samnitium.com/wp-content/uploads/2016/12/Considerazionirivista2016-on-line.pdf#page=73">
+            <tei:desc>Photograph of the thymiaterion (from <tei:ref target="http://zotero.org/groups/2552746/items/5HBEYFHQ"><tei:bibl>De Benedittis 2016</tei:bibl></tei:ref>)
+                <tei:ref ana="https://www.studietruschi.org">This file is provided by the Istituto Nazionale di Studi Etruschi ed Italici</tei:ref>
+            </tei:desc>
+        </tei:graphic>
+    </tei:facsimile>
+    <tei:text>
+        <tei:body>             
+            <tei:div type="edition" subtype="interpretative" xml:space="preserve">
+                <tei:div type="textpart" n="face_a" style="text-direction:r-to-l" rend="ductus:sinistrorse">
+                    <tei:ab>   
+                        <tei:lb n="1" xml:id="Osc_29_l_1"/>
+                        <!-- Leida;Osc_29_l_1_w_1;maraheis -->
+                            <tei:name type="gamonymic" xml:lang="osc-Ital-x-oscetr" xml:id="Osc_29_l_1_w_1" ref="#p1">maraheis</tei:name>
+                            <tei:pc unit="word">:</tei:pc>
+                        <!-- Leida;Osc_29_l_1_w_2;úpfalliu -->
+                            <tei:name type="gentilicium" xml:lang="osc-Ital-x-oscetr" xml:id="Osc_29_l_1_w_2" ref="#p1">úpfalliu</tei:name>
+                             <tei:pc unit="word">:</tei:pc>
+                        <!-- Leida;Osc_29_l_1_w_3;ekik -->
+                            <tei:w xml:lang="osc-Ital-x-oscetr" xml:id="Osc_29_l_1_w_3">ekik</tei:w>
+                            <tei:pc unit="word">⫶</tei:pc>
+                        <!-- Leida;Osc_29_l_1_w_4;dikked -->
+                            <tei:w xml:lang="osc-Ital-x-oscetr" xml:id="Osc_29_l_1_w_4">dikked</tei:w>
+                        <tei:pc unit="word">:</tei:pc>
+                    </tei:ab>
+                </tei:div>
+            </tei:div>
+            <tei:div type="translation" xml:lang="ita">
+                <tei:p>Ofellia, moglie of Marahius, questo dedicò</tei:p>
+                <tei:desc>
+                    <tei:persName>Francesca Murano</tei:persName>
+                    <tei:ref type="licence" target="https://creativecommons.org/licenses/by-nc-sa/4.0/">This file is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International license – (CC BY-NC-SA 4.0).</tei:ref>
+                </tei:desc> 
+            </tei:div>
+            <tei:div type="translation" xml:lang="eng">
+                <tei:p>Ofellia, wife of Marahius, dedicated this</tei:p>
+                <tei:desc>
+                    <tei:persName>Francesca Murano</tei:persName>
+                    <tei:ref type="licence" target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </tei:ref>
+                </tei:desc> 
+            </tei:div>            
+            <tei:div type="apparatus" xml:lang="eng" resp="Francesca Murano">
+                <tei:listApp>
+                    <tei:app from="#Osc_29_l_1">
+                        <tei:lem corresp="#Osc_29_l_1_w_1">marahi⌜e⌝is</tei:lem>
+                        <tei:rdg corresp="#Osc_29_l_1_w_1">maraheis
+                            <tei:ref target="http://zotero.org/groups/2552746/items/IKUTPHDC"><tei:bibl>Crawford, ImIt 2011</tei:bibl></tei:ref>
+                        </tei:rdg>
+                    </tei:app>
+                </tei:listApp>                
+            </tei:div>
+            <tei:div type="commentary" xml:lang="eng" resp="Francesca Murano">
+                <tei:note>
+                    <tei:p>The exact find-spot of the thymiaterion is not known. The artefact is owned by the Bernardo family for several generations. Since the family is originally from Colle d'Anchise (CB), according to <tei:ref target="http://zotero.org/groups/2552746/items/CZWSFYAR"><tei:bibl>De Benedittis 2003</tei:bibl></tei:ref> it is very probable that the thymiaterion was found in the countryside of Colle d'Anchise, where is located the sacred area from which the Oscan stamp <tei:ref target="ItAnt_Oscan_404.xml">ItAnt Oscan 404</tei:ref> comes.</tei:p>
+                </tei:note>
+                <tei:note>
+                    <tei:p>The text concerns the offer of the thymiatherion by a woman, whose denomination consists of an onomastic formula gamonymic + gentilicium. This onomastic formula gentilicium + gamonymic for women is attested in several republican Latin inscriptions, and in the Oscan inscription from Aeclanum (Passo di Mirabella) <tei:ref target="ItAnt_Oscan_305.xml">ItAnt Oscan 305</tei:ref>. However, in the two onomastic formulas the gamonymic is expressed with a different syntactic structure, genitival or adjectival: on the thymiaterion the gamonymic is expressed by means of the praenomen of the husband inflected at genitive case, in <tei:ref target="ItAnt_Oscan_305.xml">ItAnt Oscan 305</tei:ref> it is expressed by means of the gentilicium of the husband inflected at the feminine form.</tei:p>
+                    <tei:p>On the female onomastics in ancient Italy, see <tei:ref target="http://zotero.org/groups/2552746/items/Q8X4HSRK"><tei:bibl>Poccetti 2017</tei:bibl></tei:ref>.</tei:p>
+                    <tei:p>The praenomen <tei:rs type="name" corresp="#Osc_29_l_1_w_1" xml:lang="osc-Ital-x-oscetr">maraheis</tei:rs> is written rendering <tei:rs type="c" xml:lang="osc-Ital-x-oscetr">E</tei:rs> by double vertical dashes, <tei:rs type="c" xml:lang="osc-Ital-x-oscetr">||</tei:rs>, as in the cursive writing (<tei:rs type="name" corresp="#Osc_29_l_1_w_1" xml:lang="osc-Ital-x-oscetr">MARAHIIIS</tei:rs>). This use also appears in <tei:ref target="ItAnt_Oscan_567.xml">ItAnt Oscan 567</tei:ref>. See <tei:ref target="http://zotero.org/groups/2552746/items/IKUTPHDC"><tei:bibl>Crawford, ImIt 2011</tei:bibl></tei:ref> and <tei:ref target="http://zotero.org/groups/2552746/items/GAUI9I4A"><tei:bibl>De Benedittis - Faustoferri 2008 [2011]</tei:bibl></tei:ref> (correcting <tei:ref target="http://zotero.org/groups/2552746/items/CZWSFYAR"><tei:bibl>De Benedittis 2003</tei:bibl></tei:ref>, assuming the second <tei:rs type="c" xml:lang="osc-Ital-x-oscetr">I</tei:rs> as a misspell for <tei:rs type="c" xml:lang="osc-Ital-x-oscetr">E</tei:rs>).</tei:p>
+                </tei:note>
+                <tei:note>
+                    <tei:p><tei:rs type="w" corresp="#Osc_29_l_1_w_4" xml:lang="osc-Ital-x-oscetr">dikked</tei:rs> contrasts with <tei:rs type="w" xml:lang="osc-Ital-x-oscetr">dadíkatted</tei:rs> for the register, as a non-technical term related to the lexical field of 'dedication'. In fact, according to <tei:ref target="http://zotero.org/groups/2552746/items/9FANWURA"><tei:bibl>Poccetti 2009</tei:bibl></tei:ref>, Oscan shows a formal distinction in the votive lexicon, in which a technical use is reserved for <tei:rs type="w" xml:lang="osc-Ital-x-oscetr">dadíkatted</tei:rs>, in reference to the 'consecration' of a place of worship carried out by those who are officially appointed to do it; this technical specialization is probably inspired by partial calque on the Lat. <tei:rs type="w" ref="http://lila-erc.eu/data/id/lemma/98197" xml:lang="lat-Latn">dedicavit</tei:rs> (see <tei:ref target="http://lila-erc.eu/data/id/lemma/98197" xml:lang="lat-Latn">LiLa</tei:ref>). The opposition <tei:rs type="w" corresp="#Osc_29_l_1_w_4" xml:lang="osc-Ital-x-oscetr">dikked</tei:rs> ~ <tei:rs type="w" xml:lang="osc-Ital-x-oscetr">dadíkatted</tei:rs> allows to distinguish between private and public dedications.</tei:p>
+                </tei:note>
+                <tei:note>
+                    <tei:p>The thymiaterion is supposed to be kept in the <tei:ref target="https://www.musei.molise.beniculturali.it/musei?mid=208&amp;nome=museo-sannitico">Museo Sannitico</tei:ref> (see the <tei:ref target="https://www.musei.molise.beniculturali.it/wp-content/uploads/2015/11/6_-1.jpg">museum caption</tei:ref>, no. 8). However, the artefact was not in the case during our autopsy. The reading we provide is based on the images published by previous editors.</tei:p>
+                </tei:note>
+                <tei:listPerson type="Onomastics">
+                    <tei:person xml:id="p1" xml:lang="osc-Ital-x-oscetr">
+                        <tei:persName>
+                            <tei:name type="gamonymic">maraheis</tei:name>
+                            <tei:name type="gentilicium">úpfalliu</tei:name>
+                        </tei:persName>
+                    </tei:person>
+                </tei:listPerson>
+            </tei:div>
+            <tei:div type="bibliography">
+                <tei:listBibl xmlns="http://www.tei-c.org/ns/1.0">
+                    <tei:biblStruct type="book" xml:id="ImIt2011" corresp="http://zotero.org/groups/2552746/items/IKUTPHDC">
+                        <tei:monogr>
+                            <tei:title level="m">Imagines Italicae: A Corpus of Italic Inscriptions</tei:title>
+                            <tei:editor>
+                                <tei:forename>Michael</tei:forename>
+                                <tei:surname>Crawford</tei:surname>
+                            </tei:editor>
+                            <tei:imprint>
+                                <tei:pubPlace>London</tei:pubPlace>
+                                <tei:publisher>Institute of Classical Studies, University of London</tei:publisher>
+                                <tei:date>2011</tei:date>
+                            </tei:imprint>
+                        </tei:monogr>
+                        <tei:citedRange unit="entry">Bovianum 93 (with photograph)</tei:citedRange>
+                    </tei:biblStruct>
+                    <tei:biblStruct type="journalArticle" xml:id="DeBenedittis2003" corresp="http://zotero.org/groups/2552746/items/CZWSFYAR">
+                        <tei:analytic>
+                            <tei:title level="a">Iscrizione osca su base di thymiaterion in bronzo</tei:title>
+                            <tei:author>
+                                <tei:forename>Gianfranco</tei:forename>
+                                <tei:surname>De Benedittis</tei:surname>
+                            </tei:author>
+                        </tei:analytic>
+                        <tei:monogr>
+                            <tei:title level="j">Studi Etruschi</tei:title>
+                            <tei:imprint>
+                                <tei:biblScope unit="volume">69</tei:biblScope>
+                                <tei:biblScope unit="page">406-409 (with drawing, p. 407, and photographs, pls. XXXVI c and XXXVII)</tei:biblScope>
+                                <tei:date>2003</tei:date>
+                            </tei:imprint>
+                        </tei:monogr>
+                    </tei:biblStruct>
+                </tei:listBibl>    
+            </tei:div>   
+        </tei:body>
+    </tei:text>
+</tei:TEI>

@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/9.5/tei-epidoc.rng"
+schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/9.5/tei-epidoc.rng"
+schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<tei:TEI xmlns:dcr="http://www.isocat.org/ns/dcr" xml:id="ItAnt_Oscan_309"
+    xmlns:tei="http://www.tei-c.org/ns/1.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <tei:teiHeader>
+        <tei:fileDesc>
+            <tei:titleStmt>
+                <tei:title type="ItAnt_ID">Inscription ItAnt Oscan 309</tei:title>
+            </tei:titleStmt>
+            <tei:editionStmt>
+                <tei:edition>
+                    <tei:idno>ItAnt Oscan 309</tei:idno>
+                </tei:edition>
+                <tei:editor>
+                    <tei:persName>Francesca Murano</tei:persName>
+                </tei:editor>
+            </tei:editionStmt>         
+            <tei:publicationStmt>
+                <tei:authority>PRIN 2017 "Lingue e culture dell'Italia antica: linguistica storica e modelli digitali | Languages and Cultures of Ancient Italy. Historical Linguistics and Digital Models"</tei:authority>
+                <tei:date>2023</tei:date>
+                <tei:idno type="URI" subtype="handle"></tei:idno>
+                <tei:availability>
+                    <tei:licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">This file is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International license – (CC BY-NC-SA 4.0).  
+                    </tei:licence>
+                </tei:availability>
+            </tei:publicationStmt>   
+            <tei:sourceDesc>
+                <tei:msDesc>
+                    <tei:msIdentifier>
+                        <tei:settlement ref="https://sws.geonames.org/3182650">Avellino</tei:settlement>
+                        <tei:institution ana="https://www.museoirpino.it">Museo Irpino</tei:institution>
+                        <tei:idno type="museumID">3400</tei:idno>
+                        <tei:msName/>
+                        <tei:altIdentifier type="trismegistos">
+                            <tei:idno source="www.trismegistos.org/text/170646">TM 170646</tei:idno>
+                        </tei:altIdentifier> 
+                        <tei:altIdentifier type="traditionalID">
+                            <tei:idno source="http://zotero.org/groups/2552746/items/IMWMSAVE">ST Hi 8</tei:idno>
+                        </tei:altIdentifier> 
+                        <tei:altIdentifier type="traditionalID">
+                            <tei:idno source="http://zotero.org/groups/2552746/items/IKUTPHDC">ImIt Abellinum 5 Stamp, 1</tei:idno>
+                        </tei:altIdentifier>
+                    </tei:msIdentifier> 
+                    <tei:msContents>
+                        <tei:summary>Workshop's mark incised on a fragment of tile from Abellinum (Atripalda, loc. Civita).
+                        </tei:summary>
+                    </tei:msContents>
+                    <tei:physDesc>
+                        <tei:objectDesc>     
+                            <tei:supportDesc>
+                                <tei:support>
+                                    <tei:objectType ana="http://vocab.getty.edu/page/aat/300010699">tegula</tei:objectType>                                     <tei:rs ana="objectShape"/>  
+                                    <tei:note/>
+                                    <tei:material ana="http://vocab.getty.edu/page/aat/300010669">terracotta
+                                    </tei:material>
+                                    <tei:dimensions type="objectDimensions" unit="cm" precision="high" resp="#Antonini1981">
+                                        <tei:height quantity="11.5">11,5</tei:height>
+                                        <tei:width quantity="9">9</tei:width>
+                                        <tei:depth quantity="3.2">3,2</tei:depth>
+                                    </tei:dimensions>
+                                    <tei:rs type="reuse">no</tei:rs>
+                                </tei:support>
+                                <tei:condition>very fragmentary</tei:condition>   
+                            </tei:supportDesc>
+                            <tei:layoutDesc>
+                                <tei:layout columns="1" writtenLines="2">
+                                    <tei:rs type="execution" ana="http://vocab.getty.edu/page/aat/300379457">scratched before firing</tei:rs>
+                                    <tei:rs type="opistography">no</tei:rs>
+                                    <tei:note type="layoutNotes"/>
+                                    <tei:dimensions type="lineDimension" unit="cm" precision="medium">
+                                        <tei:height quantity="2">2</tei:height>
+                                        <tei:width quantity="6">6</tei:width>
+                                    </tei:dimensions> 
+                                </tei:layout>
+                            </tei:layoutDesc>
+                        </tei:objectDesc>
+                        <tei:handDesc>                            
+                            <tei:handNote>
+                                <tei:note type="palaeographicNotes"/>
+                                <tei:dimensions type="characterDimension" unit="cm" precision="high" resp="#Antonini1981"> 
+                                    <tei:height quantity="2">2</tei:height>
+                                    <tei:width atLeast="0.9" atMost="1.2">0,9 to 1,2</tei:width>
+                                </tei:dimensions>
+                            </tei:handNote>
+                        </tei:handDesc>                                      
+                        <tei:scriptDesc>
+                            <tei:scriptNote>
+                                <tei:rs type="writingSystem" subtype="alphabet" ref="https://www.prin-italia-antica.unifi.it/p166.html#oscan-etruscan">Oscan National alphabet</tei:rs>
+                                <tei:rs type="wordDivision">unknown</tei:rs>
+                            </tei:scriptNote>
+                        </tei:scriptDesc>
+                        <tei:decoDesc>
+                            <tei:decoNote/>   
+                        </tei:decoDesc>
+                    </tei:physDesc>
+                    <tei:history>
+                        <tei:origin> 
+                            <tei:origPlace type="composed">
+                                <tei:placeName type="ancient" ref="https://pleiades.stoa.org/places/432618">Abellinum, Hirpinia</tei:placeName>
+                                <tei:placeName type="modern" ref="https://sws.geonames.org/6538774">Atripalda (Avellino)</tei:placeName>
+                            </tei:origPlace>
+                            <tei:origDate notBefore-custom="-0399" notAfter-custom="-0300" cert="medium" resp="#ColucciPescatori1991">3rd cent. BC</tei:origDate>
+                        </tei:origin>
+                        <tei:provenance type="found" subtype="discovered" when="1963">
+                            <tei:placeName type="ancient" ref="https://pleiades.stoa.org/places/432618">Abellinum, Hirpinia</tei:placeName>
+                            <tei:placeName type="modern" ref="https://sws.geonames.org/6538774">Atripalda (Avellino)</tei:placeName>
+                            <tei:placeName type="detailed">Sporadic finding in loc. Civita, site of the ancient Abellinum</tei:placeName>
+                        </tei:provenance>
+                        <tei:provenance type="observed" subtype="seen" when="2022">
+                            <tei:persName>Francesca Murano</tei:persName>
+                        </tei:provenance>
+                        <tei:provenance type="observed" subtype="seen" notAfter="2002" resp="#Rix2002">
+                            <tei:persName>Helmut Rix</tei:persName>
+                        </tei:provenance>
+                        <tei:provenance type="observed" subtype="autopsied" notAfter="1981" resp="#Antonini1981">
+                            <tei:persName>Rosalba Antonini</tei:persName>
+                        </tei:provenance>
+                        <tei:provenance type="observed" subtype="autopsied" when="2004" resp="#ImIt2011">
+                            <tei:persName>M.H. Crawford</tei:persName>
+                        </tei:provenance>
+                    </tei:history>                       
+                </tei:msDesc>   
+            </tei:sourceDesc> 
+        </tei:fileDesc>
+        <tei:encodingDesc>
+            <tei:p source="https://epidoc.stoa.org/gl/latest/">Marked-up according to the EpiDoc Guidelines</tei:p>
+        </tei:encodingDesc>
+        <tei:profileDesc>
+            <tei:langUsage>
+                <tei:language ident="osc" source="https://iso639-3.sil.org/code/osc">Oscan</tei:language>
+                <tei:language ident="osc-Ital-x-oscetr" source="https://www.prin-italia-antica.unifi.it/p166.html#oscan-etruscan" ana="https://unicode.org/iso15924/iso15924-codes.html">Oscan in National alphabet (Oscan-Etruscan alphabet)</tei:language>
+            </tei:langUsage>
+            <tei:textClass>
+                <tei:keywords scheme="https://www.eagle-network.eu/resources/vocabularies/typeins/">
+                    <tei:term ref="https://www.eagle-network.eu/voc/typeins/lod/119">workshop's mark</tei:term>
+                </tei:keywords>
+            </tei:textClass>
+        </tei:profileDesc>
+    </tei:teiHeader>
+    <tei:facsimile>
+        <tei:graphic n="1" url="https://books.openedition.org/pcjb/docannexe/image/1447/img-31.jpg" resp="Gabriella Colucci Pescatori">
+            <tei:desc>Inscription ItAnt Oscan 309 (picture from <tei:ref target="http://zotero.org/groups/2552746/items/UDFRKMKV"><tei:bibl>Colucci Pescatori 1991</tei:bibl></tei:ref>, fig. 32)
+                <tei:ref ana="https://www.openedition.org/14043">This file is licensed under the OpenEdition Freemium programme</tei:ref>
+            </tei:desc>
+        </tei:graphic>
+        <tei:graphic n="2" url="https://www.studietruschi.org/wp-content/uploads/2021/07/SE49_16.pdf#page=91">
+            <tei:desc>Inscription ItAnt Oscan 309 (picture from <tei:ref target="http://zotero.org/groups/2552746/items/LRFXVEPR"><tei:bibl>Antonini 1981</tei:bibl></tei:ref>, pl. XLIV, d)
+                <tei:ref ana="https://www.studietruschi.org">This file is provided by the Istituto Nazionale di Studi Etruschi ed Italici</tei:ref>
+            </tei:desc>
+        </tei:graphic>
+        <tei:graphic n="3" url="https://www.studietruschi.org/wp-content/uploads/2021/07/SE49_16.pdf#page=15">
+            <tei:desc>Inscription ItAnt Oscan 309 (drawing from <tei:ref target="http://zotero.org/groups/2552746/items/LRFXVEPR"><tei:bibl>Antonini 1981</tei:bibl></tei:ref>)
+                <tei:ref ana="https://www.studietruschi.org">This file is provided by the Istituto Nazionale di Studi Etruschi ed Italici</tei:ref>
+            </tei:desc>
+        </tei:graphic>
+    </tei:facsimile>
+    <tei:text>
+        <tei:body>             
+            <tei:div type="edition" subtype="interpretative" xml:space="preserve">
+                <tei:div type="textpart" n="face_a" style="text-direction:r-to-l" rend="ductus:sinistrorse">
+                    <tei:ab>   
+                        <tei:lb n="1" xml:id="Osc_309_l_1"/>
+                            <!-- Leida;Osc_309_l_1_w_1;múdi[s] -->
+                            <tei:name xml:lang="osc-Ital-x-oscetr" xml:id="Osc_309_l_1_w_1" ref="#p1">mú<tei:unclear>di</tei:unclear><tei:supplied reason="lost">s</tei:supplied></tei:name>
+                        <tei:gap reason="lost" extent="unknown" unit="line"><tei:certainty match=".." locus="name"/></tei:gap>
+                        <tei:lb n="2" xml:id="Osc_309_l_2"/>
+                            <!-- Leida;Osc_309_l_2_w_1;upse[d] -->
+                            <tei:w xml:lang="osc-Ital-x-oscetr" xml:id="Osc_309_l_2_w_1">ups<tei:unclear>e</tei:unclear><tei:supplied reason="lost">d</tei:supplied></tei:w>
+                    </tei:ab>
+                </tei:div>
+            </tei:div>
+            <tei:div type="translation" xml:lang="ita">
+                <tei:p>Modius fece (questo)</tei:p>
+                <tei:desc>
+                    <tei:persName>Francesca Murano</tei:persName>
+                    <tei:ref type="licence" target="https://creativecommons.org/licenses/by-nc-sa/4.0/">This file is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International license – (CC BY-NC-SA 4.0).</tei:ref>
+                </tei:desc> 
+            </tei:div>
+            <tei:div type="translation" xml:lang="eng">
+                <tei:p>Modius made (this)</tei:p>
+                <tei:desc>
+                    <tei:persName>Francesca Murano</tei:persName>
+                    <tei:ref type="licence" target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </tei:ref>
+                </tei:desc> 
+            </tei:div>            
+            <tei:div type="apparatus" xml:lang="eng" resp="Francesca Murano">
+                <tei:listApp>
+                    <tei:app from="#Osc_309_l_1">
+                        <tei:lem corresp="#Osc_309_l_1_w_1">múḍị[s]</tei:lem>
+                        <tei:rdg corresp="#Osc_309_l_1_w_1">mú[dis]
+                            <tei:ref target="http://zotero.org/groups/2552746/items/IMWMSAVE"><tei:bibl>Rix, ST 2002</tei:bibl></tei:ref>
+                        </tei:rdg>
+                        <tei:rdg corresp="#Osc_309_l_1_w_1">múdị[s]
+                            <tei:ref target="http://zotero.org/groups/2552746/items/IKUTPHDC"><tei:bibl>Crawford, ImIt 2011</tei:bibl></tei:ref>
+                            </tei:rdg>
+                    </tei:app>                  
+                </tei:listApp>                
+            </tei:div>
+            <tei:div type="commentary" xml:lang="eng" resp="Francesca Murano">
+                <tei:note>
+                    <tei:p>The inscription is to be considered as a workshop's mark. <tei:ref target="http://zotero.org/groups/2552746/items/IMWMSAVE"><tei:bibl>Rix, ST 2002</tei:bibl></tei:ref> lists the text among the dedicatory inscriptions.</tei:p>
+                    <tei:p>It cannot be excluded that l. 1 also contained the gentilicium</tei:p>
+                    <tei:p>The text is the same as in <tei:ref target="ItAnt_Oscan_310.xml">ItAnt Oscan 310</tei:ref>.</tei:p>
+                </tei:note>
+                <tei:listPerson type="Onomastics">
+                    <tei:person xml:id="p1" xml:lang="osc-Ital-x-oscetr">
+                        <tei:persName>
+                            <tei:name type="praenomen">múdi[s]</tei:name>
+                        </tei:persName>
+                    </tei:person>
+                </tei:listPerson>
+            </tei:div>
+            <tei:div type="bibliography">
+                <tei:listBibl xmlns="http://www.tei-c.org/ns/1.0"> 
+                    <tei:biblStruct type="book" xml:id="ImIt2011"  corresp="http://zotero.org/groups/2552746/items/IKUTPHDC">
+                        <tei:monogr>
+                            <tei:title level="m">Imagines Italicae: A Corpus of Italic Inscriptions</tei:title>
+                            <tei:editor>
+                                <tei:forename>Michael</tei:forename>
+                                <tei:surname>Crawford</tei:surname>
+                            </tei:editor>
+                            <tei:imprint>
+                                <tei:pubPlace>London</tei:pubPlace>
+                                <tei:publisher>Institute of Classical Studies, University of London</tei:publisher>
+                                <tei:date>2011</tei:date>
+                            </tei:imprint>
+                        </tei:monogr>
+                        <tei:citedRange unit="entry">Abellinum 5 Stamp, 1 (with photograph)</tei:citedRange>
+                    </tei:biblStruct>
+                    <tei:biblStruct type="book" xml:id="Rix2002"  corresp="http://zotero.org/groups/2552746/items/IMWMSAVE">
+                        <tei:monogr>
+                            <tei:title level="m">Sabellische Texte. Die Texte des Oskischen, Umbrischen und Südpikenischen</tei:title>
+                            <tei:author>
+                                <tei:forename>Helmut</tei:forename>
+                                <tei:surname>Rix</tei:surname>
+                            </tei:author>
+                            <tei:imprint>
+                                <tei:pubPlace>Heidelberg</tei:pubPlace>
+                                <tei:publisher>C. Winter</tei:publisher>
+                                <tei:date>2002</tei:date>
+                            </tei:imprint>
+                        </tei:monogr>
+                        <tei:citedRange unit="entry">Hi 8</tei:citedRange>
+                    </tei:biblStruct>
+                    <tei:biblStruct type="bookSection" xml:id="Colucci_Pescatori1991" corresp="http://zotero.org/groups/2552746/items/UDFRKMKV">
+                        <tei:analytic>
+                            <tei:title level="a">Evidenze archeologiche in Irpinia</tei:title>
+                            <tei:author>
+                                <tei:forename>Gabriella</tei:forename>
+                                <tei:surname>Colucci Pescatori</tei:surname>
+                            </tei:author>
+                        </tei:analytic>
+                        <tei:monogr>
+                            <tei:title level="m">La romanisation du Samnium aux IIe et Ier s. av. J.-C. Actes du Colloque International (Naples, 4-5 Novembre 1988)</tei:title>
+                            <tei:imprint>
+                                <tei:pubPlace>Naples</tei:pubPlace>
+                                <tei:biblScope unit="page">85-122</tei:biblScope>
+                                <tei:publisher>Centre Jean Bérard</tei:publisher>
+                                <tei:date>1991</tei:date>
+                            </tei:imprint>
+                        </tei:monogr>
+                        <tei:citedRange unit="page">107-112 (with fig. 32)</tei:citedRange>
+                    </tei:biblStruct>                    
+                    <tei:biblStruct type="journalArticle" xml:id="Antonini1981" corresp="http://zotero.org/groups/2552746/items/LRFXVEPR">
+                        <tei:analytic>
+                            <tei:title level="a">Italico</tei:title>
+                            <tei:author>
+                                <tei:forename>Rosalba</tei:forename>
+                                <tei:surname>Antonini</tei:surname>
+                            </tei:author>
+                        </tei:analytic>
+                        <tei:monogr>
+                            <tei:title level="j">Studi Etruschi</tei:title>
+                            <tei:imprint>
+                                <tei:biblScope unit="volume">49</tei:biblScope>
+                                <tei:biblScope unit="page">299-351</tei:biblScope>
+                                <tei:date>1981</tei:date>
+                            </tei:imprint>
+                        </tei:monogr>
+                        <tei:citedRange unit="page">299, no. 1 (with pl. XLIV, d)</tei:citedRange>
+                    </tei:biblStruct>
+                </tei:listBibl>    
+            </tei:div>   
+        </tei:body>
+    </tei:text>
+</tei:TEI>

@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.stoa.org/epidoc/schema/9.2/tei-epidoc.rng"
+    schematypens="http://relaxng.org/ns/structure/1.0"?> 
+<?xml-model href="https://www.stoa.org/epidoc/schema/9.2/tei-epidoc.rng"
+    schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<tei:TEI xmlns:dcr="http://www.isocat.org/ns/dcr" xml:id="ItAnt_Oscan_519"
+    xmlns:tei="http://www.tei-c.org/ns/1.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <tei:teiHeader>
+        <tei:fileDesc>
+            <tei:titleStmt>
+                <tei:title type="ItAnt_ID">Inscription ItAnt Oscan 519</tei:title>
+            </tei:titleStmt>
+            <tei:editionStmt>
+                <tei:edition>
+                    <tei:idno>ItAnt Oscan 519</tei:idno>
+                </tei:edition>
+                <tei:editor>
+                    <tei:persName>Francesco Benassai</tei:persName>
+                </tei:editor>
+            </tei:editionStmt>         
+            <tei:publicationStmt>
+                <tei:authority>PRIN 2017 "Lingue e culture dell'Italia antica: linguistica storica e modelli digitali | Languages and Cultures of Ancient Italy. Historical Linguistics and Digital Models"</tei:authority>
+                <tei:date>2023</tei:date>
+                <tei:idno type="URI" subtype="handle"></tei:idno>
+                <tei:availability>
+                    <tei:licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">This file is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International license – (CC BY-NC-SA 4.0).  
+                    </tei:licence>
+                </tei:availability>
+            </tei:publicationStmt>   
+            <tei:sourceDesc>
+                <tei:msDesc>
+                    <tei:msIdentifier>
+                        <tei:settlement ref="https://sws.geonames.org/3180991">Campobasso</tei:settlement>
+                        <tei:institution ana="https://sabapmolise.beniculturali.it">Soprintendenza Archeologia, Belle arti e Paesaggio del Molise</tei:institution>
+                        <tei:idno type="museumID">34909</tei:idno>
+                        <tei:msName></tei:msName>
+                        <tei:altIdentifier type="trismegistos">
+                            <tei:idno source="www.trismegistos.org/text/171562">TM 171562</tei:idno>
+                        </tei:altIdentifier> 
+                        <tei:altIdentifier type="traditionalID">
+                            <tei:idno source="http://zotero.org/groups/2552746/items/IMWMSAVE">ST tSa 44</tei:idno>
+                        </tei:altIdentifier> 
+                        <tei:altIdentifier type="traditionalID">
+                            <tei:idno source="http://zotero.org/groups/2552746/items/IKUTPHDC">ImIt Bouianum 110 Stamp (2)</tei:idno>
+                        </tei:altIdentifier>
+                    </tei:msIdentifier> 
+                    <tei:msContents>
+                        <tei:summary>Stamp on a tegula from Aquilonia (Monte Vairano), displaying an Oscan and a Greek inscription.</tei:summary>
+                    </tei:msContents>
+                    <tei:physDesc>
+                        <tei:objectDesc>     
+                            <tei:supportDesc>
+                                <tei:support>
+                                    <tei:objectType ana="http://vocab.getty.edu/page/aat/300010699">tegula</tei:objectType>
+                                    <tei:note></tei:note>
+                                    <tei:material ana="http://vocab.getty.edu/page/aat/300010669">terracotta
+                                    </tei:material>
+                                    <tei:dimensions type="objectDimensions" unit="cm" precision="high">
+                                        <tei:height quantity="29.0">39</tei:height>
+                                        <tei:width quantity="16.0">46</tei:width>
+                                        <tei:depth quantity="3.3">3,3</tei:depth>
+                                    </tei:dimensions>
+                                    <tei:rs type="reuse">no</tei:rs>
+                                </tei:support>
+                                <tei:condition>very fragmentary</tei:condition>   
+                            </tei:supportDesc>
+                            <tei:layoutDesc>
+                                <tei:layout columns="1" writtenLines="2">
+                                    <tei:rs type="execution" ana="http://vocab.getty.edu/page/aat/300239001">stamp</tei:rs>
+                                    <tei:rs type="opistography">no</tei:rs>
+                                    <tei:note type="layoutNotes">in sunken rectangular frame</tei:note>
+                                    <tei:dimensions type="lineDimension" unit="cm" precision="high">
+                                        <tei:height quantity="1.2">1,2</tei:height>
+                                        <tei:width quantity="6.6">6,6</tei:width>
+                                    </tei:dimensions> 
+                                </tei:layout>
+                            </tei:layoutDesc>
+                        </tei:objectDesc>
+                        <tei:handDesc>                            
+                            <tei:handNote>
+                                <tei:note type="palaeographicNotes">The Oscan text (first line) is dextrorse; the Greek text (second line) is sinistrorse</tei:note>
+                                <tei:dimensions type="characterDimension" unit="cm" precision="high"> 
+                                    <tei:height quantity="1.5">1,5</tei:height>
+                                </tei:dimensions>
+                            </tei:handNote>
+                        </tei:handDesc>                                      
+                        <tei:scriptDesc>
+                            <tei:scriptNote>
+                                <tei:rs type="writingSystem" subtype="alphabet" ref="https://www.prin-italia-antica.unifi.it/p166.html#oscan-etruscan">Oscan National alphabet</tei:rs>
+                                <tei:rs type="wordDivision">blank space</tei:rs>
+                            </tei:scriptNote>
+                        </tei:scriptDesc>
+                        <tei:decoDesc>
+                            <tei:decoNote>Stamp of a gladium (?), pointing left, between the two written lines.</tei:decoNote>   
+                        </tei:decoDesc>
+                    </tei:physDesc>
+                    <tei:history>
+                        <tei:origin> 
+                            <tei:origPlace type="composed">
+                                <tei:placeName type="ancient" ref="https://pleiades.stoa.org/places/438681">Aquilonia, Samnium</tei:placeName>
+                                <tei:placeName type="modern" ref="https://sws.geonames.org/3164966">Monte Vairano (CB)</tei:placeName>
+                            </tei:origPlace>
+                            <tei:origDate notBefore-custom="-0125" notAfter-custom="-0075" cert="medium" evidence="lettering" resp="#ImIt2011">late 2nd - early 1st century BC</tei:origDate>
+                        </tei:origin>
+                        <tei:provenance type="found" subtype="discovered" when="1987">
+                            <tei:placeName type="ancient" ref="https://pleiades.stoa.org/places/438681">Aquilonia, Samnium</tei:placeName>
+                            <tei:placeName type="modern" ref="https://sws.geonames.org/3164966">Monte Vairano (CB)</tei:placeName>
+                            <tei:placeName type="detailed">Found in Monte Vairano (CB), Porta Meridionale (Porta Monteverde), during the excavation on the fill of the cistern in the "house of LN", togheter with material dated up to 1st century BC.</tei:placeName>
+                        </tei:provenance>
+                        <tei:provenance type="observed" subtype="seen" when="2021">
+                            <tei:persName>Francesca Murano</tei:persName>
+                        </tei:provenance>
+                        <tei:provenance type="observed" subtype="autopsied" when="1987">
+                            <tei:persName>G. De Benedittis</tei:persName>
+                        </tei:provenance>
+                    </tei:history>                       
+                </tei:msDesc>   
+            </tei:sourceDesc> 
+        </tei:fileDesc>
+        <tei:encodingDesc>
+            <tei:p source="https://epidoc.stoa.org/gl/latest/">Marked-up according to the EpiDoc Guidelines</tei:p>
+        </tei:encodingDesc>
+        <tei:profileDesc>
+            <tei:langUsage>
+                <tei:language ident="osc" source="https://iso639-3.sil.org/code/osc">Oscan</tei:language>
+                <tei:language ident="osc-Ital-x-oscetr" source="https://www.prin-italia-antica.unifi.it/p166.html#oscan-etruscan" ana="https://unicode.org/iso15924/iso15924-codes.html">Oscan in National alphabet (Oscan-Etruscan alphabet)</tei:language>
+                <tei:language ident="grc-Grek" source="https://iso639-3.sil.org/code/grc">Greek</tei:language>   
+            </tei:langUsage>
+            <tei:textClass>
+                <tei:keywords scheme="https://www.eagle-network.eu/resources/vocabularies/typeins/">
+                    <tei:term ref="https://www.eagle-network.eu/voc/typeins/lod/118">tile stamp</tei:term>
+                </tei:keywords>
+            </tei:textClass>
+        </tei:profileDesc>
+    </tei:teiHeader>
+    <tei:facsimile>
+        <tei:graphic n="1" url="http://linsto.dipartimentidieccellenza-dilef.unifi.it/itant/img/ItAnt_Oscan_519.jpg">
+            <tei:desc>Inscription ItAnt Oscan 519 (drawing by <tei:persName>Francesca Murano</tei:persName>)
+                <tei:ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">This file is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International license – (CC BY-NC-SA 4.0).</tei:ref>
+            </tei:desc>
+        </tei:graphic>
+        <tei:graphic n="2" url="https://www.studietruschi.org/wp-content/uploads/2021/06/SE55_20.pdf#page=18">
+            <tei:desc>Inscription ItAnt Oscan 519 (photograph from <tei:ref target="http://zotero.org/groups/2552746/items/CBD7USAW"><tei:bibl>De Benedittis 1987-1988</tei:bibl></tei:ref>, pl. LII b)
+                <tei:ref ana="https://www.studietruschi.org">This file is provided by the Istituto Nazionale di Studi Etruschi ed Italici</tei:ref>
+            </tei:desc>
+        </tei:graphic>
+        <tei:graphic n="3" url="https://www.studietruschi.org/wp-content/uploads/2021/06/SE55_20.pdf#page=2">
+            <tei:desc>Inscription ItAnt Oscan 519 (drawing from <tei:ref target="http://zotero.org/groups/2552746/items/CBD7USAW"><tei:bibl>De Benedittis 1987-1988</tei:bibl></tei:ref>)
+                <tei:ref ana="https://www.studietruschi.org">This file is provided by the Istituto Nazionale di Studi Etruschi ed Italici</tei:ref>
+            </tei:desc>
+        </tei:graphic>
+    </tei:facsimile>
+    <tei:text>
+        <tei:body>             
+            <tei:div type="edition" subtype="interpretative" xml:space="preserve">
+                <tei:div type="textpart" n="face_a" style="text-direction:l-to-r" rend="ductus:dextrorse">
+                    <tei:ab>   
+                        <tei:lb n="1" xml:id="Osc_519_l_1"/>
+<!-- Leida;Osc_519_l_1;[v(ibis ?)] k() -->
+                            <tei:name type="praenomen" xml:lang="osc-Ital-x-oscetr" xml:id="Osc_519_l_1_w_1" ref="#p1"><tei:expan><tei:abbr><tei:supplied reason="lost">v</tei:supplied></tei:abbr><tei:ex cert="low">ibis</tei:ex></tei:expan></tei:name>
+                        <tei:space unit="character" quantity="1"/>
+                            <tei:name type="gentilicium" xml:lang="osc-Ital-x-oscetr" xml:id="Osc_519_l_1_w_2" ref="#p1"><tei:expan><tei:abbr>k</tei:abbr><tei:ex></tei:ex></tei:expan></tei:name>
+                    </tei:ab>
+                </tei:div>
+                <tei:div type="textpart" n="face_a" style="text-direction:r-to-l" rend="ductus:sinistrorse">
+                    <tei:ab>           
+<!-- Leida;λυκου -->
+                        <tei:lb n="2" xml:id="Osc_519_l_2" style="text-direction:l-to-r" rend="ductus:sinistrorse"/>
+                            <tei:name type="praenomen" xml:lang="grc-Grek" ref="#p2">λυκου</tei:name>
+                    </tei:ab>
+                </tei:div>
+            </tei:div>
+            <tei:div type="translation" xml:lang="ita">
+                <tei:p>[V(ibius ?)] K( ) || Di Lykos</tei:p>
+                <tei:desc>
+                    <tei:persName>Francesco Benassai</tei:persName>
+                    <tei:ref type="licence" target="https://creativecommons.org/licenses/by-nc-sa/4.0/">This file is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International license – (CC BY-NC-SA 4.0).</tei:ref>
+                </tei:desc> 
+            </tei:div>
+            <tei:div type="translation" xml:lang="eng">
+                <tei:p>[V(ibius ?)] K( ) || Of Lykos</tei:p>
+                <tei:desc>
+                    <tei:persName>Francesco Benassai</tei:persName>
+                    <tei:ref type="licence" target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </tei:ref>
+                </tei:desc> 
+            </tei:div>             
+            <tei:div type="apparatus" xml:lang="eng"/>
+            <tei:div type="commentary" xml:lang="eng" resp="Francesco Benassai">
+                <tei:note>
+                    <tei:p>The same stamp is also displayed in <tei:ref target="ItAnt_Oscan_519.xml">ItAnt Oscan 519</tei:ref>, both found in the fill of the cistern in the "house of LN", togheter with material dated up to 1st century BC (see <tei:ref target="http://zotero.org/groups/2552746/items/CBD7USAW"><tei:bibl>De Benedittis 1987-1988</tei:bibl></tei:ref>: 356). The stamps do not have separate inventory number.</tei:p>
+                    <tei:p>In this stamp the letters dimension appear slightly bigger compared to <tei:ref target="ItAnt_Oscan_518.xml">ItAnt Oscan 518</tei:ref>. According to <tei:ref target="http://zotero.org/groups/2552746/items/CBD7USAW"><tei:bibl>De Benedittis 1987-1988</tei:bibl></tei:ref>: 356, this fact is not due to the use of a different stamp-tool, but was conditioned by technical elements.</tei:p>
+                </tei:note>
+                <tei:note>
+                    <tei:p>The stamp consists of two line of writing, each containing a personal name. The first line is in Oscan and displays two letters representing the abbreviation of a praenomen + gentilicium onomastic formula, <tei:rs type="name" xml:lang="osc-Ital-x-oscetr" corresp="#Osc_518_l_1">v(ibis ?) k( )</tei:rs>. The second line is written in Greek and displays a Greek name in the genitive, <tei:rs type="name" xml:lang="grc-Grek" corresp="#Osc_518_l_2">λυκου</tei:rs> (see the LGPN, s.v. <tei:ref target="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?name=%CE%9B%CF%8D%CE%BA%CE%BF%CF%82">Λύκος</tei:ref>).</tei:p>
+                    <tei:p>Compared to the directions of the writing commonly attested for Oscan and Greek, the stamp shows a reverse direction. The Oscan line runs left-to-right, the Greek line runs right-to-left. The 'ordinary' writing direction was used for the creation of the stamp-tool, so that it results reverse in the stamping.</tei:p>
+                    <tei:p>Between the inscriptions there is the imprint of a gladium.</tei:p></tei:note>
+                <tei:note target="#Osc_518_l_1">
+                    <tei:p><tei:ref target="http://zotero.org/groups/2552746/items/CBD7USAW"><tei:bibl>De Benedittis 1987-1988</tei:bibl></tei:ref>: 356 assumes that the person mentioned in the Oscan text, <tei:rs type="name" xml:lang="osc-Ital-x-oscetr" corresp="#Osc_518_l_1">v(ibis ?) k( )</tei:rs>, is the owner of the workshop, and person mentioned in the Greek text, <tei:rs type="name" xml:lang="grc-Grek" corresp="#Osc_518_l_2">λυκου</tei:rs> (see the LGPN, s.v. <tei:ref target="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?name=%CE%9B%CF%8D%CE%BA%CE%BF%CF%82">Λύκος</tei:ref>), is the craftsman. According to <tei:ref target="http://zotero.org/groups/2552746/items/CBD7USAW"><tei:bibl>De Benedittis 1987-1988</tei:bibl></tei:ref>, the foreign origin of the worker could explain the physical features this tile shows. The quality of the clay and the shape of the tile are different compared to the other tiles found in Monte Vairano, and would have been due to a different manufacturing technique adopted by the Greek worker.</tei:p>
+                </tei:note>
+                <tei:note>
+                    <tei:p>According to <tei:ref target="http://zotero.org/groups/2552746/items/IKUTPHDC"><tei:bibl>ImIt 2011</tei:bibl></tei:ref>, the palaegraphic features suggest a dating to c. 100 BC. Based on the archaeological context, <tei:ref target="http://zotero.org/groups/2552746/items/CBD7USAW"><tei:bibl>De Benedittis 1987-1988</tei:bibl></tei:ref> assumes that the iscription was surely created before c. 50 BC.</tei:p> 
+                </tei:note>
+                <tei:listPerson type="Onomastics">
+                    <tei:person xml:id="p1" xml:lang="osc-Ital-x-oscetr" corresp="#Osc_518_l_1">
+                        <tei:persName>
+                            <tei:name type="praenomen">v(ibis ?)</tei:name>
+                            <tei:name type="gentilicium">k( )</tei:name>
+                        </tei:persName>
+                    </tei:person>
+                    <tei:person xml:id="p2" xml:lang="grc" corresp="#Osc_518_l_2">
+                        <tei:persName>
+                            <tei:name type="praenomen">λυκου</tei:name>
+                        </tei:persName>
+                    </tei:person>
+                </tei:listPerson>
+            </tei:div>
+            <tei:div type="bibliography">
+                <tei:listBibl xmlns="http://www.tei-c.org/ns/1.0">
+                    <tei:biblStruct type="book" xml:id="De_Benedittis1988" corresp="http://zotero.org/groups/2552746/items/EFVDHXGP">
+                        <tei:monogr>
+                            <tei:title level="m">Monte Vairano. La casa di "LN". Catalogo della mostra</tei:title>
+                            <tei:editor>
+                                <tei:forename>Gianfranco</tei:forename>
+                                <tei:surname>De Benedittis</tei:surname>
+                            </tei:editor>
+                            <tei:imprint>
+                                <tei:pubPlace>Campobasso</tei:pubPlace>
+                                <tei:date>1988</tei:date> 
+                            </tei:imprint>
+                        </tei:monogr>
+                        <tei:citedRange unit="page">47-48</tei:citedRange>
+                    </tei:biblStruct>
+                    <tei:biblStruct type="journalArticle" xml:id="De_Benedittis1987" corresp="http://zotero.org/groups/2552746/items/CBD7USAW">
+                        <tei:analytic>
+                            <tei:title level="a">Sannio (CB). Bollo bilingue da Monte Vairano</tei:title>
+                            <tei:author>
+                                <tei:forename>Gianfranco</tei:forename>
+                                <tei:surname>De Benedittis</tei:surname>
+                            </tei:author>
+                        </tei:analytic>
+                        <tei:monogr>
+                            <tei:title level="j">Studi Etruschi</tei:title>
+                            <tei:imprint>
+                                <tei:biblScope unit="volume">55</tei:biblScope>
+                                <tei:biblScope unit="page">355-356</tei:biblScope>
+                                <tei:date>1987-1988 [1989]</tei:date>  
+                            </tei:imprint>
+                        </tei:monogr>
+                        <tei:citedRange unit="entry">2 (with drawing, and photograph, pl. LII b)</tei:citedRange>
+                    </tei:biblStruct>                  
+                    <tei:biblStruct type="bookSection" xml:id="Capini1991" corresp="http://zotero.org/groups/2552746/items/R9UBKLFM">
+                        <tei:analytic>
+                            <tei:title level="a">Monte Vairano</tei:title>
+                            <tei:author>
+                                <tei:forename>Gianfranco</tei:forename>
+                                <tei:surname>De Benedittis</tei:surname>
+                            </tei:author>
+                        </tei:analytic>
+                        <tei:monogr>
+                            <tei:title level="m">Samnium: archeologia del Molise</tei:title>
+                            <tei:editor>
+                                <tei:forename>Stefania</tei:forename>
+                                <tei:surname>Capini</tei:surname>
+                            </tei:editor>
+                            <tei:editor>
+                                <tei:forename>Angela</tei:forename>
+                                <tei:surname>Di Niro</tei:surname>
+                            </tei:editor>
+                            <tei:imprint>                                 
+                                <tei:publisher>Quasar</tei:publisher>
+                                <tei:date>1991</tei:date>
+                            </tei:imprint>
+                        </tei:monogr>
+                        <tei:citedRange unit="page">127-130, no. d93 (with drawing)</tei:citedRange>
+                    </tei:biblStruct>
+                    <tei:biblStruct type="book" xml:id="Rix2002" corresp="http://zotero.org/groups/2552746/items/IMWMSAVE">
+                        <tei:monogr>
+                            <tei:title level="m">Sabellische Texte. Die Texte des Oskischen, Umbrischen und Südpikenischen</tei:title>
+                            <tei:author>
+                                <tei:forename>Helmut</tei:forename>
+                                <tei:surname>Rix</tei:surname>
+                            </tei:author>
+                            <tei:imprint>
+                                <tei:pubPlace>Heidelberg</tei:pubPlace>
+                                <tei:publisher>C. Winter</tei:publisher>
+                                <tei:date>2002</tei:date>
+                            </tei:imprint>
+                        </tei:monogr>
+                        <tei:citedRange unit="entry">tSa 44</tei:citedRange>
+                    </tei:biblStruct>
+                    <tei:biblStruct type="book" xml:id="ImIt2011" corresp="http://zotero.org/groups/2552746/items/IKUTPHDC">
+                        <tei:monogr>
+                            <tei:title level="m">Imagines Italicae: A Corpus of Italic Inscriptions</tei:title>
+                            <tei:editor>
+                                <tei:forename>Michael</tei:forename>
+                                <tei:surname>Crawford</tei:surname>
+                            </tei:editor>
+                            <tei:imprint>
+                                <tei:pubPlace>London</tei:pubPlace>
+                                <tei:publisher>Institute of Classical Studies, University of London</tei:publisher>
+                                <tei:date>2011</tei:date>
+                            </tei:imprint>
+                        </tei:monogr>
+                        <tei:citedRange unit="entry">Bouianum 110 Stamp (2)</tei:citedRange>
+                    </tei:biblStruct>  
+                </tei:listBibl>    
+            </tei:div>   
+        </tei:body>
+    </tei:text>
+</tei:TEI>

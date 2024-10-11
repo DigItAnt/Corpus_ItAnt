@@ -1,0 +1,400 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/9.4/tei-epidoc.rng"
+schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/9.4/tei-epidoc.rng"
+schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<tei:TEI xmlns:dcr="http://www.isocat.org/ns/dcr" xml:id="ItAnt_Oscan_31"
+    xmlns:tei="http://www.tei-c.org/ns/1.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <tei:teiHeader>
+        <tei:fileDesc>
+            <tei:titleStmt>
+                <tei:title type="ItAnt_ID">Inscription ItAnt Oscan 31</tei:title>
+            </tei:titleStmt>
+            <tei:editionStmt>
+                <tei:edition>
+                    <tei:idno>ItAnt Oscan 31</tei:idno>
+                </tei:edition>
+                <tei:editor>
+                    <tei:persName>Francesca Murano</tei:persName>
+                </tei:editor>
+                <tei:editor>
+                    <tei:persName>Mariarosaria Zinzi</tei:persName>
+                </tei:editor>
+            </tei:editionStmt>         
+            <tei:publicationStmt>
+                <tei:authority>PRIN 2017 "Lingue e culture dell'Italia antica: linguistica storica e modelli digitali | Languages and Cultures of Ancient Italy. Historical Linguistics and Digital Models"</tei:authority>
+                <tei:date>2023</tei:date>
+                <tei:idno type="URI" subtype="handle"></tei:idno>
+                <tei:availability>
+                    <tei:licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">This file is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International license – (CC BY-NC-SA 4.0).  
+                    </tei:licence>
+                </tei:availability>
+            </tei:publicationStmt>   
+            <tei:sourceDesc>
+                <tei:msDesc>
+                    <tei:msIdentifier>
+                        <tei:settlement ref="https://sws.geonames.org/3180991">Campobasso</tei:settlement>
+                        <tei:institution ana="https://www.musei.molise.beniculturali.it/musei?mid=208&amp;nome=museo-sannitico">Museo Sannitico</tei:institution>
+                        <tei:idno type="museumID">53878</tei:idno>                   
+                        <tei:altIdentifier type="cancelled">
+                           <tei:settlement ref="https://pleiades.stoa.org/places/433073">Sepino</tei:settlement>
+                           <tei:institution>Museo Archeologico</tei:institution>
+                            <tei:idno/>
+                        </tei:altIdentifier>
+                        <tei:altIdentifier type="trismegistos">
+                            <tei:idno source="www.trismegistos.org/text/170799">TM 170799</tei:idno>
+                        </tei:altIdentifier> 
+                        <tei:altIdentifier type="traditionalID">
+                            <tei:idno source="http://zotero.org/groups/2552746/items/IMWMSAVE">ST Sa 59</tei:idno>
+                        </tei:altIdentifier> 
+                        <tei:altIdentifier type="traditionalID">
+                            <tei:idno source="http://zotero.org/groups/2552746/items/IKUTPHDC">ImIt Saepinum 4</tei:idno>
+                        </tei:altIdentifier>
+                    </tei:msIdentifier> 
+                    <tei:msContents>
+                        <tei:summary>Votive inscription on a base pertaining to a bronze statuette of a female figure, probably Mefitis (see <tei:ref target="http://zotero.org/groups/2552746/items/3M6JURFE"><tei:bibl>Matteini Chiari 2015</tei:bibl></tei:ref>). From Sepino, <tei:ref target="https://pleiades.stoa.org/places/352972521">Sanctuary of San Pietro di Cantoni</tei:ref>.
+                        </tei:summary>
+                    </tei:msContents>
+                    <tei:physDesc>
+                        <tei:objectDesc>     
+                            <tei:supportDesc>
+                                <tei:support>
+                                    <tei:objectType ana="http://vocab.getty.edu/aat/300001656">base</tei:objectType>
+                                    <tei:material ana="http://vocab.getty.edu/aat/300010957">bronze
+                                    </tei:material>
+                                    <tei:dimensions type="objectDimensions" unit="cm" precision="high">
+                                        <tei:height quantity="7">7</tei:height>
+                                        <tei:width quantity="5">5</tei:width>
+                                        <tei:depth quantity="4">4</tei:depth>
+                                    </tei:dimensions>
+                                    <tei:rs type="reuse">no</tei:rs>
+                                </tei:support>
+                                <tei:condition>fragmentary</tei:condition>   
+                            </tei:supportDesc>
+                            <tei:layoutDesc>
+                                <tei:layout columns="1" writtenLines="6">
+                                    <tei:rs type="execution" ana="http://vocab.getty.edu/page/aat/300404794">engraved</tei:rs>
+                                    <tei:rs type="opistography">no</tei:rs>
+                                    <tei:note type="layoutNotes">double interpuncts</tei:note>
+                                </tei:layout>
+                            </tei:layoutDesc>
+                        </tei:objectDesc>
+                        <tei:handDesc>                            
+                            <tei:handNote>
+                                <tei:dimensions type="characterDimension" unit="cm" precision="high"> 
+                                    <tei:height atLeast="0.5" atMost="0.75">0,5 to 0,75</tei:height>
+                                </tei:dimensions>
+                                <tei:note type="palaeographicNotes">Words are separated by dots</tei:note>
+                            </tei:handNote>
+                        </tei:handDesc>                                     
+                        <tei:scriptDesc>
+                            <tei:scriptNote>
+                                <tei:rs type="writingSystem" subtype="alphabet" ref="https://www.prin-italia-antica.unifi.it/p166.html#oscan-etruscan">Oscan National alphabet</tei:rs>
+                                <tei:rs type="wordDivision">punctuation</tei:rs>
+                            </tei:scriptNote>
+                        </tei:scriptDesc>
+                    </tei:physDesc>
+                    <tei:history>
+                        <tei:origin> 
+                            <tei:origPlace type="composed">
+                                <tei:placeName type="ancient" ref="https://pleiades.stoa.org/places/433073">Saepinum, Samnium</tei:placeName>
+                                <tei:placeName type="modern" ref="https://sws.geonames.org/3170820">Sepino, San Pietro di Cantoni (CB)</tei:placeName>
+                            </tei:origPlace>
+                            <tei:origDate notBefore-custom="-0299" notAfter-custom="-0200" cert="medium">3rd century BC</tei:origDate>
+                        </tei:origin>
+                        <tei:provenance type="found" subtype="discovered" when="1996">
+                            <tei:placeName type="ancient" ref="https://pleiades.stoa.org/places/433073">Saepinum, Samnium</tei:placeName>
+                            <tei:placeName type="modern" ref="https://sws.geonames.org/3170820">Sepino, San Pietro di Cantoni (CB)</tei:placeName>
+                            <tei:placeName type="detailed">Statuette and base found close to each other in the excavation of the votive deposit of the <tei:ref target="https://pleiades.stoa.org/places/352972521">sanctuary</tei:ref></tei:placeName>
+                        </tei:provenance>                    
+                        <tei:provenance type="observed" subtype="autopsied" when="2023" resp="Francesca Murano">
+                            <tei:persName>Francesca Murano</tei:persName>
+                        </tei:provenance>
+                        <tei:provenance type="observed" subtype="autopsied" when="2007" resp="#ImIt2011">
+                            <tei:persName>M.H. Crawford</tei:persName>
+                        </tei:provenance>
+                        <tei:provenance type="observed" subtype="autopsied" notBefore="1996" notAfter="2000" resp="#Matteini_Chiari2000">
+                            <tei:persName>M. Matteini Chiari</tei:persName>
+                        </tei:provenance>
+                    </tei:history>                       
+                </tei:msDesc>   
+            </tei:sourceDesc> 
+        </tei:fileDesc>
+        <tei:encodingDesc>
+            <tei:p source="https://epidoc.stoa.org/gl/latest/">Marked-up according to the EpiDoc Guidelines</tei:p>
+        </tei:encodingDesc>
+        <tei:profileDesc>
+            <tei:langUsage>
+                <tei:language ident="osc" source="https://iso639-3.sil.org/code/osc">Oscan</tei:language>
+                <tei:language ident="osc-Ital-x-oscetr" source="https://www.prin-italia-antica.unifi.it/p166.html#oscan-etruscan" ana="https://unicode.org/iso15924/iso15924-codes.html">Oscan in National alphabet (Oscan-Etruscan alphabet)</tei:language>
+            </tei:langUsage>
+            <tei:textClass>
+                <tei:keywords scheme="https://www.eagle-network.eu/resources/vocabularies/typeins/">
+                    <tei:term ref="https://www.eagle-network.eu/voc/typeins/lod/83">votive inscription</tei:term>
+                </tei:keywords>
+            </tei:textClass>
+        </tei:profileDesc>
+    </tei:teiHeader>
+    <tei:facsimile>
+        <tei:graphic n="1" url="http://linsto.dipartimentidieccellenza-dilef.unifi.it/itant/img/ItAnt_Oscan_31.jpg" resp="Francesca Murano">
+            <tei:desc>Inscription ItAnt Oscan 31 (drawing by <tei:persName>Francesca Murano</tei:persName>)<tei:ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">This file is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International license – (CC BY-NC-SA 4.0).</tei:ref>
+            </tei:desc>
+        </tei:graphic>
+        <tei:graphic n="2" url="http://books.openedition.org/cdf/docannexe/image/3807/img-3.jpg" resp="http://zotero.org/groups/2552746/items/3M6JURFE">
+            <tei:desc>Photograph of the inscription ItAnt Oscan 31 (from <tei:ref target="http://zotero.org/groups/2552746/items/3M6JURFE"><tei:bibl>Matteini Chiari 2015</tei:bibl></tei:ref>
+                <tei:ref target="https://books.openedition.org/cdf/3797?lang=it">This file is licensed under the OpenEdition Freemium programme.</tei:ref>
+            </tei:desc>
+        </tei:graphic>
+        <tei:graphic n="3" url="http://books.openedition.org/cdf/docannexe/image/3807/img-2.jpg" resp="http://zotero.org/groups/2552746/items/3M6JURFE">
+            <tei:desc>Photograph of the statuette of female deity from S. Pietro di Cantoni (from <tei:ref target="http://zotero.org/groups/2552746/items/3M6JURFE"><tei:bibl>Matteini Chiari 2015</tei:bibl></tei:ref>
+                <tei:ref target="https://books.openedition.org/cdf/3797?lang=it">This file is licensed under the OpenEdition Freemium programme.</tei:ref>
+            </tei:desc>
+        </tei:graphic>
+    </tei:facsimile>
+    <tei:text>
+        <tei:body>             
+            <tei:div type="edition" subtype="interpretative" xml:space="preserve">
+                <tei:div type="textpart" n="face_a" style="text-direction:r-to-l" rend="ductus:sinistrorse">
+                    <tei:ab>   
+                        <tei:lb n="1" xml:id="Osc_31_l_1"/>
+                            <!-- Leida;Osc_31_l_1_w_1;trebis -->
+                            <tei:name type="praenomen" xml:id="Osc_31_l_1_w_1" xml:lang="osc-Ital-x-oscetr" ref="#p1">trebis</tei:name>
+                            <tei:pc unit="word">:</tei:pc>
+                        <tei:lb n="2" xml:id="Osc_31_l_2"/>
+                            <!-- Leida;Osc_31_l_2_w_1;dekkiis -->
+                            <tei:name type="gentilicium" xml:id="Osc_31_l_2_w_1" xml:lang="osc-Ital-x-oscetr" ref="#p1">dekkiis</tei:name>
+                            <tei:pc unit="word">:</tei:pc>
+                        <tei:lb n="3" xml:id="Osc_31_l_3"/>
+                            <!-- Leida;Osc_31_l_3_w_1;ups(e)d -->
+                            <tei:w xml:id="Osc_31_l_3_w_1" xml:lang="osc-Ital-x-oscetr"><tei:expan><tei:abbr>ups</tei:abbr><tei:ex>e</tei:ex>d</tei:expan></tei:w>
+                            <tei:pc unit="word">:</tei:pc>
+                        <tei:lb n="4" xml:id="Osc_31_l_4"/>
+                            <!-- Leida;Osc_31_l_4_w_1;ded(e)d -->
+                            <tei:w xml:id="Osc_31_l_4_w_1" xml:lang="osc-Ital-x-oscetr"><tei:expan><tei:abbr>ded</tei:abbr><tei:ex>e</tei:ex>d</tei:expan></tei:w>
+                            <tei:pc unit="word">:</tei:pc>
+                            <!-- Leida;Osc_31_l_4_w_2;de(í)vaí -->
+                        <tei:w xml:id="Osc_31_l_4_w_2" xml:lang="osc-Ital-x-oscetr"><tei:expan><tei:abbr>de</tei:abbr><tei:ex>í</tei:ex>vaí</tei:expan></tei:w>
+                            <tei:pc unit="word">:</tei:pc>
+                        <tei:lb n="5" xml:id="Osc_31_l_5"/>
+                            <!-- Leida;Osc_31_l_5_w_1;braateís -->
+                            <tei:w xml:id="Osc_31_l_5_w_1" xml:lang="osc-Ital-x-oscetr">braateís</tei:w>                       
+                            <tei:pc unit="word">:</tei:pc>
+                        <tei:lb n="6" xml:id="Osc_31_l_6"/>
+                            <!-- Leida;Osc_31_l_6_w_1;datas -->
+                            <tei:w xml:id="Osc_31_l_6_w_1" xml:lang="osc-Ital-x-oscetr">datas</tei:w>
+                            <tei:pc unit="word">:</tei:pc>
+                    </tei:ab>
+                </tei:div>
+            </tei:div>
+            <tei:div type="translation" xml:lang="ita">
+                <tei:p>Trebius Decius fece (questo) e (lo) diede alla dea per grazia concessa</tei:p>
+                <tei:desc>
+                    <tei:persName>Mariarosaria Zinzi</tei:persName>
+                    <tei:ref type="licence" target="https://creativecommons.org/licenses/by-nc-sa/4.0/">This file is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International license – (CC BY-NC-SA 4.0).</tei:ref>
+                </tei:desc> 
+            </tei:div>
+            <tei:div type="translation" xml:lang="eng">
+                <tei:p>Trebius Decius made (this) and gave (it) to the goddess for favour granted</tei:p>
+                <tei:desc>
+                    <tei:persName>Mariarosaria Zinzi</tei:persName>
+                    <tei:ref type="licence" target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </tei:ref>
+                </tei:desc> 
+            </tei:div>
+            <tei:div type="commentary" xml:lang="eng">
+                <tei:note resp="Francesca Murano">
+                    <tei:p>The inscription reports the dedication of Trebius Decius to a female divinity (probably Mefitis) for a received grace. On this topic, see <tei:ref target="http://zotero.org/groups/2552746/items/9FANWURA">Poccetti 2009</tei:ref> and <tei:ref target="http://zotero.org/groups/2552746/items/XZKZ3L4Y">Estarán Tolosa 2022</tei:ref>.</tei:p>
+                </tei:note>
+                <tei:listPerson type="Onomastics" resp="Mariarosaria Zinzi">
+                    <tei:person xml:id="p1" xml:lang="osc-Ital-x-oscetr">
+                        <tei:persName>
+                            <tei:name type="praenomen">trebis</tei:name>
+                            <tei:name type="gentilicium">dekkiis</tei:name>
+                        </tei:persName>
+                    </tei:person>
+                </tei:listPerson>
+            </tei:div>
+            <tei:div type="bibliography">
+                <tei:listBibl xmlns="http://www.tei-c.org/ns/1.0">
+                    <tei:biblStruct type="bookSection" xml:id="Matteini_Chiari2015" corresp="http://zotero.org/groups/2552746/items/3M6JURFE">
+                        <tei:analytic>
+                            <tei:title level="a">Sepino, San Pietro di Cantoni, loc., Mefitis (?)</tei:title>
+                            <tei:author>
+                                <tei:forename>Maurizio</tei:forename>
+                                <tei:surname>Matteini Chiari</tei:surname>
+                            </tei:author>
+                        </tei:analytic>
+                        <tei:monogr>
+                            <tei:title level="m">Fana, templa, delubra. Corpus dei luoghi di culto dell'Italia antica (FTD) - 3 : Regio IV: Alife, Bojano, Sepino</tei:title>
+                            <tei:editor>
+                                <tei:forename>Stefania</tei:forename>
+                                <tei:surname>Capini</tei:surname>
+                            </tei:editor>
+                            <tei:editor>
+                                <tei:forename>Patrizia</tei:forename>
+                                <tei:surname>Curci</tei:surname>
+                            </tei:editor>
+                            <tei:editor>
+                                <tei:forename>Maria Romana</tei:forename>
+                                <tei:surname>Picuti</tei:surname>
+                            </tei:editor>
+                            <tei:imprint>
+                                <tei:pubPlace>Paris</tei:pubPlace>
+                                <tei:biblScope unit="page">83-88</tei:biblScope>
+                                <tei:publisher>Collège de France</tei:publisher>
+                                <tei:date>2015</tei:date>
+                            </tei:imprint>
+                        </tei:monogr>
+                        <tei:citedRange unit="entry">1</tei:citedRange>
+                    </tei:biblStruct>
+                        <tei:biblStruct type="book" xml:id="ImIt2011"  corresp="http://zotero.org/groups/2552746/items/IKUTPHDC">
+                            <tei:monogr>
+                                <tei:title level="m">Imagines Italicae: A Corpus of Italic Inscriptions</tei:title>
+                                <tei:editor>
+                                    <tei:forename>Michael</tei:forename>
+                                    <tei:surname>Crawford</tei:surname>
+                                </tei:editor>
+                                <tei:imprint>
+                                    <tei:pubPlace>London</tei:pubPlace>
+                                    <tei:publisher>Institute of Classical Studies, University of London</tei:publisher>
+                                    <tei:date>2011</tei:date>
+                                </tei:imprint>
+                            </tei:monogr>
+                            <tei:citedRange unit="entry">Saepinum 4</tei:citedRange>
+                        </tei:biblStruct>
+                    <tei:biblStruct type="bookSection" xml:id="Poccetti2009" corresp="http://zotero.org/groups/2552746/items/9FANWURA">
+                        <tei:analytic>
+                            <tei:title level="a">Paradigmi formulari votivi nelle tradizioni epicoriche dell’Italia antica</tei:title>
+                            <tei:author>
+                                <tei:forename>Paolo</tei:forename>
+                                <tei:surname>Poccetti</tei:surname>
+                            </tei:author>
+                        </tei:analytic><tei:monogr>
+                            <tei:title level="m">Dediche sacre nel mondo greco e romano: diffusione, funzioni, tipologie</tei:title>
+                            <tei:editor>
+                                <tei:forename>John</tei:forename>
+                                <tei:surname>Bodel</tei:surname>
+                            </tei:editor>
+                            <tei:editor>
+                                <tei:forename>Mika</tei:forename>
+                                <tei:surname>Kajava</tei:surname>
+                            </tei:editor>
+                            <tei:imprint>
+                                <tei:pubPlace>Roma</tei:pubPlace>
+                                <tei:biblScope unit="page">43–94</tei:biblScope>
+                                <tei:publisher>Institutum Romanum Finlandiae, American Academy in Rome</tei:publisher>
+                                <tei:date>2009</tei:date>
+                            </tei:imprint>
+                        </tei:monogr>
+                    </tei:biblStruct>
+                        <tei:biblStruct type="bookSection" xml:id="Calderini2004" corresp="http://zotero.org/groups/2552746/items/TJLI6BRE">
+                            <tei:analytic>
+                                <tei:title level="a">Statuetta di divinità femminile</tei:title>
+                                <tei:author>
+                                    <tei:forename>Alberto</tei:forename>
+                                    <tei:surname>Calderini</tei:surname>
+                                </tei:author>
+                            </tei:analytic>
+                            <tei:monogr>
+                                <tei:title level="m">La dea, il santo, una terra: materiali dallo scavo di San Pietro di Cantoni di Sepino</tei:title>                            
+                                    <tei:editor>
+                                        <tei:forename>Maurizio</tei:forename>
+                                        <tei:surname>Matteini Chiari</tei:surname>
+                                    </tei:editor>
+                                <tei:imprint>
+                                    <tei:pubPlace>Roma</tei:pubPlace>
+                                    <tei:biblScope unit="page">109-115</tei:biblScope>
+                                    <tei:publisher>QuinTilia Edizioni</tei:publisher>
+                                    <tei:date>2004</tei:date>
+                                </tei:imprint>
+                            </tei:monogr>
+                        </tei:biblStruct>
+                    
+                    <tei:biblStruct type="book" xml:id="Rix2002"  corresp="http://zotero.org/groups/2552746/items/IMWMSAVE">
+                            <tei:monogr>
+                                <tei:title level="m">Sabellische Texte. Die Texte des Oskischen, Umbrischen und Südpikenischen</tei:title>
+                                <tei:author>
+                                    <tei:forename>Helmut</tei:forename>
+                                    <tei:surname>Rix</tei:surname>
+                                </tei:author>
+                                <tei:imprint>
+                                    <tei:pubPlace>Heidelberg</tei:pubPlace>
+                                    <tei:publisher>C. Winter</tei:publisher>
+                                    <tei:date>2002</tei:date>
+                                </tei:imprint>
+                            </tei:monogr>
+                            <tei:citedRange unit="entry">Sa 59</tei:citedRange>
+                        </tei:biblStruct> 
+                        <tei:biblStruct type="book" xml:id="La_Regina2001" corresp="http://zotero.org/groups/2552746/items/UTA5SQR6">
+                            <tei:monogr>
+                                <tei:title level="m">Studi sull'Italia dei Sanniti</tei:title>
+                                <tei:idno type="ISBN">978-88-435-9539-6</tei:idno>
+                                    <tei:editor>
+                                    <tei:forename>Adriano</tei:forename>
+                                    <tei:surname>La Regina</tei:surname>
+                                    </tei:editor>
+                                    <tei:imprint>
+                                        <tei:publisher>Mondadori Electa</tei:publisher>
+                                        <tei:date>2001</tei:date>
+                                    </tei:imprint>
+                            </tei:monogr>
+                        </tei:biblStruct>
+                    <tei:biblStruct type="bookSection" xml:id="Rix2000" corresp="http://zotero.org/groups/2552746/items/TBW967TI">
+                        <tei:analytic>
+                            <tei:title level="a">Oskisch brateis bratom, lateinisch grates</tei:title>
+                            <tei:author>
+                                <tei:forename>Helmut</tei:forename>
+                                <tei:surname>Rix</tei:surname>
+                            </tei:author>
+                        </tei:analytic>
+                        <tei:monogr>
+                            <tei:title level="m">Anusantatyai: Festschrift fur Johanne Narten zum 70. Geburtstag</tei:title>
+                            <tei:idno type="ISBN">978-3-89754-181-8</tei:idno>
+                            <tei:editor>
+                                <tei:forename>Almut</tei:forename>
+                                <tei:surname>Hintze</tei:surname>
+                            </tei:editor>
+                            <tei:editor>
+                                <tei:forename>Eva</tei:forename>
+                                <tei:surname>Tichy</tei:surname>
+                            </tei:editor>
+                            <tei:imprint>
+                                <tei:pubPlace>Dettelbach</tei:pubPlace>
+                                <tei:biblScope unit="page">207-229</tei:biblScope>
+                                <tei:publisher>Roell</tei:publisher>
+                                <tei:date>2000</tei:date>
+                            </tei:imprint>
+                        </tei:monogr>
+                        <tei:series>
+                            <tei:title level="s">Munchener Studien zur Sprachwissenschaft. Beiheft. Neue Folge 19</tei:title>
+                        </tei:series>
+                    </tei:biblStruct>
+                    <tei:biblStruct type="bookSection" xml:id="Matteini_Chiari2000" corresp="http://zotero.org/groups/2552746/items/WNBNLQHG">
+                        <tei:analytic>
+                            <tei:title level="a">Il santuario italico di San Pietro di Cantoni di Sepino</tei:title>
+                            <tei:author>
+                                <tei:forename>Maurizio</tei:forename>
+                                <tei:surname>Matteini Chiari</tei:surname>
+                            </tei:author>
+                        </tei:analytic>
+                        <tei:monogr>
+                            <tei:title level="m">Studi sull’Italia dei Sanniti</tei:title>
+                            <tei:editor>
+                                <tei:forename>Adriano</tei:forename>
+                                <tei:surname>La Regina</tei:surname>
+                            </tei:editor>
+                            <tei:imprint>
+                                <tei:pubPlace>Milano</tei:pubPlace>
+                                <tei:biblScope unit="page">280-291</tei:biblScope>
+                                <tei:publisher>Mondadori Electa</tei:publisher>
+                                <tei:date>2000</tei:date>
+                            </tei:imprint>
+                        </tei:monogr>
+                        <citedRange unit="page">285, 290</citedRange>
+                    </tei:biblStruct>
+                </tei:listBibl>
+            </tei:div>   
+        </tei:body>
+    </tei:text>
+</tei:TEI>

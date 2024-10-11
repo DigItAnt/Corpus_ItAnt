@@ -1,0 +1,638 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/9.4/tei-epidoc.rng"
+schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/9.4/tei-epidoc.rng"
+schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<tei:TEI xmlns:dcr="http://www.isocat.org/ns/dcr" xml:id="ItAnt_Oscan_26"
+    xmlns:tei="http://www.tei-c.org/ns/1.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <tei:teiHeader>
+        <tei:fileDesc>
+            <tei:titleStmt>
+                <tei:title type="ItAnt_ID">Inscription ItAnt Oscan 26</tei:title>
+            </tei:titleStmt>
+            <tei:editionStmt>
+                <tei:edition>
+                    <tei:idno>ItAnt Oscan 26</tei:idno>
+                </tei:edition>
+                <tei:editor>
+                    <tei:persName>Francesca Murano</tei:persName>
+                </tei:editor>
+                <tei:editor>
+                    <tei:persName>Mariarosaria Zinzi</tei:persName>
+                </tei:editor>
+            </tei:editionStmt>         
+            <tei:publicationStmt>
+                <tei:authority>PRIN 2017 "Lingue e culture dell'Italia antica: linguistica storica e modelli digitali | Languages and Cultures of Ancient Italy. Historical Linguistics and Digital Models"</tei:authority>
+                <tei:date>2023</tei:date>
+                <tei:idno type="URI" subtype="handle"></tei:idno>
+                <tei:availability>
+                    <tei:licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">This file is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International license – (CC BY-NC-SA 4.0).  
+                    </tei:licence>
+                </tei:availability>
+            </tei:publicationStmt>   
+            <tei:sourceDesc>
+                <tei:msDesc>
+                    <tei:msIdentifier>
+                        <tei:settlement ref="lost inscription">lost inscription</tei:settlement>
+                        <tei:msName>The inscription of the Athena from Roccaspromonte</tei:msName>
+                        <tei:altIdentifier type="trismegistos">
+                            <tei:idno source="www.trismegistos.org/text/170792">TM 170792</tei:idno>
+                        </tei:altIdentifier> 
+                        <tei:altIdentifier type="traditionalID">
+                            <tei:idno source="http://zotero.org/groups/2552746/items/IMWMSAVE">ST Sa 27</tei:idno>
+                        </tei:altIdentifier> 
+                        <tei:altIdentifier type="traditionalID">
+                            <tei:idno source="http://zotero.org/groups/2552746/items/IKUTPHDC">ImIt Bouianum 116</tei:idno>
+                        </tei:altIdentifier>
+                        <tei:altIdentifier type="traditionalID">
+                            <tei:idno source="http://zotero.org/groups/2552746/items/NJFZRK23">Ve 158</tei:idno>
+                        </tei:altIdentifier>
+                    </tei:msIdentifier> 
+                    <tei:msContents>
+                        <tei:summary>Lost votive inscription belonging to a statue of Athena from Roccaspromonte (Castropignano, Campobasso), now in Vienna, Kunsthistorisches Museum, Antikensammlung. The inscription is known only from a drawing by <tei:ref target="http://zotero.org/groups/2552746/items/CGBKFGRJ"><tei:bibl>Cerulli 1777</tei:bibl></tei:ref></tei:summary>
+                    </tei:msContents>
+                    <tei:physDesc>
+                        <tei:objectDesc>     
+                            <tei:supportDesc>
+                                <tei:support>
+                                    <tei:objectType ana="http://archwort.dainst.org/en/term/4572">stone slab</tei:objectType>
+                                    <tei:rs ana="objectShape">cubic</tei:rs>  
+                                    <tei:note>limestone block, stepped back at the top to fit the bottom of the statue, probably an <tei:term ref="http://vocab.getty.edu/aat/300003725">altar</tei:term></tei:note>
+                                    <tei:objectType ana="http://vocab.getty.edu/aat/300003725">altar</tei:objectType>
+                                    <tei:material ana="http://vocab.getty.edu/aat/300011286" resp="#ImIt2011">limestone</tei:material>
+                                    <tei:dimensions type="objectDimensions" unit="cm" precision="high"/>
+                                    <tei:rs type="reuse">no</tei:rs>
+                                </tei:support>
+                                <tei:condition>lost inscription
+                                </tei:condition>   
+                            </tei:supportDesc>
+                            <tei:layoutDesc>
+                                <tei:layout columns="1" writtenLines="2">
+                                    <tei:rs type="execution" ana="http://vocab.getty.edu/page/aat/300404794">engraved</tei:rs>
+                                    <tei:rs type="opistography">no</tei:rs>
+                                    <tei:note type="layoutNotes">Two written lines from right to left. According to <tei:ref target="http://zotero.org/groups/2552746/items/IKUTPHDC"><tei:bibl>Crawford, ImIt</tei:bibl></tei:ref> the lines on the <tei:ref target="http://zotero.org/groups/2552746/items/CGBKFGRJ"><tei:bibl>Cerulli</tei:bibl></tei:ref>'s drawing should be regarded as guidelines to organise the drawing of the text. Contra <tei:ref target="http://zotero.org/groups/2552746/items/BRA4HCMN"><tei:bibl>Antonini</tei:bibl></tei:ref>:355, who interprets them as representing the blocks composing the base.
+                                    </tei:note>
+                                    <tei:dimensions type="lineDimension" unit="cm" precision="high"/>                                    
+                                </tei:layout>
+                            </tei:layoutDesc>
+                        </tei:objectDesc>
+                        <tei:handDesc>                            
+                            <tei:handNote>
+                                <tei:note type="palaeographicNotes">Words are separated by double-dots</tei:note>
+                            </tei:handNote>
+                        </tei:handDesc>                                     
+                        <tei:scriptDesc>
+                            <tei:scriptNote>
+                                <tei:rs type="writingSystem" subtype="alphabet" ref="https://www.prin-italia-antica.unifi.it/p166.html#oscan-etruscan">Oscan National alphabet</tei:rs>
+                                <tei:rs type="wordDivision">punctuation</tei:rs>
+                            </tei:scriptNote>
+                        </tei:scriptDesc>
+                    </tei:physDesc>
+                    <tei:history>
+                        <tei:origin> 
+                            <tei:origPlace type="composed">
+                                <tei:placeName type="ancient" ref="https://pleiades.stoa.org/places/432827">Fagifulae, Samnium</tei:placeName>
+                                <tei:placeName type="modern" ref="https://sws.geonames.org/3169129">Roccaspromonte (Campobasso)</tei:placeName>
+                            </tei:origPlace>
+                            <tei:origDate notBefore-custom="-325" notAfter-custom="-275" cert="medium">late 4th - early 3rd century BC</tei:origDate>
+                        </tei:origin>
+                        <tei:provenance type="found" subtype="discovered" when="1777">
+                            <tei:placeName type="ancient" ref="https://pleiades.stoa.org/places/432827">Fagifulae, Samnium</tei:placeName>
+                            <tei:placeName type="modern" ref="https://sws.geonames.org/3169129">Roccaspromonte (Campobasso)</tei:placeName>
+                            <tei:placeName type="detailed">The statue was found in the countryside, probably near the Fonte Nuova (Fonte dell'Aia)</tei:placeName>
+                        </tei:provenance>
+                        <tei:provenance type="not-observed" subtype="destroyed" when="2021" resp="Mariarosaria Zinzi">
+                            <tei:persName>Mariarosaria Zinzi</tei:persName>
+                        </tei:provenance>
+                        <tei:provenance type="observed" subtype="reported" when="2021" resp="Mariarosaria Zinzi">
+                            <tei:persName>Mariarosaria Zinzi</tei:persName>
+                        </tei:provenance>
+                    </tei:history>                       
+                </tei:msDesc>   
+            </tei:sourceDesc> 
+        </tei:fileDesc>
+        <tei:encodingDesc>
+            <tei:p source="https://epidoc.stoa.org/gl/latest/">Marked-up according to the EpiDoc Guidelines</tei:p>
+        </tei:encodingDesc>
+        <tei:profileDesc>
+            <tei:langUsage>
+                <tei:language ident="osc" source="https://iso639-3.sil.org/code/osc">Oscan</tei:language>
+                <tei:language ident="osc-Ital-x-oscetr" source="https://www.prin-italia-antica.unifi.it/p166.html#oscan-etruscan" ana="https://unicode.org/iso15924/iso15924-codes.html">Oscan in National alphabet (Oscan-Etruscan alphabet)</tei:language>
+            </tei:langUsage>
+            <tei:textClass>
+                <tei:keywords scheme="https://www.eagle-network.eu/resources/vocabularies/typeins/">
+                    <tei:term ref="https://www.eagle-network.eu/voc/typeins/lod/83">votive inscription</tei:term>
+                </tei:keywords>
+            </tei:textClass>
+        </tei:profileDesc>
+    </tei:teiHeader> 
+    <tei:facsimile>
+        <tei:graphic n="1" url="http://linsto.dipartimentidieccellenza-dilef.unifi.it/itant/img/ItAnt_Oscan_26.jpg" resp="Francesca Murano">
+            <tei:desc>Inscription ItAnt Oscan 26 (drawing by <tei:ref target="http://zotero.org/groups/2552746/items/CGBKFGRJ"><tei:bibl>Cerulli 1777</tei:bibl></tei:ref>)
+                <tei:ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">This file is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International license – (CC BY-NC-SA 4.0).</tei:ref>
+            </tei:desc>
+        </tei:graphic>
+        <tei:graphic n="2" url="http://books.openedition.org/cdf/docannexe/image/3786/img-2.jpg" resp="http://zotero.org/groups/2552746/items/CGBKFGRJ">
+            <tei:desc>Drawing of the inscription ItAnt Oscan 26 by <tei:ref target="http://zotero.org/groups/2552746/items/CGBKFGRJ"><tei:bibl>Cerulli 1777</tei:bibl></tei:ref> (from <tei:ref target="http://zotero.org/groups/2552746/items/5HI9GAWF"><tei:bibl>Scaroina 2015</tei:bibl></tei:ref>). <tei:ref ana="https://www.openedition.org/14043">This file licensed under the OpenEdition Freemium programme</tei:ref>
+            </tei:desc> 
+        </tei:graphic>
+    </tei:facsimile>
+    <tei:text>
+        <tei:body>             
+            <tei:div type="edition" subtype="interpretative" xml:space="preserve" resp="Francesca Murano">
+                <tei:div type="textpart" n="face_a" style="text-direction:r-to-l" rend="ductus:sinistrorse">
+                    <tei:ab>   
+                        <tei:lb n="1" xml:id="Osc_26_l_1"/>
+                         <!--Leida;Osc_26_l_1_w_1;tanas -->
+                            <tei:w xml:lang="osc-Ital-x-oscetr" xml:id="Osc_26_l_1_w_1">tanas</tei:w>
+                            <tei:pc unit="word">:</tei:pc>
+                       <!--Leida;Osc_26_l_1_w_2;niumeriis     -->                  
+                            <tei:w xml:lang="osc-Ital-x-oscetr" xml:id="Osc_26_l_1_w_2">niumeriis</tei:w>
+                            <tei:pc unit="word">:</tei:pc>
+                        <tei:lb n="2" xml:id="Osc_26_l_2"/> 
+                        <!--Leida;Osc_26_l_2_w_1;frunter     -->
+                            <tei:w xml:lang="osc-Ital-x-oscetr" xml:id="Osc_26_l_2_w_1">frunter</tei:w>
+                    </tei:ab>
+                </tei:div>
+            </tei:div>
+            <tei:div type="translation" xml:lang="ita"/>
+            <tei:div type="translation" xml:lang="eng"/>
+            <tei:div type="apparatus" xml:lang="eng" resp="Mariarosaria Zinzi">
+                <tei:listApp>
+                    <tei:app from="#Osc_26_l_1">
+                        <tei:lem corresp="#Osc_1_l_1_w_1"></tei:lem>
+                        <tei:rdg corresp="#Osc_26_l_1_w_1">[s]taatis
+                            <tei:ref target="http://zotero.org/groups/2552746/items/BRA4HCMN"><tei:bibl>Antonini 2006</tei:bibl></tei:ref> and <tei:ref target="http://zotero.org/groups/2552746/items/IKUTPHDC"><tei:bibl>Crawford, ImIt</tei:bibl></tei:ref></tei:rdg>
+                        <tei:rdg corresp="#Osc_26_l_1_w_1">tanas
+                            <tei:ref target="http://zotero.org/groups/2552746/items/IMWMSAVE"><tei:bibl>Rix, ST</tei:bibl></tei:ref>
+                            <tei:ref target="http://zotero.org/groups/2552746/items/X34UGPS5"><tei:bibl>Lejeune 1975</tei:bibl></tei:ref>
+                            <tei:ref target="http://zotero.org/groups/2552746/items/NJFZRK23"><tei:bibl>Vetter 1953</tei:bibl></tei:ref>
+                        </tei:rdg>
+                    </tei:app>
+                    <tei:app from="#Osc_26_l_1">
+                        <tei:lem corresp="#Osc_1_l_1_w_2"></tei:lem>
+                        <tei:rdg corresp="#Osc_26_l_1_w_2">niumediis
+                            <tei:ref target="http://zotero.org/groups/2552746/items/X34UGPS5"><tei:bibl>Lejeune 1975</tei:bibl></tei:ref>
+                            <tei:ref target="http://zotero.org/groups/2552746/items/BRA4HCMN"><tei:bibl>Antonini 2006</tei:bibl></tei:ref>
+                            <tei:ref target="http://zotero.org/groups/2552746/items/IKUTPHDC"><tei:bibl>Crawford, ImIt</tei:bibl></tei:ref></tei:rdg>
+                        <tei:rdg corresp="#Osc_26_l_1_w_2">niumeriis
+                            <tei:ref target="http://zotero.org/groups/2552746/items/IMWMSAVE"><tei:bibl>Rix, ST</tei:bibl></tei:ref>
+                            <tei:ref target="http://zotero.org/groups/2552746/items/X34UGPS5"><tei:bibl>Lejeune 1975</tei:bibl></tei:ref>
+                            <tei:ref target="http://zotero.org/groups/2552746/items/NJFZRK23"><tei:bibl>Vetter 1953</tei:bibl></tei:ref>
+                        </tei:rdg>
+                    </tei:app>
+                    <tei:app from="Osc_26_l_2">
+                        <tei:lem corresp="#Osc_26_l_2_w_1"></tei:lem>
+                        <tei:rdg corresp="#Osc_26_l_2_w_1">famated
+                            <tei:ref target="http://zotero.org/groups/2552746/items/BRA4HCMN"><tei:bibl>Antonini 2006</tei:bibl></tei:ref>
+                            <tei:ref target="http://zotero.org/groups/2552746/items/IKUTPHDC"><tei:bibl>Crawford, ImIt</tei:bibl></tei:ref>
+                        </tei:rdg>
+                        <tei:rdg corresp="#Osc_26_l_2_w_1">frunter[eí]
+                            <tei:ref target="http://zotero.org/groups/2552746/items/IMWMSAVE"><tei:bibl>Rix, ST</tei:bibl></tei:ref>
+                        </tei:rdg>
+                        <tei:rdg corresp="#Osc_26_l_2_w_1">fruntefrunte&lt;d&gt;
+                            <tei:ref target="http://zotero.org/groups/2552746/items/X34UGPS5"><tei:bibl>Lejeune 1975</tei:bibl></tei:ref>
+                        </tei:rdg>
+                        <tei:rdg corresp="#Osc_26_l_2_w_1">frunter
+                            <tei:ref target="http://zotero.org/groups/2552746/items/NJFZRK23"><tei:bibl>Vetter 1953</tei:bibl></tei:ref>
+                        </tei:rdg>
+                    </tei:app>
+                </tei:listApp>                
+            </tei:div>
+            <tei:div type="commentary" xml:lang="eng" resp="Francesca Murano">
+                <tei:note>
+                    <tei:p>Lost votive inscription belonging to a <tei:ref target="http://www.khm.at/en/object/61403/">statue of Athena</tei:ref> from Fagifulae (Roccaspromonte, Castropignano, Campobasso), now in Vienna, Kunsthistorisches Museum, Antikensammlung. The statue, found by some farmers, was donated by the owner of the fiefdom to Duke De Leto, feudal lord of Roccaspromonte, who donated it to Bishop Antonio Gürtler, confessor of Maria Carolina, Queen of Naples and Sicily. From here the statue passed into the possession of Duke Franz Anton von Lamberg-Spritzenstein, Austrian ambassador to the kingdom of Naples, whose collection of antiques was purchased in 1815 by the Imperial Cabinet of Coins and Antiquities in Vienna.</tei:p> 
+                    <tei:p>The inscription is known only by a drawing by <tei:ref target="http://zotero.org/groups/2552746/items/CGBKFGRJ"><tei:bibl>Cerulli 1777</tei:bibl></tei:ref>. The text presented is based on this drawing, certainly containing transcription errors. The stone was destroyed soon after the discovery by the local priest, who feared the return of the pagan cults.</tei:p> 
+                    <tei:p>The drawing shows a cubic block surmounted by a pedestal: it is not possible to establish with certainty whether it was the base of the statue or rather a votive altar of the sanctuary.</tei:p>
+                    <tei:p>The reading <tei:rs type="s" xml:lang="osc-Ital-x-oscetr">tanas niumeriis frunter</tei:rs> is accepted in substance up to <tei:ref target="http://zotero.org/groups/2552746/items/BRA4HCMN"><tei:bibl>Antonini 2006</tei:bibl></tei:ref>, suggesting it is a mis-reading for <tei:rs type="s" xml:lang="osc-Ital-x-oscetr">[s]taatis niumediis famated</tei:rs> 'Statius Numerius ordered (this) to be made'. Antonini's hypothesis is accepted by <tei:ref target="http://zotero.org/groups/2552746/items/IKUTPHDC"><tei:bibl>Crawford, ImIt</tei:bibl></tei:ref>.</tei:p>
+                    <tei:p>Before <tei:ref target="http://zotero.org/groups/2552746/items/BRA4HCMN"><tei:bibl>Antonini 2006</tei:bibl></tei:ref>, the last word of the inscription was generally interpreted as part of the onomastic formula (see, e.g., <tei:ref target="http://zotero.org/groups/2552746/items/BEACREAS"><tei:bibl>Lejeune  1967</tei:bibl></tei:ref>) or as the name of a goddess (see recently <tei:ref target="http://zotero.org/groups/2552746/items/IMWMSAVE"><tei:bibl>Rix, ST</tei:bibl></tei:ref>).</tei:p>
+                    <tei:p><tei:ref target="http://zotero.org/groups/2552746/items/QFUTLU7N"><tei:bibl>Pisani 1953 (1964/2)</tei:bibl></tei:ref>, proposing a restitution <tei:rs xml:lang="osc-Ital-x-oscetr" type="w" corresp="#Osc_26_l_2_w_1">[a]tanas</tei:rs> for the first word, interpreted the inscription as 'Of Athena. Numerius the <tei:ref target="http://lila-erc.eu/data/id/lemma/103948">fulguriator</tei:ref> (placed this)'; contra <tei:ref target="http://zotero.org/groups/2552746/items/HI5PZU97"><tei:bibl>Prosdocimi 1976</tei:bibl></tei:ref>.</tei:p>
+                    <tei:p><tei:ref target="http://zotero.org/groups/2552746/items/X34UGPS5"><tei:bibl>Lejeune 1975</tei:bibl></tei:ref> argues that the last word was probably mis-copied, and reads it as <tei:w ana="#Osc_26_l_2_w_1">frunted</tei:w> 'founded'.</tei:p>
+                    <tei:p>The dating (end of the 4th cent. - beginning of the 3rd cent. BC) is based on the one proposed by <tei:ref target="http://zotero.org/groups/2552746/items/QIH28NF2"><tei:bibl>Cristofani 1992</tei:bibl></tei:ref> for the statue (see <tei:ref target="http://zotero.org/groups/2552746/items/5HI9GAWF"><tei:bibl>Scaroina 2015</tei:bibl></tei:ref>). <tei:ref target="http://zotero.org/groups/2552746/items/INIMNXMA"><tei:bibl>Colonna 1984</tei:bibl></tei:ref> proposes a provenance of the statue from Lucera, the Daunian city where the cult of Athena Ilias is attested; on a stylistic basis, the scholar also proposes to dating it not later than the third quarter century of the 5th cent. BC.</tei:p>   
+                </tei:note>
+                <tei:listPerson type="Onomastics">
+                    <tei:person xml:id="p1" xml:lang="osc-Ital-x-oscetr">
+                        <tei:persName>
+                            <tei:name type="praenomen">tanas</tei:name>
+                            <tei:name type="gentilicium">niumeriis</tei:name>
+                        </tei:persName>
+                    </tei:person>
+                </tei:listPerson>
+            </tei:div>
+            <tei:div type="bibliography">
+                <tei:listBibl xmlns="http://www.tei-c.org/ns/1.0">
+                    
+                    <tei:biblStruct type="book" xml:id="ImIt2011" corresp="http://zotero.org/groups/2552746/items/IKUTPHDC">
+                        <tei:monogr>
+                            <tei:title level="m">Imagines Italicae: A Corpus of Italic Inscriptions</tei:title>
+                            <tei:editor>
+                                <tei:forename>Michael</tei:forename>
+                                <tei:surname>Crawford</tei:surname>
+                            </tei:editor>
+                            <tei:imprint>
+                                <tei:pubPlace>London</tei:pubPlace>
+                                <tei:publisher>Institute of Classical Studies, University of London</tei:publisher>
+                                <tei:date>2011</tei:date>
+                            </tei:imprint>
+                        </tei:monogr>
+                        <tei:citedRange unit="entry">Bovianum 116</tei:citedRange>
+                    </tei:biblStruct>
+                    <tei:biblStruct type="bookSection" xml:id="Antonini2006" corresp="http://zotero.org/groups/2552746/items/BRA4HCMN">
+                        <tei:analytic>
+                            <tei:title level="a">Nel Sannio con Procuste. Ovvero il testo di Roccaspromonte ed i suoi interpreti. Al seguito una reverie come divertissement per Aldo Luigi Prosdocimi</tei:title>
+                            <tei:author>
+                                <tei:forename>Rosalba</tei:forename>
+                                <tei:surname>Antonini</tei:surname>
+                            </tei:author>
+                        </tei:analytic>
+                        <tei:monogr>
+                            <tei:title level="m">Samnitice loqui. Studi in onore di A.L. Prosdocimi per il premio I Sanniti</tei:title>
+                            <tei:editor>
+                                <tei:forename>Domenico</tei:forename>
+                                <tei:surname>Caiazza</tei:surname>
+                            </tei:editor>
+                            <tei:imprint>
+                                <tei:pubPlace>Piedimonte Matese</tei:pubPlace>
+                                <tei:biblScope unit="page">339-371</tei:biblScope>
+                                <tei:date>2006</tei:date>
+                            </tei:imprint>
+                        </tei:monogr>
+                    </tei:biblStruct>
+                    <tei:biblStruct type="book" xml:id="Rix2002" corresp="http://zotero.org/groups/2552746/items/IMWMSAVE">
+                        <tei:monogr>
+                            <tei:title level="m">Sabellische Texte. Die Texte des Oskischen, Umbrischen und Südpikenischen</tei:title>
+                            <tei:author>
+                                <tei:forename>Helmut</tei:forename>
+                                <tei:surname>Rix</tei:surname>
+                            </tei:author>
+                            <tei:imprint>
+                                <tei:pubPlace>Heidelberg</tei:pubPlace>
+                                <tei:publisher>C. Winter</tei:publisher>
+                                <tei:date>2002</tei:date>
+                            </tei:imprint>
+                        </tei:monogr>
+                        <tei:citedRange unit="entry">Sa 27</tei:citedRange>
+                    </tei:biblStruct>
+                    <tei:biblStruct type="bookSection" xml:id="Prosdocimi1978" corresp="http://zotero.org/groups/2552746/items/R54C2X8E"><analytic><title level="a">Contatti e conflitti di lingue nell'Italia antica: l'elemento greco</title>
+                        <tei:author>
+                            <tei:forename>Aldo Luigi</tei:forename>
+                            <tei:surname>Prosdocimi</tei:surname>
+                        </tei:author>
+                    </analytic>
+                        <tei:monogr>
+                            <tei:title level="m">Lingue e dialetti dell'Italia antica</tei:title>
+                            <tei:editor>
+                                <tei:forename>Aldo Luigi</tei:forename>
+                                <tei:surname>Prosdocimi</tei:surname>
+                            </tei:editor>
+                            <tei:imprint>
+                                <tei:pubPlace>Roma - Padova</tei:pubPlace>
+                                <tei:biblScope unit="volume">6</tei:biblScope>
+                                <tei:biblScope unit="page">1029-1086</tei:biblScope>
+                                <tei:publisher>Biblioteca di storia patria</tei:publisher>
+                                <tei:date>1978</tei:date>
+                            </tei:imprint>
+                        </tei:monogr>
+                        <tei:citedRange unit="page">1056-1059</tei:citedRange>
+                    </tei:biblStruct>
+                    <tei:biblStruct type="bookSection" xml:id="Prosdocimi1976" corresp="http://zotero.org/groups/2552746/items/HI5PZU97">
+                        <tei:analytic>
+                            <tei:title level="a">Sui grecismi nell'osco</tei:title>
+                            <tei:author>
+                                <tei:forename>Aldo</tei:forename>
+                                <tei:surname>Prosdocimi</tei:surname>
+                            </tei:author>
+                        </tei:analytic>
+                        <tei:monogr>
+                            <tei:title level="m">Scritti in onore di G. Bonfante</tei:title>
+                            <tei:imprint>
+                                <tei:pubPlace>Brescia</tei:pubPlace>
+                                <tei:biblScope unit="page">850-852</tei:biblScope>
+                                <tei:publisher>Paideia</tei:publisher>
+                                <tei:date>1976</tei:date>
+                            </tei:imprint>
+                        </tei:monogr>
+                        <tei:citedRange unit="page">797-798</tei:citedRange>
+                    </tei:biblStruct>
+                  <tei:biblStruct type="journalArticle" xml:id="Lejeune1975" corresp="http://zotero.org/groups/2552746/items/X34UGPS5">
+                      <tei:analytic>
+                          <tei:title level="a">Osque *frunte&lt;d&gt;: “fundavit”?</tei:title>
+                          <tei:author>
+                              <tei:forename>Michel</tei:forename>
+                              <tei:surname>Lejeune</tei:surname>
+                          </tei:author>
+                      </tei:analytic>
+                      <tei:monogr>
+                          <tei:title level="j">Incontri Linguistici</tei:title>
+                          <tei:imprint>
+                              <tei:biblScope unit="volume">2</tei:biblScope>
+                              <tei:biblScope unit="page">89-95</tei:biblScope>
+                              <tei:date>1975</tei:date>
+                          </tei:imprint>
+                      </tei:monogr>
+                  </tei:biblStruct>
+                    <tei:biblStruct type="journalArticle" xml:id="Alessio_1971" corresp="http://zotero.org/groups/2552746/items/WPYWY87P">
+                        <tei:analytic>
+                            <tei:title level="a">Mediterranei ed Italici nell'Italia centrale</tei:title>
+                            <tei:author>
+                                <tei:forename>Giovanni</tei:forename>
+                                <tei:surname>Alessio</tei:surname>
+                            </tei:author>
+                        </tei:analytic>
+                        <tei:monogr>
+                            <tei:title level="j">Studi Etruschi</tei:title>
+                            <tei:imprint>
+                                <tei:biblScope unit="volume">39</tei:biblScope>
+                                <tei:biblScope unit="page">191-217</tei:biblScope>
+                                <tei:date>1971 [1972]</tei:date>
+                            </tei:imprint>
+                        </tei:monogr>
+                        <tei:citedRange unit="page">213</tei:citedRange>
+                    </tei:biblStruct>
+                    <tei:biblStruct type="journalArticle" xml:id="Lejeune1967" corresp="http://zotero.org/groups/2552746/items/BEACREAS">
+                        <tei:analytic>
+                            <tei:title level="a">Répertoire théonymique de l'épigraphie osque</tei:title>
+                            <tei:author>
+                                <tei:forename>Michel</tei:forename>
+                                <tei:surname>Lejeune</tei:surname>
+                            </tei:author>
+                        </tei:analytic>
+                        <tei:monogr>
+                            <tei:title level="j">Revue des études latines</tei:title>
+                            <tei:imprint>
+                                <tei:biblScope unit="volume">45</tei:biblScope>
+                                <tei:biblScope unit="page">221-231</tei:biblScope>
+                                <tei:date>1967</tei:date>
+                            </tei:imprint>
+                        </tei:monogr>
+                    </tei:biblStruct>
+                  <tei:biblStruct type="journalArticle" xml:id="Lejeune1962" corresp="http://zotero.org/groups/2552746/items/X82RQ3QT">
+                     <tei:analytic>
+                         <tei:title level="a">Notes de linguistique italique. XVIII. La dédicace osque de Rocca Aspromonte</tei:title>
+                         <tei:author>
+                             <tei:forename>Michel</tei:forename>
+                             <tei:surname>Lejeune</tei:surname>
+                         </tei:author>
+                     </tei:analytic>
+                     <tei:monogr>
+                         <tei:title level="j">Revue des Études Latines</tei:title>
+                         <tei:imprint>
+                             <tei:biblScope unit="volume">40</tei:biblScope>
+                             <tei:biblScope unit="page">167-169</tei:biblScope>
+                             <tei:date>1962</tei:date>
+                         </tei:imprint>
+                     </tei:monogr>
+                  </tei:biblStruct>
+                    <tei:biblStruct type="book" xml:id="Bottiglioni1954" corresp="http://zotero.org/groups/2552746/items/NQ4C9R6N">
+                        <tei:monogr>
+                            <tei:title level="m">Manuale dei dialetti italici</tei:title>
+                            <tei:author>
+                                <tei:forename>Gino</tei:forename>
+                                <tei:surname>Bottiglioni</tei:surname>
+                            </tei:author>
+                            <tei:imprint>
+                                <tei:pubPlace>Bologna</tei:pubPlace>
+                                <tei:publisher>STEB</tei:publisher>
+                                <tei:date>1954</tei:date>
+                            </tei:imprint>
+                        </tei:monogr>
+                        <tei:citedRange unit="entry">18</tei:citedRange>
+                    </tei:biblStruct>
+                    <tei:biblStruct type="book" xml:id="Vetter1953" corresp="http://zotero.org/groups/2552746/items/NJFZRK23">
+                        <tei:monogr>
+                            <tei:title level="m">Handbuch der italischen Dialekte</tei:title>
+                            <tei:author>
+                                <tei:forename>E.</tei:forename>
+                                <tei:surname>Vetter</tei:surname>
+                            </tei:author>
+                            <tei:imprint>
+                                <tei:pubPlace>Heidelberg</tei:pubPlace>
+                                <tei:publisher>C. Winter</tei:publisher>
+                                <tei:date>1953</tei:date>
+                            </tei:imprint>
+                        </tei:monogr>
+                        <tei:citedRange unit="entry">158</tei:citedRange>
+                    </tei:biblStruct>
+                    
+                        <tei:biblStruct type="book" xml:id="Pisani1953" corresp="http://zotero.org/groups/2552746/items/43PVX7RD">
+                            <tei:monogr>
+                                <tei:title level="m">Le lingue dell'Italia antica oltre il latino</tei:title>
+                                <tei:author>
+                                    <tei:forename>Vittore</tei:forename>
+                                    <tei:surname>Pisani</tei:surname>
+                                </tei:author>
+                                <tei:imprint>
+                                    <tei:pubPlace>Torino</tei:pubPlace>
+                                    <tei:publisher>Rosenberg e Sellier - 1964/2</tei:publisher>
+                                    <tei:date>1953</tei:date>
+                                </tei:imprint>
+                            </tei:monogr>
+                            <tei:citedRange unit="entry">38</tei:citedRange>
+                        </tei:biblStruct>
+                    <tei:biblStruct type="journalArticle" xml:id="Sgobbo1930" corresp="http://zotero.org/groups/2552746/items/WPYWY87P">
+                        <tei:analytic>
+                            <tei:title level="a">Mirabello Eclano. Monumenti epigrafici oschi scoperti ad Aeclanum</tei:title>
+                            <tei:author>
+                                <tei:forename>Italo</tei:forename>
+                                <tei:surname>Sgobbo</tei:surname>
+                            </tei:author>
+                        </tei:analytic>
+                        <tei:monogr>
+                            <tei:title level="j">Notizie degli Scavi di Antichità</tei:title>
+                            <tei:imprint>
+                                <tei:biblScope unit="volume">VIII</tei:biblScope>
+                                <tei:biblScope unit="issue">9</tei:biblScope>
+                                <tei:biblScope unit="page">400-411</tei:biblScope>
+                                <tei:date>1930</tei:date>
+                            </tei:imprint>
+                        </tei:monogr>
+                        <tei:citedRange unit="page">406</tei:citedRange>
+                    </tei:biblStruct>
+                    <tei:biblStruct type="book" xml:id="Conway1897" corresp="http://zotero.org/groups/2552746/items/5HE94UPW">
+                        <tei:monogr>
+                            <tei:title level="m">The Italic dialects</tei:title>
+                            <tei:author><tei:forename>Robert Seymour</tei:forename>
+                                <tei:surname>Conway</tei:surname>
+                            </tei:author>
+                            <tei:imprint>
+                                <tei:pubPlace>Cambridge</tei:pubPlace>
+                                <tei:publisher>Cambridge University Press</tei:publisher>
+                                <tei:date>1897</tei:date>
+                            </tei:imprint>
+                            <tei:biblScope unit="entry">165</tei:biblScope>
+                        </tei:monogr>
+                    </tei:biblStruct>
+                    <tei:biblStruct type="book" xml:id="Planta1897" corresp="http://zotero.org/groups/2552746/items/XIR6EZCV">
+                        <tei:monogr>
+                            <tei:title level="m">Grammatik der oskisch-umbrischen Dialekte</tei:title>
+                            <tei:author>
+                                <tei:forename>Robert</tei:forename>
+                                <tei:surname>Planta (von)</tei:surname>
+                            </tei:author>
+                            <tei:imprint>
+                                <tei:pubPlace>Strassburg</tei:pubPlace>
+                                <tei:publisher>K. J. Trubner</tei:publisher>
+                                <tei:date>1897</tei:date>
+                            </tei:imprint>
+                        </tei:monogr>
+                        <tei:citedRange unit="entry">184</tei:citedRange>
+                    </tei:biblStruct>
+                    <tei:biblStruct type="book" xml:id="Zvetaieff1886" corresp="http://zotero.org/groups/2552746/items/JDIS27RW">
+                        <tei:monogr>
+                            <tei:title level="m">Inscriptiones Italiae inferioris dialecticae</tei:title>
+                            <tei:author>
+                                <tei:forename>Ivan Vladimirovich</tei:forename>
+                                <tei:surname>Zvetaieff</tei:surname>
+                            </tei:author>
+                            <tei:imprint>
+                                <tei:pubPlace>Mosquae</tei:pubPlace>
+                                <tei:publisher>typis C. Herbeck</tei:publisher>
+                                <tei:date>1886</tei:date>
+                            </tei:imprint>
+                        </tei:monogr>
+                        <tei:citedRange unit="entry">102</tei:citedRange>
+                    </tei:biblStruct>
+                        <tei:biblStruct type="book" xml:id="Zvetaieff1878" corresp="http://zotero.org/groups/2552746/items/429W57V4">
+                            <tei:monogr>
+                                <tei:title level="m">Sylloge inscriptionum Oscarum ad archetyporum et librorum fidem</tei:title>
+                                <tei:author>
+                                    <tei:forename>Ivan Vladimirovich</tei:forename>
+                                    <tei:surname>Zvetaieff</tei:surname>
+                                </tei:author>
+                                <tei:imprint>
+                                    <tei:pubPlace>Petropoli ; Lipsiae</tei:pubPlace>
+                                    <tei:biblScope unit="volume">1</tei:biblScope>
+                                    <tei:publisher>F.A. Brockhaus</tei:publisher>
+                                    <tei:date>1878</tei:date>
+                                </tei:imprint>
+                            </tei:monogr>
+                    </tei:biblStruct>
+                    <tei:biblStruct type="book" xml:id="CII1867" corresp="http://zotero.org/groups/2552746/items/9IWSAW5F">
+                        <tei:monogr>
+                            <tei:title level="m">Corpus inscriptionum italicarum</tei:title>
+                            <tei:author>
+                                <tei:forename>Ariodante</tei:forename>
+                                <tei:surname>Fabretti</tei:surname>
+                            </tei:author>
+                            <tei:imprint>
+                                <tei:pubPlace>Augusta Taurinorum</tei:pubPlace>
+                                <tei:publisher>ex Officina regia</tei:publisher>
+                                <tei:date>1867</tei:date>
+                            </tei:imprint>
+                        </tei:monogr>
+                        <tei:citedRange unit="entry">2879</tei:citedRange>
+                    </tei:biblStruct>
+                    <tei:biblStruct type="journalArticle" xml:id="Tarquini1864" corresp="http://zotero.org/groups/2552746/items/4LTVPLLW">
+                        <tei:analytic>
+                            <tei:title level="a">Dichiarazione dell'epigrafe del lampadario di Cortona. Della lettera A e delle note numeriche degli Etruschi</tei:title>
+                            <tei:author>
+                                <tei:forename>Camillo</tei:forename>
+                                <tei:surname>Tarquini</tei:surname>
+                            </tei:author>
+                        </tei:analytic>
+                        <tei:monogr>
+                            <tei:title level="j">Dissertazioni della Pontificia Accademia Romana di Archeologia</tei:title>
+                            <tei:imprint>
+                                <tei:biblScope unit="volume">XV</tei:biblScope>
+                                <tei:biblScope unit="page">67-92</tei:biblScope>
+                                <tei:date>1864</tei:date>
+                            </tei:imprint>
+                        </tei:monogr>
+                        <tei:citedRange unit="page">88</tei:citedRange>
+                    </tei:biblStruct>
+                    <tei:biblStruct type="book" xml:id="Huschke1856" corresp="http://zotero.org/groups/2552746/items/UUQKGXFT">
+                        <tei:monogr>
+                            <tei:title level="m">Die oskischen und sabellischen Sprachdenkmäler</tei:title>
+                            <tei:author>
+                                <tei:forename>Ph. Eduard</tei:forename>
+                                <tei:surname>Huschke</tei:surname>
+                            </tei:author>
+                            <tei:imprint>
+                                <tei:pubPlace>Elberfeld</tei:pubPlace>
+                                <tei:publisher>RL Friderichs</tei:publisher>
+                                <tei:date>1856</tei:date>
+                            </tei:imprint>
+                        </tei:monogr>
+                        <tei:citedRange unit="entry">XVIII</tei:citedRange>
+                    </tei:biblStruct>
+                    <tei:biblStruct type="book" xml:id="Mommsen1850" corresp="http://zotero.org/groups/2552746/items/EDA3JHPC">
+                        <tei:monogr>
+                            <tei:title level="m">Die unteritalischen Dialekte: Mit siebzehn Tafeln und zwei Karten</tei:title>
+                            <tei:title type="short">Die unteritalischen Dialekte</tei:title>
+                            <tei:author>
+                                <tei:forename>Theodor</tei:forename>
+                                <tei:surname>Mommsen</tei:surname>
+                            </tei:author>
+                            <tei:imprint>
+                                <tei:pubPlace>Leipzig</tei:pubPlace>
+                                <tei:publisher>G. Wigand</tei:publisher>
+                                <tei:date>1850</tei:date>
+                            </tei:imprint>
+                        </tei:monogr>
+                        <tei:citedRange unit="entry">IX no. 8</tei:citedRange>
+                    </tei:biblStruct>
+                    <tei:biblStruct type="book" xml:id="Guarini1842" corresp="http://zotero.org/groups/2552746/items/WEIR3N5I">
+                        <tei:monogr>
+                            <tei:title level="m">Lexici osco-latini stamina quaedam</tei:title>
+                            <tei:author>
+                                <tei:forename>Raimondo</tei:forename>
+                                <tei:surname>Guarini</tei:surname>
+                            </tei:author>
+                            <tei:imprint>
+                                <tei:pubPlace>Neapoli</tei:pubPlace>
+                                <tei:publisher>typis Societatis Philomathicae</tei:publisher>
+                                <tei:date>1842</tei:date>
+                            </tei:imprint>
+                        </tei:monogr>
+                    </tei:biblStruct>
+                    <tei:biblStruct type="book" xml:id="Lepsius1841" corresp="http://zotero.org/groups/2552746/items/87SESH9I">
+                        <tei:monogr>
+                            <tei:title level="m">Inscriptiones umbricae et oscae: quotquot adhuc repertae sunt omnes</tei:title>
+                            <tei:author>
+                                <tei:forename>Richard</tei:forename>
+                                <tei:surname>Lepsius</tei:surname>
+                            </tei:author>
+                            <tei:imprint>
+                                <tei:pubPlace>Lipsiae</tei:pubPlace>
+                                <tei:publisher>G. Wigand</tei:publisher>
+                                <tei:date>1841</tei:date>
+                            </tei:imprint>
+                        </tei:monogr>
+                        <tei:citedRange unit="page">57-64</tei:citedRange>
+                    </tei:biblStruct>
+                    <tei:biblStruct type="book" xml:id="Lanzi1825" corresp="http://zotero.org/groups/2552746/items/FXWXKBNV">
+                        <tei:monogr>
+                            <tei:title level="m">Saggio di lingua etrusca e di altre antiche d'Italia per servire alla storia de'popoli, delle lingue e delle belle arti</tei:title>
+                            <tei:author>
+                                <tei:forename>Luigi Antonio</tei:forename>
+                                <tei:surname>Lanzi</tei:surname>
+                            </tei:author>
+                            <tei:imprint>
+                                <tei:pubPlace>Firenze</tei:pubPlace>
+                                <tei:biblScope unit="volume">2</tei:biblScope>
+                                <tei:biblScope unit="issue">3</tei:biblScope>
+                                <tei:publisher>Tip. di Attilio Tofani</tei:publisher>
+                                <tei:date>1824-1825</tei:date>
+                            </tei:imprint>
+                        </tei:monogr>
+                        <citedRange unit="page">525, no. 10</citedRange>
+                    </tei:biblStruct>
+                    <tei:biblStruct type="book" xml:id="Cerulli1777" corresp="http://zotero.org/groups/2552746/items/CGBKFGRJ">
+                        <tei:monogr>
+                            <tei:title level="m">All'Illustriss., e Rev. Monsignor D. Antonio Gurtler Vescovo di Tiene confessore di S. M. la regina delle due Sicilie sopra un'antica statua etrusca lettera</tei:title>
+                            <tei:author>
+                                <tei:forename>Domenico</tei:forename>
+                                <tei:surname>Cerulli</tei:surname>
+                            </tei:author>
+                            <tei:imprint>
+                                <tei:pubPlace>Napoli</tei:pubPlace>
+                                <tei:date>1777</tei:date>
+                            </tei:imprint>
+                        </tei:monogr>
+                    </tei:biblStruct>
+                </tei:listBibl>    
+            </tei:div>   
+        </tei:body>
+    </tei:text>
+</tei:TEI>

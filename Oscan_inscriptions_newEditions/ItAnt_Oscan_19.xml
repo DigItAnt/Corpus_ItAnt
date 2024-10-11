@@ -1,0 +1,451 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/9.4/tei-epidoc.rng"
+schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/9.4/tei-epidoc.rng"
+schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<tei:TEI xmlns:dcr="http://www.isocat.org/ns/dcr" xml:id="ItAnt_Oscan_19"
+    xmlns:tei="http://www.tei-c.org/ns/1.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <tei:teiHeader>
+        <tei:fileDesc>
+            <tei:titleStmt>
+                <tei:title type="ItAnt_ID">Inscription ItAnt Oscan 19</tei:title>
+            </tei:titleStmt>
+            <tei:editionStmt>
+                <tei:edition>
+                    <tei:idno>ItAnt Oscan 19</tei:idno>
+                </tei:edition>
+                <tei:editor>
+                    <tei:persName>Francesca Murano</tei:persName>
+                </tei:editor>
+                <tei:editor>
+                    <tei:persName>Mariarosaria Zinzi</tei:persName>
+                </tei:editor>
+            </tei:editionStmt>         
+            <tei:publicationStmt>
+                <tei:authority>PRIN 2017 "Lingue e culture dell'Italia antica: linguistica storica e modelli digitali | Languages and Cultures of Ancient Italy. Historical Linguistics and Digital Models"</tei:authority>
+                <tei:date>2023</tei:date>
+                <tei:idno type="URI" subtype="handle"></tei:idno>
+                <tei:availability>
+                    <tei:licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">This file is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International license – (CC BY-NC-SA 4.0).  
+                    </tei:licence>
+                </tei:availability>
+            </tei:publicationStmt>   
+            <tei:sourceDesc>
+                <tei:msDesc>
+                    <tei:msIdentifier>
+                        <tei:settlement ref="https://sws.geonames.org/2988507">Paris</tei:settlement>
+                        <tei:institution ana="https://medaillesetantiques.bnf.fr/ws/catalogue/app/report/index.html">Collection Froehner, Cabinet des Médailles, Bibliothèque Nationale</tei:institution>
+                        <tei:idno type="museumID">1223</tei:idno>
+                        <tei:msName>Inscription on gold ring</tei:msName>
+                        <tei:altIdentifier type="trismegistos">
+                            <tei:idno source="www.trismegistos.org/text/170676">TM 170676</tei:idno>                           
+                        </tei:altIdentifier> 
+                        <tei:altIdentifier type="traditionalID">
+                            <tei:idno source="http://zotero.org/groups/2552746/items/IMWMSAVE">ST Sa 22</tei:idno>
+                        </tei:altIdentifier> 
+                        <tei:altIdentifier type="traditionalID">
+                            <tei:idno source="http://zotero.org/groups/2552746/items/IKUTPHDC">ImIt Bouianum or Saepinum not Aesernia 1</tei:idno>
+                        </tei:altIdentifier>
+                        <tei:altIdentifier>
+                            <tei:idno source="http://zotero.org/groups/2552746/items/NJFZRK23">Ve 140</tei:idno>
+                        </tei:altIdentifier>
+                    </tei:msIdentifier> 
+                    <tei:msContents>
+                        <tei:summary>Votive inscription on a gold ring from Aesernia, now lost.
+                        </tei:summary>
+                    </tei:msContents>
+                    <tei:physDesc>
+                        <tei:objectDesc>     
+                            <tei:supportDesc>
+                                <tei:support>
+                                    <tei:objectType ana="http://vocab.getty.edu/page/aat/300046012">ring</tei:objectType>
+                                    <tei:material ana="http://vocab.getty.edu/page/aat/300011021">gold
+                                    </tei:material>
+                                    <tei:dimensions type="objectDimensions" unit="cm" precision="high">
+                                        <tei:height quantity="1.7">1,7</tei:height>
+                                        <tei:dim quantity="1.8">1,8</tei:dim>
+                                    </tei:dimensions>
+                                    <tei:rs type="reuse">no</tei:rs>
+                                </tei:support>
+                                <tei:condition>lost inscription</tei:condition>   
+                            </tei:supportDesc>
+                            <tei:layoutDesc>
+                                <tei:layout columns="1" writtenLines="3">
+                                    <tei:rs type="execution" ana="http://vocab.getty.edu/page/aat/300404794">engraved</tei:rs>
+                                    <tei:rs type="opistography">no</tei:rs> 
+                                </tei:layout>
+                            </tei:layoutDesc>
+                        </tei:objectDesc>
+                        <tei:handDesc>                            
+                            <tei:handNote/>
+                        </tei:handDesc>                                     
+                        <tei:scriptDesc>
+                            <tei:scriptNote>
+                                <tei:rs type="writingSystem" subtype="alphabet" ref="https://www.prin-italia-antica.unifi.it/p166.html#oscan-etruscan">Oscan National alphabet</tei:rs>
+                                <tei:rs type="wordDivision">punctuation</tei:rs>
+                            </tei:scriptNote>
+                        </tei:scriptDesc>
+                    </tei:physDesc>
+                    <tei:history>
+                        <tei:origin> 
+                            <tei:origPlace type="composed">
+                                <tei:placeName type="ancient" ref="https://pleiades.stoa.org/places/432652">Aesernia, Samnium</tei:placeName>
+                                <tei:placeName type="modern" ref="https://sws.geonames.org/2988507">Isernia</tei:placeName>
+                            </tei:origPlace>
+                            <tei:origDate notBefore-custom="-0399" notAfter-custom="-0200" cert="medium">4th - 3rd cent. BC</tei:origDate>
+                        </tei:origin>
+                        <tei:provenance type="found" subtype="discovered" when="1882">
+                            <tei:placeName type="ancient" ref="https://pleiades.stoa.org/places/432652">Aesernia, Samnium</tei:placeName>
+                            <tei:placeName type="modern" ref="https://sws.geonames.org/2988507">Isernia</tei:placeName>
+                        </tei:provenance>
+                        <tei:provenance type="observed" subtype="autopsied" notBefore-custom="1884">
+                            <tei:persName>Wilhelm Fröhner</tei:persName>
+                        </tei:provenance>
+                        <tei:provenance type="observed" subtype="reported" when="2022" resp="Francesca Murano">
+                            <tei:persName>Francesca Murano</tei:persName>
+                        </tei:provenance>
+                    </tei:history>                       
+                </tei:msDesc>   
+            </tei:sourceDesc> 
+        </tei:fileDesc>
+        <tei:encodingDesc>
+            <tei:p source="https://epidoc.stoa.org/gl/latest/">Marked-up according to the EpiDoc Guidelines</tei:p>
+        </tei:encodingDesc>
+        <tei:profileDesc>
+            <tei:langUsage>
+                <tei:language ident="osc" source="https://iso639-3.sil.org/code/osc">Oscan</tei:language>
+                <tei:language ident="osc-Ital-x-oscetr" source="https://www.prin-italia-antica.unifi.it/p166.html#oscan-etruscan" ana="https://unicode.org/iso15924/iso15924-codes.html">Oscan in National alphabet (Oscan-Etruscan alphabet)</tei:language>
+            </tei:langUsage>
+            <tei:textClass>
+                <tei:keywords scheme="https://www.eagle-network.eu/resources/vocabularies/typeins/">
+                    <tei:term ref="https://www.eagle-network.eu/voc/typeins/lod/83">votive inscription</tei:term>
+                    <tei:term ref="https://www.eagle-network.eu/voc/typeins/lod/88">dedicatory inscription</tei:term>
+                </tei:keywords>
+            </tei:textClass>
+        </tei:profileDesc>
+    </tei:teiHeader>
+    <tei:facsimile>
+        <tei:graphic n="1" url="http://linsto.dipartimentidieccellenza-dilef.unifi.it/itant/img/ItAnt_Oscan_19.jpg" resp="Francesca Murano">
+            <tei:desc>Inscription ItAnt Oscan 10 (drawing by <tei:persName>Francesca Murano</tei:persName>)
+                <tei:ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">This file is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International license – (CC BY-NC-SA 4.0).</tei:ref>
+            </tei:desc>
+        </tei:graphic>
+        <tei:graphic n="2" url="https://gallica.bnf.fr/ark:/12148/btv1b531571609/f133.highres" resp="http://zotero.org/groups/2552746/items/DF8RPM33">
+            <tei:desc>Inscription ItAnt Oscan 19 (from <tei:ref target="http://zotero.org/groups/2552746/items/DF8RPM33"><tei:bibl>Collection Froehner</tei:bibl></tei:ref>, V, 246)
+                <tei:ref target="https://gallica.bnf.fr/accueil/it/content/accueil-it?mode=desktop">This file is provided by BnF - Gallica.</tei:ref>
+            </tei:desc>
+        </tei:graphic>
+    </tei:facsimile>
+    <tei:text>
+        <tei:body>             
+            <tei:div type="edition" subtype="interpretative" xml:space="preserve">
+                <tei:div type="textpart" n="face_a" style="text-direction:r-to-l" rend="ductus:sinistrorse">
+                    <tei:ab>   
+                        <tei:lb n="1" xml:id="Osc_19_l_1"/>
+                            <!-- Leida;Osc_19_l_1_w_1;stenis -->
+                            <tei:name type="praenomen" xml:id="Osc_19_l_1_w_1" xml:lang="osc-Ital-x-oscetr" ref="#p1">stenis</tei:name>
+                            <tei:pc unit="word">.</tei:pc>
+                            <!-- Leida;Osc_19_l_1_w_2;kalaviis -->
+                            <tei:name type="gentilicium" xml:id="Osc_19_l_1_w_2" xml:lang="osc-Ital-x-oscetr" ref="#p1">kalaviis</tei:name>
+                            <tei:pc unit="word">.</tei:pc>
+                            <!-- Leida;Osc_19_l_1_w_3;g(avieís) -->
+                            <tei:name type="patronymic" xml:id="Osc_19_l_1_w_3" xml:lang="osc-Ital-x-oscetr" ref="#p1"><tei:expan><tei:abbr>g</tei:abbr><tei:ex>avieís</tei:ex></tei:expan></tei:name>
+                        <tei:lb n="2" xml:id="Osc_19_l_2"/>        
+                            <!-- Leida;Osc_19_l_2_w_1;anagtiai -->
+                            <tei:name type="theonym" xml:id="Osc_19_l_2_w_1" xml:lang="osc-Ital-x-oscetr">anagtiai</tei:name>
+                            <tei:pc unit="word">.</tei:pc>
+                            <!-- Leida;Osc_19_l_2_w_2;diíviiai -->
+                            <tei:name type="epiclesis" xml:id="Osc_19_l_2_w_2" xml:lang="osc-Ital-x-oscetr">diíviiai</tei:name>
+                            <tei:pc unit="word">.</tei:pc>
+                        <tei:lb n="3" xml:id="Osc_19_l_3"/>        
+                            <!-- Leida;Osc_19_l_3_w_1;dunum -->
+                            <tei:w xml:id="Osc_19_l_3_w_1" xml:lang="osc-Ital-x-oscetr">dunum</tei:w>
+                            <tei:pc unit="word">.</tei:pc>
+                            <!-- Leida;Osc_19_l_3_w_2;deded -->
+                            <tei:w xml:id="Osc_19_l_3_w_2" xml:lang="osc-Ital-x-oscetr">deded</tei:w>
+                            <tei:pc unit="word">.</tei:pc>
+                    </tei:ab>
+                </tei:div>
+            </tei:div>
+            <tei:div type="translation" xml:lang="ita">
+                <tei:p>Stenio Calaviuo figlio di Gavius diede (questo anello) in dono a Angtia Giovia</tei:p>
+                <tei:desc>
+                    <tei:persName>Mariarosaria Zinzi</tei:persName>
+                    <tei:ref type="licence" target="https://creativecommons.org/licenses/by-nc-sa/4.0/">This file is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International license – (CC BY-NC-SA 4.0).</tei:ref>
+                </tei:desc>
+            </tei:div>
+            <tei:div type="translation" xml:lang="eng">
+                <tei:p>Stenius Calavius son of Gavius gave (this ring) as a gift to the Jovian Angtia</tei:p>
+                <tei:desc>
+                    <tei:persName>Mariarosaria Zinzi</tei:persName>
+                    <tei:ref type="licence" target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </tei:ref>
+                </tei:desc> 
+            </tei:div>
+            <tei:div type="commentary" xml:lang="eng" resp="Mariarosaria Zinzi">
+                <tei:note>
+                    <tei:p>As <tei:ref target="http://zotero.org/groups/2552746/items/4WMEP6YA"><tei:bibl>Dressel 1882</tei:bibl></tei:ref> reports, the ring was brought in 1882 to the antiques market of Rome by a countryman from the Isernia, together with various antiques found in South Italy. The ring ended up first in the <tei:ref target="https://en.wikipedia.org/wiki/Alessandro_Castellani">Alessandro Castellani</tei:ref>'s collection (see the <tei:ref target="http://zotero.org/groups/2552746/items/JNS5WFAH"><tei:bibl>catalogue</tei:bibl></tei:ref>, no. 914) and then in the <tei:ref target="https://en.wikipedia.org/wiki/Wilhelm_Fr%C3%B6hner">Wilhelm Froehner</tei:ref>'s one (see the <tei:ref target="http://zotero.org/groups/2552746/items/5HE94UPW"><tei:bibl>catalogue</tei:bibl></tei:ref>, V, 246). After Froehner's death, the ring passed to the <tei:ref target="https://www.bnf.fr/fr/departement-monnaies-medailles-antiques">Cabinet des Médailles</tei:ref> in Paris.</tei:p>
+                    <tei:p>In his <tei:ref target="http://zotero.org/groups/2552746/items/5HE94UPW"><tei:bibl>catalogue</tei:bibl></tei:ref>, Froehner reports that the inscription was found in Isernia. <tei:ref target="http://zotero.org/groups/2552746/items/IKUTPHDC"><tei:bibl>Crawford, ImIt</tei:bibl></tei:ref>: 985, based on what was reported by <tei:ref target="https://www.jstor.org/stable/42680015"><tei:bibl>A.J. Evans</tei:bibl></tei:ref> about the findings he saw in Naples in 1884, assumes that the ring comes from <tei:ref ana="https://pleiades.stoa.org/places/432725">Bovianum</tei:ref> or <tei:ref ana="https://pleiades.stoa.org/places/433073">Saepinum</tei:ref>.</tei:p>
+                </tei:note>
+                <tei:note>
+                    <tei:p>The inscription, now lost, recorded the dedication of a gold ring to the goddess Anagtia by Stenius Calavius son of Gavius.</tei:p>              
+                    <tei:p>For the name of the goddess and her epithet, see <tei:ref target="http://zotero.org/groups/2552746/items/TGEVPPTMC"><tei:bibl>Poccetti 2017</tei:bibl></tei:ref> and <tei:ref target="http://zotero.org/groups/2552746/items/JUC2FCHH"><tei:bibl>Poccetti - Buonocore 2013</tei:bibl></tei:ref>.</tei:p>
+                </tei:note>
+                <tei:listPerson type="Onomastics">
+                    <tei:person xml:id="p1" xml:lang="osc-Ital-x-oscetr">
+                        <tei:persName>
+                            <tei:name type="praenomen">stenis</tei:name>
+                            <tei:name type="gentilicium">kalaviis</tei:name>
+                            <tei:name type="patronymic">g(avieís)</tei:name>
+                        </tei:persName>
+                    </tei:person>
+                </tei:listPerson>
+            </tei:div>
+            <tei:div type="bibliography">
+                <tei:listBibl xmlns="http://www.tei-c.org/ns/1.0">
+                    <tei:biblStruct type="book" xml:id="ImIt2011"  corresp="http://zotero.org/groups/2552746/items/IKUTPHDC">
+                        <tei:monogr>
+                            <tei:title level="m">Imagines Italicae: A Corpus of Italic Inscriptions</tei:title>
+                            <tei:editor>
+                                <tei:forename>Michael</tei:forename>
+                                <tei:surname>Crawford</tei:surname>
+                            </tei:editor>
+                            <tei:imprint>
+                                <tei:pubPlace>London</tei:pubPlace>
+                                <tei:publisher>Institute of Classical Studies, University of London</tei:publisher>
+                                <tei:date>2011</tei:date>
+                            </tei:imprint>
+                        </tei:monogr>
+                        <tei:citedRange unit="entry">Bouianum or Saepinum not Aesernia 1</tei:citedRange>
+                    </tei:biblStruct>
+                    <tei:biblStruct type="book" xml:id="Rix2002"  corresp="http://zotero.org/groups/2552746/items/IMWMSAVE">
+                        <tei:monogr>
+                            <tei:title level="m">Sabellische Texte. Die Texte des Oskischen, Umbrischen und Südpikenischen</tei:title>
+                            <tei:author>
+                                <tei:forename>Helmut</tei:forename>
+                                <tei:surname>Rix</tei:surname>
+                            </tei:author>
+                            <tei:imprint>
+                                <tei:pubPlace>Heidelberg</tei:pubPlace>
+                                <tei:publisher>C. Winter</tei:publisher>
+                                <tei:date>2002</tei:date>
+                            </tei:imprint>
+                        </tei:monogr>
+                        <tei:citedRange unit="entry">Sa 22</tei:citedRange>
+                    </tei:biblStruct>
+                    <tei:biblStruct type="bookSection" xml:id="Letta2001" corresp="http://zotero.org/groups/2552746/items/7CNY8CIZ">
+                        <tei:analytic>
+                            <tei:title level="a">Un lago e il suo popolo</tei:title>
+                            <tei:author>
+                                <tei:forename>Cesare</tei:forename>
+                                <tei:surname>Letta</tei:surname>
+                            </tei:author>
+                        </tei:analytic>
+                        <tei:monogr>
+                            <tei:title level="m">Il tesoro del Lago. L'archeologia del Fucino e la collezione Torlonia</tei:title>
+                            <tei:editor>
+                                <tei:forename>Adele</tei:forename>
+                                <tei:surname>Campanelli</tei:surname>
+                            </tei:editor>
+                            <tei:imprint>
+                                <tei:pubPlace>Pescara</tei:pubPlace>
+                                <tei:biblScope unit="page">139-155</tei:biblScope>
+                                <tei:date>2001</tei:date>
+                            </tei:imprint>
+                        </tei:monogr>
+                    </tei:biblStruct>
+                    <tei:biblStruct type="journalArticle" xml:id="Santi1994" corresp="http://zotero.org/groups/2552746/items/L2D2X8GC">
+                        <tei:analytic>
+                            <tei:title level="a">Angitia  nel  culto  e  nelle  relazioni  con  il pantheon italico</tei:title>
+                            <tei:author>
+                                <tei:forename>C.</tei:forename>
+                                <tei:surname>Santi</tei:surname>
+                            </tei:author>
+                        </tei:analytic>
+                        <tei:monogr>
+                            <tei:title level="j">AION. Sezione Linguistica</tei:title>
+                            <tei:imprint>
+                                <tei:biblScope unit="volume">16</tei:biblScope>
+                                <tei:biblScope unit="page">241- 257</tei:biblScope>
+                                <tei:date>1994</tei:date>
+                            </tei:imprint>
+                        </tei:monogr>
+                    </tei:biblStruct>    
+                    <tei:biblStruct type="book" xml:id="Bottiglioni1954" corresp="http://zotero.org/groups/2552746/items/NQ4C9R6N">
+                        <tei:monogr>
+                            <tei:title level="m">Manuale dei dialetti italici</tei:title>
+                            <tei:author>
+                                <tei:forename>Gino</tei:forename>
+                                <tei:surname>Bottiglioni</tei:surname>
+                            </tei:author>
+                            <tei:imprint>
+                                <tei:pubPlace>Bologna</tei:pubPlace>
+                                <tei:publisher>STEB</tei:publisher>
+                                <tei:date>1954</tei:date>
+                            </tei:imprint>
+                        </tei:monogr>
+                        <tei:citedRange unit="entry">16</tei:citedRange>
+                    </tei:biblStruct>
+                    <tei:biblStruct type="book" xml:id="Pisani1953" corresp="http://zotero.org/groups/2552746/items/43PVX7RD">
+                        <tei:monogr>
+                            <tei:title level="m">Le lingue dell'Italia antica oltre il latino</tei:title>
+                            <tei:author>
+                                <tei:forename>Vittore</tei:forename>
+                                <tei:surname>Pisani</tei:surname>
+                            </tei:author>
+                            <tei:imprint>
+                                <tei:pubPlace>Torino</tei:pubPlace>
+                                <tei:biblScope unit="volume">4</tei:biblScope>
+                                <tei:publisher>Rosenberg e Sellier - 1964/2</tei:publisher>
+                                <tei:date>1953</tei:date>
+                            </tei:imprint>
+                        </tei:monogr>
+                        <tei:series>
+                            <tei:title level="s">Manuale storico della lingua latina</tei:title>
+                        </tei:series>
+                        <tei:citedRange unit="entry">39A</tei:citedRange>
+                    </tei:biblStruct>
+                    <tei:biblStruct type="book" xml:id="Vetter1953" corresp="http://zotero.org/groups/2552746/items/NJFZRK23">
+                        <tei:monogr>
+                            <tei:title level="m">Handbuch der italischen Dialekte</tei:title>
+                            <tei:author>
+                                <tei:forename>E.</tei:forename>
+                                <tei:surname>Vetter</tei:surname>
+                            </tei:author>
+                            <tei:imprint>
+                                <tei:pubPlace>Heidelberg</tei:pubPlace>
+                                <tei:biblScope unit="volume">1</tei:biblScope>
+                                <tei:publisher>C. Winter</tei:publisher>
+                                <tei:date>1953</tei:date>
+                            </tei:imprint>
+                        </tei:monogr>
+                        <tei:citedRange unit="entry">140</tei:citedRange>
+                    </tei:biblStruct>
+                    <tei:biblStruct type="journalArticle" xml:id="Lejeune1952" corresp="http://zotero.org/groups/2552746/items/64YNDMK7">
+                        <tei:analytic>
+                            <tei:title level="a">Notes de linguistique italique, V-VII: Les inscriptions de la collection Froehner</tei:title>
+                            <tei:author>
+                                <tei:forename>Michel</tei:forename>
+                                <tei:surname>Lejeune</tei:surname>
+                            </tei:author>
+                        </tei:analytic>
+                        <tei:monogr>
+                            <tei:title level="j">Revue des Études Latines</tei:title>
+                            <tei:imprint>
+                                <tei:biblScope unit="volume">30</tei:biblScope>
+                                <tei:biblScope unit="page">87-126</tei:biblScope>
+                                <tei:date>1952</tei:date>
+                            </tei:imprint>
+                        </tei:monogr>
+                    </tei:biblStruct>
+                    <tei:biblStruct type="journalArticle" xml:id="Dressel1882" corresp="http://zotero.org/groups/2552746/items/4WMEP6YA">
+                        <tei:analytic>
+                            <tei:title level="a">Antiquarische Funde in Italien</tei:title>
+                            <tei:author>
+                                <tei:forename>Heinrich</tei:forename>
+                                <tei:surname>Dressel</tei:surname>
+                            </tei:author>
+                        </tei:analytic>
+                        <tei:monogr>
+                            <tei:title level="j">Deutsche Literaturzeitung</tei:title>
+                            <tei:imprint>
+                                <tei:biblScope unit="page">coll. 1182-1183</tei:biblScope>
+                                <tei:date>1882</tei:date>
+                            </tei:imprint>
+                        </tei:monogr>
+                        <tei:citedRange unit="page">col. 1132</tei:citedRange>
+                    </tei:biblStruct>
+                    <tei:biblStruct type="journalArticle" xml:id="Bücheler1882" corresp="http://zotero.org/groups/2552746/items/LZW8DP6F">
+                        <tei:analytic>
+                            <tei:title level="a">Oskisch und Pälignisch</tei:title>
+                            <tei:author>
+                                <tei:forename>Franz</tei:forename>
+                                <tei:surname>Bücheler</tei:surname>
+                            </tei:author>
+                        </tei:analytic>
+                        <tei:monogr>
+                            <tei:title level="j">Rheinisches Museum für Philologie</tei:title>
+                            <tei:idno type="ISSN">0035-449X</tei:idno>
+                            <tei:imprint>
+                                <tei:biblScope unit="volume">37</tei:biblScope>
+                                <tei:biblScope unit="issue">4</tei:biblScope>
+                                <tei:biblScope unit="page">643-644</tei:biblScope>
+                                <tei:date>1882</tei:date>
+                            </tei:imprint>
+                        </tei:monogr>
+                        <tei:citedRange unit="page">346</tei:citedRange>
+                    </tei:biblStruct>
+                    <tei:biblStruct type="book" xml:id="Zvetaieff1886" corresp="http://zotero.org/groups/2552746/items/JDIS27RW">
+                        <tei:monogr>
+                            <tei:title level="m">Inscriptiones Italiae inferioris dialecticae: in usum praecipue academicum composuit</tei:title>
+                            <tei:author>
+                                <tei:forename>Ivan Vladimirovich</tei:forename>
+                                <tei:surname>Zvetaieff</tei:surname>
+                            </tei:author>
+                            <tei:imprint>
+                                <tei:pubPlace>Mosquae</tei:pubPlace>
+                                <tei:publisher>typis C. Herbeck</tei:publisher>
+                                <tei:date>1886</tei:date>
+                                <tei:note type="url">https://archive.org/stream/inscriptionesit00unkngoog</tei:note>
+                            </tei:imprint>
+                        </tei:monogr>
+                        <tei:citedRange unit="entry">107</tei:citedRange>
+                    </tei:biblStruct>
+                    <tei:biblStruct type="book" xml:id="Planta1897" corresp="http://zotero.org/groups/2552746/items/XIR6EZCV">
+                        <tei:monogr>
+                            <tei:title level="m">Grammatik der oskisch-umbrischen Dialekte</tei:title>
+                            <tei:author>
+                                <tei:forename>Robert von</tei:forename>
+                                <tei:surname>Planta</tei:surname>
+                            </tei:author>
+                            <tei:imprint>
+                                <tei:pubPlace>Strassburg</tei:pubPlace>
+                                <tei:publisher>K. J. Trubner</tei:publisher>
+                                <tei:date>1897</tei:date>
+                            </tei:imprint>
+                        </tei:monogr>
+                        <tei:citedRange unit="entry">187</tei:citedRange>
+                    </tei:biblStruct>
+                    <tei:biblStruct type="book" xml:id="Conway1897" corresp="http://zotero.org/groups/2552746/items/5HE94UPW">
+                        <tei:monogr>
+                            <tei:title level="m">The Italic dialects</tei:title>
+                            <tei:author>
+                                <tei:forename>Robert Seymour</tei:forename>
+                                <tei:surname>Conway</tei:surname>
+                            </tei:author>
+                            <tei:imprint>
+                                <tei:pubPlace>Cambridge</tei:pubPlace>
+                                <tei:publisher>Cambridge University Press</tei:publisher>
+                                <tei:date>1897</tei:date>
+                            </tei:imprint>
+                        </tei:monogr>
+                        <tei:citedRange unit="entry">167</tei:citedRange>
+                    </tei:biblStruct>
+                    <tei:biblStruct type="book" xml:id="CollectionFroehner" corresp="http://zotero.org/groups/2552746/items/5HE94UPW">
+                        <tei:monogr>
+                            <tei:title level="m">Catalogues manuscrits, inventaires et registres des collections d'antiques. Inventaires et registres produits par le département des Monnaies, médailles et antiques concernant les antiquités. Collection Froehner. Volume 5</tei:title>                          
+                            <tei:imprint>
+                                <tei:pubPlace>Paris</tei:pubPlace>
+                                <tei:publisher>Bibliothèque Nationale de France</tei:publisher>
+                                <tei:date>1890-1950</tei:date>
+                            </tei:imprint>
+                        </tei:monogr>
+                        <tei:citedRange unit="entry">V, 246</tei:citedRange>
+                    </tei:biblStruct>
+                    <tei:biblStruct type="book" xml:id="CollectionCastellani" corresp="http://zotero.org/groups/2552746/items/JNS5WFAH">
+                        <tei:monogr>
+                            <tei:title level="m">Catalogue des objets d'art antiques, du moyen âge et de la renaissance dépendant de la succession Alessandro Castellani</tei:title>
+                            <tei:imprint>
+                                <tei:pubPlace>Paris</tei:pubPlace>
+                                <tei:publisher>Impr. de l'art</tei:publisher>
+                                <tei:date>1884</tei:date>
+                            </tei:imprint>
+                        </tei:monogr>
+                        <tei:citedRange unit="entry">914</tei:citedRange>
+                    </tei:biblStruct>
+                </tei:listBibl>    
+            </tei:div>   
+        </tei:body>
+    </tei:text>
+</tei:TEI>

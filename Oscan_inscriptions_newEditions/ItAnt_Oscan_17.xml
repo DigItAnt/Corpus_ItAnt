@@ -1,0 +1,358 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/9.6/tei-epidoc.rng"
+schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/9.6/tei-epidoc.rng"
+schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<tei:TEI xmlns:dcr="http://www.isocat.org/ns/dcr" xml:id="ItAnt_Oscan_17"
+    xmlns:tei="http://www.tei-c.org/ns/1.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <tei:teiHeader>
+        <tei:fileDesc>
+            <tei:titleStmt>
+                <tei:title type="ItAnt_ID">Inscription ItAnt Oscan 17</tei:title>
+            </tei:titleStmt>
+            <tei:editionStmt>
+                <tei:edition>
+                    <tei:idno>ItAnt Oscan 17</tei:idno>
+                </tei:edition>              
+                <tei:editor>
+                    <tei:persName>Francesca Murano</tei:persName>
+                </tei:editor>
+                <tei:editor>
+                    <tei:persName>Mariarosaria Zinzi</tei:persName>
+                </tei:editor>
+            </tei:editionStmt>         
+            <tei:publicationStmt>
+                <tei:authority>PRIN 2017 "Lingue e culture dell'Italia antica: linguistica storica e modelli digitali | Languages and Cultures of Ancient Italy. Historical Linguistics and Digital Models"</tei:authority>
+                <tei:date>2023</tei:date>
+                <tei:idno type="URI" subtype="handle"></tei:idno>
+                <tei:availability>
+                    <tei:licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">This file is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International license – (CC BY-NC-SA 4.0).  
+                    </tei:licence>
+                </tei:availability>
+            </tei:publicationStmt>   
+            <tei:sourceDesc>
+                <tei:msDesc>
+                    <tei:msIdentifier>
+                        <tei:settlement ref="lost inscription">lost inscription</tei:settlement>
+                        <tei:institution>lost inscription</tei:institution>
+                        <tei:altIdentifier type="trismegistos">
+                            <tei:idno source="www.trismegistos.org/text/170852">TM 170852</tei:idno>
+                        </tei:altIdentifier> 
+                        <tei:altIdentifier type="traditionalID">
+                            <tei:idno source="http://zotero.org/groups/2552746/items/IMWMSAVE">ST Sa 15</tei:idno>
+                        </tei:altIdentifier> 
+                        <tei:altIdentifier type="traditionalID">
+                            <tei:idno source="http://zotero.org/groups/2552746/items/IKUTPHDC">ImIt Fagifulae 1</tei:idno>
+                        </tei:altIdentifier>
+                    </tei:msIdentifier>           
+                    <tei:msContents>
+                        <tei:summary>Building inscription from Campobasso; now lost</tei:summary>
+                    </tei:msContents>
+                    <tei:physDesc>
+                        <tei:objectDesc>     
+                            <tei:supportDesc>
+                                <tei:support>
+                                    <tei:objectType ana="http://archwort.dainst.org/en/term/4572">stone slab</tei:objectType>
+                                    <tei:material ana="http://vocab.getty.edu/aat/300011692">stone
+                                    </tei:material>
+                                    <tei:dimensions type="objectDimensions" unit="cm" precision="high" resp="#Antonini1981">
+                                        <tei:height quantity="60">60</tei:height>
+                                        <tei:width quantity="100">100</tei:width>
+                                    </tei:dimensions>
+                                    <tei:rs type="reuse">no</tei:rs>
+                                    <tei:note>The slab had been reused in the ruins of the church of S. Michele Arcangelo.</tei:note>
+                                </tei:support>
+                                <tei:condition>lost inscription</tei:condition>   
+                            </tei:supportDesc>
+                            <tei:layoutDesc>
+                                <tei:layout columns="1" writtenLines="2">
+                                    <tei:rs type="execution" ana="http://vocab.getty.edu/page/aat/300404794">engraved</tei:rs>
+                                    <tei:rs type="opistography">no</tei:rs>
+                                    <tei:note type="layoutNotes"/>
+                                </tei:layout>
+                            </tei:layoutDesc>
+                        </tei:objectDesc>
+                        <tei:scriptDesc>
+                            <tei:scriptNote>
+                                <tei:rs type="writingSystem" subtype="alphabet" ref="https://www.prin-italia-antica.unifi.it/p166.html#oscan-etruscan">Oscan National alphabet</tei:rs>
+                                <tei:rs type="wordDivision">punctuation</tei:rs>
+                            </tei:scriptNote>
+                        </tei:scriptDesc>
+                    </tei:physDesc>
+                    <tei:history>
+                        <tei:origin> 
+                            <tei:origPlace type="composed">
+                                <tei:placeName type="ancient" ref="https://pleiades.stoa.org/places/432827">Fagifulae, Samnium</tei:placeName>
+                                <tei:placeName type="modern" ref="https://sws.geonames.org/3180991">Campobasso</tei:placeName>
+                            </tei:origPlace>
+                            <tei:origDate notBefore-custom="-0199" notAfter-custom="-0100" cert="medium">2nd century BC</tei:origDate>
+                        </tei:origin>
+                        <tei:provenance type="found" subtype="discovered" when="1930">
+                            <tei:placeName type="ancient" ref="https://pleiades.stoa.org/places/433078">Samnium</tei:placeName>
+                            <tei:placeName type="modern" ref="https://sws.geonames.org/3180991">Campobasso</tei:placeName>
+                            <tei:placeName type="detailed" resp="#De_Benedittis1983">Found reused in the ruins of the church of S. Michele Arcangelo (see commentary).</tei:placeName>
+                        </tei:provenance>
+                        <tei:provenance type="observed" subtype="autopsied" when="1930">
+                            <tei:persName>Vincenzo Balzano</tei:persName>
+                        </tei:provenance>
+                        <tei:provenance type="observed" subtype="reported" when="2022" resp="Francesca Murano">
+                            <tei:persName>Francesca Murano</tei:persName>
+                        </tei:provenance>                    
+                    </tei:history>                       
+                </tei:msDesc>   
+            </tei:sourceDesc> 
+        </tei:fileDesc>
+        <tei:encodingDesc>
+            <tei:p source="https://epidoc.stoa.org/gl/latest/">Marked-up according to the EpiDoc Guidelines</tei:p>
+        </tei:encodingDesc>
+        <tei:profileDesc>
+            <tei:langUsage>
+                <tei:language ident="osc" source="https://iso639-3.sil.org/code/osc">Oscan</tei:language>
+                <tei:language ident="osc-Ital-x-oscetr" source="https://www.prin-italia-antica.unifi.it/p166.html#oscan-etruscan" ana="https://unicode.org/iso15924/iso15924-codes.html">Oscan in National alphabet (Oscan-Etruscan alphabet)</tei:language>
+            </tei:langUsage>
+            <tei:textClass>
+                <tei:keywords scheme="https://www.eagle-network.eu/resources/vocabularies/typeins/">
+                    <tei:term ref="https://www.eagle-network.eu/voc/typeins/lod/86">building inscription</tei:term>
+                </tei:keywords>
+            </tei:textClass>
+        </tei:profileDesc>
+    </tei:teiHeader>
+    <tei:facsimile>
+        <tei:graphic n="1" url="http://linsto.dipartimentidieccellenza-dilef.unifi.it/itant/img/ItAnt_Oscan_17.jpg" resp="Francesca Murano">
+            <tei:desc>Inscription ItAnt Oscan 17 (drawing by <tei:persName>Francesca Murano</tei:persName>)
+                <tei:ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">This file is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International license – (CC BY-NC-SA 4.0).</tei:ref>
+            </tei:desc>
+        </tei:graphic>
+        <tei:graphic n="2" url="http://4.bp.blogspot.com/-fXROw4UmoPs/T6zdq5ouTuI/AAAAAAAAARA/q3DmVFwC9nQ/s1600/Copia+di+GASDIA+iscrizione+Osca.jpg" resp="Vincenzo Balzano">
+            <tei:desc>Drawing of the inscription ItAnt Oscan 17 by Vincenzo Balzano (published in <tei:ref target="http://zotero.org/groups/2552746/items/JHTDVC6L"><tei:bibl>Gasdìa 1960</tei:bibl></tei:ref>)</tei:desc>
+        </tei:graphic>
+    </tei:facsimile>
+    <tei:text>
+        <tei:body>             
+            <tei:div type="edition" subtype="interpretative" xml:space="preserve">
+                <tei:div type="textpart" n="face_a" style="text-direction:r-to-l" rend="ductus:sinistrorse">
+                    <tei:ab>
+<!-- l. 1 -->                         
+                        <tei:lb n="1" xml:id="Osc_17_l_1"/>
+                            <!-- Leida;Osc_17_l_1_w_1;m(a)r(ahis) -->
+                            <tei:name type="praenomen" xml:id="Osc_17_l_1_w_1" xml:lang="osc-Ital-x-oscetr" ref="#p1"><tei:expan><tei:abbr>m</tei:abbr><tei:ex>a</tei:ex><tei:abbr>r</tei:abbr><tei:ex>ahis</tei:ex></tei:expan></tei:name>
+                            <tei:pc unit="word">.</tei:pc>
+                            <!-- Leida;Osc_17_l_1_w_2;vaḷavenniṣ -->
+                            <tei:name type="gentilicium" xml:id="Osc_17_l_1_w_2" xml:lang="osc-Ital-x-oscetr" ref="#p1">va<tei:unclear>l</tei:unclear>avenni<tei:unclear>s</tei:unclear></tei:name>
+                            <tei:pc unit="word"><tei:supplied reason="lost">.</tei:supplied></tei:pc>
+                            <!-- Leida;Osc_17_l_1_w_3;[.]er( ) -->
+                            <tei:name type="patronymic" xml:id="Osc_17_l_1_w_3" xml:lang="osc-Ital-x-oscetr" ref="#p1"><tei:expan><tei:abbr><tei:gap reason="lost" extent="1" unit="character"/>er</tei:abbr><tei:ex></tei:ex></tei:expan></tei:name>
+<!-- l. 2 -->                        
+                        <tei:lb n="2" xml:id="Osc_17_l_2"/>
+                        <!-- Leida;Osc_17_l_2_w_1;[?]ú( ) -->
+                            <tei:name type="praenomen" xml:id="Osc_17_l_2_w_1" xml:lang="osc-Ital-x-oscetr" ref="#p2"><tei:expan><tei:abbr><tei:gap reason="lost" extent="unknown" unit="line"><tei:certainty match=".." locus="name"/></tei:gap>ú</tei:abbr><tei:ex></tei:ex></tei:expan></tei:name>
+                            <tei:pc unit="word">.</tei:pc>
+                            <!-- Leida;Osc_17_l_2_w_2;sṭa[tii]⌜s⌝ -->
+                            <tei:name type="gentilicium" xml:id="Osc_17_l_2_w_2" xml:lang="osc-Ital-x-oscetr" ref="#p2">s<tei:unclear>t</tei:unclear>a<tei:supplied reason="lost">tii</tei:supplied><tei:choice><tei:corr>s</tei:corr><tei:sic>d</tei:sic></tei:choice></tei:name>
+                             <tei:pc unit="word"><tei:supplied reason="lost">.</tei:supplied></tei:pc>
+                            <!-- Leida;Osc_17_l_2_w_3;[ ] -->
+                            <tei:name type="patronymic" xml:id="Osc_17_l_2_w_3" xml:lang="osc-Ital-x-oscetr" ref="#p2"><tei:gap reason="lost" extent="unknown" unit="character"/></tei:name>
+                    </tei:ab>
+                </tei:div>
+            </tei:div>
+            <tei:div type="translation" xml:lang="ita">
+                <tei:p>Marahis Valavennius figlio di ? [  ], Lucius (o Ovius) Statius [figlio di ...]</tei:p>
+                <tei:desc>
+                    <tei:persName>Mariarosaria Zinzi</tei:persName>
+                    <tei:ref type="licence" target="https://creativecommons.org/licenses/by-nc-sa/4.0/">This file is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International license – (CC BY-NC-SA 4.0).</tei:ref>
+                </tei:desc> 
+            </tei:div>
+            <tei:div type="translation" xml:lang="eng">
+                <tei:p>Marahis Valavennius son of ? [  ], Lucius (or Ovius) Statius [son of ...]</tei:p>
+                <tei:desc>
+                    <tei:persName>Mariarosaria Zinzi</tei:persName>
+                    <tei:ref type="licence" target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </tei:ref>
+                </tei:desc> 
+            </tei:div>            
+            <tei:div type="apparatus" xml:lang="eng" resp="Mariarosaria Zinzi">
+                <tei:listApp>
+                    <tei:app from="Osc_17_l_1">
+                        <tei:lem corresp="Osc_17_l_1_w_1">m(a)r(ahis)</tei:lem>
+                        <tei:rdg corresp="Osc_17_l_1_w_1">m(a)r(a(hi?)s)
+                            <tei:ref target="http://zotero.org/groups/2552746/items/IMWMSAVE"><tei:bibl>Rix</tei:bibl></tei:ref>
+                        </tei:rdg>
+                        <tei:rdg corresp="Osc_17_l_1_w_1">m(a)r(as)
+                            <tei:ref target="http://zotero.org/groups/2552746/items/IKUTPHDC"><tei:bibl>Crawford, ImIt</tei:bibl></tei:ref>
+                        </tei:rdg>  
+                    </tei:app> 
+                    <tei:app from="Osc_17_l_1">
+                        <tei:lem corresp="Osc_17_l_1_w_3">[.]er( )</tei:lem>
+                        <tei:rdg corresp="Osc_17_l_1_w_3">[h]er(ieís)
+                            <tei:ref target="http://zotero.org/groups/2552746/items/IMWMSAVE"><tei:bibl>Rix</tei:bibl></tei:ref>
+                        </tei:rdg>
+                        <tei:rdg corresp="Osc_17_l_1_w_3">[p]er(kedneís)
+                            <tei:ref target="http://zotero.org/groups/2552746/items/IKUTPHDC"><tei:bibl>Crawford, ImIt</tei:bibl></tei:ref>
+                        </tei:rdg>
+                    </tei:app>
+                    <tei:app from="Osc_17_l_2">
+                        <tei:lem corresp="Osc_17_l_2_w_1">[?]ú( )</tei:lem>
+                        <tei:rdg corresp="Osc_17_l_2_w_1">[l]ú(vkis)
+                            <tei:ref target="http://zotero.org/groups/2552746/items/IMWMSAVE"><tei:bibl>Rix</tei:bibl></tei:ref>
+                        </tei:rdg>
+                        <tei:rdg corresp="Osc_17_l_2_w_1">ú(vis)
+                            <tei:ref target="http://zotero.org/groups/2552746/items/IKUTPHDC"><tei:bibl>Crawford, ImIt</tei:bibl></tei:ref>
+                        </tei:rdg>
+                    </tei:app>
+                    <tei:app from="Osc_17_l_2">
+                        <tei:lem corresp="Osc_17_l_2_w_2">sṭa[tii]⌜s⌝</tei:lem>
+                        <tei:rdg corresp="Osc_17_l_2_w_2">sṭa[tii]ṣ
+                            <tei:ref target="http://zotero.org/groups/2552746/items/IMWMSAVE"><tei:bibl>Rix</tei:bibl></tei:ref>
+                        </tei:rdg>                       
+                    </tei:app>
+                    <tei:app from="Osc_17_l_2">
+                        <tei:lem corresp="Osc_17_l_2_w_3">[---]</tei:lem>
+                        <tei:rdg corresp="Osc_17_l_2_w_3">+[---]
+                            <tei:ref target="http://zotero.org/groups/2552746/items/IMWMSAVE"><tei:bibl>Rix</tei:bibl></tei:ref>
+                        </tei:rdg>                       
+                    </tei:app>
+                </tei:listApp>                
+            </tei:div>
+            <tei:div type="commentary" xml:lang="eng" resp="Francesca Murano">
+                <tei:note>
+                    <tei:p>The inscription was found reused as a trapdoor, placed just after the threshold of the entrance to the ruins of the church of S. Michele Arcangelo. Thereafter, it was destroyed, probably during the construction of the aqueduct (see <tei:ref target="http://zotero.org/groups/2552746/items/EFVDHXGP"><tei:bibl>De Benedittis 1988</tei:bibl></tei:ref>: 34).</tei:p>                      
+                    <tei:p>The reading is based on the fac-simile by <tei:ref target="https://en.wikipedia.org/wiki/Vincenzo_Balzano">Vincenzo Balzano</tei:ref> published by <tei:ref target="http://zotero.org/groups/2552746/items/JHTDVC6L"><tei:bibl>Gasdìa 1960</tei:bibl></tei:ref>. The fac-simile was drawn when the inscription had already been partially erased by the trampling.</tei:p>
+                </tei:note>  
+            <tei:listPerson type="Onomastics">
+                    <tei:person xml:id="p1" xml:lang="osc-Ital-x-oscetr">
+                        <tei:persName>
+                            <tei:name type="praenomen">m(a)r(ahis)</tei:name>
+                            <tei:name type="gentilicium">vaḷavenniṣ</tei:name>
+                            <tei:name type="patronymic">[.]er( )</tei:name>
+                        </tei:persName>
+                    </tei:person>
+                    <tei:person xml:id="p2" xml:lang="osc-Ital-x-oscetr">
+                        <tei:persName>
+                            <tei:name type="praenomen">[-?-]ú( )</tei:name>
+                            <tei:name type="gentilicium">sṭa[tii]⌜s⌝</tei:name>
+                            <tei:name type="patronymic">[---]</tei:name>
+                        </tei:persName>
+                    </tei:person>
+                </tei:listPerson>
+            </tei:div>
+            <tei:div type="bibliography">
+                <tei:listBibl xmlns="http://www.tei-c.org/ns/1.0">
+                    
+                    <tei:biblStruct type="book" xml:id="ImIt2011"  corresp="http://zotero.org/groups/2552746/items/IKUTPHDC">
+                        <tei:monogr>
+                            <tei:title level="m">Imagines Italicae: A Corpus of Italic Inscriptions</tei:title>
+                            <tei:editor>
+                                <tei:forename>Michael</tei:forename>
+                                <tei:surname>Crawford</tei:surname>
+                            </tei:editor>
+                            <tei:imprint>
+                                <tei:pubPlace>London</tei:pubPlace>
+                                <tei:publisher>Institute of Classical Studies, University of London</tei:publisher>
+                                <tei:date>2011</tei:date>
+                            </tei:imprint>
+                        </tei:monogr>
+                        <tei:citedRange unit="entry">no. Fagifulae 1</tei:citedRange>
+                    </tei:biblStruct>
+                    <tei:biblStruct type="book" xml:id="Rix2002"  corresp="http://zotero.org/groups/2552746/items/IMWMSAVE">
+                        <tei:monogr>
+                            <tei:title level="m">Sabellische Texte. Die Texte des Oskischen, Umbrischen und Südpikenischen</tei:title>
+                            <tei:author>
+                                <tei:forename>Helmut</tei:forename>
+                                <tei:surname>Rix</tei:surname>
+                            </tei:author>
+                            <tei:imprint>
+                                <tei:pubPlace>Heidelberg</tei:pubPlace>
+                                <tei:publisher>C. Winter</tei:publisher>
+                                <tei:date>2002</tei:date>
+                            </tei:imprint>
+                        </tei:monogr>
+                        <tei:citedRange unit="entry">no. Sa 15</tei:citedRange>
+                    </tei:biblStruct>
+                    <tei:biblStruct type="journalArticle" xml:id="De_Benedittis1983" corresp="http://zotero.org/groups/2552746/items/5SC4ZP35">
+                        <tei:analytic>
+                            <tei:title level="a">Osco. Appunti sulla sezione BA dell’articolo di R. Antonini (REI IX,  pp. 316-322)</tei:title>
+                            <tei:author>
+                                <tei:forename>Gianfranco</tei:forename>
+                                <tei:surname>De Benedittis</tei:surname>
+                            </tei:author>
+                        </tei:analytic>
+                        <tei:monogr>
+                            <tei:title level="j">Studi Etruschi</tei:title>
+                            <tei:imprint>
+                                <tei:biblScope unit="volume">51</tei:biblScope>
+                                <tei:biblScope unit="page">310-314</tei:biblScope>
+                                <tei:date>1983 [1985]</tei:date>
+                            </tei:imprint>
+                        </tei:monogr>
+                        <tei:citedRange unit="page">311, no. 2</tei:citedRange>
+                    </tei:biblStruct>
+                    <tei:biblStruct type="journalArticle" xml:id="Antonini1981" corresp="http://zotero.org/groups/2552746/items/LRFXVEPR">
+                        <tei:analytic>
+                            <tei:title level="a">Italico</tei:title>
+                            <tei:author>
+                                <tei:forename>Rosalba</tei:forename>
+                                <tei:surname>Antonini</tei:surname>
+                            </tei:author>
+                        </tei:analytic>
+                        <tei:monogr>
+                            <tei:title level="j">Studi Etruschi</tei:title>
+                            <tei:imprint>
+                                <tei:biblScope unit="volume">49</tei:biblScope>
+                                <tei:biblScope unit="page">299-351 </tei:biblScope>
+                                <tei:date>1981</tei:date>
+                            </tei:imprint>
+                        </tei:monogr>
+                        <tei:citedRange unit="page">317, no. 3</tei:citedRange>
+                    </tei:biblStruct>
+                    <tei:biblStruct type="book" xml:id="De_Benedittis1974" corresp="http://zotero.org/groups/2552746/items/6MLRRGJU">
+                        <tei:monogr>
+                            <tei:title level="m">Il centro sannitico di Monte Vairano presso Campobasso</tei:title>
+                            <tei:author>
+                                <tei:forename>Gianfranco</tei:forename>
+                                <tei:surname>De Benedittis</tei:surname>
+                            </tei:author>
+                            <tei:imprint>
+                                <tei:pubPlace>Campobasso</tei:pubPlace>
+                                <tei:publisher>Soprintendenza ai monumenti alle antichita e alle belle arti del Molise</tei:publisher>
+                                <tei:date>1974</tei:date>
+                            </tei:imprint>
+                        </tei:monogr>
+                        <tei:citedRange unit="page">16-17</tei:citedRange>
+                    </tei:biblStruct>
+                    <tei:biblStruct type="book" xml:id="Poccetti1979" corresp="http://zotero.org/groups/2552746/items/JFW9XW6P">
+                        <tei:monogr>
+                            <tei:title level="m">Nuovi documenti italici a complemento del Manuale di E. Vetter</tei:title>
+                            <tei:author>
+                                <tei:forename>Paolo</tei:forename>
+                                <tei:surname>Poccetti</tei:surname>
+                            </tei:author>
+                            <tei:imprint>
+                                <tei:pubPlace>Pisa</tei:pubPlace>
+                                <tei:publisher>Giardini Editore</tei:publisher>
+                                <tei:date>1979</tei:date>
+                            </tei:imprint>
+                        </tei:monogr>
+                        <tei:series>
+                            <tei:title level="s">Orientamenti linguistici</tei:title>
+                            <tei:biblScope unit="volume">8</tei:biblScope>
+                        </tei:series>
+                        <tei:citedRange unit="entry">no. 35</tei:citedRange>
+                    </tei:biblStruct>
+                    <tei:biblStruct type="book" xml:id="Gasdìa1960" corresp="http://zotero.org/groups/2552746/items/PX26NR27">
+                        <tei:monogr>
+                            <tei:title level="m">Storia di Campobasso</tei:title>
+                            <tei:author>
+                                <tei:forename>Vincenzo Eduardo</tei:forename>
+                                <tei:surname>Gasdìa</tei:surname>
+                            </tei:author>
+                            <tei:imprint>
+                                <tei:date>1960</tei:date>
+                            </tei:imprint>
+                        </tei:monogr>
+                    </tei:biblStruct>                   
+                </tei:listBibl>    
+            </tei:div>   
+        </tei:body>
+    </tei:text>
+</tei:TEI>

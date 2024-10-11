@@ -1,0 +1,390 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/9.4/tei-epidoc.rng"
+schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/9.4/tei-epidoc.rng"
+schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<tei:TEI xmlns:dcr="http://www.isocat.org/ns/dcr" xml:id="ItAnt_Oscan_271"
+    xmlns:tei="http://www.tei-c.org/ns/1.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <tei:teiHeader>
+        <tei:fileDesc>
+            <tei:titleStmt>
+                <tei:title type="ItAnt_ID">Inscription ItAnt Oscan 271</tei:title>
+            </tei:titleStmt>
+            <tei:editionStmt>
+                <tei:edition>
+                    <tei:idno>ItAnt Oscan 271</tei:idno>
+                </tei:edition>
+                <tei:editor>
+                    <tei:persName>Francesca Murano</tei:persName>
+                </tei:editor>
+            </tei:editionStmt>         
+            <tei:publicationStmt>
+                <tei:authority>PRIN 2017 "Lingue e culture dell'Italia antica: linguistica storica e modelli digitali | Languages and Cultures of Ancient Italy. Historical Linguistics and Digital Models"</tei:authority>
+                <tei:date>2023</tei:date>
+                <tei:idno type="URI" subtype="handle"></tei:idno>
+                <tei:availability>
+                    <tei:licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">This file is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International license – (CC BY-NC-SA 4.0).  
+                    </tei:licence>
+                </tei:availability>
+            </tei:publicationStmt>   
+            <tei:sourceDesc>
+                <tei:msDesc>
+                    <tei:msIdentifier>
+                        <tei:settlement ref="https://sws.geonames.org/6538896">Vasto</tei:settlement>
+                        <tei:institution ana="https://www.beniculturali.it/luogo/palazzo-d-avalos-musei-civici">Palazzo d'Avalos. Museo civico archeologico</tei:institution>
+                        <tei:msName>The key of Herentas</tei:msName>
+                        <tei:altIdentifier type="cancelled" resp="La_Regina1972">
+                            <tei:settlement ref="https://sws.geonames.org/3178796">Chieti</tei:settlement>
+                            <tei:institution ana="https://museiabruzzo.cultura.gov.it/luoghi-della-cultura/627-museo-archeologico-nazionale-dabruzzo-villa-frigerj/">Museo archeologico nazionale d'Abruzzo - Villa Frigerj</tei:institution>                            <tei:idno type="museumID">18572</tei:idno>
+                        </tei:altIdentifier>
+                        <tei:altIdentifier type="cancelled" resp="#Ghislanzoni1942">
+                            <tei:settlement ref="https://sws.geonames.org/3183089">Ancona</tei:settlement>
+                            <tei:institution>Museo archeologico</tei:institution>                            
+                            <tei:idno type="museumID"/>
+                        </tei:altIdentifier>
+                        <tei:altIdentifier type="trismegistos">
+                            <tei:idno source="www.trismegistos.org/text/170890">TM 170890</tei:idno>
+                        </tei:altIdentifier> 
+                        <tei:altIdentifier type="traditionalID">
+                            <tei:idno source="http://zotero.org/groups/2552746/items/IMWMSAVE">ST Fr 4</tei:idno>
+                        </tei:altIdentifier> 
+                        <tei:altIdentifier type="traditionalID">
+                            <tei:idno source="http://zotero.org/groups/2552746/items/IKUTPHDC">ImIt Histonium 7</tei:idno>
+                        </tei:altIdentifier>
+                        <tei:altIdentifier type="traditionalID">
+                            <tei:idno source="http://zotero.org/groups/2552746/items/NJFZRK23">Ve 172</tei:idno>
+                        </tei:altIdentifier>
+                    </tei:msIdentifier> 
+                    <tei:msContents>
+                        <tei:summary>Votive inscription to the goddess Herentas on a bronze key. From Tufillo (Chieti)</tei:summary>
+                    </tei:msContents>
+                    <tei:physDesc>
+                        <tei:objectDesc>     
+                            <tei:supportDesc>
+                                <tei:support>
+                                    <tei:objectType ana="http://thesauri.dainst.org/_7bb011e0">key</tei:objectType>
+                                    <tei:material ana="http://vocab.getty.edu/aat/300010957">bronze</tei:material>
+                                    <tei:dimensions type="objectDimensions" unit="cm" precision="high">
+                                        <tei:width quantity="15">15</tei:width>
+                                    </tei:dimensions>
+                                    <tei:rs type="reuse">no</tei:rs>
+                                </tei:support>
+                                <tei:condition>well-preserved</tei:condition>   
+                            </tei:supportDesc>
+                            <tei:layoutDesc>
+                                <tei:layout columns="1" writtenLines="2">
+                                    <tei:rs type="execution" ana="http://vocab.getty.edu/page/aat/300053343">painted</tei:rs>
+                                    <tei:rs type="execution" ana="http://vocab.getty.edu/page/aat/300404794">engraved</tei:rs>
+                                    <tei:rs type="opistography">yes</tei:rs>
+                                    <tei:note type="layoutNotes">incised and painted white on two contiguous sides of the square shaft</tei:note>
+                                    <tei:dimensions type="lineDimension" unit="cm" precision="medium"/>
+                                </tei:layout>
+                            </tei:layoutDesc>
+                        </tei:objectDesc>
+                        <tei:handDesc>                            
+                            <tei:handNote>
+                                <tei:note type="palaeographicNotes">Use of : as punctuation mark</tei:note>
+                                <tei:dimensions type="characterDimension" unit="cm" precision="high"> 
+                                    <tei:height atLeast="0.3" atMost="0.7">0,3 to 0,7</tei:height>
+                                </tei:dimensions>
+                            </tei:handNote>
+                        </tei:handDesc>                                      
+                        <tei:scriptDesc>
+                            <tei:scriptNote>
+                                <tei:rs type="writingSystem" subtype="alphabet" ref="https://www.prin-italia-antica.unifi.it/p166.html#oscan-etruscan">Oscan National alphabet</tei:rs>
+                                <tei:rs type="wordDivision">punctuation</tei:rs>
+                            </tei:scriptNote>
+                        </tei:scriptDesc>
+                    </tei:physDesc>
+                    <tei:history>
+                        <tei:origin> 
+                            <tei:origPlace type="composed">
+                                <tei:placeName type="ancient" ref="https://pleiades.stoa.org/places/413171">Histonium</tei:placeName>
+                                <tei:placeName type="modern" ref="https://sws.geonames.org/3177205">Monte Farano, Tufillo (Chieti)</tei:placeName>
+                            </tei:origPlace>
+                            <tei:origDate notBefore-custom="-0299" notAfter-custom="-0100" cert="medium" resp="#Riccitelli1997">3rd - 2nd century BC</tei:origDate>
+                        </tei:origin>
+                        <tei:provenance type="found" subtype="discovered" when="1933">
+                            <tei:placeName type="ancient" ref="https://pleiades.stoa.org/places/413171">Histonium</tei:placeName>
+                            <tei:placeName type="modern" ref="https://sws.geonames.org/3177205">Monte Farano, Tufillo (Chieti)</tei:placeName>
+                            <tei:placeName type="detailed">Accidentally found by a farmer, in an area supposed to be a sanctuary, from which also came pottery and bricks (see <tei:ref target="http://zotero.org/groups/2552746/items/MBXMGJ6M"><tei:bibl>Ghislanzoni 1942</tei:bibl></tei:ref>: 108).</tei:placeName>
+                        </tei:provenance>
+                        <tei:provenance type="observed" subtype="seen" when="2020">
+                            <tei:persName>Francesca Murano</tei:persName>
+                        </tei:provenance>
+                        <tei:provenance type="observed" subtype="autopsied" when="2003">
+                            <tei:persName>M. H. Crawford</tei:persName>
+                        </tei:provenance>
+                        <tei:provenance type="observed" subtype="autopsied" notAfter="1972">
+                            <tei:persName>A. La Regina</tei:persName>
+                        </tei:provenance>                      
+                    </tei:history>                       
+                </tei:msDesc>   
+            </tei:sourceDesc> 
+        </tei:fileDesc>
+        <tei:encodingDesc>
+            <tei:p source="https://epidoc.stoa.org/gl/latest/">Marked-up according to the EpiDoc Guidelines</tei:p>
+        </tei:encodingDesc>
+        <tei:profileDesc>
+            <tei:langUsage>
+                <tei:language ident="osc" source="https://iso639-3.sil.org/code/osc">Oscan</tei:language>
+                <tei:language ident="osc-Ital-x-oscetr" source="https://www.prin-italia-antica.unifi.it/p166.html#oscan-etruscan" ana="https://unicode.org/iso15924/iso15924-codes.html">Oscan in National alphabet (Oscan-Etruscan alphabet)</tei:language>
+            </tei:langUsage>
+            <tei:textClass>
+                <tei:keywords scheme="https://www.eagle-network.eu/resources/vocabularies/typeins/">
+                    <tei:term ref="https://www.eagle-network.eu/voc/typeins/lod/83">votive inscription</tei:term>
+                </tei:keywords>
+            </tei:textClass>
+        </tei:profileDesc>
+    </tei:teiHeader>   
+    <tei:facsimile> 
+        <tei:graphic n="1" url="https://www.ilnuovoonline.it/wp-content/uploads/2014/04/chiave-di-herentas.jpg">
+            <tei:desc>Inscription ItAnt Oscan 271
+                <tei:ref target="https://www.ilnuovoonline.it">This file is provided by www.ilnuovoonline.it.</tei:ref>
+            </tei:desc>
+        </tei:graphic>
+        <tei:graphic n="2" url="https://www.jstor.org/stable/pdf/44365958.pdf?page=8">
+            <tei:desc>Photograph of the inscription ItAnt Oscan 271 (from <tei:ref target="http://zotero.org/groups/2552746/items/2GVMMV44"><tei:bibl>La Regina 1972</tei:bibl></tei:ref>)
+                <tei:ref target="https://about.jstor.org/terms/">This item is part of a JSTOR Collection.</tei:ref>
+            </tei:desc>
+        </tei:graphic>
+    </tei:facsimile>
+    <tei:text>
+        <tei:body>             
+            <tei:div type="edition" subtype="interpretative" xml:space="preserve">
+<!-- face A -->
+                <tei:div type="textpart" n="face_a" style="text-direction:r-to-l" rend="ductus:sinistrorse">
+                    <tei:ab>                      
+                        <tei:lb n="1" xml:id="Osc_271_l_1"/>
+<!-- Leida;Osc_271_l_1_w_1;herettates -->                        
+                                <tei:name type="theonym" xml:lang="osc-Ital-x-oscetr" xml:id="Osc_271_l_1_w_1">herettates</tei:name>
+                        <tei:pc unit="word">:</tei:pc>
+<!-- Leida;Osc_271_l_1_w_2;súm -->                        
+                                <tei:w xml:lang="osc-Ital-x-oscetr" xml:id="Osc_271_l_1_w_2">súm</tei:w>                   
+                    </tei:ab>
+                </tei:div>
+<!-- face B -->                
+                <tei:div type="textpart" n="face_b" style="text-direction:r-to-l" rend="ductus:sinistrorse">
+                    <tei:ab>                     
+                        <tei:lb n="2" xml:id="Osc_271_l_2"/>
+<!-- Leida;Osc_271_l_2_w_1;agerllúd-->                        
+                                <tei:name type="toponym" xml:lang="osc-Ital-x-oscetr" xml:id="Osc_271_l_2_w_1">agerllúd</tei:name>
+                    </tei:ab>
+                </tei:div>
+        </tei:div>
+        <tei:div type="translation" xml:lang="ita">
+            <tei:p>Sono di Herentas | Da Agello (?)</tei:p>
+            <tei:desc>
+                <tei:persName>Francesca Murano</tei:persName>
+                <tei:ref type="licence" target="https://creativecommons.org/licenses/by-nc-sa/4.0/">This file is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International license – (CC BY-NC-SA 4.0).</tei:ref>
+            </tei:desc>
+        </tei:div>
+        <tei:div type="translation" xml:lang="eng">
+            <tei:p>I am of (i.e. I belong to) Herentas | from Agellum (?)</tei:p>
+            <tei:desc>
+                <tei:persName>Francesca Murano</tei:persName>
+                <tei:ref type="licence" target="https://creativecommons.org/licenses/by-nc-sa/4.0/">This file is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International license – (CC BY-NC-SA 4.0).</tei:ref>
+            </tei:desc>
+        </tei:div>            
+        <tei:div type="apparatus" xml:lang="eng"/>
+        <tei:div type="commentary" xml:lang="eng" resp="Francesca Murano">
+            <tei:note>
+                <tei:p>The text is a votive inscription to the goddess Herentas (~ Lt. Venus) expressed with the "speaking-object" formula, consisting of the name of the goddess in the genitive case and the verb 'to be' conjugated in the 1sg. The votive formula expressed by the indication of possession is very common in Greek and and Latin epigraphies (see <tei:ref target="http://zotero.org/groups/2552746/items/9FANWURA"><tei:bibl>Poccetti 2009</tei:bibl></tei:ref>: 50).                    
+                </tei:p>
+            </tei:note>
+            <tei:note target="#Osc_271_l_1_w_1">
+                <tei:p>In the text a genitive in -es, instead of -íes, occurs in <tei:rs type="name" xml:lang="osc-Ital-x-oscetr" corresp="Osc_271_l_1_w_1">herettates</tei:rs>. This form testifies the monophthongization /e:/ of the diphtongue /ej/, showing the existence of a sociolinguistic stratification in the inventory of Oscan-Samnite phonology. See <tei:ref target="http://zotero.org/groups/2552746/items/CQTXMZDN"><tei:bibl>Lazzeroni 1985: 52</tei:bibl></tei:ref>. On the Oscan sociolinguistics see also <tei:ref target="http://zotero.org/groups/2552746/items/9VXK9RH9"><tei:bibl>Mancini 2012</tei:bibl></tei:ref> .</tei:p>
+                <tei:p>The spelling with <tei:rs type="c" xml:lang="osc-Ital-x-oscetr">TT</tei:rs>, instead of <tei:rs type="c" xml:lang="osc-Ital-x-oscetr">NT</tei:rs> shows the cancellation of /n/ before a heterosyllabic consonant, a phenomenon also in non-standard Latin. See <tei:ref target="http://zotero.org/groups/2552746/items/9VXK9RH9"><tei:bibl>Mancini 2012</tei:bibl></tei:ref>: 260.</tei:p>
+            </tei:note>
+            <tei:note target="#Osc_271_l_2_w_1">
+                <tei:p>The word <tei:rs type="name" xml:lang="osc-Ital-x-oscetr" corresp="Osc_271_l_2_w_1">agerllúd</tei:rs>, abl.sg., is commonly supposed to be a place name, referring to the place from which the dedicatee comes from or to the community that dedicates the key.</tei:p>
+                <tei:p>Phonetically, the word shows the vocalisation as /er/ of the secondary sonant liquid /r̥/ resulting from the vowel syncope: *agro-lo- &#x3e; agr̥lo &#x3e; *agerlo-.</tei:p>       
+            </tei:note>
+            </tei:div>
+            <tei:div type="bibliography">
+                <tei:listBibl xmlns="http://www.tei-c.org/ns/1.0">
+                    <tei:biblStruct type="book" xml:id="ImIt2011" corresp="http://zotero.org/groups/2552746/items/IKUTPHDC">
+                        <tei:monogr>
+                            <tei:title level="m">Imagines Italicae: A Corpus of Italic Inscriptions</tei:title>
+                            <tei:editor>
+                                <tei:forename>Michael</tei:forename>
+                                <tei:surname>Crawford</tei:surname>
+                            </tei:editor>
+                            <tei:imprint>
+                                <tei:pubPlace>London</tei:pubPlace>
+                                <tei:publisher>Institute of Classical Studies, University of London</tei:publisher>
+                                <tei:date>2011</tei:date>
+                            </tei:imprint>
+                        </tei:monogr>
+                        <tei:citedRange unit="entry">Histonium 7 (with photograph)</tei:citedRange>
+                    </tei:biblStruct>       
+                    <tei:biblStruct type="book" xml:id="Rix2002" corresp="http://zotero.org/groups/2552746/items/IMWMSAVE">
+                        <tei:monogr>
+                            <tei:title level="m">Sabellische Texte. Die Texte des Oskischen, Umbrischen und Südpikenischen</tei:title>
+                            <tei:author>
+                                <tei:forename>Helmut</tei:forename>
+                                <tei:surname>Rix</tei:surname>
+                            </tei:author>
+                            <tei:imprint>
+                                <tei:pubPlace>Heidelberg</tei:pubPlace>
+                                <tei:publisher>C. Winter</tei:publisher>
+                                <tei:date>2002</tei:date>
+                            </tei:imprint>
+                        </tei:monogr>
+                        <tei:citedRange unit="entry">Fr 4</tei:citedRange>
+                    </tei:biblStruct>
+                    <tei:biblStruct type="bookSection" xml:id="Riccitelli1997" corresp="http://zotero.org/groups/2552746/items/GAV66VBJ">
+                        <tei:analytic>
+                            <tei:title level="a">Chiave</tei:title>
+                            <tei:author>
+                                <tei:forename>Paola</tei:forename>
+                                <tei:surname>Riccitelli</tei:surname>
+                            </tei:author>
+                        </tei:analytic>
+                        <tei:monogr>
+                            <tei:title level="m">I luoghi degli dei: sacro e natura nell'Abruzzo italico.  Catalogo della mostra (Chieti 16 maggio – 18 agosto 1997)</tei:title>
+                            <tei:editor>
+                                <tei:forename>Adele</tei:forename>
+                                <tei:surname>Campanelli</tei:surname>
+                            </tei:editor>
+                            <tei:editor>
+                                <tei:forename>Amalia</tei:forename>
+                                <tei:surname>Faustoferri</tei:surname>
+                            </tei:editor>
+                            <tei:imprint>
+                                <tei:pubPlace>Pescara</tei:pubPlace>
+                                <tei:biblScope unit="page">141</tei:biblScope>
+                                <tei:publisher>Carsa</tei:publisher>
+                                <tei:date>1997</tei:date>
+                            </tei:imprint>
+                        </tei:monogr>
+                    </tei:biblStruct>
+                    <tei:biblStruct type="bookSection" xml:id="La_Regina1980" corresp="http://zotero.org/groups/2552746/items/9NHRP44C">
+                        <tei:analytic>
+                            <tei:title level="a">Chiave bronzea con iscrizione osca</tei:title>
+                            <tei:author>
+                                <tei:forename>Adriano</tei:forename>
+                                <tei:surname>La Regina</tei:surname>
+                            </tei:author>
+                        </tei:analytic>
+                        <tei:monogr>
+                            <tei:title level="m">Sannio: Pentri e Frentani dal VI al I sec. a.C. Catalogo della mostra (Isernia, Museo Nazionale, ottobre-dicembre 1980)</tei:title>
+                            <tei:imprint>
+                                <tei:pubPlace>Roma</tei:pubPlace>
+                                <tei:biblScope unit="page">318</tei:biblScope>
+                                <tei:publisher>De Luca</tei:publisher>
+                                <tei:date>1980</tei:date>
+                            </tei:imprint>
+                        </tei:monogr>
+                    </tei:biblStruct> 
+                    <tei:biblStruct type="book" xml:id="La_Regina1978" corresp="http://zotero.org/groups/2552746/items/EDP7576N">
+                        <tei:monogr>
+                            <tei:title level="m">Culture adriatiche antiche d'Abruzzo e di Molise</tei:title>
+                             <tei:author>
+                                <tei:forename>Valerio</tei:forename>
+                                <tei:surname>Cianfarani</tei:surname>
+                            </tei:author>
+                            <tei:author>
+                                <tei:forename>Luisa</tei:forename>
+                                <tei:surname>Franchi dell'Orto</tei:surname>
+                            </tei:author>
+                            <tei:author>
+                                <tei:forename>Adriano</tei:forename>
+                                <tei:surname>La Regina</tei:surname>
+                            </tei:author>
+                            <tei:imprint>
+                                <tei:pubPlace>Roma</tei:pubPlace>
+                                <tei:publisher>De Luca</tei:publisher>
+                                <tei:date>1978</tei:date>
+                            </tei:imprint>
+                        </tei:monogr>
+                        <tei:citedRange unit="page">526 (with pl. 355)</tei:citedRange>
+                    </tei:biblStruct>
+                    <tei:biblStruct type="journalArticle" xml:id="La_Regina1972" corresp="http://zotero.org/groups/2552746/items/2GVMMV44">
+                        <tei:analytic>
+                            <tei:title level="a">Iscrizioni osche della Frentania nel Museo di Chieti</tei:title>
+                            <tei:author>
+                                <tei:forename>Adriano</tei:forename>
+                                <tei:surname>La Regina</tei:surname>
+                            </tei:author>
+                        </tei:analytic>
+                        <tei:monogr>
+                            <tei:title level="j">Archeologia Classica</tei:title>
+                            <tei:imprint>
+                                <tei:biblScope unit="volume">24</tei:biblScope>
+                                <tei:biblScope unit="page">263-268</tei:biblScope>
+                                <tei:date>1972</tei:date>
+                            </tei:imprint>
+                        </tei:monogr>
+                    </tei:biblStruct>
+                    <tei:biblStruct type="book" xml:id="Pisani1953" corresp="http://zotero.org/groups/2552746/items/43PVX7RD">
+                        <tei:monogr>
+                            <tei:title level="m">Le lingue dell'Italia antica oltre il latino</tei:title>
+                            <tei:author>
+                                <tei:forename>Vittore</tei:forename>
+                                <tei:surname>Pisani</tei:surname>
+                            </tei:author>
+                            <tei:imprint>
+                                <tei:pubPlace>Torino</tei:pubPlace>
+                                <publisher>Rosenberg e Sellier</publisher>
+                                <date>1953</date>
+                            </tei:imprint>
+                        </tei:monogr>
+                        <tei:citedRange unit="entry">43</tei:citedRange>
+                    </tei:biblStruct>
+                    <tei:biblStruct type="book" xml:id="Vetter1953" corresp="http://zotero.org/groups/2552746/items/NJFZRK23">
+                        <tei:monogr>
+                            <tei:title level="m">Handbuch der italischen Dialekte</tei:title>
+                            <tei:author>
+                                <tei:forename>Emil</tei:forename>
+                                <tei:surname>Vetter</tei:surname>
+                            </tei:author>
+                            <tei:imprint>
+                                <tei:pubPlace>Heidelberg</tei:pubPlace>
+                                <tei:publisher>C. Winter</tei:publisher>
+                                <tei:date>1953</tei:date>
+                            </tei:imprint>
+                        </tei:monogr>
+                        <tei:citedRange unit="entry">172</tei:citedRange>
+                    </tei:biblStruct>
+                    <tei:biblStruct type="journalArticle" xml:id="Pisani1942" corresp="http://zotero.org/groups/2552746/items/ZAZ9QHFT">
+                        <tei:analytic>
+                            <tei:title level="a">Chiave con iscrizione osca</tei:title>
+                            <tei:author>
+                                <tei:forename>Vittore</tei:forename>
+                                <tei:surname>Pisani</tei:surname>
+                            </tei:author>
+                        </tei:analytic>
+                        <tei:monogr>
+                            <tei:title level="j">Athenaeum</tei:title>
+                            <tei:idno type="ISSN">0004-6574</tei:idno>
+                            <tei:imprint>
+                                <tei:biblScope unit="volume">20</tei:biblScope>
+                                <tei:biblScope unit="page">112-113</tei:biblScope>
+                                <tei:date>1942</tei:date>
+                            </tei:imprint>
+                        </tei:monogr>
+                    </tei:biblStruct>
+                    <tei:biblStruct type="journalArticle" xml:id="Ghislanzoni1942" corresp="http://zotero.org/groups/2552746/items/MBXMGJ6M">
+                        <tei:analytic>
+                            <tei:title level="a">Chiave con iscrizione osca</tei:title>
+                            <tei:author>
+                                <tei:forename>Ettore</tei:forename>
+                                <tei:surname>Ghislanzoni</tei:surname>
+                            </tei:author>
+                        </tei:analytic>
+                        <tei:monogr>
+                            <tei:title level="j">Athenaeum</tei:title>
+                            <tei:imprint>
+                                <tei:biblScope unit="volume">20</tei:biblScope>
+                                <tei:biblScope unit="page">108-112</tei:biblScope>
+                                <tei:date>1942</tei:date>
+                            </tei:imprint>
+                        </tei:monogr>
+                    </tei:biblStruct>
+                </tei:listBibl>
+            </tei:div>
+        </tei:body>
+    </tei:text>
+</tei:TEI>

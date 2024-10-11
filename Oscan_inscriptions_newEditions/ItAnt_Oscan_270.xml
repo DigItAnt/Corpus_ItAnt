@@ -1,0 +1,503 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/9.4/tei-epidoc.rng"
+schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/9.4/tei-epidoc.rng"
+schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<tei:TEI xmlns:dcr="http://www.isocat.org/ns/dcr" xml:id="ItAnt_Oscan_270"
+    xmlns:tei="http://www.tei-c.org/ns/1.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <tei:teiHeader>
+        <tei:fileDesc>
+            <tei:titleStmt>
+                <tei:title type="ItAnt_ID">Inscription ItAnt Oscan 270</tei:title>
+            </tei:titleStmt>
+            <tei:editionStmt>
+                <tei:edition>
+                    <tei:idno>ItAnt Oscan 270</tei:idno>
+                </tei:edition>
+                <tei:editor>
+                    <tei:persName>Francesca Murano</tei:persName>
+                </tei:editor>
+            </tei:editionStmt>         
+            <tei:publicationStmt>
+                <tei:authority>PRIN 2017 "Lingue e culture dell'Italia antica: linguistica storica e modelli digitali | Languages and Cultures of Ancient Italy. Historical Linguistics and Digital Models"</tei:authority>
+                <tei:date>2023</tei:date>
+                <tei:idno type="URI" subtype="handle"></tei:idno>
+                <tei:availability>
+                    <tei:licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">This file is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International license – (CC BY-NC-SA 4.0).  
+                    </tei:licence>
+                </tei:availability>
+            </tei:publicationStmt>   
+            <tei:sourceDesc>
+                <tei:msDesc>
+                    <tei:msIdentifier>
+                        <tei:settlement ref="https://sws.geonames.org/3172394">Napoli</tei:settlement>
+                        <tei:institution ana="https://www.museoarcheologiconapoli.it/en/">Museo Archeologico Nazionale</tei:institution>
+                        <tei:idno type="museumID">2532</tei:idno>
+                        <tei:msName>The weight of Juppiter Liber</tei:msName>
+                        <tei:altIdentifier type="trismegistos">
+                            <tei:idno source="www.trismegistos.org/text/170888">TM 170888</tei:idno>
+                        </tei:altIdentifier> 
+                        <tei:altIdentifier type="traditionalID">
+                            <tei:idno source="http://zotero.org/groups/2552746/items/IMWMSAVE">ST Fr 5</tei:idno>
+                        </tei:altIdentifier> 
+                        <tei:altIdentifier type="traditionalID">
+                            <tei:idno source="http://zotero.org/groups/2552746/items/IKUTPHDC">ImIt Histonium 5</tei:idno>
+                        </tei:altIdentifier>
+                        <tei:altIdentifier type="traditionalID">
+                            <tei:idno source="http://zotero.org/groups/2552746/items/NJFZRK23">Ve 170</tei:idno>
+                        </tei:altIdentifier>
+                    </tei:msIdentifier> 
+                    <tei:msContents>
+                        <tei:summary>Votive inscription on a bronze weight for steelyard shaped like a half-length of Juppiter from Histonium, Vasto (Chieti).</tei:summary>
+                    </tei:msContents>
+                    <tei:physDesc>
+                        <tei:objectDesc>     
+                            <tei:supportDesc>
+                                <tei:support>
+                                    <tei:objectType ana="http://vocab.getty.edu/page/aat/300051285">counterweight</tei:objectType>
+                                    <tei:rs ana="objectShape">counterweight (135 gr) for steelyard, shaped like a half-length of Juppiter, with a ring attached to the head for fixing</tei:rs>
+                                    <tei:material ana="http://vocab.getty.edu/aat/300010957">bronze
+                                    </tei:material>
+                                    <tei:dimensions type="objectDimensions" unit="cm" precision="high">
+                                        <tei:height quantity="4.8">4,8</tei:height>
+                                        <tei:width quantity="4.3">4,3</tei:width>                                       
+                                    </tei:dimensions>
+                                    <tei:dimensions type="objectDimensions" unit="gr" precision="high" resp="La_Regina1980">
+                                        <tei:dim type="weight">135</tei:dim>
+                                        
+                                    </tei:dimensions>
+                                    <tei:rs type="reuse">no</tei:rs>
+                                </tei:support>
+                                <tei:condition>well-preserved</tei:condition>   
+                            </tei:supportDesc>
+                            <tei:layoutDesc>
+                                <tei:layout columns="1" writtenLines="2">
+                                    <tei:rs type="execution" ana="http://vocab.getty.edu/page/aat/300404794">engraved</tei:rs>
+                                    <tei:rs type="opistography">no</tei:rs>
+                                    <tei:note type="layoutNotes">engraved underside of the weight</tei:note>
+                                    <tei:dimensions type="lineDimension" unit="cm" precision="medium" corresp="#Osc_270_l_1">
+                                        <tei:height quantity="0.75">0,75</tei:height>
+                                        <tei:width quantity="4">4</tei:width>
+                                    </tei:dimensions>
+                                    <tei:dimensions type="lineDimension" unit="cm" precision="medium" corresp="#Osc_270_l_2">
+                                        <tei:height quantity="0.75">0,75</tei:height>
+                                        <tei:width quantity="6">6</tei:width>
+                                    </tei:dimensions>
+                                </tei:layout>
+                            </tei:layoutDesc>
+                        </tei:objectDesc>
+                        <tei:handDesc>                            
+                            <tei:handNote>
+                                <tei:note type="palaeographicNotes"/>
+                                <tei:dimensions type="characterDimension" unit="cm" precision="high"> 
+                                    <tei:height quantity="0.75">0,75</tei:height>
+                                </tei:dimensions>
+                            </tei:handNote>
+                        </tei:handDesc>                                      
+                        <tei:scriptDesc>
+                            <tei:scriptNote>
+                                <tei:rs type="writingSystem" subtype="alphabet" ref="https://www.prin-italia-antica.unifi.it/p166.html#oscan-etruscan">Oscan National alphabet</tei:rs>
+                                <tei:rs type="wordDivision"/>
+                            </tei:scriptNote>
+                        </tei:scriptDesc>
+                    </tei:physDesc>
+                    <tei:history>
+                        <tei:origin> 
+                            <tei:origPlace type="composed">
+                                <tei:placeName type="ancient" ref="https://pleiades.stoa.org/places/413171">Histonium</tei:placeName>
+                                <tei:placeName type="modern" ref="https://sws.geonames.org/6538896">Vasto (Chieti)</tei:placeName>
+                            </tei:origPlace>
+                            <tei:origDate notBefore-custom="-0225" notAfter-custom="-0175" cert="medium" evidence="material-context">late 3rd - early 2nd century BC</tei:origDate>
+                        </tei:origin>
+                        <tei:provenance type="found" subtype="discovered" when="1846" resp="MANN2017">
+                            <tei:placeName type="ancient" ref="https://pleiades.stoa.org/places/413171">Histonium</tei:placeName>
+                            <tei:placeName type="modern" ref="https://sws.geonames.org/6538896">Vasto (Chieti)</tei:placeName>
+                            <tei:placeName type="detailed" resp="#Marchesani1856">Found in the extra-urban sanctuary of Histonium, located in Pennaluce (Punta di Penna), close to the church of Santa Maria della Penna</tei:placeName>
+                        </tei:provenance>
+                        <tei:provenance type="observed" subtype="autopsied" when="2021">
+                            <tei:persName>Francesca Murano</tei:persName>
+                            <tei:persName>Monica Ballerini</tei:persName>
+                        </tei:provenance>
+                        <tei:provenance type="observed" subtype="autopsied" when="2003">
+                            <tei:persName>M. H. Crawford</tei:persName>
+                        </tei:provenance>
+                        <tei:provenance type="observed" subtype="autopsied" notAfter="2002">
+                            <tei:persName>H. Rix</tei:persName>
+                        </tei:provenance>
+                        <tei:provenance type="observed" subtype="autopsied" when="1894">
+                            <tei:persName>R.S. Conway</tei:persName>
+                        </tei:provenance>
+                        <tei:provenance type="observed" subtype="autopsied" notAfter="1897">
+                            <tei:persName>R. von Planta</tei:persName>
+                        </tei:provenance>
+                    </tei:history>                       
+                </tei:msDesc>   
+            </tei:sourceDesc> 
+        </tei:fileDesc>
+        <tei:encodingDesc>
+            <tei:p source="https://epidoc.stoa.org/gl/latest/">Marked-up according to the EpiDoc Guidelines</tei:p>
+        </tei:encodingDesc>
+        <tei:profileDesc>
+            <tei:langUsage>
+                <tei:language ident="osc" source="https://iso639-3.sil.org/code/osc">Oscan</tei:language>
+                <tei:language ident="osc-Ital-x-oscetr" source="https://www.prin-italia-antica.unifi.it/p166.html#oscan-etruscan" ana="https://unicode.org/iso15924/iso15924-codes.html">Oscan in National alphabet (Oscan-Etruscan alphabet)</tei:language>
+            </tei:langUsage>
+            <tei:textClass>
+                <tei:keywords scheme="https://www.eagle-network.eu/resources/vocabularies/typeins/">
+                    <tei:term ref="https://www.eagle-network.eu/voc/typeins/lod/83">votive inscription</tei:term>
+                </tei:keywords>
+            </tei:textClass>
+        </tei:profileDesc>
+    </tei:teiHeader>   
+    <tei:facsimile> 
+        <tei:graphic n="1" url="http://linsto.dipartimentidieccellenza-dilef.unifi.it/itant/img/ItAnt_Oscan_299.jpg" resp="Francesca Murano">
+            <tei:desc>Inscription ItAnt Oscan 270 (drawing by <tei:persName>Francesca Murano</tei:persName>)
+                <tei:ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">This file is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International license – (CC BY-NC-SA 4.0).</tei:ref>
+            </tei:desc>
+        </tei:graphic>
+        <tei:graphic n="2" url="https://archive.org/details/dieunteritalisc02mommgoog/page/n397/mode/1up">
+            <tei:desc>Drawing of the inscription ItAnt Oscan 270 (from <tei:ref target="http://zotero.org/groups/2552746/items/EDA3JHPC"><tei:bibl>Mommsen 1850</tei:bibl></tei:ref>, pl. VII, 2)
+                <tei:ref ana="https://archive.org/about/terms.php">This file is provided by <tei:ref ana="https://archive.org">Internet Archive</tei:ref>, licensed with a NOT_IN_COPYRIGHT status</tei:ref>
+            </tei:desc>
+        </tei:graphic>  
+    </tei:facsimile>
+    <tei:text>
+        <tei:body>             
+            <tei:div type="edition" subtype="interpretative" xml:space="preserve">
+                <tei:div type="textpart" n="face_a" style="text-direction:r-to-l" rend="ductus:sinistrorse">
+                    <tei:ab>                  
+                        <tei:lb n="1" xml:id="Osc_270_l_1"/>
+<!-- Leida;Osc_270_l_1_w_1;iúveís -->                        
+                                <tei:name type="theonym" xml:lang="osc-Ital-x-oscetr" xml:id="Osc_270_l_1_w_1">iúveís</tei:name>
+                        <tei:lb n="2" xml:id="Osc_270_l_2"/>
+<!-- Leida;Osc_270_l_2_w_1;lúvfreís -->                        
+                                <tei:w xml:lang="osc-Ital-x-oscetr" xml:id="Osc_270_l_2_w_1">lúvfreís</tei:w>    
+                    </tei:ab>
+                </tei:div>
+        </tei:div>
+        <tei:div type="translation" xml:lang="ita">
+            <tei:p>Di Giove Libero</tei:p>
+            <tei:desc>
+                <tei:persName>Francesca Murano</tei:persName>
+                <tei:ref type="licence" target="https://creativecommons.org/licenses/by-nc-sa/4.0/">This file is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International license – (CC BY-NC-SA 4.0).</tei:ref>
+            </tei:desc> 
+        </tei:div>
+         <tei:div type="translation" xml:lang="eng">
+             <tei:p>Of Juppiter Liber</tei:p>
+             <tei:desc>
+                 <tei:persName>Francesca Murano</tei:persName>
+                 <tei:ref type="licence" target="https://creativecommons.org/licenses/by-nc-sa/4.0/">This file is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International license – (CC BY-NC-SA 4.0).</tei:ref>
+             </tei:desc>
+         </tei:div>            
+            <tei:div type="apparatus" xml:lang="eng"/>               
+            <tei:div type="commentary" xml:lang="eng" resp="Francesca Murano">
+                <tei:note>
+                    <tei:p>The weight was initially part of the archaeological collection of Barone Genova-Rulli in Vasto and, then, acquired by the Museo Archeologico di Napoli (see <tei:ref target="http://zotero.org/groups/2552746/items/A52Q86IG"><tei:bibl>Avellino 1846</tei:bibl></tei:ref>: 22, n. 1).</tei:p>
+                </tei:note>
+                <tei:note>
+                    <tei:p>The text is a votive inscription to Juppiter Liber, consisting of the name of the god in the genitive case. The votive formula is expressed by the indication of possession, as it is common also in Greek and and Latin epigraphy (see <tei:ref target="http://zotero.org/groups/2552746/items/9FANWURA"><tei:bibl>Poccetti 2009</tei:bibl></tei:ref>: 50).                    
+                    </tei:p>
+                    <tei:p>The artefact testifies the existence of the worship of Juppiter Liber practiced the sanctuary of Punta Penna (see <tei:ref target="http://zotero.org/groups/2552746/items/ACPAQ4RZ"><tei:bibl>La Regina 1980</tei:bibl></tei:ref>). For the identification between <tei:rs type="phr" xml:lang="osc-Ital-x-oscetr" corresp="Osc_270_l_1_w_1">iúveís lúvfreís</tei:rs> and <tei:rs type="phr" xml:lang="grc-Grek">Ζεὺς Ἐλευθέριος</tei:rs>, see <tei:ref target="http://zotero.org/groups/2552746/items/HI5PZU97"><tei:bibl>Prosdocimi 1976</tei:bibl></tei:ref>: 806.</tei:p>
+                    <tei:p>The iconography of Zeus probably refers to Lysippos's one, perhaps deriving from the Zeus of Taranto. The cult of Jupiter in Taranto is connected to that of Zeus Eleutherios of Metaponto (see <tei:ref target="http://zotero.org/groups/2552746/items/57WI3WGA"><tei:bibl>Riccitelli 1997</tei:bibl></tei:ref>: 80.</tei:p> 
+                    <tei:p>In Vasto, the reception of the Magno-Graeco cult concerned only the religious aspects, not its ideological-political contents linked to Alexander the Molossus, to which the Italic peoples were hostile (see <tei:ref target="http://zotero.org/groups/2552746/items/HI5PZU97"><tei:bibl>Prosdocimi 1976</tei:bibl></tei:ref>: 806).</tei:p>
+                </tei:note>
+            </tei:div>
+            <tei:div type="bibliography">
+                <tei:listBibl xmlns="http://www.tei-c.org/ns/1.0">            
+                    <tei:biblStruct type="book" xml:id="MANN2017" corresp="http://zotero.org/groups/2552746/items/AHMB34I8">
+                        <tei:monogr>
+                            <tei:title level="m">Museo Archeologico Nazionale di Napoli. La collezione epigrafica</tei:title>
+                            <tei:editor>
+                                <tei:forename>Fausto</tei:forename>
+                                <tei:surname>Zevi</tei:surname>
+                            </tei:editor>
+                            <tei:editor>
+                                <tei:forename>Carmela</tei:forename>
+                                <tei:surname>Capaldi</tei:surname>
+                            </tei:editor>
+                            <tei:imprint>
+                                <tei:pubPlace>Napoli - Milano</tei:pubPlace>
+                                <tei:publisher>Electa</tei:publisher>
+                                <tei:date>2017</tei:date>
+                            </tei:imprint>
+                        </tei:monogr>
+                        <tei:citedRange unit="entry">CLII.44, p. 112</tei:citedRange>
+                    </tei:biblStruct>
+                    <tei:biblStruct type="book" xml:id="ImIt2011" corresp="http://zotero.org/groups/2552746/items/IKUTPHDC">
+                        <tei:monogr>
+                            <tei:title level="m">Imagines Italicae: A Corpus of Italic Inscriptions</tei:title>
+                            <tei:editor>
+                                <tei:forename>Michael</tei:forename>
+                                <tei:surname>Crawford</tei:surname>
+                            </tei:editor>
+                            <tei:imprint>
+                                <tei:pubPlace>London</tei:pubPlace>
+                                <tei:publisher>Institute of Classical Studies, University of London</tei:publisher>
+                                <tei:date>2011</tei:date>
+                            </tei:imprint>
+                        </tei:monogr>
+                        <tei:citedRange unit="entry">Histonium 5 (with photograph)</tei:citedRange>
+                    </tei:biblStruct>                
+                    <tei:biblStruct type="book" xml:id="Rix2002" corresp="http://zotero.org/groups/2552746/items/IMWMSAVE">
+                        <tei:monogr>
+                            <tei:title level="m">Sabellische Texte. Die Texte des Oskischen, Umbrischen und Südpikenischen</tei:title>
+                            <tei:author>
+                                <tei:forename>Helmut</tei:forename>
+                                <tei:surname>Rix</tei:surname>
+                            </tei:author>
+                            <tei:imprint>
+                                <tei:pubPlace>Heidelberg</tei:pubPlace>
+                                <tei:publisher>C. Winter</tei:publisher>
+                                <tei:date>2002</tei:date>
+                            </tei:imprint>
+                        </tei:monogr>
+                        <tei:citedRange unit="entry">Fr 5</tei:citedRange>
+                    </tei:biblStruct>                                     
+                    <tei:biblStruct type="bookSection" xml:id="Staffa1997" corresp="http://zotero.org/groups/2552746/items/57WI3WGA">
+                        <tei:analytic>
+                            <tei:title level="a">Testimonianze da un santuario dalla località Punta Penna di Vasto</tei:title>
+                            <tei:author>
+                                <tei:forename>Andrea Rosario</tei:forename>
+                                <tei:surname>Staffa</tei:surname>
+                            </tei:author>
+                            <tei:author>
+                                <tei:forename>Paola</tei:forename>
+                                <tei:surname>Riccitelli</tei:surname>
+                            </tei:author> 
+                        </tei:analytic>
+                        <tei:monogr>
+                            <tei:title level="m">I luoghi degli dei: sacro e natura nell'Abruzzo italico.  Catalogo della mostra (Chieti 16 maggio – 18 agosto 1997)</tei:title>
+                            <tei:editor>
+                                <tei:forename>Adele</tei:forename>
+                                <tei:surname>Campanelli</tei:surname>
+                            </tei:editor>
+                            <tei:editor>
+                                <tei:forename>Amalia</tei:forename>
+                                <tei:surname>Faustoferri</tei:surname>
+                            </tei:editor>
+                            <tei:imprint>
+                                <tei:pubPlace>Pescara</tei:pubPlace>
+                                <tei:biblScope unit="page">79-80</tei:biblScope>
+                                <tei:publisher>Carsa</tei:publisher>
+                                <tei:date>1997</tei:date>
+                            </tei:imprint>
+                        </tei:monogr>
+                        <tei:citedRange unit="page">79-80 (with photograph, fig. 3)</tei:citedRange>
+                    </tei:biblStruct>
+                    <tei:biblStruct type="bookSection" xml:id="La_Regina1980" corresp="http://zotero.org/groups/2552746/items/ACPAQ4RZ">
+                        <tei:analytic>
+                            <tei:title level="a">Vasto</tei:title>
+                            <tei:author>
+                                <tei:forename>Adriano</tei:forename>
+                                <tei:surname>La Regina</tei:surname>
+                            </tei:author>
+                        </tei:analytic>
+                        <tei:monogr>
+                            <tei:title level="m">Sannio: Pentri e Frentani dal VI al I sec. a.C. Catalogo della mostra (Isernia, Museo Nazionale, ottobre-dicembre 1980)</tei:title>
+                            <tei:imprint>
+                                <tei:pubPlace>Roma</tei:pubPlace>
+                                <tei:biblScope unit="page">320 (with photograph, no. 100)</tei:biblScope>
+                                <tei:publisher>De Luca</tei:publisher>
+                                <tei:date>1980</tei:date>
+                            </tei:imprint>
+                        </tei:monogr>
+                    </tei:biblStruct>
+                    <tei:biblStruct type="book" xml:id="La_Regina1978" corresp="http://zotero.org/groups/2552746/items/EDP7576N">
+                        <tei:monogr>
+                            <tei:title level="m">Culture adriatiche antiche d'Abruzzo e di Molise</tei:title>
+                            <tei:author>
+                                <tei:forename>Valerio</tei:forename>
+                                <tei:surname>Cianfarani</tei:surname>
+                            </tei:author>
+                            <tei:author>
+                                <tei:forename>Luisa</tei:forename>
+                                <tei:surname>Franchi</tei:surname>
+                            </tei:author>
+                            <tei:author>
+                                <tei:forename>Adriano</tei:forename>
+                                <tei:surname>dell'Orto</tei:surname>
+                            </tei:author>
+                            <tei:author>
+                                <tei:forename>Adriano</tei:forename>
+                                <tei:surname>La Regina</tei:surname>
+                            </tei:author>
+                            <tei:imprint><pubPlace>Roma</pubPlace>
+                                <tei:publisher>De Luca</tei:publisher>
+                                <tei:date>1978</tei:date>
+                            </tei:imprint>
+                        </tei:monogr>
+                        <tei:citedRange unit="page">526 (with fig. 356)</tei:citedRange>
+                    </tei:biblStruct>
+                    <tei:biblStruct type="book" xml:id="Bottiglioni1954"
+                        corresp="http://zotero.org/groups/2552746/items/NQ4C9R6N">
+                        <tei:monogr>
+                            <tei:title level="m">Manuale dei dialetti italici</tei:title>
+                            <tei:author>
+                                <tei:forename>Gino</tei:forename>
+                                <tei:surname>Bottiglioni</tei:surname>
+                            </tei:author>
+                            <tei:imprint>
+                                <tei:pubPlace>Bologna</tei:pubPlace>
+                                <tei:publisher>STEB</tei:publisher>
+                                <tei:date>1954</tei:date>
+                            </tei:imprint>
+                        </tei:monogr>
+                        <tei:citedRange unit="entry">3</tei:citedRange>
+                    </tei:biblStruct>
+                    <tei:biblStruct type="book" xml:id="Pisani1953" corresp="http://zotero.org/groups/2552746/items/43PVX7RD">
+                        <tei:monogr>
+                            <tei:title level="m">Le lingue dell'Italia antica oltre il latino</tei:title>
+                            <tei:author>
+                                <tei:forename>Vittore</tei:forename>
+                                <tei:surname>Pisani</tei:surname>
+                            </tei:author>
+                            <tei:imprint>
+                                <tei:pubPlace>Torino</tei:pubPlace>
+                                <publisher>Rosenberg e Sellier</publisher>
+                                <date>1953</date>
+                            </tei:imprint>
+                        </tei:monogr>
+                        <tei:citedRange unit="entry">41</tei:citedRange>
+                    </tei:biblStruct>
+                    <tei:biblStruct type="book" xml:id="Vetter1953" corresp="http://zotero.org/groups/2552746/items/NJFZRK23">
+                        <tei:monogr>
+                            <tei:title level="m">Handbuch der italischen Dialekte</tei:title>
+                            <tei:author>
+                                <tei:forename>Emil</tei:forename>
+                                <tei:surname>Vetter</tei:surname>
+                            </tei:author>
+                            <tei:imprint>
+                                <tei:pubPlace>Heidelberg</tei:pubPlace>
+                                <tei:publisher>C. Winter</tei:publisher>
+                                <tei:date>1953</tei:date>
+                            </tei:imprint>
+                        </tei:monogr>
+                        <tei:citedRange unit="entry">170</tei:citedRange>
+                    </tei:biblStruct>
+                    <tei:biblStruct type="book" xml:id="Conway1897" corresp="http://zotero.org/groups/2552746/items/5HE94UPW">
+                        <tei:monogr>
+                            <tei:title level="m">The Italic dialects</tei:title>
+                            <tei:author><tei:forename>Robert Seymour</tei:forename>
+                                <tei:surname>Conway</tei:surname>
+                            </tei:author>
+                            <tei:imprint>
+                                <tei:pubPlace>Cambridge</tei:pubPlace>
+                                <tei:publisher>Cambridge University Press</tei:publisher>
+                                <tei:date>1897</tei:date>
+                            </tei:imprint>
+                        </tei:monogr>
+                        <tei:citedRange unit="entry">191</tei:citedRange>
+                    </tei:biblStruct>
+                    <tei:biblStruct type="book" xml:id="Planta1897" corresp="http://zotero.org/groups/2552746/items/XIR6EZCV">
+                        <tei:monogr>
+                            <tei:title level="m">Grammatik der oskisch-umbrischen Dialekte</tei:title>
+                            <tei:author>
+                                <tei:forename>Robert</tei:forename>
+                                <tei:surname>Planta (von)</tei:surname>
+                            </tei:author>
+                            <tei:imprint>
+                                <tei:pubPlace>Strassburg</tei:pubPlace>
+                                <tei:publisher>K. J. Trubner</tei:publisher>
+                                <tei:date>1897</tei:date>
+                            </tei:imprint>
+                        </tei:monogr>
+                        <tei:citedRange unit="entry">206</tei:citedRange>
+                    </tei:biblStruct>
+                    <tei:biblStruct type="book" xml:id="Zvetaieff1886" corresp="http://zotero.org/groups/2552746/items/JDIS27RW">
+                        <tei:monogr>
+                            <tei:title level="m">Inscriptiones Italiae inferioris dialecticae</tei:title>
+                            <tei:author>
+                                <tei:forename>Ivan Vladimirovich</tei:forename>
+                                <tei:surname>Zvetaieff</tei:surname>
+                            </tei:author>
+                            <tei:imprint>
+                                <tei:pubPlace>Mosquae</tei:pubPlace>
+                                <tei:publisher>typis C. Herbeck</tei:publisher>
+                                <tei:date>1886</tei:date>
+                            </tei:imprint>
+                        </tei:monogr>
+                        <tei:citedRange unit="entry">82</tei:citedRange>
+                    </tei:biblStruct>
+                    <tei:biblStruct type="book" xml:id="Zvetaieff1878"
+                        corresp="http://zotero.org/groups/2552746/items/429W57V4">
+                        <tei:monogr>
+                            <tei:title level="m">Sylloge inscriptionum Oscarum ad archetyporum et librorum fidem</tei:title>
+                            <tei:author>
+                                <tei:forename>Ivan Vladimirovich</tei:forename>
+                                <tei:surname>Zvetaieff</tei:surname>
+                            </tei:author>
+                            <tei:imprint>
+                                <tei:pubPlace>Petropoli - Lipsiae</tei:pubPlace>
+                                <tei:publisher>F.A. Brockhaus</tei:publisher>
+                                <tei:date>1878</tei:date>
+                            </tei:imprint>
+                        </tei:monogr>
+                        <tei:citedRange unit="entry">3 (with pl. I, 2)</tei:citedRange>
+                    </tei:biblStruct>
+                    <tei:biblStruct type="book" xml:id="CII1867" corresp="http://zotero.org/groups/2552746/items/9IWSAW5F">
+                        <tei:monogr>
+                            <tei:title level="m">Corpus inscriptionum italicarum</tei:title>
+                            <tei:author>
+                                <tei:forename>Ariodante</tei:forename>
+                                <tei:surname>Fabretti</tei:surname>
+                            </tei:author>
+                            <tei:imprint>
+                                <tei:pubPlace>Augusta Taurinorum</tei:pubPlace>
+                                <tei:publisher>ex Officina regia</tei:publisher>
+                                <tei:date>1867</tei:date>
+                            </tei:imprint>
+                        </tei:monogr>
+                        <tei:citedRange unit="entry">2844</tei:citedRange>
+                    </tei:biblStruct>
+                    <tei:biblStruct type="book" xml:id="Mommsen1850" ana="Mommsen1850"
+                        corresp="http://zotero.org/groups/2552746/items/EDA3JHPC">
+                        <tei:monogr>
+                            <tei:title level="m">Die unteritalischen Dialekte</tei:title>
+                            <tei:author>
+                                <tei:forename>Theodor</tei:forename>
+                                <tei:surname>Mommsen</tei:surname>
+                            </tei:author>
+                            <tei:imprint>
+                                <tei:pubPlace>Leipzig</tei:pubPlace>
+                                <tei:publisher>G. Wigand</tei:publisher>
+                                <tei:date>1850</tei:date>
+                            </tei:imprint>
+                        </tei:monogr>
+                        <tei:citedRange unit="page">170, no. 2 (with pl. VII, 2)</tei:citedRange>
+                    </tei:biblStruct>
+                    <tei:biblStruct type="book" xml:id="Lepsius1841" corresp="http://zotero.org/groups/2552746/items/87SESH9I">
+                        <tei:monogr>
+                            <tei:title level="m">Inscriptiones umbricae et oscae: quotquot adhuc repertae sunt omnes</tei:title>
+                            <tei:author>
+                                <tei:forename>Richard</tei:forename>
+                                <tei:surname>Lepsius</tei:surname>
+                            </tei:author>
+                            <tei:imprint>
+                                <tei:pubPlace>Lipsiae</tei:pubPlace>
+                                <tei:publisher>G. Wigand</tei:publisher>
+                                <tei:date>1841</tei:date>
+                            </tei:imprint>
+                        </tei:monogr>
+                        <tei:citedRange unit="page">57-64</tei:citedRange>
+                    </tei:biblStruct>
+                    <tei:biblStruct type="journalArticle" xml:id="Avellino1846" corresp="http://zotero.org/groups/2552746/items/A52Q86IG">
+                        <tei:analytic>
+                            <tei:title level="a">Conghietture sopra una iscrizione sannitica: lette all'Accademia nella tornata de' 10 marzo 1840</tei:title>                                                  
+                            <tei:author>
+                                <tei:forename>Francesco Maria</tei:forename>
+                                <tei:surname>Avellino</tei:surname>
+                            </tei:author>
+                        </tei:analytic>
+                        <tei:monogr>
+                            <tei:imprint>
+                                <tei:date>1846</tei:date>                              
+                            </tei:imprint>
+                        </tei:monogr>
+                        <tei:citedRange unit="page">22, n. 1</tei:citedRange>
+                    </tei:biblStruct>
+                </tei:listBibl>
+            </tei:div>
+        </tei:body>
+    </tei:text>
+</tei:TEI>

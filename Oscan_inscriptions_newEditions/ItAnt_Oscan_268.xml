@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/9.4/tei-epidoc.rng"
+schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/9.4/tei-epidoc.rng"
+schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<tei:TEI xmlns:dcr="http://www.isocat.org/ns/dcr" xml:id="ItAnt_Oscan_268"
+    xmlns:tei="http://www.tei-c.org/ns/1.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <tei:teiHeader>
+        <tei:fileDesc>
+            <tei:titleStmt>
+                <tei:title type="ItAnt_ID">Inscription ItAnt Oscan 268</tei:title>
+            </tei:titleStmt>
+            <tei:editionStmt>
+                <tei:edition>
+                    <tei:idno>ItAnt Oscan 268</tei:idno>
+                </tei:edition>
+                <tei:editor>
+                    <tei:persName>Francesca Murano</tei:persName>
+                </tei:editor>
+            </tei:editionStmt>         
+            <tei:publicationStmt>
+                <tei:authority>PRIN 2017 "Lingue e culture dell'Italia antica: linguistica storica e modelli digitali | Languages and Cultures of Ancient Italy. Historical Linguistics and Digital Models"</tei:authority>
+                <tei:date>2023</tei:date>
+                <tei:idno type="URI" subtype="handle"></tei:idno>
+                <tei:availability>
+                    <tei:licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">This file is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International license – (CC BY-NC-SA 4.0).  
+                    </tei:licence>
+                </tei:availability>
+            </tei:publicationStmt>   
+            <tei:sourceDesc>
+                <tei:msDesc>
+                    <tei:msIdentifier>
+                        <tei:settlement ref="https://sws.geonames.org/3178796">Chieti</tei:settlement>
+                        <tei:institution ana="https://museiabruzzo.cultura.gov.it/luoghi-della-cultura/627-museo-archeologico-nazionale-dabruzzo-villa-frigerj/">Museo archeologico nazionale d'Abruzzo - Villa Frigerj</tei:institution>
+                        <tei:idno type="museumID">59769</tei:idno>
+                        <tei:altIdentifier type="trismegistos">
+                            <tei:idno source="www.trismegistos.org/text/170887">TM 170887</tei:idno>
+                        </tei:altIdentifier>                         
+                        <tei:altIdentifier type="traditionalID">
+                            <tei:idno source="http://zotero.org/groups/2552746/items/IKUTPHDC">ImIt Histonium 4</tei:idno>
+                        </tei:altIdentifier>                       
+                    </tei:msIdentifier> 
+                    <tei:msContents>
+                        <tei:summary>Dedicatory inscription engraved on the base of a donarius from Histonium, Vasto (Chieti).</tei:summary>
+                    </tei:msContents>
+                    <tei:physDesc>
+                        <tei:objectDesc>     
+                            <tei:supportDesc>
+                                <tei:support>
+                                    <tei:objectType ana="http://vocab.getty.edu/page/aat/300001656">base</tei:objectType>
+                                    <tei:rs ana="objectShape">rectangular</tei:rs>
+                                    <tei:material ana="http://vocab.getty.edu/aat/300011286">limestone</tei:material>
+                                    <tei:dimensions type="objectDimensions" unit="cm" precision="medium" resp="#La_Regina2008">
+                                        <tei:height quantity="30">30</tei:height>
+                                        <tei:width quantity="30">30</tei:width>
+                                        <tei:depth quantity="9">9</tei:depth>
+                                    </tei:dimensions>
+                                    <tei:rs type="reuse">no</tei:rs>
+                                </tei:support>
+                                <tei:condition>fragmentary</tei:condition>   
+                            </tei:supportDesc>
+                            <tei:layoutDesc>
+                                <tei:layout columns="1" writtenLines="2">
+                                    <tei:rs type="execution" ana="http://vocab.getty.edu/page/aat/300404794">engraved</tei:rs>
+                                    <tei:rs type="opistography">no</tei:rs>
+                                    <tei:note type="layoutNotes">The inscription runs along the four sides of the base</tei:note>      
+                                </tei:layout>
+                            </tei:layoutDesc>
+                        </tei:objectDesc>
+                        <tei:handDesc>                            
+                            <tei:handNote>
+                                <tei:note type="palaeographicNotes">old-fashoned letters</tei:note>
+                                <tei:dimensions type="characterDimension" unit="cm" precision="medium" resp="La_Regina2008"> 
+                                    <tei:height atLeast="2.8" atMost="3.7">2,8 to 3,7</tei:height>
+                                </tei:dimensions>
+                            </tei:handNote>
+                        </tei:handDesc>                                      
+                        <tei:scriptDesc>
+                            <tei:scriptNote>
+                                <tei:rs type="writingSystem" subtype="alphabet" ref="https://www.prin-italia-antica.unifi.it/p166.html#oscan-etruscan">Oscan National alphabet</tei:rs>
+                                <tei:rs type="wordDivision">punctuation</tei:rs>
+                            </tei:scriptNote>
+                        </tei:scriptDesc>
+                    </tei:physDesc>
+                    <tei:history>
+                        <tei:origin> 
+                            <tei:origPlace type="composed">
+                                <tei:placeName type="ancient" ref="https://pleiades.stoa.org/places/413171">Histonium</tei:placeName>
+                                <tei:placeName type="modern" ref="https://sws.geonames.org/6538896">Vasto (Chieti)</tei:placeName>
+                            </tei:origPlace>
+                            <tei:origDate notBefore-custom="-0225" notAfter-custom="-0175" cert="high" resp="#La_Regina2008">late 3rd - early 2nd century BC</tei:origDate>
+                        </tei:origin>
+                        <tei:provenance type="found" subtype="discovered" notAfter="1991">
+                            <tei:placeName type="ancient" ref="https://pleiades.stoa.org/places/413171">Histonium</tei:placeName>
+                            <tei:placeName type="modern" ref="https://sws.geonames.org/6538896">Vasto (Chieti)</tei:placeName>
+                            <tei:placeName type="detailed" resp="#Marchesani1856">Found in the extra-urban sanctuary of Histonium, located in Pennaluce (Punta di Penna), close to the church of Santa Maria della Penna</tei:placeName>
+                        </tei:provenance>
+                        <tei:provenance type="found" subtype="rediscovered" when="1991" resp="http://zotero.org/groups/2552746/items/PGRH8JMZ"/>
+                        <tei:provenance type="observed" subtype="seen" when="2022">
+                            <tei:persName>Francesca Murano</tei:persName>
+                        </tei:provenance>
+                        <tei:provenance type="observed" subtype="autopsied" notAfter="2008">
+                            <tei:persName>A. La Regina</tei:persName>
+                        </tei:provenance>
+                    </tei:history>                       
+                </tei:msDesc>   
+            </tei:sourceDesc> 
+        </tei:fileDesc>
+        <tei:encodingDesc>
+            <tei:p source="https://epidoc.stoa.org/gl/latest/">Marked-up according to the EpiDoc Guidelines</tei:p>
+        </tei:encodingDesc>
+        <tei:profileDesc>
+            <tei:langUsage>
+                <tei:language ident="osc" source="https://iso639-3.sil.org/code/osc">Oscan</tei:language>
+                <tei:language ident="osc-Ital-x-oscetr" source="https://www.prin-italia-antica.unifi.it/p166.html#oscan-etruscan" ana="https://unicode.org/iso15924/iso15924-codes.html">Oscan in National alphabet (Oscan-Etruscan alphabet)</tei:language>
+            </tei:langUsage>
+            <tei:textClass>
+                <tei:keywords scheme="https://www.eagle-network.eu/resources/vocabularies/typeins/">
+                    <tei:term ref="https://www.eagle-network.eu/voc/typeins/lod/88">dedicatory inscription</tei:term>
+                    
+                </tei:keywords>
+            </tei:textClass>
+        </tei:profileDesc>
+    </tei:teiHeader>   
+    <tei:facsimile> 
+        <tei:graphic n="1" url="http://linsto.dipartimentidieccellenza-dilef.unifi.it/itant/img/ItAnt_Oscan_268.jpg" resp="Francesca Murano">
+            <tei:desc>Inscription ItAnt Oscan 268 (drawing by <tei:persName>Francesca Murano</tei:persName>)
+                <tei:ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">This file is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International license – (CC BY-NC-SA 4.0).</tei:ref>
+            </tei:desc>
+        </tei:graphic>
+        <tei:graphic n="2" url="https://www.studietruschi.org/wp-content/uploads/2021/07/SE74_13.pdf#page=35">
+            <tei:desc>Photograph of the inscription ItAnt Oscan 268. From <tei:ref target="http://zotero.org/groups/2552746/items/P6GE9DAR"><tei:bibl>La Regina 2008 [2011]</tei:bibl></tei:ref>, pl. LIII, d and e.
+                <tei:ref ana="https://www.studietruschi.org">This file is provided by the Istituto Nazionale di Studi Etruschi ed Italici</tei:ref>
+            </tei:desc>
+        </tei:graphic>      
+    </tei:facsimile>
+    <tei:text>
+        <tei:body>             
+            <tei:div type="edition" subtype="interpretative" xml:space="preserve">
+                <tei:div type="textpart" n="face_a" style="text-direction:r-to-l" rend="ductus:sinistrorse">
+                    <tei:ab>
+<!-- l. 1 -->                        
+                         <tei:lb n="1" xml:id="Osc_268_l_1"/>
+<!-- gap -->                       
+                            <tei:gap reason="lost" extent="unknown" unit="character"/>
+<!-- Leida;Osc_268_l_1_w_1;t]ribúf -->                        
+                                <tei:w xml:lang="osc-Ital-x-oscetr" xml:id="Osc_268_l_1_w_1"><tei:supplied reason="lost">t</tei:supplied><tei:unclear reason="illegible">r</tei:unclear>i<tei:unclear>bú</tei:unclear>f</tei:w>
+                                    <tei:pc unit="word">.</tei:pc>
+<!-- Leida;Osc_268_l_1_w_2;plífrík[s -->                        
+                                <tei:w xml:lang="osc-Ital-x-oscetr" xml:id="Osc_268_l_1_w_2"><tei:unclear>p</tei:unclear>lí<tei:unclear reason="illegible">frik</tei:unclear><tei:supplied reason="lost">s</tei:supplied></tei:w>
+                        <tei:supplied reason="lost"><tei:pc unit="word">.</tei:pc></tei:supplied>
+<!-- gap -->                       
+                            <tei:gap reason="lost" extent="unknown" unit="character"/> 
+<!-- l. 2 -->                                    
+                                    <tei:lb n="1" xml:id="Osc_268_l_2"/>
+<!-- gap -->                       
+                            <tei:gap reason="lost" extent="unknown" unit="character"/>       <!-- Leida;Osc_268_l_2_w_1;]s -->                        
+                            <tei:w xml:lang="osc-Ital-x-oscetr" xml:id="Osc_268_l_2_w_1"><tei:gap reason="lost" extent="unknown" unit="character"/>s</tei:w>
+                        <tei:pc unit="word">.</tei:pc>
+<!-- Leida;Osc_268_l_2_w_2;deded -->                        
+                            <tei:w xml:lang="osc-Ital-x-oscetr" xml:id="Osc_268_l_2_w_2">deded</tei:w>
+                        <tei:supplied reason="lost"><tei:pc unit="word">.</tei:pc></tei:supplied>
+<!-- Leida;Osc_268_l_2_w_3;aragetú[d -->                        
+                            <tei:w xml:lang="osc-Ital-x-oscetr" xml:id="Osc_268_l_2_w_3"><tei:unclear>a</tei:unclear>raget<tei:unclear>ú</tei:unclear><tei:supplied reason="lost">d</tei:supplied></tei:w>
+                        <tei:supplied reason="lost"><tei:pc unit="word">.</tei:pc></tei:supplied>                        
+<!-- gap -->                       
+                            <tei:gap reason="lost" extent="unknown" unit="character"/>
+                    </tei:ab>
+                </tei:div>
+        </tei:div>
+            <tei:div type="translation" xml:lang="ita">
+                <tei:p>[nome], tribuno della plebe (?), [...] dedicò con l'argento [...]</tei:p>
+                <tei:desc>
+                    <tei:persName>Francesca Murano</tei:persName>
+                    <tei:ref type="licence" target="https://creativecommons.org/licenses/by-nc-sa/4.0/">This file is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International license – (CC BY-NC-SA 4.0).</tei:ref>
+                </tei:desc> 
+            </tei:div>
+            <tei:div type="translation" xml:lang="eng">
+                <tei:p>[name], tribune of the plebs (?), [...] gave from silver [...]</tei:p>
+                <tei:desc>
+                    <tei:persName>Francesca Murano</tei:persName>
+                    <tei:ref type="licence" target="https://creativecommons.org/licenses/by-nc-sa/4.0/">This file is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International license – (CC BY-NC-SA 4.0).</tei:ref>
+                </tei:desc> 
+            </tei:div>            
+            <tei:div type="apparatus" xml:lang="eng" resp="Francesca Murano">
+                <tei:listApp>
+                    <tei:app from="#Osc_268_l_1">
+                        <tei:lem corresp="#Osc_268_l_1_w_1">t]ṛiḅụ́f</tei:lem>
+                        <tei:rdg corresp="#Osc_268_l_1_w_1">t]ribúf
+                            <tei:ref target="http://zotero.org/groups/2552746/items/P6GE9DAR"><tei:bibl>La Regina 2008 [2011]</tei:bibl></tei:ref>
+                        </tei:rdg>
+                    </tei:app>
+                    <tei:app from="#Osc_268_l_1">
+                        <tei:lem corresp="#Osc_268_l_1_w_2">p̣líf̣ṛị́ḳ[s</tei:lem>
+                        <tei:rdg corresp="#Osc_268_l_1_w_2">plífrík[s
+                            <tei:ref target="http://zotero.org/groups/2552746/items/P6GE9DAR"><tei:bibl>La Regina 2008 [2011]</tei:bibl></tei:ref>
+                        </tei:rdg>
+                    </tei:app>
+                    <tei:app from="#Osc_268_l_2">
+                        <tei:lem corresp="#Osc_268_l_2_w_3">ạragetụ́[d</tei:lem>
+                        <tei:rdg corresp="#Osc_268_l_2_w_3">aragetú[d
+                            <tei:ref target="http://zotero.org/groups/2552746/items/P6GE9DAR"><tei:bibl>La Regina 2008 [2011]</tei:bibl></tei:ref>
+                        </tei:rdg>
+                    </tei:app>
+                </tei:listApp>              
+            </tei:div>
+            <tei:div type="commentary" xml:lang="eng" resp="Francesca Murano">
+                <tei:note>
+                    <tei:p>The text is engraved on two sides of the base and is mutilated  on both sides. Originally probably it had to run along the long sides and the forehead.</tei:p>
+                </tei:note>
+                <tei:note>                   
+                    <tei:p>The inscription records the dedication of the object placed on the base to a divinity by a magistate, whose name has been lost in the gap at the beginning of l. 1.</tei:p>                   
+                    <tei:p>According to <tei:ref target="http://zotero.org/groups/2552746/items/P6GE9DAR"><tei:bibl>La Regina 2008 [2011]</tei:bibl></tei:ref>: 431, the divinity is probably to be identified with Iuppiter Liber, whose cult is testified in the sanctuary of Histonium by other findings (see <tei:ref target="ItAnt_Oscan_270.xml">ItAnt Oscan 270</tei:ref>.</tei:p>
+                </tei:note>
+                <tei:note target="Osc_268_l_1_w_1">
+                    <tei:p>The dedicatee held the position of <tei:rs type="w" xml:lang="osc-Ital-x-oscetr" corresp="Osc_268_l_1_w_1">t]ribúf</tei:rs> <tei:rs type="w" xml:lang="osc-Ital-x-oscetr" corresp="Osc_268_l_1_w_2">plífrik[s</tei:rs>. This office should probably to be identified with the Lt. tribunatus plebis, 'tribunate of the plebs' (see, e.g., <tei:ref target="http://zotero.org/groups/2552746/items/P6GE9DAR"><tei:bibl>La Regina 2008 [2011]</tei:bibl></tei:ref>: 431-433 and <tei:ref target="http://zotero.org/groups/2552746/items/IZPQVSIR"><tei:bibl>Cappelletti 2022</tei:bibl></tei:ref>), although there are historical-institutional and linguistic questions, which could lead to the identification with the Lt. aedilis plebis (see, e.g., <tei:ref target="http://zotero.org/groups/2552746/items/L2VGAALK"><tei:bibl>Crawford 2011</tei:bibl></tei:ref>). On the more specifically linguistic aspects, see <tei:ref target="http://zotero.org/groups/2552746/items/829T6A66"><tei:bibl>Prosdocimi 2002</tei:bibl></tei:ref>, <tei:ref target="http://zotero.org/groups/2552746/items/SSL4LJDH"><tei:bibl>Adiego 2001</tei:bibl></tei:ref> and <tei:ref target="http://zotero.org/groups/2552746/items/9JMYT45N"><tei:bibl>Poccetti 2003</tei:bibl></tei:ref>. On the historical aspects see also <tei:ref target="http://zotero.org/groups/2552746/items/PGRH8JMZ"><tei:bibl>Guadagno 2013</tei:bibl></tei:ref>.</tei:p>
+                </tei:note>
+                <tei:note target="Osc_268_l_2_w_3">
+                    <tei:p>The magistrate dedicated (<tei:rs type="w" xml:lang="osc-Ital-x-oscetr" corresp="Osc_268_l_2_w_2">deded</tei:rs>) the object to be placed in the temple using money from some source (<tei:rs type="w" xml:lang="osc-Ital-x-oscetr" corresp="Osc_268_l_2_w_3">aragetú[d</tei:rs>). The provenance of the funding has been lost in the gap at the end of l. 2.</tei:p>
+                    <tei:p>According to <tei:ref target="http://zotero.org/groups/2552746/items/P6GE9DAR"><tei:bibl>La Regina 2008 [2011]</tei:bibl></tei:ref>: 431, this is money from fines: <tei:rs type="ph" xml:lang="osc-Ital-x-oscetr">aragetú[d multasikúd]</tei:rs>. <tei:ref target="http://zotero.org/groups/2552746/items/IKUTPHDC"><tei:bibl>Crawford, ImIt 2011</tei:bibl></tei:ref>: 1270 proposes the use of public money, <tei:rs type="ph" xml:lang="osc-Ital-x-oscetr">aragetú[d túvtíkúd]</tei:rs>.</tei:p>           
+                </tei:note>
+                <tei:note target="Osc_268_l_2_w_1">
+                    <tei:p><tei:ref target="http://zotero.org/groups/2552746/items/P6GE9DAR"><tei:bibl>La Regina 2008 [2011]</tei:bibl></tei:ref>: 431 proposes that the text contain the ex-voto formula <tei:rs type="ph" xml:lang="osc-Ital-x-oscetr">[brateis · data]s</tei:rs>, of which only the last letter would remain.</tei:p>
+                    <tei:p>It is possible that the gap at the beginning of l. 2 also contained the indication of the dedicated object.</tei:p>
+                </tei:note>
+                <tei:note>
+                    <tei:p>The inscription is the result of a clandestine excavation. It was recovered by the Guardia di Finanza in 1991.</tei:p>
+                </tei:note>          
+            </tei:div>
+            <tei:div type="bibliography">
+                <tei:listBibl xmlns="http://www.tei-c.org/ns/1.0">
+                    <tei:biblStruct type="book" xml:id="ImIt2011" corresp="http://zotero.org/groups/2552746/items/IKUTPHDC">
+                        <tei:monogr>
+                            <tei:title level="m">Imagines Italicae: A Corpus of Italic Inscriptions</tei:title>
+                            <tei:editor>
+                                <tei:forename>Michael</tei:forename>
+                                <tei:surname>Crawford</tei:surname>
+                            </tei:editor>
+                            <tei:imprint>
+                                <tei:pubPlace>London</tei:pubPlace>
+                                <tei:publisher>Institute of Classical Studies, University of London</tei:publisher>
+                                <tei:date>2011</tei:date>
+                            </tei:imprint>
+                        </tei:monogr>
+                        <tei:citedRange unit="entry">Histonium 4</tei:citedRange>
+                    </tei:biblStruct>
+                    <tei:biblStruct type="bookSection" xml:id="La_Regina2010" corresp="http://zotero.org/groups/2552746/items/4T7LLV9R">
+                        <tei:analytic>
+                            <tei:title level="a">Iscrizioni osche dalla Frentania</tei:title>
+                            <tei:author>
+                                <tei:forename>Adriano</tei:forename>
+                                <tei:surname>La Regina</tei:surname>
+                            </tei:author>
+                        </tei:analytic>
+                        <tei:monogr>
+                            <tei:title level="m">S.O.S. arte dall'Abruzzo: una mostra per non dimenticare</tei:title>
+                            <tei:editor>
+                                <tei:name>Porcaroli, Fabrizio Ludovico</tei:name>
+                            </tei:editor>
+                            <tei:imprint>
+                                <tei:pubPlace>Roma</tei:pubPlace>
+                                <tei:biblScope unit="page">99-100</tei:biblScope>
+                                <tei:publisher>Gangemi</tei:publisher>
+                                <tei:date>2010</tei:date>
+                            </tei:imprint>
+                        </tei:monogr>
+                        <tei:citedRange unit="page">99, no. 7 (with photograph)</tei:citedRange>
+                    </tei:biblStruct>                   
+                    <tei:biblStruct type="journalArticle" xml:id="La_Regina2008" corresp="http://zotero.org/groups/2552746/items/P6GE9DAR">
+                        <tei:analytic>
+                            <tei:title level="a">Frentania. Vasto (Histonium), Punta Penna</tei:title>
+                            <tei:author>
+                                <tei:forename>Adriano</tei:forename>
+                                <tei:surname>La Regina</tei:surname>
+                            </tei:author>
+                        </tei:analytic>
+                        <tei:monogr>
+                            <tei:title level="j">Studi Etruschi</tei:title>
+                            <tei:imprint>
+                                <tei:biblScope unit="volume">74</tei:biblScope>
+                                <tei:biblScope unit="page">431-434</tei:biblScope>
+                                <tei:date>2008 [2011]</tei:date>
+                            </tei:imprint>
+                        </tei:monogr>
+                        <tei:citedRange unit="page">431-433, no. 1 (with photographs, pl. LIII, d and e)</tei:citedRange>
+                    </tei:biblStruct>                  
+                </tei:listBibl>
+            </tei:div>
+        </tei:body>
+    </tei:text>
+</tei:TEI>

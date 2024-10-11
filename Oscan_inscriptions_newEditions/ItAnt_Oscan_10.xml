@@ -1,0 +1,363 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/9.4/tei-epidoc.rng"
+schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/9.4/tei-epidoc.rng"
+schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<tei:TEI xmlns:dcr="http://www.isocat.org/ns/dcr" xml:id="ItAnt_Oscan_10"
+    xmlns:tei="http://www.tei-c.org/ns/1.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <tei:teiHeader>
+        <tei:fileDesc>
+            <tei:titleStmt>
+                <tei:title type="ItAnt_ID">Inscription ItAnt Oscan 10</tei:title>
+        </tei:titleStmt>
+            <tei:editionStmt>
+                <tei:edition>
+                    <tei:idno>ItAnt Oscan 10</tei:idno>
+                </tei:edition>
+                <tei:editor>
+                    <tei:persName>Francesca Murano</tei:persName>
+                </tei:editor>
+                <tei:editor>
+                    <tei:persName>Mariarosaria Zinzi</tei:persName>
+                </tei:editor>
+            </tei:editionStmt>         
+            <tei:publicationStmt>
+                <tei:authority>PRIN 2017 "Lingue e culture dell'Italia antica: linguistica storica e modelli digitali | Languages and Cultures of Ancient Italy. Historical Linguistics and Digital Models"</tei:authority>
+                <tei:date>2023</tei:date>
+                <tei:idno type="URI" subtype="handle"></tei:idno>
+                <tei:availability>
+                    <tei:licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">This file is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International license – (CC BY-NC-SA 4.0).  
+                    </tei:licence>
+                </tei:availability>
+            </tei:publicationStmt>   
+            <tei:sourceDesc>
+                <tei:msDesc>
+                    <tei:msIdentifier>
+                        <tei:settlement ref="https://sws.geonames.org/3170820">Pietrabbondante (IS)</tei:settlement>
+                        <tei:institution>Deposito</tei:institution>
+                        <tei:msName>Dedication to Castor from Pietrabbondante</tei:msName>
+                        <tei:altIdentifier type="trismegistos">
+                            <tei:idno source="www.trismegistos.org/text/170840">TM 170840</tei:idno>
+                        </tei:altIdentifier> 
+                        <tei:altIdentifier type="traditionalID">
+                            <tei:idno source="http://zotero.org/groups/2552746/items/IMWMSAVE">ST Sa 9</tei:idno>
+                        </tei:altIdentifier> 
+                        <tei:altIdentifier type="traditionalID">
+                            <tei:idno source="http://zotero.org/groups/2552746/items/IKUTPHDC">ImIt Teruentum 33</tei:idno>
+                        </tei:altIdentifier>
+                    </tei:msIdentifier> 
+                    <tei:msContents>
+                        <tei:summary>Building inscription on an altar from the <tei:ref target="https://www.musei.molise.beniculturali.it/musei?mid=6691&amp;nome=santuario-italico">sanctuary of Pietrabbondante</tei:ref>
+                        </tei:summary>
+                    </tei:msContents>
+                    <tei:physDesc>
+                        <tei:objectDesc>     
+                            <tei:supportDesc>
+                                <tei:support>
+                                    <tei:objectType ana="http://vocab.getty.edu/aat/300003725">altar</tei:objectType>
+                                    <tei:rs ana="objectShape">rectangular</tei:rs> 
+                                        <tei:note>Engraved on the central block of an altar. Part of the upper frame of the altar was also found: it presents moldings enriched with the sculpted decoration of an Ionic kyma and a band of very thin dentels.</tei:note>
+                                    <tei:material ana="http://vocab.getty.edu/aat/300011286">limestone
+                                    </tei:material>
+                                    <tei:dimensions type="objectDimensions" unit="cm" precision="high" resp="#La_Regina1976">
+                                        <tei:height quantity="67">67</tei:height>
+                                        <tei:width quantity="125.5">125,5</tei:width>
+                                        <tei:depth quantity="53">53</tei:depth>
+                                    </tei:dimensions>
+                                    <tei:rs type="reuse">no</tei:rs>
+                                </tei:support>
+                                <tei:condition>fragmentary</tei:condition>   
+                            </tei:supportDesc>
+                            <tei:layoutDesc>
+                                <tei:layout columns="1" writtenLines="2">
+                                    <tei:rs type="execution" ana="http://vocab.getty.edu/page/aat/300404794">engraved</tei:rs>
+                                    <tei:rs type="opistography">no</tei:rs>
+                                    <tei:note type="layoutNotes">the text is engraved not centered on the front wall of the altar</tei:note>
+                                </tei:layout>
+                            </tei:layoutDesc>
+                        </tei:objectDesc>
+                        <tei:handDesc>                            
+                            <tei:handNote>
+                                <tei:dimensions type="characterDimension" unit="cm" precision="medium" atLeast="2" atMost="2.3" resp="#La_Regina1976"> 
+                                    <tei:height>2 to 2,3</tei:height>
+                                </tei:dimensions>
+                            </tei:handNote>
+                        </tei:handDesc>                                      
+                        <tei:scriptDesc>
+                            <tei:scriptNote>
+                                <tei:rs type="writingSystem" subtype="alphabet" ref="https://www.prin-italia-antica.unifi.it/p166.html#oscan-etruscan">Oscan National alphabet</tei:rs>
+                                <tei:rs type="wordDivision">punctuation</tei:rs>
+                            </tei:scriptNote>
+                        </tei:scriptDesc>
+                    </tei:physDesc>
+                    <tei:history>
+                        <tei:origin> 
+                            <tei:origPlace type="composed">
+                                <tei:placeName type="ancient" ref="https://pleiades.stoa.org/places/433078">Samnium</tei:placeName>
+                                <tei:placeName type="modern" ref="https://sws.geonames.org/3170820">Pietrabbondante (IS)</tei:placeName>
+                            </tei:origPlace>
+                            <tei:origDate notBefore-custom="-0199" notAfter-custom="-0100" cert="medium">2nd century BC</tei:origDate>
+                        </tei:origin>
+                            <tei:provenance type="found" subtype="discovered" when="1975">
+                                <tei:placeName type="ancient" ref="https://pleiades.stoa.org/places/433078">Samnium</tei:placeName>
+                            <tei:placeName type="modern" ref="https://sws.geonames.org/3170820">Pietrabbondante (IS)</tei:placeName>
+                                <tei:placeName type="detailed" resp="#La_Regina1976">found by chance in loc. Colle Vernone, at km. 3,5 NE from the theater</tei:placeName>
+                            </tei:provenance>
+                        <tei:provenance type="observed" when="2021" resp="Mariarosaria Zinzi">
+                            <tei:persName>Mariarosaria Zinzi</tei:persName>
+                        </tei:provenance>
+                        <tei:provenance type="observed" when="2022" resp="Francesca Murano">
+                            <tei:persName>Francesca Murano</tei:persName>
+                        </tei:provenance>
+                        <tei:provenance type="observed" subtype="autopsied" when="2003" resp="#ImIt2011">
+                            <tei:persName>M.H. Crawford</tei:persName>
+                        </tei:provenance>
+                        <tei:provenance type="observed" subtype="autopsied" notAfter="1976" resp="#La_Regina1976">
+                            <tei:persName>Adriano La Regina</tei:persName>
+                        </tei:provenance>
+                    </tei:history>                       
+                </tei:msDesc>   
+            </tei:sourceDesc> 
+        </tei:fileDesc>
+        <tei:encodingDesc>
+            <tei:p source="https://epidoc.stoa.org/gl/latest/">Marked-up according to the EpiDoc Guidelines</tei:p>
+        </tei:encodingDesc>
+        <tei:profileDesc>
+            <tei:langUsage>
+                <tei:language ident="osc" source="https://iso639-3.sil.org/code/osc">Oscan</tei:language>
+                <tei:language ident="osc-Ital-x-oscetr" source="https://www.prin-italia-antica.unifi.it/p166.html#oscan-etruscan" ana="https://unicode.org/iso15924/iso15924-codes.html">Oscan in National alphabet (Oscan-Etruscan alphabet)</tei:language>
+            </tei:langUsage>
+            <tei:textClass>
+                <tei:keywords scheme="https://www.eagle-network.eu/resources/vocabularies/typeins/">
+                    <tei:term ref="https://www.eagle-network.eu/voc/typeins/lod/86">building inscription</tei:term>
+                    <tei:term ref="https://www.eagle-network.eu/voc/typeins/lod/88">dedicatory inscription</tei:term>
+                    <tei:term ref="https://www.eagle-network.eu/voc/typeins/lod/83">votive inscription</tei:term>
+                </tei:keywords>
+            </tei:textClass>
+        </tei:profileDesc>
+    </tei:teiHeader>
+    <tei:facsimile>
+        <tei:graphic n="1" url="http://linsto.dipartimentidieccellenza-dilef.unifi.it/itant/img/ItAnt_Oscan_10.jpg" resp="Francesca Murano">
+            <tei:desc>Inscription ItAnt Oscan 10 (drawing by <tei:persName>Francesca Murano</tei:persName>)
+                <tei:ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">This file is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International license – (CC BY-NC-SA 4.0).</tei:ref>
+            </tei:desc>
+        </tei:graphic>
+        <tei:graphic n="2" url="https://www.studietruschi.org/wp-content/uploads/2021/06/SE44_13.pdf#page=64">
+            <tei:desc>Inscription ItAnt Oscan 10 (photograph from <tei:ref target="http://zotero.org/groups/2552746/items/JU8HE8KF"><tei:bibl>La Regina 1976</tei:bibl></tei:ref>, pl. LVII)
+                <tei:ref ana="https://www.studietruschi.org">This file is provided by the Istituto Nazionale di Studi Etruschi ed Italici</tei:ref>
+            </tei:desc>
+        </tei:graphic>
+    </tei:facsimile>
+    <tei:text>
+        <tei:body>             
+            <tei:div type="edition" subtype="interpretative" xml:space="preserve">
+                <tei:div type="textpart" n="face_a" style="text-direction:r-to-l" rend="ductus:sinistrorse">
+                    <tei:ab>   
+                        <tei:lb n="1" xml:id="Osc_10_l_1"/>
+                        <!-- Leida;...;[-?-] -->
+                            <tei:name type="praenomen" xml:lang="osc-Ital-x-oscetr" ref="#p1"><tei:gap reason="lost" extent="unknown" unit="character"/></tei:name>
+                            <!-- Leida;Osc_10_l_1_w_1;[-?-]+iis -->
+                            <tei:name type="gentilicium" xml:lang="osc-Ital-x-oscetr" xml:id="Osc_10_l_1_w_1" ref="#p1"><tei:gap reason="lost" extent="unknown" unit="character"/><tei:gap reason="illegible" quantity="1" unit="character"/>iis</tei:name>
+                            <tei:pc unit="word">.</tei:pc>
+                            <!-- Leida;Osc_10_l_1_w_2;h(eíre)n(neís) -->                  
+                            <tei:name type="patronymic" xml:id="Osc_10_l_1_w_2" xml:lang="osc-Ital-x-oscetr" ref="#p1"><tei:expan><tei:abbr>h</tei:abbr><tei:ex>eíre</tei:ex><tei:abbr>n</tei:abbr><tei:ex>neís</tei:ex></tei:expan></tei:name>
+                            <tei:pc unit="word">.</tei:pc>
+                            <!-- Leida;Osc_10_l_1_w_3;m(eddís) -->
+                            <tei:w xml:lang="osc-Ital-x-oscetr" xml:id="Osc_10_l_1_w_3"><tei:expan><tei:abbr>m</tei:abbr><tei:ex>eddís</tei:ex></tei:expan></tei:w>
+                            <tei:pc unit="word">.</tei:pc>
+                            <!-- Leida;Osc_10_l_1_w_4;t(úvtíks) -->
+                            <tei:w xml:lang="osc-Ital-x-oscetr" xml:id="Osc_10_l_1_w_4"><tei:expan><tei:abbr>t</tei:abbr><tei:ex>úvtíks</tei:ex></tei:expan></tei:w>
+                            <tei:pc unit="word">.</tei:pc>
+                            <!-- Leida;Osc_10_l_1_w_5;pukele[ís -->
+                            <tei:w type="theonym" xml:lang="osc-Ital-x-oscetr" xml:id="Osc_10_l_1_w_5">pukele<tei:supplied reason="lost">ís</tei:supplied></tei:w>
+                            <tei:pc unit="word">.</tei:pc>
+                            <!-- Leida;Osc_10_l_1_w_6;[c.4-5]í -->
+                            <tei:w xml:lang="osc-Ital-x-oscetr" xml:id="Osc_10_l_1_w_6"><tei:gap reason="lost" atLeast="4" atMost="5" unit="character"/><tei:unclear>e</tei:unclear>í</tei:w>
+                            <tei:pc unit="word">.</tei:pc>
+                            <!-- Leida;Osc_10_l_1_w_7;aasass -->
+                            <tei:w xml:lang="osc-Ital-x-oscetr" xml:id="Osc_10_l_1_w_7">aasass</tei:w>
+                            <tei:pc unit="word">.</tei:pc>
+                            <!-- Leida;Osc_10_l_1_w_8;aamanafed -->
+                            <tei:w xml:lang="osc-Ital-x-oscetr" xml:id="Osc_10_l_1_w_8">aamanafed</tei:w>
+                            <tei:space unit="character"/>
+                         <tei:lb n="2" xml:id="Osc_10_l_2"/>
+                            <tei:space unit="character"/>
+                            <!-- Leida;Osc_10_l_2_w_1;[s]enateís -->
+                            <tei:w xml:lang="osc-Ital-x-oscetr" xml:id="Osc_10_l_2_w_1"><tei:supplied reason="lost">s</tei:supplied>enateís</tei:w>
+                            <tei:del rend="erasure">u</tei:del>
+                            <!-- Leida;Osc_10_l_2_w_2;tanginúd -->
+                            <tei:w xml:lang="osc-Ital-x-oscetr" xml:id="Osc_10_l_2_w_2">tanginúd</tei:w>
+                            <tei:pc unit="word">.</tei:pc>
+                            <!-- Leida;Osc_10_l_2_w_3;esídum -->
+                            <tei:w xml:lang="osc-Ital-x-oscetr" xml:id="Osc_10_l_2_w_3">esídum</tei:w>
+                            <tei:pc unit="word">.</tei:pc>
+                            <!-- Leida;Osc_10_l_2_w_4;prúfated -->
+                            <tei:w xml:lang="osc-Ital-x-oscetr" xml:id="Osc_10_l_2_w_4">prúfated</tei:w>
+                    </tei:ab>
+                </tei:div>
+            </tei:div>
+            <tei:div type="translation" xml:lang="ita">
+                <tei:p> ]ius figlio di Erennio, meddix tuticus, nel (?) [-?-] del figlio (di Giove) ordinò gli altari su delibera dell'assemblea del senato, lo stesso approvò </tei:p>
+                <tei:desc>
+                    <tei:persName>Mariarosaria Zinzi</tei:persName>
+                    <tei:ref type="licence" target="https://creativecommons.org/licenses/by-nc-sa/4.0/">This file is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International license – (CC BY-NC-SA 4.0).</tei:ref>
+                </tei:desc> 
+            </tei:div>
+            <tei:div type="translation" xml:lang="eng">
+                <tei:p> ]ius son of Herennius, meddix tuticus, in (?) the [...] of the son (of Zeus) had the altars done by decree of the senate, the same person passed them as completed </tei:p>
+                <tei:desc>
+                    <tei:persName>Mariarosaria Zinzi</tei:persName>
+                    <tei:ref type="licence" target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </tei:ref>
+                </tei:desc> 
+            </tei:div>
+            <tei:div type="apparatus"/>            
+            <tei:div type="commentary" xml:lang="eng" resp="Francesca Murano">
+                <tei:note target="#Osc_10_l_1">
+                    <tei:p>In the name of the magistrate, only the patronymic remains in its entirety (<tei:rs xml:lang="osc-Ital-x-oscetr" corresp="Osc_10_l_1_w_2">h(eíre)n(neís)</tei:rs>); praenomen and gentilicium have been lost in the gap at the beginning of the line. <tei:ref target="http://zotero.org/groups/2552746/items/JU8HE8KF"><tei:bibl>La Regina 1976</tei:bibl></tei:ref> proposes as a gentilicium <tei:rs xml:lang="osc-Ital-x-oscetr">staiis</tei:rs>, name documented among the meddices tutici and particularly attested in Pietrabondante. Alternatively La Regina proposes <tei:rs xml:lang="osc-Ital-x-oscetr">paapiis</tei:rs>.</tei:p>
+                </tei:note>
+                <tei:note target="#Osc_10_l_1_w_7">
+                    <tei:p>The editors of the text assume that the gap in the central part of l.1 should be filled with the indication of a deity involved in the cult. The presence of <tei:rs xml:lang="osc-Ital-x-oscetr" corresp="Osc_10_l_1_w_5">pukele[</tei:rs> 'son' is an indication of the cult of the Dioscuri. The word is as a calque corresponding to the Grk. <tei:rs type="w" xml:lang="grc-Grek" ref="https://logeion.uchicago.edu/%CE%BA%CE%BF%E1%BF%A6%CF%81%CE%BF%CF%82">κοῦρος</tei:rs> (see <tei:ref target="https://logeion.uchicago.edu/%CE%BA%CE%BF%E1%BF%A6%CF%81%CE%BF%CF%82">Logeion</tei:ref>) as part of the theonym.</tei:p>
+                    <tei:p>The morpho-phonology of the word indicates that it is a singular form (see <tei:ref target="http://zotero.org/groups/2552746/items/GQQ2RLNI"><tei:bibl>Prosdocimi 1976</tei:bibl></tei:ref>): as often in ancient Italy only one of the Dioscuri appears, presumably Castor (see <tei:ref target="http://zotero.org/groups/2552746/items/JWWG6XJD"><tei:bibl>Marchese 2005</tei:bibl></tei:ref> and <tei:ref target="http://zotero.org/groups/2552746/items/HI5PZU97"><tei:bibl>Prosdocimi 1976</tei:bibl></tei:ref>).</tei:p>
+                    <tei:p>From a linguistic point of view, <tei:rs xml:lang="osc-Ital-x-oscetr" corresp="Osc_10_l_1_w_5">pukele[</tei:rs> can be morphologically supplied as a dat. sg., <tei:rs xml:lang="osc-Ital-x-oscetr" corresp="Osc_10_l_1_w_5">pukele[í</tei:rs>, or as a gen. sg., <tei:rs xml:lang="osc-Ital-x-oscetr" corresp="Osc_10_l_1_w_5">pukele[ís</tei:rs>. The genitive contrasts with the morphology of the following word in the gap, as an indication of a coordinated deity (Jupiter).</tei:p>
+                    <tei:p>For this reason, <tei:ref target="http://zotero.org/groups/2552746/items/GQQ2RLNI"><tei:bibl>Prosdocimi 1976</tei:bibl></tei:ref> proposes <tei:rs xml:lang="osc-Ital-x-oscetr" corresp="Osc_10_l_1_w_5">pukele[ís</tei:rs> followed by a dative of destination or a locative, e.g. <tei:rs xml:lang="osc-Ital-x-oscetr">pukele[ís lúvke]í</tei:rs> 'in the grove of the son [kouros]'.</tei:p>
+                    <tei:p>An interpretation as a dative, <tei:rs xml:lang="osc-Ital-x-oscetr" corresp="Osc_10_l_1_w_5">pukele[í</tei:rs>, would involve a non-impossible metaplasm attracted to the following <tei:rs xml:lang="osc-Ital-x-oscetr" corresp="Osc_10_l_1_w_6">[diúve]í</tei:rs> and favored by the neutralization of the opposition between the -i- and -o- themes in the genitive (see <tei:ref target="http://zotero.org/groups/2552746/items/GQQ2RLNI"><tei:bibl>Prosdocimi 1976</tei:bibl></tei:ref>: 288).</tei:p>
+                    <tei:p>A locative is also suggested by <tei:ref target="http://zotero.org/groups/2552746/items/637UPMKU"><tei:bibl>Lejeune 1976</tei:bibl></tei:ref>. Considering that the plural reference of <tei:rs xml:lang="osc-Ital-x-oscetr" corresp="Osc_10_l_1_w_7">aasass</tei:rs> should suggest the presence of plural divinities, Lejeune proposes to supply the gap with <tei:rs xml:lang="osc-Ital-x-oscetr" corresp="#Osc_10_l_1_w_6">lúvke]í</tei:rs> or <tei:rs xml:lang="osc-Ital-x-oscetr" corresp="#Osc_10_l_1_w_6">húrte]í</tei:rs> 'in the enclosure of the son [kouros]'.</tei:p>
+                    <tei:p><tei:ref target="http://zotero.org/groups/2552746/items/GQQ2RLNI"><tei:bibl>Prosdocimi 1976</tei:bibl></tei:ref>'s and <tei:ref target="http://zotero.org/groups/2552746/items/637UPMKU"><tei:bibl>Lejeune 1976</tei:bibl></tei:ref>'s interpretations are supported by the autoptic reading provided by <tei:ref target="http://zotero.org/groups/2552746/items/IKUTPHDC"><tei:bibl>Crawford, ImIt</tei:bibl></tei:ref>. Investigating the photographs, this reading seems to be more correct than the previous ones.</tei:p>
+                    <tei:p><tei:ref target="http://zotero.org/groups/2552746/items/JU8HE8KF"><tei:bibl>La Regina 1976</tei:bibl></tei:ref>, reading only <tei:rs xml:lang="osc-Ital-x-oscetr" corresp="Osc_10_l_1_w_6">]í</tei:rs> at the end of the gap, had assumed that the gap contained a single word, <tei:rs xml:lang="osc-Ital-x-oscetr" corresp="Osc_10_l_1_w_5">pukele[-5/6-]i</tei:rs>, dat. sg. of the name of the deity to which the altars (<tei:rs xml:lang="osc-Ital-x-oscetr" corresp="Osc_10_l_1_w_7">aasass</tei:rs>) are dedicated. La Regina had proposed a goddess whose name had a meaning comparable with the Grk. <tei:rs type="w" xml:lang="grc-Grek" ref="https://logeion.uchicago.edu/%CE%BA%CE%BF%CF%85%CF%81%CE%BF%CF%84%CF%81%CF%8C%CF%86%CE%BF%CF%82">κουροτρόφος</tei:rs> (see <tei:ref target="κουροτρόφος">Logeion</tei:ref>), or sim.</tei:p>
+                    <tei:p><tei:ref target="http://zotero.org/groups/2552746/items/IMWMSAVE"><tei:bibl>Rix, ST</tei:bibl></tei:ref> on the basis of <tei:ref target="http://zotero.org/groups/2552746/items/JU8HE8KF"><tei:bibl>La Regina 1976</tei:bibl></tei:ref>'s reading, had suggested to supply <tei:rs xml:lang="osc-Ital-x-oscetr">pukele[í iúviú]í</tei:rs> 'to the Jovian son'. The interpretation seems to be not supported by the new reading. Furthermore, from a linguistic point of view, the syntagm <tei:rs xml:lang="osc-Ital-x-oscetr">pukele[í iúviú]í</tei:rs> would have an unaspected syntactic inversion between noun and adjective.</tei:p>       
+                </tei:note>
+                <tei:listPerson type="Onomastics">
+                    <tei:person xml:id="p1" xml:lang="osc-Ital-x-oscetr">
+                        <tei:persName>
+                            <tei:name type="praenomen">[-?-]</tei:name>
+                            <tei:name type="gentilicium">[-?-]+iis</tei:name>
+                            <tei:name type="patronymic">h(eíre)nn(eís)</tei:name>
+                        </tei:persName>
+                    </tei:person>
+                </tei:listPerson>
+            </tei:div>
+            <tei:div type="bibliography">
+                <tei:listBibl xmlns="http://www.tei-c.org/ns/1.0">
+                    <tei:biblStruct type="book" xml:id="ImIt2011"  corresp="http://zotero.org/groups/2552746/items/IKUTPHDC">
+                        <tei:monogr>
+                            <tei:title level="m">Imagines Italicae: A Corpus of Italic Inscriptions</tei:title>
+                            <tei:editor>
+                                <tei:forename>Michael</tei:forename>
+                                <tei:surname>Crawford</tei:surname>
+                            </tei:editor>
+                            <tei:imprint>
+                                <tei:pubPlace>London</tei:pubPlace>
+                                <tei:publisher>Institute of Classical Studies, University of London</tei:publisher>
+                                <tei:date>2011</tei:date>
+                            </tei:imprint>
+                        </tei:monogr>
+                        <tei:citedRange unit="entry">Teruentum 33 (with photograph)</tei:citedRange>
+                    </tei:biblStruct>
+                    <tei:biblStruct type="book" xml:id="Rix2002"  corresp="http://zotero.org/groups/2552746/items/IMWMSAVE">
+                        <tei:monogr>
+                            <tei:title level="m">Sabellische Texte. Die Texte des Oskischen, Umbrischen und Südpikenischen</tei:title>
+                            <tei:author>
+                                <tei:forename>Helmut</tei:forename>
+                                <tei:surname>Rix</tei:surname>
+                            </tei:author>
+                            <tei:imprint>
+                                <tei:pubPlace>Heidelberg</tei:pubPlace>
+                                <tei:publisher>C. Winter</tei:publisher>
+                                <tei:date>2002</tei:date>
+                            </tei:imprint>
+                        </tei:monogr>
+                        <tei:citedRange unit="entry">Sa 9</tei:citedRange>
+                    </tei:biblStruct>
+                    <tei:biblStruct type="journalArticle" xml:id="Untermann1979" corresp="http://zotero.org/groups/2552746/items/XVN3FAI7">
+                        <tei:analytic>
+                            <tei:title level="a">Literaturbericht Italische Sprachen I</tei:title>
+                            <tei:author>
+                                <tei:forename>Jürgen</tei:forename>
+                                <tei:surname>Untermann</tei:surname>
+                            </tei:author>
+                        </tei:analytic>
+                        <tei:monogr>
+                            <tei:title level="j">Glotta</tei:title>
+                            <tei:imprint>
+                                <tei:biblScope unit="volume">57</tei:biblScope>
+                                <tei:biblScope unit="page">293-324</tei:biblScope>
+                                <tei:date>1979</tei:date>
+                            </tei:imprint>
+                        </tei:monogr>
+                        <tei:citedRange unit="page">306-307</tei:citedRange>
+                    </tei:biblStruct>
+                    <tei:biblStruct type="book" xml:id="Poccetti1979" corresp="http://zotero.org/groups/2552746/items/JFW9XW6P">
+                        <tei:monogr>
+                            <tei:title level="m">Nuovi documenti italici a complemento del Manuale di E. Vetter</tei:title>
+                            <tei:author>
+                                <tei:forename>Paolo</tei:forename>
+                                <tei:surname>Poccetti</tei:surname>
+                            </tei:author>
+                            <tei:imprint>
+                                <tei:pubPlace>Pisa</tei:pubPlace>
+                                <tei:publisher>Giardini Editore</tei:publisher>
+                                <tei:date>1979</tei:date>
+                            </tei:imprint>
+                        </tei:monogr>
+                        <tei:citedRange unit="entry">20</tei:citedRange>
+                    </tei:biblStruct>
+                    <tei:biblStruct type="journalArticle" xml:id="Lejeune1976" corresp="http://zotero.org/groups/2552746/items/637UPMKU">
+                        <tei:analytic>
+                            <tei:title level="a">[Sulle due nuove iscrizioni da Pietrabbondante]</tei:title>
+                            <tei:author>
+                                <tei:forename>Michel</tei:forename>
+                                <tei:surname>Lejeune</tei:surname>
+                            </tei:author>
+                        </tei:analytic>
+                        <tei:monogr>
+                            <tei:title level="j">Studi Etruschi</tei:title>
+                            <tei:imprint>
+                                <tei:biblScope unit="volume">44</tei:biblScope>
+                                <tei:biblScope unit="page">289-290</tei:biblScope>
+                                <tei:date>1976</tei:date>
+                            </tei:imprint>
+                        </tei:monogr>
+                        <tei:citedRange unit="page">289-290</tei:citedRange>
+                    </tei:biblStruct>
+                    <tei:biblStruct type="journalArticle" xml:id="Prosdocimi1976" corresp="http://zotero.org/groups/2552746/items/GQQ2RLNI">
+                        <tei:analytic>
+                            <tei:title level="a">Sulle due nuove iscrizioni da Pietrabbondante</tei:title>
+                            <tei:author>
+                                <tei:forename>Aldo Luigi</tei:forename>
+                                <tei:surname>Prosdocimi</tei:surname>
+                            </tei:author>
+                        </tei:analytic>
+                        <tei:monogr>
+                            <tei:title level="j">Studi Etruschi</tei:title>
+                            <tei:imprint>
+                                <tei:biblScope unit="volume">44</tei:biblScope>
+                                <tei:biblScope unit="page">288-289</tei:biblScope>
+                                <tei:date>1976</tei:date>
+                            </tei:imprint>
+                        </tei:monogr>
+                    </tei:biblStruct>
+                    <tei:biblStruct type="journalArticle" xml:id="La_Regina1976" corresp="http://zotero.org/groups/2552746/items/JU8HE8KF">
+                        <tei:analytic>
+                            <tei:title level="a">Sannio. Pietrabbondante</tei:title>
+                            <tei:author>
+                                <tei:forename>Adriano</tei:forename>
+                                <tei:surname>La Regina</tei:surname>
+                            </tei:author>
+                        </tei:analytic>
+                        <tei:monogr>
+                            <tei:title level="j">Studi Etruschi</tei:title>
+                            <tei:imprint>
+                                <tei:biblScope unit="volume">44</tei:biblScope>
+                                <tei:biblScope unit="page">283-291</tei:biblScope>
+                                <tei:date>1976</tei:date>
+                            </tei:imprint>
+                        </tei:monogr>
+                        <tei:citedRange unit="page">283-284, no. 1 (with pls. LVII, a-c, LVIII, a-b)</tei:citedRange>
+                    </tei:biblStruct>
+                </tei:listBibl>    
+            </tei:div>   
+        </tei:body>
+    </tei:text>
+</tei:TEI>

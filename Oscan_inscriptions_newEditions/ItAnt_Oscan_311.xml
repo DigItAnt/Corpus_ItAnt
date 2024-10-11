@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/9.4/tei-epidoc.rng"
+schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/9.4/tei-epidoc.rng"
+schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<tei:TEI xmlns:dcr="http://www.isocat.org/ns/dcr" xml:id="ItAnt_Oscan_311"
+    xmlns:tei="http://www.tei-c.org/ns/1.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <tei:teiHeader>
+        <tei:fileDesc>
+            <tei:titleStmt>
+                <tei:title type="ItAnt_ID">Inscription ItAnt Oscan 311</tei:title>
+            </tei:titleStmt>
+            <tei:editionStmt>
+                <tei:edition>
+                    <tei:idno>ItAnt Oscan 311</tei:idno>
+                </tei:edition>
+                <tei:editor>
+                    <tei:persName>Francesca Murano</tei:persName>
+                </tei:editor>
+            </tei:editionStmt>         
+            <tei:publicationStmt>
+                <tei:authority>PRIN 2017 "Lingue e culture dell'Italia antica: linguistica storica e modelli digitali | Languages and Cultures of Ancient Italy. Historical Linguistics and Digital Models"</tei:authority>
+                <tei:date>2022</tei:date>
+                <tei:idno type="URI" subtype="handle"></tei:idno>
+                <tei:availability>
+                    <tei:licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">This file is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International license – (CC BY-NC-SA 4.0).  
+                    </tei:licence>
+                </tei:availability>
+            </tei:publicationStmt>   
+            <tei:sourceDesc>
+                <tei:msDesc>
+                    <tei:msIdentifier>
+                        <tei:settlement/>
+                        <tei:institution/>
+                        <tei:idno type="museumID"/>
+                        <tei:msName/>
+                        <tei:altIdentifier type="trismegistos">
+                            <tei:idno source="www.trismegistos.org/text/170644">TM 170644</tei:idno>
+                        </tei:altIdentifier> 
+                        <tei:altIdentifier type="traditionalID">
+                            <tei:idno source="http://zotero.org/groups/2552746/items/IMWMSAVE">ST Hi 10</tei:idno>
+                        </tei:altIdentifier> 
+                        <tei:altIdentifier type="traditionalID">
+                            <tei:idno source="http://zotero.org/groups/2552746/items/IKUTPHDC">ImIt Abellinum 3</tei:idno>
+                        </tei:altIdentifier>
+                    </tei:msIdentifier> 
+                    <tei:msContents>
+                        <tei:summary>Loom weight from Ampsanctus</tei:summary>
+                    </tei:msContents>
+                    <tei:physDesc>
+                        <tei:objectDesc>     
+                            <tei:supportDesc>
+                                <tei:support>
+                                    <tei:objectType ana="http://vocab.getty.edu/page/aat/300248042">loom weight
+                                        <tei:note>with a hole in the narrowest part</tei:note>
+                                    </tei:objectType>                                     
+                                    <tei:rs ana="objectShape">trapezoidal</tei:rs>  
+                                    <tei:note/>
+                                    <tei:material ana="http://vocab.getty.edu/page/aat/300010669">pottery
+                                    </tei:material>
+                                    <tei:dimensions type="objectDimensions" unit="cm" precision="high"/>
+                                    <tei:rs type="reuse">no</tei:rs>
+                                </tei:support>
+                                <tei:condition>lost inscription</tei:condition>   
+                            </tei:supportDesc>
+                            <tei:layoutDesc>
+                                <tei:layout columns="1" writtenLines="1">
+                                    <tei:rs type="execution" ana="http://vocab.getty.edu/page/aat/300379457">scratched (before firing)
+                                    </tei:rs>
+                                    <tei:rs type="opistography">no</tei:rs>
+                                    <tei:note type="layoutNotes">the letters are incised downwards, lengthwise on one of the larger faces of the artefact</tei:note>
+                                    <tei:dimensions type="lineDimension" unit="cm" precision="high"/> 
+                                </tei:layout>
+                            </tei:layoutDesc>
+                        </tei:objectDesc>
+                        <tei:handDesc>                            
+                            <tei:handNote>
+                                <tei:note type="palaeographicNotes" resp="#Antonini1981">litterae lunatae</tei:note>
+                                <tei:dimensions type="characterDimension" unit="cm" precision="high"/>
+                            </tei:handNote>
+                        </tei:handDesc>                                      
+                        <tei:scriptDesc>
+                            <tei:scriptNote>
+                                <tei:rs type="writingSystem" subtype="alphabet" ref="https://www.prin-italia-antica.unifi.it/p166.html#oscan-etruscan">Oscan National alphabet</tei:rs>
+                                <tei:rs type="wordDivision"/>
+                            </tei:scriptNote>
+                        </tei:scriptDesc>
+                        <tei:decoDesc>
+                            <tei:decoNote/>   
+                        </tei:decoDesc>
+                    </tei:physDesc>
+                    <tei:history>
+                        <tei:origin> 
+                            <tei:origPlace type="composed">
+                                <tei:placeName type="ancient" ref="http://dx.doi.org/10.1163/1574-9347_bnp_e119120">Ampsanctus, Hirpinia</tei:placeName>
+                                <tei:placeName type="modern" ref="https://sws.geonames.org/8956730">S. Felicita, Valle d'Ansanto (AV)</tei:placeName>
+                            </tei:origPlace>
+                            <tei:origDate notBefore-custom="-0150" notAfter-custom="-0100" cert="medium">second half 2nd century BC</tei:origDate>
+                        </tei:origin>
+                        <tei:provenance type="found" subtype="discovered" when="1957" resp="Antonini1981">
+                            <tei:placeName type="ancient" ref="http://dx.doi.org/10.1163/1574-9347_bnp_e119120">Ampsanctus, Hirpinia</tei:placeName>
+                            <tei:placeName type="modern" ref="https://sws.geonames.org/8956730">S. Felicita, Valle d'Ansanto (AV)</tei:placeName>
+                            <tei:placeName type="detailed">Found in the area of the sanctuary of Mefitis, on the floor of a burnt house located along the road that leads to the church of S. Felicita. The loom weight was found along with a stone vase, whose identification has long been debated. According to <tei:ref target="http://zotero.org/groups/2552746/items/8SIN8PCQ"><tei:bibl>Gambino 1991</tei:bibl></tei:ref>, the vase would have carried an Oscan dedication on its base. Finally, <tei:ref target="http://zotero.org/groups/2552746/items/NULLZ5AT"><tei:bibl>Antonini 2010</tei:bibl></tei:ref> identifies the vase with an anepigraphic mortar (or melting pot) kept in Santa Felicita.</tei:placeName>
+                        </tei:provenance>
+                        <tei:provenance type="observed" subtype="photographed" notBefore="1960" notAfter="1961" resp="#Antonini1981"/>
+                        <tei:provenance type="observed" subtype="seen" when="1980" resp="#Antonini1981">
+                            <tei:persName>Rosalba Antonini</tei:persName>
+                        </tei:provenance>
+                        <tei:provenance type="observed" subtype="seen" when="2022">
+                            <tei:persName>Francesca Murano</tei:persName>
+                        </tei:provenance>
+                    </tei:history>                       
+                </tei:msDesc>   
+            </tei:sourceDesc> 
+        </tei:fileDesc>
+        <tei:encodingDesc>
+            <tei:p source="https://epidoc.stoa.org/gl/latest/">Marked-up according to the EpiDoc Guidelines</tei:p>
+        </tei:encodingDesc>
+        <tei:profileDesc>
+            <tei:langUsage>
+                <tei:language ident="osc" source="https://iso639-3.sil.org/code/osc">Oscan</tei:language>
+                <tei:language ident="osc-Ital-x-oscetr" source="https://www.prin-italia-antica.unifi.it/p166.html#oscan-etruscan" ana="https://unicode.org/iso15924/iso15924-codes.html">Oscan in National alphabet (Oscan-Etruscan alphabet)</tei:language>
+            </tei:langUsage>
+            <tei:textClass>
+                <tei:keywords scheme="https://www.eagle-network.eu/resources/vocabularies/typeins/">
+                    <tei:term>inscription on loom weight</tei:term>
+                </tei:keywords>
+            </tei:textClass>
+        </tei:profileDesc>
+    </tei:teiHeader>
+    <tei:facsimile>
+        <tei:graphic n="1" url="http://linsto.dipartimentidieccellenza-dilef.unifi.it/itant/img/ItAnt_Oscan_311.jpg" resp="Francesca Murano">
+            <tei:desc>Inscription ItAnt Oscan 311 (drawing by <tei:persName>Francesca Murano</tei:persName>)
+                <tei:ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">This file is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International license – (CC BY-NC-SA 4.0).</tei:ref>
+            </tei:desc>
+        </tei:graphic>
+        <tei:graphic n="2" url="https://www.studietruschi.org/wp-content/uploads/2021/07/SE49_16.pdf#page=99">
+            <tei:desc>Photograph of the inscription ItAnt Oscan 311 (from <tei:ref target="http://zotero.org/groups/2552746/items/LRFXVEPR"><tei:bibl>Antonini 1981, pl. LIII, a</tei:bibl></tei:ref>)
+                <tei:ref ana="https://www.studietruschi.org">This file is provided by the Istituto Nazionale di Studi Etruschi ed Italici</tei:ref>
+            </tei:desc>
+        </tei:graphic>
+    </tei:facsimile>
+    <tei:text>
+        <tei:body>             
+            <tei:div type="edition" subtype="interpretative" xml:space="preserve">
+                <tei:div type="textpart" n="face_a" style="text-direction:r-to-l" rend="ductus:sinistrorse">
+                    <tei:ab>   
+                        <tei:lb n="1" xml:id="Osc_311_l_1"/>
+                            <!-- Leida;Osc_311_l_1_w_1;gavis -->
+                            <tei:name type="praenomen" xml:lang="osc-Ital-x-oscetr" xml:id="Osc_311_l_1_w_1" ref="p1">gavis</tei:name>
+                    </tei:ab>
+                </tei:div>
+            </tei:div>
+            <tei:div type="translation" xml:lang="ita">
+                <tei:p>Gaius</tei:p>
+                <tei:desc>
+                    <tei:persName>Francesca Murano</tei:persName>
+                    <tei:ref type="licence" target="https://creativecommons.org/licenses/by-nc-sa/4.0/">This file is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International license – (CC BY-NC-SA 4.0).</tei:ref>
+                </tei:desc> 
+            </tei:div>
+            <tei:div type="translation" xml:lang="eng">
+                <tei:p>Gaius</tei:p>
+                <tei:desc>
+                    <tei:persName>Francesca Murano</tei:persName>
+                    <tei:ref type="licence" target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </tei:ref>
+                </tei:desc> 
+            </tei:div>            
+            <tei:div type="apparatus" xml:lang="eng" resp="Francesca Murano"/>
+            <tei:div type="commentary" xml:lang="eng" resp="Francesca Murano">
+                <tei:note>
+                    <tei:p>The inscription was found by G.O. Onorato at the beginning of the 1960s and already lost at the time of the publication of <tei:ref target="http://zotero.org/groups/2552746/items/LRFXVEPR"><tei:bibl>Antonini 1981</tei:bibl></tei:ref>.
+                    </tei:p>
+                    <tei:p>The reading provided by R. Antonini is based on photographs, reproducing the object in full size, kept in the Archive of the Soprintendenza archeologica in Naples. The photographs (negative no. 1446-A) are part of the archive of G.O. Onorato (on which, see <tei:ref target="http://zotero.org/groups/2552746/items/6EVSFNZI"><tei:bibl>Esposito 2009</tei:bibl></tei:ref>).</tei:p>     
+                </tei:note>
+                <tei:listPerson type="Onomastics">
+                    <tei:person xml:id="p1" xml:lang="osc-Ital-x-oscetr">
+                        <tei:persName>
+                            <tei:name type="praenomen">Gavis</tei:name>
+                        </tei:persName>
+                    </tei:person>
+                </tei:listPerson>
+            </tei:div>
+            <tei:div type="bibliography">
+                <tei:listBibl xmlns="http://www.tei-c.org/ns/1.0">
+                    <tei:biblStruct type="book" xml:id="ImIt2011" corresp="http://zotero.org/groups/2552746/items/IKUTPHDC">
+                        <tei:monogr>
+                            <tei:title level="m">Imagines Italicae: A Corpus of Italic Inscriptions</tei:title>
+                            <tei:editor>
+                                <tei:forename>Michael</tei:forename>
+                                <tei:surname>Crawford</tei:surname>
+                            </tei:editor>
+                            <tei:imprint>
+                                <tei:pubPlace>London</tei:pubPlace>
+                                <tei:publisher>Institute of Classical Studies, University of London</tei:publisher>
+                                <tei:date>2011</tei:date>
+                            </tei:imprint>
+                        </tei:monogr>
+                        <tei:citedRange unit="entry">Abellinum 3</tei:citedRange>
+                    </tei:biblStruct>
+                    <tei:biblStruct type="book" xml:id="Rix2002" corresp="http://zotero.org/groups/2552746/items/IMWMSAVE">
+                        <tei:monogr>
+                            <tei:title level="m">Sabellische Texte. Die Texte des Oskischen, Umbrischen und Südpikenischen</tei:title>
+                            <tei:author>
+                                <tei:forename>Helmut</tei:forename>
+                                <tei:surname>Rix</tei:surname>
+                            </tei:author>
+                            <tei:imprint>
+                                <tei:pubPlace>Heidelberg</tei:pubPlace>
+                                <tei:publisher>C. Winter</tei:publisher>
+                                <tei:date>2002</tei:date>
+                            </tei:imprint>
+                        </tei:monogr>
+                        <tei:citedRange unit="entry">Hi 10</tei:citedRange>
+                    </tei:biblStruct>
+                    <tei:biblStruct type="bookSection" xml:id="Antonini2008" corresp="http://zotero.org/groups/2552746/items/7EIMY56Z">    
+                        <tei:analytic>    
+                            <tei:title level="a">Cronaca di recuperi imperfetti (la documentazione italica della Mefite d'Ansanto)</tei:title>    
+                            <tei:author>    
+                                <tei:forename>Rosalba</tei:forename>    
+                                <tei:surname>Antonini</tei:surname>    
+                            </tei:author>    
+                        </tei:analytic>    
+                        <tei:monogr>    
+                            <tei:title level="m">Il culto della dea Mefite e la Valle d’Ansanto. Primo Convegno di studi su cultura e tradizioni delle popolazioni sannitiche. Ricerche su un giacimento archeologico e culturale dei Samnites Hirpini (Avellino - Villamaina - Rocca San Felice, 18-20 ottobre 2002)</tei:title>    
+                            <tei:editor>    
+                                <tei:forename>Alfonso</tei:forename>    
+                                <tei:surname>Mele</tei:surname>    
+                            </tei:editor>    
+                            <tei:imprint>    
+                                <tei:pubPlace>Avellino</tei:pubPlace>    
+                                <tei:biblScope unit="page">321-335</tei:biblScope>    
+                                <tei:publisher>Sellino Editore</tei:publisher>    
+                                <tei:date>2008</tei:date>    
+                            </tei:imprint>    
+                        </tei:monogr>
+                        <tei:citedRange unit="page">329</tei:citedRange>
+                    </tei:biblStruct>
+                    <tei:biblStruct type="journalArticle" xml:id="Antonini1981" corresp="http://zotero.org/groups/2552746/items/LRFXVEPR">
+                        <tei:analytic>
+                            <tei:title level="a">Italico</tei:title>
+                            <tei:author>
+                                <tei:forename>Rosalba</tei:forename>
+                                <tei:surname>Antonini</tei:surname>
+                            </tei:author>
+                        </tei:analytic>
+                        <tei:monogr>
+                            <tei:title level="j">Studi Etruschi</tei:title>
+                            <tei:imprint>
+                                <tei:biblScope unit="volume">49</tei:biblScope>
+                                <tei:biblScope unit="page">299-351</tei:biblScope>
+                                <tei:date>1981</tei:date>
+                            </tei:imprint>
+                        </tei:monogr>
+                        <tei:citedRange unit="page">305-306, no. 19 (with pl. LIII, a)</tei:citedRange>
+                    </tei:biblStruct>    
+                </tei:listBibl>    
+            </tei:div>   
+        </tei:body>
+    </tei:text>
+</tei:TEI>

@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.stoa.org/epidoc/schema/9.2/tei-epidoc.rng"
+    schematypens="http://relaxng.org/ns/structure/1.0"?> 
+<?xml-model href="https://www.stoa.org/epidoc/schema/9.2/tei-epidoc.rng"
+    schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<tei:TEI xml:id="ItAnt_Oscan_11" xmlns:dcr="http://www.isocat.org/ns/dcr" xmlns:tei="http://www.tei-c.org/ns/1.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <tei:teiHeader>
+        <tei:fileDesc>
+            <tei:titleStmt>
+                <tei:title>Inscription ItAnt Oscan 11</tei:title>
+           </tei:titleStmt>            
+            <tei:editionStmt>
+                <tei:edition>
+                    <tei:idno>ItAnt Oscan 11</tei:idno>
+                </tei:edition>           
+                <tei:editor>
+                    <tei:persName>Francesca Murano</tei:persName>
+                </tei:editor>
+            </tei:editionStmt>
+            <tei:publicationStmt>
+                <tei:authority>PRIN 2017 "Lingue e culture dell'Italia antica: linguistica storica e modelli digitali | Languages and Cultures of Ancient Italy. Historical Linguistics and Digital Models"</tei:authority>
+                <tei:date>2023</tei:date>
+                <tei:idno type="URI" subtype="handle"></tei:idno>
+                <tei:availability>
+                    <tei:licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">This file is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International license – (CC BY-NC-SA 4.0).</tei:licence>
+                </tei:availability>
+            </tei:publicationStmt>
+            <tei:sourceDesc>               
+                <tei:msDesc>
+                    <tei:msIdentifier>
+                        <tei:settlement ref="https://sws.geonames.org/3170820">Pietrabbondante (IS)</tei:settlement>
+                        <tei:institution>in situ</tei:institution>
+                        <tei:idno type="museumID"/>
+                        <tei:msName>The inscription on the podium of Temple B of Pietrabbondante</tei:msName>
+                        <tei:altIdentifier type="trismegistos">
+                            <tei:idno source="www.trismegistos.org/text/170819">TM 170819</tei:idno>
+                        </tei:altIdentifier>
+                        <tei:altIdentifier type="traditionalID">
+                            <tei:idno source="http://zotero.org/groups/2552746/items/IMWMSAVE">ST Sa 13</tei:idno>
+                        </tei:altIdentifier> 
+                        <tei:altIdentifier type="traditionalID">
+                            <tei:idno source="http://zotero.org/groups/2552746/items/IKUTPHDC">ImIt Terventum 12</tei:idno>
+                        </tei:altIdentifier>
+                        <tei:altIdentifier type="traditionalID">
+                            <tei:idno source="http://zotero.org/groups/2552746/items/NJFZRK23">Ve 154</tei:idno>
+                        </tei:altIdentifier>                        
+                    </tei:msIdentifier>
+                    <tei:msContents>
+                        <tei:summary>Building inscription on the podium of Temple B of <tei:ref target="https://www.musei.molise.beniculturali.it/musei?mid=6691&amp;nome=santuario-italico">sanctuary of Pietrabbondante</tei:ref></tei:summary>
+                    </tei:msContents>
+                    <tei:physDesc>
+                        <tei:objectDesc>
+                            <tei:supportDesc>
+                                <tei:support>
+                                    <tei:objectType ana="http://vocab.getty.edu/page/aat/300000976">podium</tei:objectType>
+                                    <!-- inserire MATERIALE      
+                                    v. lista Getty 
+                                    -->
+                                    <tei:material ana="http://vocab.getty.edu/aat/300011286">limestone</tei:material>
+                                    <tei:dimensions type="objectDimensions" unit="cm" precision="medium" resp="#ImIt2011">                                 
+                                        <tei:height quantity="55">55</tei:height>
+                                        <tei:width quantity="350">350</tei:width>
+                                    </tei:dimensions>
+                                    <tei:rs type="reuse">no</tei:rs>
+                                </tei:support>                            
+                                <tei:condition>well-preserved</tei:condition>    
+                            </tei:supportDesc>
+                            <tei:layoutDesc>
+                                <tei:layout columns="1" writtenLines="1">
+                                    <tei:rs type="execution" ana="http://vocab.getty.edu/page/aat/300404794">engraved</tei:rs>
+                                    <tei:rs type="opistography">no</tei:rs>
+                                    <tei:note type="layoutNotes">engraved on four blocks of the podium</tei:note>
+                                    <tei:dimensions type="lineDimension" unit="cm" precision="medium" resp="#ImIt2011">
+                                        <tei:height quantity="6">6</tei:height>
+                                        <tei:width quantity="350">350</tei:width>
+                                    </tei:dimensions>                                   
+                                </tei:layout>
+                            </tei:layoutDesc>
+                        </tei:objectDesc>
+                        <tei:handDesc>
+                            <tei:handNote>
+                                <tei:note type="palaeographicNotes"/>   
+                                   <tei:dimensions type="characterDimension" unit="cm" precision="high"> 
+                                        <tei:height>6</tei:height>
+                                   </tei:dimensions>
+                          </tei:handNote>
+                        </tei:handDesc>
+                        <tei:scriptDesc>   
+                            <tei:scriptNote>
+                                <tei:rs type="writingSystem" subtype="alphabet" ref="https://www.prin-italia-antica.unifi.it/p166.html#oscan-etruscan">Oscan National alphabet</tei:rs>                                                                               
+                                <tei:rs type="wordDivision">punctuation</tei:rs>
+                            </tei:scriptNote>                                                     
+                        </tei:scriptDesc>
+                        <tei:decoDesc>
+                            <tei:decoNote/>
+                        </tei:decoDesc>
+                    </tei:physDesc>
+                    <tei:history>
+                        <tei:origin>
+                            <tei:origPlace type="composed">
+                                <tei:placeName type="ancient" ref="https://pleiades.stoa.org/places/433078">Samnium</tei:placeName>
+                                <tei:placeName type="modern" ref="https://sws.geonames.org/3170820">Pietrabbondante (IS)</tei:placeName>
+                            </tei:origPlace>
+                            <tei:origDate notBefore-custom="-0125" notAfter-custom="-0075" cert="medium" resp="#ImIt2011">late 2nd - early 1st century BC</tei:origDate>
+                        </tei:origin>
+                        <tei:provenance type="found" subtype="discovered">
+                            <tei:placeName type="ancient" ref="https://pleiades.stoa.org/places/433078">Samnium</tei:placeName>
+                            <tei:placeName type="modern" ref="https://sws.geonames.org/3170820">Pietrabbondante (IS)</tei:placeName>
+                            <tei:placeName type="detailed">the inscription is placed on the south side of the podium of Temple B, at the east end</tei:placeName>
+                        </tei:provenance>
+                        <tei:provenance type="observed" subtype="autopsied" when="2013">
+                            <tei:persName>Francesca Murano</tei:persName>
+                        </tei:provenance>
+                        <tei:provenance type="observed" subtype="autopsied" when="2003">
+                            <tei:persName>M.H. Crawford</tei:persName>
+                        </tei:provenance>
+                    </tei:history>
+                </tei:msDesc>
+            </tei:sourceDesc>
+        </tei:fileDesc>
+        <tei:encodingDesc>
+            <tei:p source="https://epidoc.stoa.org/gl/latest/">Marked-up according to the EpiDoc Guidelines</tei:p>
+        </tei:encodingDesc>
+        <tei:profileDesc>
+            <tei:langUsage>
+                <tei:language ident="osc" source="https://iso639-3.sil.org/code/osc">Oscan</tei:language>
+                <tei:language ident="osc-Ital-x-oscetr" source="https://www.prin-italia-antica.unifi.it/p166.html#oscan-etruscan" ana="https://unicode.org/iso15924/iso15924-codes.html">Oscan in National alphabet (Oscan-Etruscan alphabet)</tei:language>
+            </tei:langUsage>
+            <tei:textClass>
+                <tei:keywords scheme="https://www.eagle-network.eu/resources/vocabularies/typeins/">
+                    <tei:term ref="https://www.eagle-network.eu/voc/typeins/lod/86">building inscription</tei:term>
+                    <tei:term ref="https://www.eagle-network.eu/voc/typeins/lod/88">dedicatory inscription</tei:term>
+                </tei:keywords>
+            </tei:textClass>
+        </tei:profileDesc>
+    </tei:teiHeader>
+    <tei:facsimile>
+        <tei:graphic n="1" url="http://linsto.dipartimentidieccellenza-dilef.unifi.it/itant/img/ItAnt_Oscan_11.jpg" resp="Francesca Murano">
+            <tei:desc>Inscription ItAnt Oscan 11 (drawing by <tei:persName>Francesca Murano</tei:persName>)<tei:ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">This file is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International license – (CC BY-NC-SA 4.0).</tei:ref>
+            </tei:desc>
+        </tei:graphic>
+    </tei:facsimile>
+    <tei:text>
+        <tei:body>
+            <tei:div type="edition" subtype="interpretative" xml:space="preserve">
+                <tei:div type="textpart" n="face_a" style="text-direction:r-to-l" rend="ductus:sinistrorse">
+                    <tei:ab>                                                         
+                        <tei:lb n="1" xml:id="Osc_11_l_1"/>
+                        <!-- Leida;Osc_11_l_1_w_1;g(avis) -->
+                            <tei:name type="praenomen" xml:id="Osc_11_l_1_w_1" xml:lang="osc-Ital-x-oscetr" ref="#p1"><tei:expan><tei:abbr>g</tei:abbr><tei:ex>avis</tei:ex></tei:expan></tei:name>
+                        <!-- Leida;Osc_11_l_1_w_2;staatiis -->
+                            <tei:name type="gentilicium" xml:id="Osc_11_l_1_w_2" xml:lang="osc-Ital-x-oscetr" ref="#p1">staatiis</tei:name>
+                        <tei:pc unit="word">.</tei:pc>
+                        <!-- Leida;Osc_11_l_1_w_3;l(úvkieís) -->
+                            <tei:name type="gentilicium" xml:id="Osc_11_l_1_w_3" xml:lang="osc-Ital-x-oscetr" ref="#p1"><tei:expan><tei:abbr>l</tei:abbr><tei:ex>úvkieís</tei:ex></tei:expan></tei:name>
+                        <tei:pc unit="word">.</tei:pc>
+                         <!-- Leida;Osc_11_l_1_w_4;klar[is -->
+                            <tei:name type="cognomen" xml:id="Osc_11_l_1_w_4" xml:lang="osc-Ital-x-oscetr" ref="#p1">klar<tei:supplied reason="lost">is</tei:supplied></tei:name>
+                        <tei:pc unit="word"><tei:supplied reason="lost">.</tei:supplied></tei:pc>
+                        <!-- Leida;Osc_11_l_1_w_5;[m(eddíss)] -->
+                        <tei:w xml:id="Osc_11_l_1_w_5" xml:lang="osc-Ital-x-oscetr"><tei:supplied reason="lost"><tei:expan><tei:abbr>m</tei:abbr><tei:ex>eddíss</tei:ex></tei:expan></tei:supplied></tei:w>
+                        <tei:pc unit="word"><tei:supplied reason="lost">.</tei:supplied></tei:pc>
+                        <!-- Leida;Osc_11_l_1_w_6;[t(úvtiks)] -->
+                        <tei:w xml:id="Osc_11_l_1_w_6" xml:lang="osc-Ital-x-oscetr"><tei:supplied reason="lost"><tei:expan><tei:abbr>t</tei:abbr><tei:ex>úvtiks</tei:ex></tei:expan></tei:supplied></tei:w>
+                        <tei:pc unit="word"><tei:supplied reason="lost">.</tei:supplied></tei:pc>
+                        <!-- gap -->
+                        <tei:supplied reason="lost" atLeast="13" atMost="16" unit="character"/>d
+                        <tei:pc unit="word">.</tei:pc>
+                        <!-- Leida;Osc_11_l_1_w_7;pestlúm -->
+                        <tei:w xml:id="Osc_11_l_1_w_7" xml:lang="osc-Ital-x-oscetr">pestlúm</tei:w>
+                        <tei:pc unit="word">.</tei:pc>
+                        <!-- Leida;Osc_11_l_1_w_8;úpsannúm -->
+                        <tei:w xml:id="Osc_11_l_1_w_8" xml:lang="osc-Ital-x-oscetr">úpsannúm</tei:w>
+                        <tei:pc unit="word">.</tei:pc>
+                        <!-- Leida;Osc_11_l_1_w_9;faamated -->
+                        <tei:w xml:id="Osc_11_l_1_w_9" xml:lang="osc-Ital-x-oscetr">faamated</tei:w>
+                        <tei:pc unit="word">.</tei:pc>
+                        <!-- Leida;Osc_11_l_1_w_10;p(edúm) -->
+                        <tei:w xml:id="Osc_11_l_1_w_10" xml:lang="osc-Ital-x-oscetr"><tei:expan><tei:abbr>p</tei:abbr><tei:ex>(edúm)</tei:ex></tei:expan></tei:w>
+                        <tei:pc unit="word">.</tei:pc>
+                        <!-- Leida;Osc_11_l_1_w_11;LX -->
+                        <tei:w xml:id="Osc_11_l_1_w_11" xml:lang="osc-Ital-x-oscetr">LX</tei:w>
+                    </tei:ab>
+                </tei:div>
+            </tei:div>
+            <tei:div type="translation" xml:lang="ita">
+                <tei:p>G(avius) Statius Clarus, figlio di L(ucius), [meddix tuticus...] ordinò di costruire il pronao; (estensione) 60 piedi</tei:p>
+                <tei:desc>
+                    <tei:persName>Francesca Murano</tei:persName>
+                    <tei:ref type="licence" target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.</tei:ref>
+                </tei:desc>
+            </tei:div>
+            <tei:div type="translation" xml:lang="eng">
+                <tei:p>G(avius) Statius Clarus, son of L(ucius), [meddix tuticus ...] ordered the building of the pronaos; (extention) 60 feet</tei:p>
+                <tei:desc>
+                    <tei:persName>Francesca Murano</tei:persName>
+                    <tei:ref type="licence" target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.</tei:ref>
+                </tei:desc>
+            </tei:div>
+            <tei:div type="apparatus" xml:lang="eng" resp="NOME-RESPONSABILE">
+                <tei:listApp>
+                    <tei:app from="#Osc_11_l_1">
+                        <tei:lem corresp="#Osc_11_l_19_w_1">g(avis)</tei:lem>
+                        <tei:rdg corresp="#Osc_11_l_19_w_1">gn(aívs)
+                            <tei:ref target="http://zotero.org/groups/2552746/items/IMWMSAVE"><tei:bibl>Rix 2002</tei:bibl></tei:ref>                            
+                        </tei:rdg>
+                    </tei:app>    
+                </tei:listApp>
+            </tei:div>
+            <tei:div type="commentary" xml:lang="eng" resp="Francesca Murano">
+                <tei:note>
+                    <tei:p>The inscription run on four blocks of the podium of temple B. Two of them (corresponding to the 1st and the 3rd of the inscription) were identified in 1844 by Ambrogio Caraba into the church of <tei:ref target="http://catalogo.beniculturali.it/detail/ArchitecturalOrLandscapeHeritage/1400074352">Santa Maria Assunta</tei:ref> in Pietrabbondante, where they had been built during the 18th century: "Rimangono nondimeno per avventura ancor ben leggibili in due diversi lati della chiesa due titoli in eleganti caratteri sannitici od oschi" (<tei:ref><tei:bibl>Caraba 1844</tei:bibl></tei:ref>: 11). These two blocks have been re-built into the restored podium together with a third one (corresponding to the 4th of the inscription) discovered in 1959 during the excavation (see <tei:ref><tei:bibl>La Regina 1974</tei:bibl></tei:ref>: 534).</tei:p>
+                    <tei:p>The mosaic flooring of the pronaos remains reused in the church of Pietrabbondante.</tei:p>
+                </tei:note>
+                <tei:note>
+                    <tei:p>The inscription records the construction of the pronaos (<tei:rs type="w" corresp="#Osc_11_l_1_w_7" xml:lang="osc-Ital-x-oscetr">pestlúm</tei:rs>) of temple B by <tei:rs type="name" corresp="#Osc_11_l_1_w_7" xml:lang="osc-Ital-x-oscetr">g(avis) statiis l(úvkieís) klar[is]</tei:rs>. The use of the verb <tei:rs type="w" corresp="#Osc_11_l_1_w_9" xml:lang="osc-Ital-x-oscetr">fammated</tei:rs>, indicating works commissioned by people holding a public office both in the sanctuary of Pietrabbondante and Rossano di Vaglio, makes it very probable the supplement of the first part of the gap with the indication of the public office, <tei:rs type="phr" xml:lang="osc-Ital-x-oscetr">m(eddíss) t(úvtiks)</tei:rs>.</tei:p>
+                </tei:note>
+                <tei:note target="#Osc_11_l_1_w_7">
+                    <tei:p>As <tei:ref target="http://zotero.org/groups/2552746/items/HI5PZU97"><tei:bibl>Prosdocimi 1976</tei:bibl></tei:ref>: 835-848 correctly pointed out, <tei:rs type="w" corresp="#Osc_11_l_1_w_7" xml:lang="osc-Ital-x-oscetr">pestlúm</tei:rs> &#x3c; *pestVlo- is a calque on the Gr. <tei:rs type="w" xml:lang="grc-Grek">περίστυλον</tei:rs> (see <tei:ref target="https://logeion.uchicago.edu/%CF%80%CE%B5%CF%81%CE%AF%CF%83%CF%84%CF%85%CE%BB%CE%BF%CF%82">Logeion</tei:ref>) referring to the inner area of the portico of the temple, i.e. 'pronaos' "e tale pronao è un peristilio" (p. 874). The same word appears as <tei:rs type="w" corresp="#Osc_230_l_4_w_2" xml:lang="osc-Ital-x-oscetr">peeslúm</tei:rs> in <tei:ref target="ItAnt_Oscan_230.xml">ItAnt Oscan 230</tei:ref> and, as a loanword (<tei:rs type="w" xml:lang="osc-Ital-x-oscetr">perissty[leís</tei:rs>), in ST Cm 3 from Avella.</tei:p> 
+                    <tei:p>A different proposal by <tei:ref target="http://zotero.org/groups/2552746/items/NA63WD45"><tei:bibl>Rix 1976</tei:bibl></tei:ref> suggest to interpret <tei:rs type="w" corresp="#Osc_11_l_1_w_7" xml:lang="osc-Ital-x-oscetr">pestlúm</tei:rs> &#x3c; *ped-tlo-m  'podium' (see  <tei:ref target="http://zotero.org/groups/2552746/items/IKUTPHDC"><tei:bibl>ImIt 2011</tei:bibl></tei:ref>: 1166 and <tei:ref target="http://zotero.org/groups/2552746/items/JFW9XW6P"><tei:bibl>Poccetti 1979</tei:bibl></tei:ref>: 37-40.</tei:p> 
+                    <tei:p>Since <tei:ref target="http://zotero.org/groups/2552746/items/GVGVG5HB"><tei:bibl>Corssen 1862</tei:bibl></tei:ref>: 363-368 the word had generally been interpreted as 'temple' (see <tei:ref target="http://zotero.org/groups/2552746/items/XUZWD8N9"><tei:bibl>Lejeune 1972</tei:bibl></tei:ref>).</tei:p>
+                    <tei:p>The  measurement of 60 feet (<tei:rs type="phr" xml:lang="osc-Ital-x-oscetr">p(edúm) LX</tei:rs>) refers to the extension of the pronaos (see <tei:ref target="http://zotero.org/groups/2552746/items/HI5PZU97"><tei:bibl>Prosdocimi 1976</tei:bibl></tei:ref>: 835-848 and <tei:ref target="http://zotero.org/groups/2552746/items/TYCUTZLG"><tei:bibl>La Regina 1974</tei:bibl></tei:ref>: 534).</tei:p>
+                </tei:note>
+                <tei:note>
+                    <tei:p>The content of the second part of the gap had to record the type of dedication carried out by <tei:rs type="name" corresp="#Osc_11_l_1_w_7" xml:lang="osc-Ital-x-oscetr">g(avis) statiis l(úvkieís) klar[is]</tei:rs> and, therefore, report: 1. in case of private initiative the indication <tei:rs type="phr" xml:lang="osc-Ital-x-oscetr">[súvad eítiuva]d</tei:rs> 'from his own money' (see <tei:ref target="http://zotero.org/groups/2552746/items/"><tei:bibl>Rix 2002</tei:bibl></tei:ref> and <tei:ref target="http://zotero.org/groups/2552746/items/9FANWURA"><tei:bibl>Poccetti 2008</tei:bibl></tei:ref>), or 2. in case of a public act, the indication of the resolution <tei:rs type="phr" xml:lang="osc-Ital-x-oscetr">[senateís tanginú]d</tei:rs> 'by decree of the senate' (see <tei:ref target="http://zotero.org/groups/2552746/items/TYCUTZLG"><tei:bibl>La Regina 1974</tei:bibl></tei:ref> and <tei:ref target="http://zotero.org/groups/2552746/items/IKUTPHDC"><tei:bibl>ImIt 2011</tei:bibl></tei:ref>).</tei:p>
+                </tei:note>
+                <tei:note>
+                    <tei:p><tei:ref target="http://zotero.org/groups/2552746/items/WD9G6M7K"><tei:bibl>La Regina 1975</tei:bibl></tei:ref> has identified <tei:rs type="name" corresp="#Osc_11_l_1_w_7" xml:lang="osc-Ital-x-oscetr">g(avis) statiis l(úvkieís) klar[is]</tei:rs> with <tei:rs type="name" xml:lang="grc-Grek">Στάτιος ὁ Σαυνίτης</tei:rs> mentioned by Appian, <tei:ref target="https://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.01.0231%3Abook%3D4%3Achapter%3D4%3Asection%3D25"><tei:bibl>BC IV 4 25</tei:bibl></tei:ref>, among those who joined the insurrection of Samnium, during the Bellum Italicum.</tei:p>
+                </tei:note>
+                    <tei:listPerson type="Onomastics">
+                        <tei:person xml:id="p1" xml:lang="osc-Ital-x-oscetr">
+                            <tei:persName>
+                                <tei:name type="praenomen">g(avis)</tei:name>
+                                <tei:name type="gentilicium">statiis</tei:name>
+                                <tei:name type="patronymic">l(úvkieís)</tei:name>
+                                <tei:name type="cognomen">klar[is]</tei:name>
+                            </tei:persName>
+                        </tei:person>
+                    </tei:listPerson>
+            </tei:div>
+<!-- 
+++++++++++++++++++++++++++++++
++        BIBLIOGRAFIA        +
+++++++++++++++++++++++++++++++  
+            Da fare tramite Zotero
+            Si fornisce un esempio  -->
+            <tei:div type="bibliography">
+                <tei:listBibl xmlns="http://www.tei-c.org/ns/1.0">
+                    <tei:biblStruct type="book" xml:id="Vetter1953"
+                        sameAs="http://zotero.org/groups/2552746/items/NJFZRK23">
+                        <tei:monogr>
+                            <tei:title level="m">Handbuch der italischen Dialekte</tei:title>
+                            <tei:author>
+                                <tei:forename>Emil</tei:forename>
+                                <tei:surname>Vetter</tei:surname>
+                            </tei:author>
+                            <tei:imprint>
+                                <tei:pubPlace>Heidelberg</tei:pubPlace>
+                                <tei:publisher>C. Winter</tei:publisher>
+                                <tei:date>1953</tei:date>
+                            </tei:imprint>
+                        </tei:monogr>
+                        <tei:citedRange unit="entry">no. 6</tei:citedRange>
+                    </tei:biblStruct>
+                </tei:listBibl>
+            </tei:div>
+        </tei:body>
+    </tei:text>
+</tei:TEI>

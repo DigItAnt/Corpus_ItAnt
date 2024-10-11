@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/9.5/tei-epidoc.rng"
+schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/9.5/tei-epidoc.rng"
+schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<tei:TEI xmlns:dcr="http://www.isocat.org/ns/dcr" xml:id="ItAnt_Oscan_234"
+    xmlns:tei="http://www.tei-c.org/ns/1.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <tei:teiHeader>
+        <tei:fileDesc>
+            <tei:titleStmt>
+                <tei:title type="ItAnt_ID">Inscription ItAnt Oscan 234</tei:title>
+            </tei:titleStmt>
+            <tei:editionStmt>
+                <tei:edition>
+                    <tei:idno>ItAnt Oscan 234</tei:idno>
+                </tei:edition>
+                <tei:editor>
+                    <tei:persName>Francesca Murano</tei:persName>
+                </tei:editor>
+            </tei:editionStmt>         
+            <tei:publicationStmt>
+                <tei:authority>PRIN 2017 "Lingue e culture dell'Italia antica: linguistica storica e modelli digitali | Languages and Cultures of Ancient Italy. Historical Linguistics and Digital Models"</tei:authority>
+                <tei:date>2023</tei:date>
+                <tei:idno type="URI" subtype="handle"></tei:idno>
+                <tei:availability>
+                    <tei:licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">This file is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International license – (CC BY-NC-SA 4.0).  
+                    </tei:licence>
+                </tei:availability>
+            </tei:publicationStmt>   
+            <tei:sourceDesc>
+                <tei:msDesc>
+                    <tei:msIdentifier>
+                        <tei:settlement>lost inscription</tei:settlement>
+                        <tei:altIdentifier type="cancelled">
+                            <tei:settlement ref="https://sws.geonames.org/3179703">Castel di Sangro (AQ)</tei:settlement>
+                            <tei:institution ana="https://www.beniculturali.it/luogo/museo-civico-aufidenate">Museo Civico Aufidenate</tei:institution>                       
+                        <tei:idno type="museumID"/>
+                        </tei:altIdentifier>
+                        <tei:msName/>
+                        <tei:altIdentifier type="trismegistos">
+                            <tei:idno source="www.trismegistos.org/text/170867">TM 170867</tei:idno>
+                        </tei:altIdentifier>                       
+                        <tei:altIdentifier type="traditionalID">
+                            <tei:idno source="http://zotero.org/groups/2552746/items/IKUTPHDC">ImIt Aufidena 4</tei:idno>
+                        </tei:altIdentifier>
+                    </tei:msIdentifier> 
+                    <tei:msContents>
+                        <tei:summary>Lost inscription on vase from Aufudena, Castel di Sangro, loc. Campitelli, AQ. The inscription was stolen during World War II.
+                        </tei:summary>
+                    </tei:msContents>
+                    <tei:physDesc>
+                        <tei:objectDesc>     
+                            <tei:supportDesc>
+                                <tei:support>
+                                    <tei:objectType ana="http://vocab.getty.edu/page/aat/300132254">vase</tei:objectType>
+                                    <tei:material ana="http://vocab.getty.edu/page/aat/300387491">pottery (black slip)</tei:material>
+                                    <tei:dimensions type="objectDimensions" unit="cm" precision="high"/>
+                                    <tei:rs type="reuse">no</tei:rs>
+                                </tei:support>
+                                <tei:condition>lost inscription</tei:condition>   
+                            </tei:supportDesc>
+                            <tei:layoutDesc>
+                                <tei:layout columns="1" writtenLines="1">
+                                    <tei:rs type="execution" ana="http://vocab.getty.edu/page/aat/300404794">engraved</tei:rs>
+                                    <tei:rs type="opistography">no</tei:rs>
+                                    <tei:note type="layoutNotes"/>
+                                    <tei:dimensions type="lineDimension" unit="cm" precision="high"/> 
+                                </tei:layout>
+                            </tei:layoutDesc>
+                        </tei:objectDesc>
+                        <tei:handDesc>                            
+                            <tei:handNote>
+                                <tei:note type="palaeographicNotes"/>
+                                <tei:dimensions type="characterDimension" unit="cm" precision="high"/>
+                            </tei:handNote>
+                        </tei:handDesc>                                      
+                        <tei:scriptDesc>
+                            <tei:scriptNote>
+                                <tei:rs type="writingSystem" subtype="alphabet" ref="https://www.prin-italia-antica.unifi.it/p166.html#oscan-etruscan">Oscan National alphabet</tei:rs>
+                                <tei:rs type="wordDivision"/>
+                            </tei:scriptNote>
+                        </tei:scriptDesc>
+                        <tei:decoDesc>
+                            <tei:decoNote/>   
+                        </tei:decoDesc>
+                    </tei:physDesc>
+                    <tei:history>
+                        <tei:origin> 
+                            <tei:origPlace type="composed">
+                                <tei:placeName type="ancient" ref="https://pleiades.stoa.org/places/432709">Aufidena, Samnium</tei:placeName>
+                                <tei:placeName type="modern" ref="https://sws.geonames.org/3179703">Castel di Sangro (AQ)</tei:placeName>
+                            </tei:origPlace>
+                            <tei:origDate notBefore-custom="-0399" notAfter-custom="-0001" cert="medium">4th - 1st century BC (range of Oscan inscriptions)</tei:origDate>
+                        </tei:origin>
+                        <tei:provenance type="found" subtype="discovered" when="1920">
+                            <tei:placeName type="ancient" ref="https://pleiades.stoa.org/places/432709">Aufidena, Samnium</tei:placeName>
+                            <tei:placeName type="modern" ref="https://sws.geonames.org/3179703">Castel di Sangro (AQ)</tei:placeName>
+                            <tei:placeName type="detailed">loc. Campitelli</tei:placeName>
+                        </tei:provenance>
+                        <tei:provenance type="observed" subtype="autopsied" notAfter="1923">
+                            <tei:persName>V. Balzano</tei:persName>
+                        </tei:provenance>
+                        <tei:provenance type="observed" subtype="autopsied" notAfter="1892">
+                            <tei:persName>A. De Nino</tei:persName>
+                        </tei:provenance>
+                    </tei:history>                       
+                </tei:msDesc>   
+            </tei:sourceDesc> 
+        </tei:fileDesc>
+        <tei:encodingDesc>
+            <tei:p source="https://epidoc.stoa.org/gl/latest/">Marked-up according to the EpiDoc Guidelines</tei:p>
+        </tei:encodingDesc>
+        <tei:profileDesc>
+            <tei:langUsage>
+                <tei:language ident="osc" source="https://iso639-3.sil.org/code/osc">Oscan</tei:language>
+                <tei:language ident="osc-Ital-x-oscetr" source="https://www.prin-italia-antica.unifi.it/p166.html#oscan-etruscan" ana="https://unicode.org/iso15924/iso15924-codes.html">Oscan in National alphabet (Oscan-Etruscan alphabet)</tei:language>
+            </tei:langUsage>
+            <tei:textClass>
+                <tei:keywords scheme="https://www.eagle-network.eu/resources/vocabularies/typeins/">
+                    <tei:term ref="https://www.eagle-network.eu/voc/typeins/lod/105">inscription on vase</tei:term>
+                </tei:keywords>
+            </tei:textClass>
+        </tei:profileDesc>
+    </tei:teiHeader>
+    <tei:facsimile>
+        <tei:graphic n="1" url="http://linsto.dipartimentidieccellenza-dilef.unifi.it/itant/img/ItAnt_Oscan_234.jpg" resp="Francesca Murano">
+            <tei:desc>Inscription ItAnt Oscan 234 (drawing by <tei:persName>Francesca Murano</tei:persName>)
+                <tei:ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">This file is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International license – (CC BY-NC-SA 4.0).</tei:ref>
+            </tei:desc>
+        </tei:graphic>
+        <tei:graphic n="2" url="https://www.studietruschi.org/wp-content/uploads/2021/06/SE72_12.pdf#page=19">
+            <tei:desc>Fac-simile of the inscription ItAnt Oscan 568 (from <tei:ref target="http://zotero.org/groups/2552746/items/LK9L265A"><tei:bibl>Marchese - poli 2006</tei:bibl></tei:ref>)
+                <tei:ref ana="https://www.studietruschi.org">This file is provided by the Istituto Nazionale di Studi Etruschi ed Italici</tei:ref>
+            </tei:desc>
+        </tei:graphic>
+    </tei:facsimile>
+    <tei:text>
+        <tei:body>             
+            <tei:div type="edition" subtype="interpretative" xml:space="preserve">
+                <tei:div type="textpart" n="face_a" style="text-direction:r-to-l" rend="ductus:sinistrorse">
+                    <tei:ab>   
+                        <tei:lb n="1" xml:id="Osc_234_l_1"/>
+                            <!-- Leida;Osc_234_l_1_w_1;s()n() -->
+                            <tei:name xml:lang="osc-Ital-x-oscetr" xml:id="Osc_234_l_1_w_1"><tei:expan><tei:abbr>s</tei:abbr><tei:ex></tei:ex><tei:abbr>n</tei:abbr><tei:ex></tei:ex></tei:expan></tei:name>
+                    </tei:ab>
+                </tei:div>
+            </tei:div>
+            <tei:div type="translation" xml:lang="ita"/>
+            <tei:div type="translation" xml:lang="eng"/>            
+            <tei:div type="apparatus" xml:lang="eng">
+                <tei:listApp>
+                    <tei:app from="#Osc_234_l_1">
+                        <tei:lem corresp="#Osc_234_l_1_w_1">s()n()</tei:lem>
+                        <tei:rdg corresp="#Osc_234_l_1_w_1">s(te)n(?)
+                            <tei:ref target="http://zotero.org/groups/2552746/items/IKUTPHDC"><tei:bibl>Crawford, ImIt 2011</tei:bibl></tei:ref>
+                        
+                        </tei:rdg>
+                        <tei:rdg corresp="#Osc_234_l_1_w_1">an
+                            <tei:ref target="http://zotero.org/groups/2552746/items/FTLVX4EL"><tei:bibl>Mattiocco 2010</tei:bibl></tei:ref>
+                            
+                        </tei:rdg>
+                    </tei:app>
+                </tei:listApp>
+            </tei:div>
+            <tei:div type="commentary" xml:lang="eng" resp="Francesca Murano">
+                <tei:note target="#Osc_234_l_1_w_1">
+                    <tei:p>According to <tei:ref target="URI-ZOTERO"><tei:bibl>Crawford, ImIt 2011</tei:bibl></tei:ref>: 1241, the name could be expanded as <tei:rs xml:lang="osc-Ital-x-oscetr" type="name" corresp="#Osc_234_l_1_w_1">stenis</tei:rs>.</tei:p> 
+                </tei:note>
+                <tei:listPerson type="Onomastics">
+                    <tei:person xml:id="p1" xml:lang="osc-Ital-x-oscetr">
+                        <tei:persName>
+                            <tei:name type="praenomen">s()n()</tei:name>
+                        </tei:persName>
+                    </tei:person>
+                </tei:listPerson>
+            </tei:div>
+            <tei:div type="bibliography">
+                <tei:listBibl xmlns="http://www.tei-c.org/ns/1.0">
+                    <tei:biblStruct type="book" xml:id="ImIt2011"  corresp="http://zotero.org/groups/2552746/items/IKUTPHDC">
+                        <tei:monogr>
+                            <tei:title level="m">Imagines Italicae: A Corpus of Italic Inscriptions</tei:title>
+                            <tei:editor>
+                                <tei:forename>Michael</tei:forename>
+                                <tei:surname>Crawford</tei:surname>
+                            </tei:editor>
+                            <tei:imprint>
+                                <tei:pubPlace>London</tei:pubPlace>
+                                <tei:publisher>Institute of Classical Studies, University of London</tei:publisher>
+                                <tei:date>2011</tei:date>
+                            </tei:imprint>
+                        </tei:monogr>
+                        <tei:citedRange unit="entry">Aufidena 4</tei:citedRange>
+                    </tei:biblStruct>
+                    <tei:biblStruct type="bookSection" xml:id="Mattiocco2010" corresp="http://zotero.org/groups/2552746/items/FTLVX4EL">
+                        <tei:analytic>
+                            <tei:title level="a">Messaggi dall'antica Aufidena</tei:title>
+                            <tei:author>
+                                <tei:forename>Ezio</tei:forename>
+                                <tei:surname>Mattiocco</tei:surname>
+                            </tei:author>
+                        </tei:analytic>
+                        <tei:monogr>
+                            <tei:title level="m">Frammenti del passato: archeologia e archivistica tra Castel di Sangro e Sulmona</tei:title>
+                            <tei:editor>
+                                <tei:forename>Ezio</tei:forename>
+                                <tei:surname>Mattiocco</tei:surname>
+                            </tei:editor>
+                            <tei:editor>
+                                <tei:forename>Roberto</tei:forename>
+                                <tei:surname>Carrozzo</tei:surname>
+                            </tei:editor>
+                            <tei:imprint>
+                                <tei:pubPlace>Lanciano</tei:pubPlace>
+                                <tei:biblScope unit="page">11-44</tei:biblScope>
+                                <tei:publisher>Itinerari</tei:publisher>
+                                <tei:date>2010</tei:date>
+                            </tei:imprint>
+                        </tei:monogr>
+                        <tei:citedRange unit="page">28 (with drawing, p. 25, no. 8)</tei:citedRange>
+                    </tei:biblStruct>
+                    <tei:biblStruct type="journalArticle" xml:id="Marchese2006" corresp="http://zotero.org/groups/2552746/items/LK9L265A">
+                        <tei:analytic>
+                            <tei:title level="a">Castel di Sangro (AQ). Iscrizione osca su ansa di vaso d'argilla bollato</tei:title>
+                            <tei:author>
+                                <tei:forename>Maria Pia</tei:forename>
+                                <tei:surname>Marchese</tei:surname>
+                            </tei:author>
+                            <tei:author>
+                                <tei:forename>Fabrice</tei:forename>
+                                <tei:surname>Poli</tei:surname>
+                            </tei:author>
+                        </tei:analytic>
+                        <tei:monogr>
+                            <tei:title level="j">Studi Etruschi</tei:title>
+                            <tei:imprint>
+                                <tei:biblScope unit="volume">72</tei:biblScope>
+                                <tei:biblScope unit="page">285–286</tei:biblScope>
+                                <tei:date>2006</tei:date>
+                            </tei:imprint>
+                        </tei:monogr>
+                        <tei:citedRange unit="page">286-287, no. 1</tei:citedRange>
+                    </tei:biblStruct>
+                    <tei:biblStruct type="journalArticle" xml:id="Poli2005" corresp="http://zotero.org/groups/2552746/items/BBYV38E3">
+                        <tei:analytic><tei:title level="a">L'épigraphie osque à Castel di Sangro : le cas de VE 146</tei:title>
+                            <tei:author>
+                                <tei:forename>Fabrice</tei:forename>
+                                <tei:surname>Poli</tei:surname>
+                            </tei:author>
+                        </tei:analytic>
+                        <tei:monogr>
+                            <tei:title level="j">De Cyrène à Catherine: trois mille ans de libyennes: études grecques et latines offertes à Catherine Dobias-Lalou</tei:title>
+                            <tei:imprint>
+                                <tei:biblScope unit="page">441-449</tei:biblScope>
+                                <tei:date>2005</tei:date>
+                            </tei:imprint>
+                        </tei:monogr>
+                        <tei:citedRange unit="page">446-447, no. 3</tei:citedRange>
+                    </tei:biblStruct>
+                    <tei:biblStruct type="book" xml:id="Balzano1923" corresp="http://zotero.org/groups/2552746/items/LE492AQ7">
+                        <tei:monogr>
+                            <tei:title level="m">Aufidena Caracenorum - Ai confini settentrionali del Sannio (Memorie storiche intorno all'antica città di Castel di Sangro)</tei:title>
+                            <tei:author>
+                                <tei:forename>Vincenzo</tei:forename>
+                                <tei:surname>Balzano</tei:surname>
+                            </tei:author>
+                            <tei:imprint>
+                                <tei:pubPlace>Roma</tei:pubPlace>
+                                <tei:date>1923</tei:date>
+                            </tei:imprint>
+                        </tei:monogr>
+                        <tei:citedRange unit="page">40, no. 2</tei:citedRange>
+                    </tei:biblStruct>
+                    <biblStruct type="journalArticle" xml:id="De_Nino1892" corresp="http://zotero.org/groups/2552746/items/HCNWTBFH">
+                        <analytic>
+                            <title level="a">Castel di Sangro</title>
+                            <author>
+                                <forename>A.</forename>
+                                <surname>De Nino</surname>
+                            </author>
+                        </analytic>
+                        <monogr>
+                            <title level="j">Castel di Sangro</title>
+                            <imprint>
+                                <biblScope unit="page">277-278</biblScope>
+                                <date>1892</date>
+                            </imprint>
+                        </monogr>
+                        <tei:citedRange unit="page">278</tei:citedRange>
+                    </biblStruct>
+                </tei:listBibl>
+            </tei:div>   
+        </tei:body>
+    </tei:text>
+</tei:TEI>

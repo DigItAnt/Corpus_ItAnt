@@ -1,0 +1,357 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/9.4/tei-epidoc.rng"
+schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/9.4/tei-epidoc.rng"
+schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<tei:TEI xmlns:dcr="http://www.isocat.org/ns/dcr" xml:id="ItAnt_Oscan_298"
+    xmlns:tei="http://www.tei-c.org/ns/1.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <tei:teiHeader>
+        <tei:fileDesc>
+            <tei:titleStmt>
+                <tei:title type="ItAnt_ID">Inscription ItAnt Oscan 298</tei:title>
+            </tei:titleStmt>
+            <tei:editionStmt>
+                <tei:edition>
+                    <tei:idno>ItAnt Oscan 298</tei:idno>
+                </tei:edition>
+                <tei:editor>
+                    <tei:persName>Francesca Murano</tei:persName>
+                </tei:editor>
+            </tei:editionStmt>         
+            <tei:publicationStmt>
+                <tei:authority>PRIN 2017 "Lingue e culture dell'Italia antica: linguistica storica e modelli digitali | Languages and Cultures of Ancient Italy. Historical Linguistics and Digital Models"</tei:authority>
+                <tei:date>2023</tei:date>
+                <tei:idno type="URI" subtype="handle"></tei:idno>
+                <tei:availability>
+                    <tei:licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">This file is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International license – (CC BY-NC-SA 4.0).  
+                    </tei:licence>
+                </tei:availability>
+            </tei:publicationStmt>   
+            <tei:sourceDesc>
+                <tei:msDesc>
+                    <tei:msIdentifier>
+                        <tei:settlement ref="https://sws.geonames.org/6538896">Vasto</tei:settlement>
+                        <tei:institution ana="https://www.beniculturali.it/luogo/palazzo-d-avalos-musei-civici">Palazzo d'Avalos. Museo civico archeologico</tei:institution>
+                        <tei:msName>The cylinder from Casalbordino</tei:msName>
+                        <tei:altIdentifier type="cancelled">
+                            <tei:settlement ref="https://sws.geonames.org/3178796">Chieti</tei:settlement>
+                            <tei:institution ana="https://museiabruzzo.cultura.gov.it/luoghi-della-cultura/627-museo-archeologico-nazionale-dabruzzo-villa-frigerj/">Museo archeologico nazionale d'Abruzzo - Villa Frigerj</tei:institution>
+                            <tei:idno type="museumID">18573</tei:idno>
+                        </tei:altIdentifier>                  
+                        <tei:altIdentifier type="trismegistos">
+                            <tei:idno source="www.trismegistos.org/text/170889">TM 170889</tei:idno>
+                        </tei:altIdentifier> 
+                        <tei:altIdentifier type="traditionalID">
+                            <tei:idno source="http://zotero.org/groups/2552746/items/IMWMSAVE">ST Fr 13</tei:idno>
+                        </tei:altIdentifier> 
+                        <tei:altIdentifier type="traditionalID">
+                            <tei:idno source="http://zotero.org/groups/2552746/items/IKUTPHDC">ImIt Histonium 6</tei:idno>
+                        </tei:altIdentifier>                       
+                    </tei:msIdentifier> 
+                    <tei:msContents>
+                        <tei:summary>Bronze mechanism (for distribuing sortes ?), from Casalbordino (Chieti).</tei:summary>
+                    </tei:msContents>
+                    <tei:physDesc>
+                        <tei:objectDesc>     
+                            <tei:supportDesc>
+                                <tei:support>
+                                    <tei:objectType/>
+                                    <tei:rs ana="objectShape">cilindrical</tei:rs>
+                                    <tei:material ana="http://vocab.getty.edu/aat/300010957">bronze
+                                    </tei:material>
+                                    <tei:dimensions type="objectDimensions" unit="cm" precision="high">
+                                        <tei:height quantity="10.3">10,3</tei:height>
+                                        <tei:dim type="diameter" quantity="11">11</tei:dim>                                       
+                                    </tei:dimensions>                                  
+                                    <tei:rs type="reuse">no</tei:rs>
+                                </tei:support>
+                                <tei:condition>fragmentary</tei:condition>   
+                            </tei:supportDesc>
+                            <tei:layoutDesc>
+                                <tei:layout columns="1" writtenLines="1">
+                                    <tei:rs type="execution" ana="http://vocab.getty.edu/page/aat/300404794">engraved</tei:rs>
+                                    <tei:rs type="opistography">no</tei:rs>
+                                    <tei:note type="layoutNotes">letters are engraved beyond the holes of the external cylinder</tei:note>
+                                    <tei:dimensions type="lineDimension"/>
+                                </tei:layout>
+                            </tei:layoutDesc>
+                        </tei:objectDesc>
+                        <tei:handDesc>                            
+                            <tei:handNote>
+                                <tei:note type="palaeographicNotes"/>
+                                <tei:dimensions type="characterDimension" unit="cm" precision="high"> 
+                                    <tei:height atLeast="0.8" atMost="1.2">0,8 to 1,2</tei:height>
+                                </tei:dimensions>
+                            </tei:handNote>
+                        </tei:handDesc>                                      
+                        <tei:scriptDesc>
+                            <tei:scriptNote>
+                                <tei:rs type="writingSystem" subtype="alphabet" ref="https://www.prin-italia-antica.unifi.it/p166.html#oscan-etruscan">Oscan National alphabet</tei:rs>
+                                <tei:rs type="wordDivision"/>
+                            </tei:scriptNote>
+                        </tei:scriptDesc>
+                    </tei:physDesc>
+                    <tei:history>
+                        <tei:origin> 
+                            <tei:origPlace type="composed">
+                                <tei:placeName type="ancient" ref="https://pleiades.stoa.org/places/413171">Histonium</tei:placeName>
+                                <tei:placeName type="modern" ref="https://sws.geonames.org/6540294">Casalbordino (Chieti)</tei:placeName>
+                            </tei:origPlace>
+                            <tei:origDate notBefore-custom="-0299" notAfter-custom="-0100" cert="medium" resp="Colonna1973">3rd - 2nd century BC</tei:origDate>
+                        </tei:origin>
+                        <tei:provenance type="found" subtype="discovered" when="1973" resp="Colonna1973">
+                            <tei:placeName type="ancient" ref="https://pleiades.stoa.org/places/413171">Histonium</tei:placeName>
+                            <tei:placeName type="modern" ref="https://sws.geonames.org/6540294">Casalbordino (Chieti)</tei:placeName>
+                            <tei:placeName type="detailed"/>
+                        </tei:provenance>
+                        <tei:provenance type="observed" subtype="seen" when="2021">
+                            <tei:persName>Francesca Murano</tei:persName>
+                        </tei:provenance>
+                        <tei:provenance type="observed" subtype="autopsied" when="2003">
+                            <tei:persName>M. H. Crawford</tei:persName>
+                        </tei:provenance>
+                        <tei:provenance type="observed" subtype="autopsied" notAfter="1972">
+                            <tei:persName>A. La Regina</tei:persName>
+                        </tei:provenance>                        
+                    </tei:history>                       
+                </tei:msDesc>   
+            </tei:sourceDesc> 
+        </tei:fileDesc>
+        <tei:encodingDesc>
+            <tei:p source="https://epidoc.stoa.org/gl/latest/">Marked-up according to the EpiDoc Guidelines</tei:p>
+        </tei:encodingDesc>
+        <tei:profileDesc>
+            <tei:langUsage>
+                <tei:language ident="osc" source="https://iso639-3.sil.org/code/osc">Oscan</tei:language>
+                <tei:language ident="osc-Ital-x-oscetr" source="https://www.prin-italia-antica.unifi.it/p166.html#oscan-etruscan" ana="https://unicode.org/iso15924/iso15924-codes.html">Oscan in National alphabet (Oscan-Etruscan alphabet)</tei:language>
+            </tei:langUsage>
+            <tei:textClass>
+                <tei:keywords scheme="https://www.eagle-network.eu/resources/vocabularies/typeins/">
+                    <tei:term ref="https://www.eagle-network.eu/voc/typeins/lod/83">votive inscription</tei:term>
+                </tei:keywords>
+            </tei:textClass>
+        </tei:profileDesc>
+    </tei:teiHeader>   
+    <tei:facsimile> 
+        <tei:graphic n="1" url="https://www.italianostra.org/wp-content/uploads/ScreenHunter_05-Apr.-30-13.38.jpg">
+            <tei:desc>The cylinder from Casalbordino
+                <tei:ref target="https://www.italianostra.org">This file is provided by www.italianostra.org.</tei:ref>
+            </tei:desc>
+        </tei:graphic>
+        <tei:graphic n="2" url="https://www.jstor.org/stable/pdf/44365958.pdf?page=11">
+            <tei:desc>Photograph of the inscription ItAnt Oscan 298 (from <tei:ref target="http://zotero.org/groups/2552746/items/2GVMMV44"><tei:bibl>La Regina 1972</tei:bibl></tei:ref>)
+                <tei:ref target="https://about.jstor.org/terms/">This item is part of a JSTOR Collection.</tei:ref>
+            </tei:desc>
+        </tei:graphic>
+        <tei:graphic n="3" url="https://www.jstor.org/stable/pdf/44365958.pdf?page=4">
+            <tei:desc>Drawing of the inscription ItAnt Oscan 298 (from <tei:ref target="http://zotero.org/groups/2552746/items/2GVMMV44"><tei:bibl>La Regina 1972</tei:bibl></tei:ref>, p. 26)
+                <tei:ref target="https://about.jstor.org/terms/">This item is part of a JSTOR Collection.</tei:ref>
+            </tei:desc>
+        </tei:graphic>
+    </tei:facsimile>
+    <tei:text>
+        <tei:body>             
+            <tei:div type="edition" subtype="interpretative" xml:space="preserve">
+                <tei:div type="textpart" n="face_a" style="text-direction:r-to-l" rend="ductus:sinistrorse">
+                    <tei:ab>                  
+                        <tei:lb n="1" xml:id="Osc_298_l_1"/>                      
+                            <tei:w xml:lang="osc-Ital-x-oscetr" xml:id="Osc_298_l_1_w_1">a</tei:w>     
+                            <tei:w xml:lang="osc-Ital-x-oscetr" xml:id="Osc_298_l_1_w_2">b</tei:w>     
+                            <tei:w xml:lang="osc-Ital-x-oscetr" xml:id="Osc_298_l_1_w_3">g</tei:w>
+                            <tei:w xml:lang="osc-Ital-x-oscetr" xml:id="Osc_298_l_1_w_4">d</tei:w>
+                            <tei:w xml:lang="osc-Ital-x-oscetr" xml:id="Osc_298_l_1_w_5">e</tei:w>
+                            <tei:w xml:lang="osc-Ital-x-oscetr" xml:id="Osc_298_l_1_w_6">v</tei:w>
+                            <tei:w xml:lang="osc-Ital-x-oscetr" xml:id="Osc_298_l_1_w_7">z</tei:w>
+                            <tei:w xml:lang="osc-Ital-x-oscetr" xml:id="Osc_298_l_1_w_8"><tei:supplied reason="lost">h</tei:supplied></tei:w>
+                        <tei:w xml:lang="osc-Ital-x-oscetr" xml:id="Osc_298_l_1_w_9"><tei:supplied reason="lost">i</tei:supplied></tei:w>
+                        <tei:w xml:lang="osc-Ital-x-oscetr" xml:id="Osc_298_l_1_w_10">k</tei:w>
+                    </tei:ab>
+                </tei:div>
+        </tei:div>
+        <tei:div type="translation" xml:lang="ita"/>          
+         <tei:div type="translation" xml:lang="eng"/>            
+            <tei:div type="apparatus" xml:lang="eng">
+                <tei:listApp>
+                    <tei:app from="#Osc_298_l_1">
+                        <tei:lem corresp="#Osc_298_l_1_w_5">e</tei:lem>
+                        <tei:rdg corresp="#Osc_298_l_1_w_5">omisit
+                            <tei:ref target="http://zotero.org/groups/2552746/items/IMWMSAVE"><tei:bibl>Rix, ST 2002</tei:bibl></tei:ref>
+                        </tei:rdg>
+                    </tei:app>
+                    <tei:app from="#Osc_298_l_1">
+                        <tei:lem corresp="#Osc_298_l_1_w_8">[h]</tei:lem>
+                        <tei:rdg corresp="#Osc_298_l_1_w_8">ḥ
+                            <tei:ref target="http://zotero.org/groups/2552746/items/IMWMSAVE"><tei:bibl>Rix, ST 2002</tei:bibl></tei:ref>
+                        </tei:rdg>
+                    </tei:app>
+                </tei:listApp>
+            </tei:div>               
+            <tei:div type="commentary" xml:lang="eng" resp="Francesca Murano">
+                <tei:note>
+                    <tei:p>The inscription consists of the beginning of an alphabetic sequence (10 letters) running around a bronze cylinder. The cylinder is part of a mechanism probably to be intended to distribute sortes (see <tei:ref target="http://zotero.org/groups/2552746/items/IKUTPHDC"><tei:bibl>Crawford, ImIt</tei:bibl></tei:ref>: 1272).</tei:p>
+                    <tei:p>The cylinder, open at the back, is closed at the front by a round plaque decorated with the a female bust with her eyes closed, probably the goddess Fortuna. Internally, another bronze cylinder, open at both ends, is applied by means of three brackets. At the base, on the external and internal walls there are ten equidistant and corresponding pairs of square hales (two of them have been filled after a modern intervention) labelled by the letters of the inscription.</tei:p>
+                    <tei:p>Letters are used instead of numbers to have the response: sortes were fed into the square holes and distributed out to the enquirers (see <tei:ref target="http://zotero.org/groups/2552746/items/54JCLTPG"><tei:bibl>Maggiani 1994</tei:bibl></tei:ref>.</tei:p>
+                </tei:note>
+                <tei:note>
+                    <tei:p>According to to a different interpretation of the mechanism, it is supposed to have served as rotor of a <tei:ref target="http://vocab.getty.edu/page/aat/300036934">cheiroballista</tei:ref>'s winding winch. In this case, the letters would have served as indication of the tension of the elastic part of the propulsor, and therefore of the range. The goddess in the paque would to be identified as Diana. See <tei:ref target="http://zotero.org/groups/2552746/items/CNXW6A77"><tei:bibl>Russo 2004</tei:bibl></tei:ref>: 85-119.</tei:p>
+                </tei:note>
+            </tei:div>
+            <tei:div type="bibliography">
+                <tei:listBibl xmlns="http://www.tei-c.org/ns/1.0">
+                    <tei:biblStruct type="book" xml:id="ImIt2011" corresp="http://zotero.org/groups/2552746/items/IKUTPHDC">
+                        <tei:monogr>
+                            <tei:title level="m">Imagines Italicae: A Corpus of Italic Inscriptions</tei:title>
+                            <tei:editor>
+                                <tei:forename>Michael</tei:forename>
+                                <tei:surname>Crawford</tei:surname>
+                            </tei:editor>
+                            <tei:imprint>
+                                <tei:pubPlace>London</tei:pubPlace>
+                                <tei:publisher>Institute of Classical Studies, University of London</tei:publisher>
+                                <tei:date>2011</tei:date>
+                            </tei:imprint>
+                        </tei:monogr>
+                        <tei:citedRange unit="entry">Histonium 6 (with photograph)</tei:citedRange>
+                    </tei:biblStruct>                
+                    <tei:biblStruct type="book" xml:id="Rix2002" corresp="http://zotero.org/groups/2552746/items/IMWMSAVE">
+                        <tei:monogr>
+                            <tei:title level="m">Sabellische Texte. Die Texte des Oskischen, Umbrischen und Südpikenischen</tei:title>
+                            <tei:author>
+                                <tei:forename>Helmut</tei:forename>
+                                <tei:surname>Rix</tei:surname>
+                            </tei:author>
+                            <tei:imprint>
+                                <tei:pubPlace>Heidelberg</tei:pubPlace>
+                                <tei:publisher>C. Winter</tei:publisher>
+                                <tei:date>2002</tei:date>
+                            </tei:imprint>
+                        </tei:monogr>
+                        <tei:citedRange unit="entry">Fr 13</tei:citedRange>
+                    </tei:biblStruct>
+                    <tei:biblStruct type="bookSection" xml:id="Riccitelli1997" corresp="http://zotero.org/groups/2552746/items/UHLNMADH">
+                        <tei:analytic>
+                            <tei:title level="a">Cilindro con lettere osche</tei:title>
+                            <tei:author>
+                                <tei:forename>Paola</tei:forename>
+                                <tei:surname>Riccitelli</tei:surname>
+                            </tei:author>
+                        </tei:analytic>
+                        <tei:monogr>
+                            <tei:title level="m">I luoghi degli dei: sacro e natura nell'Abruzzo italico.  Catalogo della mostra (Chieti 16 maggio – 18 agosto 1997)</tei:title>
+                            <tei:editor>
+                                <tei:forename>Adele</tei:forename>
+                                <tei:surname>Campanelli</tei:surname>
+                            </tei:editor>
+                            <tei:editor>
+                                <tei:forename>Amalia</tei:forename>
+                                <tei:surname>Faustoferri</tei:surname>
+                            </tei:editor>
+                            <tei:imprint>
+                                <tei:pubPlace>Pescara</tei:pubPlace>
+                                <tei:biblScope unit="page">141</tei:biblScope>
+                                <tei:publisher>Carsa</tei:publisher>
+                                <tei:date>1997</tei:date>
+                            </tei:imprint>
+                        </tei:monogr>
+                    </tei:biblStruct>
+                    <tei:biblStruct type="book" xml:id="La_Regina1978" corresp="http://zotero.org/groups/2552746/items/EDP7576N">
+                        <tei:monogr>
+                            <tei:title level="m">Culture adriatiche antiche d'Abruzzo e di Molise</tei:title>
+                            <tei:author>
+                                <tei:forename>Valerio</tei:forename>
+                                <tei:surname>Cianfarani</tei:surname>
+                            </tei:author>
+                            <tei:author>
+                                <tei:forename>Luisa</tei:forename>
+                                <tei:surname>Franchi</tei:surname>
+                            </tei:author>
+                            <tei:author>
+                                <tei:forename>Adriano</tei:forename>
+                                <tei:surname>dell'Orto</tei:surname>
+                            </tei:author>
+                            <tei:author>
+                                <tei:forename>Adriano</tei:forename>
+                                <tei:surname>La Regina</tei:surname>
+                            </tei:author>
+                            <tei:imprint><pubPlace>Roma</pubPlace>
+                                <tei:publisher>De Luca</tei:publisher>
+                                <tei:date>1978</tei:date>
+                            </tei:imprint>
+                        </tei:monogr>
+                        <tei:citedRange unit="page">528 (with fig. 359)</tei:citedRange>
+                    </tei:biblStruct>
+                    <tei:biblStruct type="journalArticle" xml:id="Antonini1981" corresp="http://zotero.org/groups/2552746/items/LRFXVEPR">
+                        <tei:analytic>
+                            <tei:title level="a">Italico</tei:title>
+                            <tei:author>
+                                <tei:forename>Rosalba</tei:forename>
+                                <tei:surname>Antonini</tei:surname>
+                            </tei:author>
+                        </tei:analytic>
+                        <tei:monogr>
+                            <tei:title level="j">Studi Etruschi</tei:title>
+                            <tei:imprint>
+                                <tei:biblScope unit="volume">49</tei:biblScope>
+                                <tei:biblScope unit="page">299-351</tei:biblScope>
+                                <tei:date>1981</tei:date>
+                            </tei:imprint>
+                        </tei:monogr>
+                        <tei:citedRange unit="page">322-323, no. 1</tei:citedRange>
+                    </tei:biblStruct>
+                    <tei:biblStruct type="bookSection" xml:id="La_Regina1980" corresp="http://zotero.org/groups/2552746/items/NPIBW3LM">
+                        <tei:analytic>
+                            <tei:title level="a">Cilindro bronzeo</tei:title>
+                            <tei:author>
+                                <tei:forename>Adriano</tei:forename>
+                                <tei:surname>La Regina</tei:surname>
+                            </tei:author>
+                        </tei:analytic>
+                        <tei:monogr>
+                            <tei:title level="m">Sannio: Pentri e Frentani dal VI al I sec. a.C. Catalogo della mostra (Isernia, Museo Nazionale, ottobre-dicembre 1980)</tei:title>
+                            <tei:imprint>
+                                <tei:pubPlace>Roma</tei:pubPlace>
+                                <tei:biblScope unit="page">318-319</tei:biblScope>
+                                <tei:publisher>De Luca</tei:publisher>
+                                <tei:date>1980</tei:date>
+                            </tei:imprint>
+                        </tei:monogr>
+                    </tei:biblStruct>
+                    <tei:biblStruct type="book" xml:id="Poccetti1979" corresp="http://zotero.org/groups/2552746/items/JFW9XW6P">
+                        <tei:monogr>
+                            <tei:title level="m">Nuovi documenti italici a complemento del Manuale di E. Vetter</tei:title>
+                            <tei:author>
+                                <tei:forename>Paolo</tei:forename>
+                                <tei:surname>Poccetti</tei:surname>
+                            </tei:author>
+                            <tei:imprint>
+                                <tei:pubPlace>Pisa</tei:pubPlace>
+                                <tei:publisher>Giardini Editore</tei:publisher>
+                                <tei:date>1979</tei:date>
+                            </tei:imprint>
+                        </tei:monogr>
+                        <tei:citedRange unit="issue">101</tei:citedRange>
+                    </tei:biblStruct>
+                    <tei:biblStruct type="journalArticle" xml:id="La_Regina1972" corresp="http://zotero.org/groups/2552746/items/2GVMMV44">
+                        <tei:analytic>
+                            <tei:title level="a">Iscrizioni osche della Frentania nel Museo di Chieti</tei:title>
+                            <tei:author>
+                                <tei:forename>Adriano</tei:forename>
+                                <tei:surname>La Regina</tei:surname>
+                            </tei:author>
+                        </tei:analytic>
+                        <tei:monogr>
+                            <tei:title level="j">Archeologia Classica</tei:title>
+                            <tei:imprint>
+                                <tei:biblScope unit="volume">24</tei:biblScope>
+                                <tei:biblScope unit="page">263-268</tei:biblScope>
+                                <tei:date>1972</tei:date>
+                            </tei:imprint>
+                        </tei:monogr>
+                        <citedRange unit="page">266-268, no. 4 (with photograph pl. LXX and drawing, p. 265)</citedRange>
+                    </tei:biblStruct>
+                </tei:listBibl>
+            </tei:div>
+        </tei:body>
+    </tei:text>
+</tei:TEI>

@@ -1,0 +1,380 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/9.4/tei-epidoc.rng"
+schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/9.4/tei-epidoc.rng"
+schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<tei:TEI xmlns:dcr="http://www.isocat.org/ns/dcr" xml:id="ItAnt_Oscan_39"
+    xmlns:tei="http://www.tei-c.org/ns/1.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <tei:teiHeader>
+        <tei:fileDesc>
+            <tei:titleStmt>
+                <tei:title type="ItAnt_ID">Inscription ItAnt Oscan 39</tei:title>
+            </tei:titleStmt>
+            <tei:editionStmt>
+                <tei:edition>
+                    <tei:idno>ItAnt Oscan 39</tei:idno>
+                </tei:edition>
+                <tei:editor>
+                    <tei:persName>Francesca Murano</tei:persName>
+                </tei:editor>
+            </tei:editionStmt>         
+            <tei:publicationStmt>
+                <tei:authority>PRIN 2017 "Lingue e culture dell'Italia antica: linguistica storica e modelli digitali | Languages and Cultures of Ancient Italy. Historical Linguistics and Digital Models"</tei:authority>
+                <tei:date>2023</tei:date>
+                <tei:idno type="URI" subtype="handle"></tei:idno>
+                <tei:availability>
+                    <tei:licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">This file is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International license – (CC BY-NC-SA 4.0).  
+                    </tei:licence>
+                </tei:availability>
+            </tei:publicationStmt>   
+            <tei:sourceDesc>
+                <tei:msDesc>
+                    <tei:msIdentifier>
+                        <tei:settlement ref="https://sws.geonames.org/3175445">Isernia</tei:settlement>
+                        <tei:institution ref="https://www.musei.molise.beniculturali.it/musei?mid=211">Museo Archeologico di Santa Maria delle Monache</tei:institution>                      
+                        <tei:altIdentifier type="cancelled">
+                            <tei:settlement ref="https://sws.geonames.org/3180991">Campobasso</tei:settlement>
+                            <tei:institution ana="https://sabapmolise.beniculturali.it">Soprintendenza Archeologia, Belle arti e Paesaggio del Molise</tei:institution>
+                            <tei:idno type="museumID" corresp="#fragment_C">444 [fragm. C] and 445 [fragm. B]</tei:idno>
+                        </tei:altIdentifier>
+                        <tei:altIdentifier type="cancelled">
+                            <tei:settlement ref="https://sws.geonames.org/3178796">Chieti</tei:settlement>
+                        <tei:institution ref="http://musei.beniculturali.it/en/museums?mid=61">Museo Archeologico Nazionale</tei:institution>
+                            <tei:idno>4487 [fragm. C] and 4488 [fragm. B]</tei:idno>
+                        </tei:altIdentifier>
+                        <tei:altIdentifier type="trismegistos" corresp="#fragment_C">
+                            <tei:idno source="www.trismegistos.org/text/170810" corresp="#fragment_C">TM 170810 [fragm. C]</tei:idno>
+                        </tei:altIdentifier>
+                        <tei:altIdentifier type="trismegistos" corresp="#fragment_B">
+                            <tei:idno source="www.trismegistos.org/text/170809" corresp="#fragment_B">TM 170809 [fragm. B]</tei:idno>
+                        </tei:altIdentifier>
+                        <tei:altIdentifier type="traditionalID">
+                            <tei:idno source="http://zotero.org/groups/2552746/items/IMWMSAVE" corresp="#fragment_C">ST Sa 39</tei:idno>
+                        </tei:altIdentifier>
+                        <tei:altIdentifier type="traditionalID" corresp="#fragment_B">
+                            <tei:idno source="http://zotero.org/groups/2552746/items/IMWMSAVE">ST Sa 38</tei:idno>
+                        </tei:altIdentifier>
+                        <tei:altIdentifier type="traditionalID" corresp="#fragment_C">
+                            <tei:idno source="http://zotero.org/groups/2552746/items/IKUTPHDC">ImIt Teruentum 3</tei:idno>
+                        </tei:altIdentifier>
+                        <tei:altIdentifier type="traditionalID" corresp="#fragment_B">
+                            <tei:idno source="http://zotero.org/groups/2552746/items/IKUTPHDC">ImIt Teruentum 2</tei:idno>
+                        </tei:altIdentifier>
+                    </tei:msIdentifier> 
+                    <tei:msContents>
+                        <tei:summary>A (presumably building) inscription on stone from the <tei:ref target="https://www.musei.molise.beniculturali.it/musei?mid=6691&amp;nome=santuario-italico">sanctuary of Pietrabbondante</tei:ref>. The inscription, belonging to the Ionic temple, consists of three fragments (<tei:ref target="#fragment_A">A</tei:ref>, <tei:ref target="#fragment_B">B</tei:ref> and <tei:ref target="#fragment_C">C</tei:ref>), found at different times in the area of Temple B.                        
+                        </tei:summary>                        
+                    </tei:msContents>
+                    <tei:physDesc>
+                        <tei:objectDesc>     
+                            <tei:supportDesc>
+                                <tei:support>
+                                    <tei:objectType ana="http://archwort.dainst.org/en/term/4572">stone slab</tei:objectType>
+                                    <tei:rs ana="objectShape">quadrangular</tei:rs>
+                                    <tei:material ana="http://vocab.getty.edu/aat/300011286">limestone</tei:material>
+                                    <tei:dimensions type="objectDimensions" unit="cm" precision="high" resp="#La_Regina2019">
+                                        <tei:height>fragment A: 10,9; fragment B: 10,9; fragment C: 10</tei:height>
+                                        <tei:width>fragment A: 23; fragment B: 30,5; fragment C: 18</tei:width>
+                                        <tei:depth>fragment A: 26; fragment B: 26; fragment C: 21</tei:depth>                                     
+                                    </tei:dimensions>
+                                    <!--
+                                    <tei:dimensions type="objectDimensions" unit="cm" precision="high" resp="#La_Regina2019" corresp="#fragment_A">
+                                        <tei:height quantity="10.9">10,9</tei:height>
+                                        <tei:width quantity="23">23</tei:width>
+                                        <tei:depth quantity="26">26</tei:depth> 
+                                    </tei:dimensions>
+                                    <tei:dimensions type="objectDimensions" unit="cm" precision="high" resp="#La_Regina2019" corresp="#fragment_B">
+                                        <tei:height quantity="10.9">10,9</tei:height>
+                                        <tei:width quantity="30.5">30,5</tei:width>
+                                        <tei:depth quantity="26">26</tei:depth>          
+                                    </tei:dimensions>
+                                    <tei:dimensions type="objectDimensions" unit="cm" precision="high" resp="#La_Regina2019" corresp="#fragment_C">
+                                        <tei:height quantity="10">10</tei:height>
+                                        <tei:width quantity="18">18</tei:width>
+                                        <tei:depth quantity="21">21</tei:depth>          
+                                    </tei:dimensions>
+                                    -->
+                                    <tei:rs type="reuse" resp="#La_Regina2019">no</tei:rs>
+                                    <tei:note>The blocks were reused as building material in the retaining walls of the temple B after the destroying of the Ionian temple in the Second Punic War (217 BC).</tei:note>
+                                </tei:support>
+                                <tei:condition>very fragmentary
+                                    <tei:note>fragments broken at each end</tei:note>
+                                </tei:condition>   
+                            </tei:supportDesc>
+                            <tei:layoutDesc>
+                                <tei:layout columns="1" writtenLines="1">
+                                    <tei:rs type="execution" ana="http://vocab.getty.edu/page/aat/300404794">engraved</tei:rs>
+                                    <tei:rs type="opistography">no</tei:rs>             
+                                </tei:layout>
+                            </tei:layoutDesc>
+                        </tei:objectDesc>
+                        <tei:handDesc>
+                            <tei:handNote>
+                                <tei:note type="palaeographicNotes">Inconsistent use of the punctuation (dot missing between <tei:ref type="w" xml:lang="osc-Ital-x-oscetr" corresp="Osc_39_l_1_w_2">praí</tei:ref> and <tei:ref type="w" xml:lang="osc-Ital-x-oscetr" corresp="Osc_39_l_1_w_3">kel[</tei:ref>)</tei:note>
+                            </tei:handNote>
+                        </tei:handDesc>
+                        <tei:scriptDesc>
+                            <tei:scriptNote>
+                                <tei:rs type="writingSystem" subtype="alphabet" ref="https://www.prin-italia-antica.unifi.it/p166.html#oscan-etruscan">Oscan National alphabet</tei:rs>
+                                <tei:rs type="wordDivision">punctuation
+                                </tei:rs>
+                            </tei:scriptNote>
+                        </tei:scriptDesc>
+                    </tei:physDesc>
+                    <tei:history>
+                        <tei:origin> 
+                            <tei:origPlace type="composed">
+                                <tei:placeName type="ancient" ref="https://pleiades.stoa.org/places/433078">Samnium</tei:placeName>
+                                <tei:placeName type="modern" ref="https://sws.geonames.org/3170820">Pietrabbondante (IS)</tei:placeName>
+                            </tei:origPlace>
+                            <tei:origDate notBefore-custom="-0299" notAfter-custom="-0217" cert="medium">3rd cent. BC (not after 217 BC)</tei:origDate>
+                        </tei:origin>
+                        <tei:provenance type="found" subtype="discovered" resp="#La_Regina2019">
+                            <tei:placeName type="ancient" ref="https://pleiades.stoa.org/places/433078">Samnium</tei:placeName>
+                            <tei:placeName type="modern" ref="https://sws.geonames.org/3170820">Pietrabbondante (IS)</tei:placeName>
+                            <tei:placeName type="detailed">Fragm. A: found in 1998 in the area between the theater and Temple B, in the destruction layer of the Ionic temple (US 56). Fragm. B: found in 1963 in the debris of a collapsed retaining wall inside the podium of Temple B, where it was reused as building material (B XI area). Fragm. C: found in 1963 placed into one of the walls of Temple B, where it had been reused as a building material (B XI area)</tei:placeName>
+                        </tei:provenance>
+                        <!--
+                        <tei:provenance type="found" subtype="discovered" when="1998" resp="#La_Regina2019" corresp="#fragment_A">
+                            <tei:placeName type="ancient" ref="https://pleiades.stoa.org/places/433078">Samnium</tei:placeName>
+                            <tei:placeName type="modern" ref="https://sws.geonames.org/3170820">Pietrabbondante (IS)</tei:placeName>
+                            <tei:placeName type="detailed">Fragm. A: found in the area between the theater and Temple B, in the destruction layer of the Ionic temple (US 56).</tei:placeName>
+                        </tei:provenance>
+                        <tei:provenance type="found" subtype="discovered" when="1963" resp="#La_Regina2019" corresp="#fragment_B">
+                            <tei:placeName type="ancient" ref="https://pleiades.stoa.org/places/433078">Samnium</tei:placeName>
+                            <tei:placeName type="modern" ref="https://sws.geonames.org/3170820">Pietrabbondante (IS)</tei:placeName>
+                            <tei:placeName type="detailed">Fragm. B: found in the debris of a collapsed retaining wall inside the podium of Temple B, where it was reused as building material (B XI area).  
+                            </tei:placeName>
+                        </tei:provenance>
+                        <tei:provenance type="found" subtype="discovered" when="1963" resp="#La_Regina2019" corresp="#fragment_C">
+                            <tei:placeName type="ancient" ref="https://pleiades.stoa.org/places/433078">Samnium</tei:placeName>
+                            <tei:placeName type="modern" ref="https://sws.geonames.org/3170820">Pietrabbondante (IS)</tei:placeName>
+                            <tei:placeName type="detailed">Fragm. C: found inserted into one of the walls of Temple B, where it had been reused as a building material (B XI area)</tei:placeName>
+                        </tei:provenance>
+                        -->
+                        <tei:provenance type="observed" subtype="autopsied" when="2023" resp="Francesca Murano">
+                            <tei:persName>Francesca Murano</tei:persName>
+                        </tei:provenance>
+                        <tei:provenance type="observed" subtype="autopsied" notAfter="2019" resp="#La_Regina2019">
+                            <tei:persName>Adriano La Regina</tei:persName>
+                        </tei:provenance>
+                    </tei:history>                       
+                </tei:msDesc>   
+            </tei:sourceDesc> 
+        </tei:fileDesc>
+        <tei:encodingDesc>
+            <tei:p source="https://epidoc.stoa.org/gl/latest/">Marked-up according to the EpiDoc Guidelines</tei:p>
+        </tei:encodingDesc>
+        <tei:profileDesc>
+            <tei:langUsage>
+                <tei:language ident="osc" source="https://iso639-3.sil.org/code/osc">Oscan</tei:language>
+                <tei:language ident="osc-Ital-x-oscetr" source="https://www.prin-italia-antica.unifi.it/p166.html#oscan-etruscan" ana="https://unicode.org/iso15924/iso15924-codes.html">Oscan in National alphabet (Oscan-Etruscan alphabet)</tei:language>
+            </tei:langUsage>
+            <tei:textClass>
+                <tei:keywords scheme="https://www.eagle-network.eu/resources/vocabularies/typeins/">
+                    <tei:term ref="https://www.eagle-network.eu/voc/typeins/lod/86">building inscription</tei:term>
+                </tei:keywords>
+            </tei:textClass>
+        </tei:profileDesc>
+    </tei:teiHeader>
+    <tei:facsimile>
+        <tei:graphic n="1" url="http://linsto.dipartimentidieccellenza-dilef.unifi.it/itant/img/ItAnt_Oscan_39.jpg" resp="Francesca Murano">
+            <tei:desc>Inscription ItAnt Oscan 39 (drawing by <tei:persName>Francesca Murano</tei:persName>)
+                <tei:ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">This file is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International license – (CC BY-NC-SA 4.0).</tei:ref>
+            </tei:desc>
+        </tei:graphic>
+        <tei:graphic n="2" url="https://www.studietruschi.org/wp-content/uploads/2021/08/SE82_13.pdf#page=33">
+            <tei:desc>Inscription ItAnt Oscan 39 (photograph from <tei:ref target="http://zotero.org/groups/2552746/items/PAPV9PTM"><tei:bibl>La Regina 2019</tei:bibl></tei:ref>, pl. LXIII, a and b)
+                <tei:ref ana="https://www.studietruschi.org">This file is provided by the Istituto Nazionale di Studi Etruschi ed Italici</tei:ref>
+            </tei:desc>
+        </tei:graphic>
+    </tei:facsimile>
+    <tei:text>
+        <tei:body>    
+            <tei:div type="edition" subtype="interpretative" xml:space="preserve">
+                <tei:div type="textpart" n="fragment_A" style="text-direction:r-to-l" rend="ductus:sinistrorse" xml:id="fragment_A">
+                    <tei:ab>   
+                        <tei:lb n="1" xml:id="Osc_39_l_1"/>
+                        <!-- gap -->
+                            <tei:gap reason="lost" extent="unknown" unit="character"/>
+                            <!-- Leida;Osc_39_l_1_w_1;íním -->
+                            <tei:w xml:lang="osc-Ital-x-oscetr" xml:id="Osc_39_l_1_w_1">íním</tei:w>
+                            <tei:pc unit="word">.</tei:pc>
+                    </tei:ab>
+                </tei:div>        
+                <tei:div type="textpart" n="fragment_B" style="text-direction:r-to-l" rend="ductus:sinistrorse" xml:id="fragment_B">
+                <tei:ab>   
+                    <tei:lb n="1"/>
+                    <!-- Leida;Osc_39_l_1_w_2;praí -->
+                    <tei:w xml:lang="osc-Ital-x-oscetr" xml:id="Osc_39_l_1_w_2">praí</tei:w>  
+                    <!-- vacat -->
+                    <tei:space unit="character" quantity="1"/>
+                    <!-- Leida;Osc_39_l_1_w_3;kel[ -->
+                    <tei:w xml:lang="osc-Ital-x-oscetr" xml:id="Osc_39_l_1_w_3">kel<tei:gap reason="lost" extent="unknown" unit="character"/></tei:w>
+                </tei:ab>
+            </tei:div>
+            <tei:div type="textpart" n="fragment_C" style="text-direction:r-to-l" rend="ductus:sinistrorse" xml:id="fragment_C">
+                <tei:ab>   
+                    <tei:lb n="1"/>
+                    <!-- gap -->
+                    <tei:gap reason="lost" extent="unknown" unit="character"/>
+                    <!-- Leida;Osc_39_l_1_w_4;]s -->
+                    <tei:w xml:lang="osc-Ital-x-oscetr" xml:id="Osc_39_l_1_w_4"><tei:gap reason="lost" extent="unknown" unit="character"/>s</tei:w>
+                    <tei:pc unit="word">.</tei:pc>
+                    <!-- Leida;Osc_39_l_1_w_5;kú[ -->
+                    <tei:w xml:lang="osc-Ital-x-oscetr" xml:id="Osc_39_l_1_w_5">kú<tei:gap reason="lost" extent="unknown" unit="character"/></tei:w>
+                    <!-- gap -->
+                    <tei:gap reason="lost" extent="unknown" unit="character"/>
+                </tei:ab>
+            </tei:div>
+        </tei:div>
+        <tei:div type="translation" xml:lang="ita"/>
+        <tei:div type="translation" xml:lang="eng"/>
+        <tei:div type="commentary" xml:lang="eng" resp="Francesca Murano">
+            <tei:note>
+                <tei:p>The inscription belonged to the Ionic temple. After the destruction of the temple in the Second Punic War (217 BC), two of the fragments composing the inscription (<tei:ref target="#fragment_B">B</tei:ref> and <tei:ref target="#fragment_C">C</tei:ref>) were reused in the retaining walls of Temple B.</tei:p>
+                <tei:p>The belonging to a single inscription of the fragments has been recognised by <tei:ref target="http://zotero.org/groups/2552746/items/PAPV9PTM"><tei:bibl>La Regina 2019</tei:bibl></tei:ref> (a proposal for fragments <tei:ref target="#fragment_B">B</tei:ref> and <tei:ref target="#fragment_C">C</tei:ref> is already of <tei:ref target="http://zotero.org/groups/2552746/items/IKUTPHDC"><tei:bibl>Crawford, ImIt</tei:bibl></tei:ref>: 1148-1149, contra <tei:ref target="http://zotero.org/groups/2552746/items/KHNPLZV6"><tei:bibl>La Regina 1980</tei:bibl></tei:ref>).</tei:p>
+                </tei:note>
+            <tei:note>
+                <tei:p> According to <tei:ref target="http://zotero.org/groups/2552746/items/IKUTPHDC"><tei:bibl>Crawford, ImIt</tei:bibl></tei:ref>: 1148-1149, the inscription belonged to the architrave of the temple. <tei:ref target="http://zotero.org/groups/2552746/items/PAPV9PTM"><tei:bibl>La Regina 2019</tei:bibl></tei:ref>: 350 assumes that the inscription was probably engraved on numerous slabs placed side by side, so as to form a plane on which something referred in the inscription was placed</tei:p>
+            </tei:note>
+            <tei:note>
+                <tei:p>Since the Ionic temple was destroyed in the Second Punic War, the inscription is to be attributed to the 3rd century BC.</tei:p>
+            </tei:note>
+                <tei:note target="#Osc_39_l_1">
+                    <tei:p><tei:ref target="http://zotero.org/groups/2552746/items/PAPV9PTM"><tei:bibl>La Regina 2019</tei:bibl></tei:ref> restores the 3rd word as <tei:rs xml:lang="osc-Ital-x-oscetr" type="name" corresp="#Osc_39_l_1_w_3">kel[as]</tei:rs>, 'cell of the temple', the 4th as <tei:rs xml:lang="osc-Ital-x-oscetr" type="name" corresp="#Osc_39_l_1_w_4">[aasas]s</tei:rs> 'to the gods', the 5th as <tei:rs xml:lang="osc-Ital-x-oscetr" type="name" corresp="#Osc_39_l_1_w_5">kú[mbennieís]</tei:rs> 'of the concilium' and intregrates the text as follows: <tei:rs xml:lang="osc-Ital-x-oscetr" type="name" corresp="#Osc_39_l_1">] inim · praí kel[ad...?... aasas]s · kú[mbenieís · tanginúd · aamanaffed · esídúm · prúfatted</tei:rs> '] and in front of the cell for the gods for whom he placed and approved the altars by decision of the council'.</tei:p>
+                </tei:note>
+                <tei:note target="#Osc_39_l_1_w_5">
+                    <tei:p>According to <tei:ref target="http://zotero.org/groups/2552746/items/IKUTPHDC"><tei:bibl>Crawford 2011</tei:bibl></tei:ref>, <tei:rs xml:lang="osc-Ital-x-oscetr" type="name" corresp="#Osc_39_l_1_w_1">kú[mieís]</tei:rs> 'son of Comius' would be possible. He also proposes an interpretation of <tei:rs xml:lang="osc-Ital-x-oscetr" type="name" corresp="#Osc_39_l_1_w_2">praí</tei:rs> as a divine attribute (dat. sg. fem.), and of the 3rd word as <tei:rs xml:lang="osc-Ital-x-oscetr" type="name" corresp="#Osc_39_l_1_w_3">kel[led]</tei:rs>, 'fashioned'</tei:p>
+                </tei:note>
+            </tei:div>
+            <tei:div type="bibliography">
+                <tei:listBibl xmlns="http://www.tei-c.org/ns/1.0">
+                    <tei:biblStruct type="journalArticle" xml:id="La_Regina2019" corresp="http://zotero.org/groups/2552746/items/PAPV9PTM">
+                        <tei:analytic>
+                            <tei:title level="a">Frammenti di iscrizione del Tempio ionico</tei:title>
+                            <tei:author>
+                                <tei:forename>Adriano</tei:forename>
+                                <tei:surname>La Regina</tei:surname>
+                            </tei:author>
+                        </tei:analytic>
+                        <tei:monogr>
+                            <tei:title level="j">Studi Etruschi</tei:title>
+                            <tei:imprint>
+                                <tei:biblScope unit="volume">82</tei:biblScope>
+                                <tei:biblScope unit="page">348-350</tei:biblScope>
+                                <tei:date>2019</tei:date>
+                            </tei:imprint>
+                        </tei:monogr>
+                    </tei:biblStruct>
+                    <tei:biblStruct type="book" xml:id="ImIt2011"  corresp="http://zotero.org/groups/2552746/items/IKUTPHDC">
+                        <tei:monogr>
+                            <tei:title level="m">Imagines Italicae: A Corpus of Italic Inscriptions</tei:title>
+                            <tei:editor>
+                                <tei:forename>Michael</tei:forename>
+                                <tei:surname>Crawford</tei:surname>
+                            </tei:editor>
+                            <tei:imprint>
+                                <tei:pubPlace>London</tei:pubPlace>
+                                <tei:publisher>Institute of Classical Studies, University of London</tei:publisher>
+                                <tei:date>2011</tei:date>
+                            </tei:imprint>
+                        </tei:monogr>
+                        <tei:citedRange unit="entry">nos. Teruentum 2 and  3 (with photographs)</tei:citedRange>
+                    </tei:biblStruct>
+                    <tei:biblStruct type="book" xml:id="Rix2002"  corresp="http://zotero.org/groups/2552746/items/IMWMSAVE">
+                        <tei:monogr>
+                            <tei:title level="m">Sabellische Texte. Die Texte des Oskischen, Umbrischen und Südpikenischen</tei:title>
+                            <tei:author>
+                                <tei:forename>Helmut</tei:forename>
+                                <tei:surname>Rix</tei:surname>
+                            </tei:author>
+                            <tei:imprint>
+                                <tei:pubPlace>Heidelberg</tei:pubPlace>
+                                <tei:publisher>C. Winter</tei:publisher>
+                                <tei:date>2002</tei:date>
+                            </tei:imprint>
+                        </tei:monogr>
+                        <tei:citedRange unit="entry">nos. Sa 38 and 39</tei:citedRange>
+                    </tei:biblStruct>
+                    <tei:biblStruct type="bookSection" xml:id="La_Regina1980" corresp="http://zotero.org/groups/2552746/items/KHNPLZV6">
+                        <tei:analytic>
+                            <tei:title level="a">Iscrizioni su pietra calcarea</tei:title>
+                            <tei:author>
+                                <tei:forename>Adriano</tei:forename>
+                                <tei:surname>La Regina</tei:surname>
+                            </tei:author>
+                        </tei:analytic>
+                        <tei:monogr>
+                            <tei:title level="m">Sannio: Pentri e Frentani dal VI al I sec. a.C. Catalogo della mostra (Isernia, Museo Nazionale, ottobre-dicembre 1980)</tei:title>
+                            <tei:imprint>
+                                <tei:pubPlace>Roma</tei:pubPlace>
+                                <tei:biblScope unit="page">164</tei:biblScope>
+                                <tei:publisher>De Luca</tei:publisher>
+                                <tei:date>1980</tei:date>
+                            </tei:imprint>
+                        </tei:monogr>
+                        <tei:citedRange unit="entry">nos. 47 a and b</tei:citedRange>
+                    </tei:biblStruct>
+                    <tei:biblStruct type="book" xml:id="Poccetti1979" corresp="http://zotero.org/groups/2552746/items/JFW9XW6P">
+                        <tei:monogr>
+                            <tei:title level="m">Nuovi documenti italici a complemento del Manuale di E. Vetter</tei:title>
+                            <tei:idno type="ISBN">978-88-427-0946-6</tei:idno>
+                            <tei:author>
+                                <tei:forename>Paolo</tei:forename>
+                                <tei:surname>Poccetti</tei:surname>
+                            </tei:author>
+                            <tei:imprint>
+                                <tei:pubPlace>Pisa</tei:pubPlace>
+                                <tei:publisher>Giardini Editore</tei:publisher>
+                                <tei:date>1979</tei:date>
+                            </tei:imprint>
+                        </tei:monogr>
+                        <tei:series>
+                            <tei:title level="s">Orientamenti linguistici</tei:title>
+                            <tei:biblScope unit="volume">8</tei:biblScope>
+                        </tei:series>
+                        <tei:citedRange unit="entry">24</tei:citedRange>
+                    </tei:biblStruct>
+                    <tei:biblStruct type="journalArticle" xml:id="Marchese1974" corresp="http://zotero.org/groups/2552746/items/CC4JTQR9">
+                        <tei:analytic>
+                            <tei:title level="a">Sulle nuove (e antiche) iscrizioni di Pietrabbondante</tei:title>
+                            <tei:author>
+                                <tei:forename>Maria Pia</tei:forename>
+                                <tei:surname>Marchese</tei:surname>
+                            </tei:author>
+                        </tei:analytic>
+                        <tei:monogr>
+                            <tei:title level="j">Studi Etruschi</tei:title>
+                            <tei:imprint>
+                                <tei:biblScope unit="volume">42</tei:biblScope>
+                                <tei:biblScope unit="page">371-378</tei:biblScope>
+                                <tei:date>1974</tei:date>
+                            </tei:imprint>
+                        </tei:monogr>
+                    </tei:biblStruct>
+                    <tei:biblStruct type="journalArticle" xml:id="La_Regina1966" corresp="http://zotero.org/groups/2552746/items/DRN85687">
+                        <tei:analytic>
+                            <tei:title level="a">Le iscrizioni osche di Pietrabbondante e la questione di Bovianum Vetus</tei:title>
+                            <tei:author>
+                                <tei:forename>Adriano</tei:forename>
+                                <tei:surname>La Regina</tei:surname>
+                            </tei:author>
+                        </tei:analytic>
+                        <tei:monogr>
+                            <tei:title level="j">Rheinisches Museum für Philologie</tei:title>
+                            <tei:imprint>
+                                <tei:biblScope unit="volume">109</tei:biblScope>
+                                <tei:biblScope unit="issue">3</tei:biblScope>
+                                <tei:biblScope unit="page">260-286</tei:biblScope>
+                                <tei:date>1966</tei:date>
+                            </tei:imprint>
+                        </tei:monogr>
+                        <tei:citedRange unit="page">267, no. 7</tei:citedRange>
+                    </tei:biblStruct>
+                </tei:listBibl>    
+            </tei:div>   
+        </tei:body>
+    </tei:text>
+</tei:TEI>

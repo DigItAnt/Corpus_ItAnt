@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/9.6/tei-epidoc.rng"
+schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/9.6/tei-epidoc.rng"
+schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<tei:TEI xmlns:dcr="http://www.isocat.org/ns/dcr" xml:id="ItAnt_Oscan_638"
+    xmlns:tei="http://www.tei-c.org/ns/1.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <tei:teiHeader>
+        <tei:fileDesc>
+            <tei:titleStmt>
+                <tei:title type="ItAnt_ID">Inscription ItAnt Oscan 638</tei:title>
+            </tei:titleStmt>
+            <tei:editionStmt>
+                <tei:edition>
+                    <tei:idno>ItAnt Oscan 638</tei:idno>
+                </tei:edition>
+                <tei:editor>
+                    <tei:persName>Francesca Murano</tei:persName>
+                </tei:editor>
+            </tei:editionStmt>         
+            <tei:publicationStmt>
+                <tei:authority>PRIN 2017 "Lingue e culture dell'Italia antica: linguistica storica e modelli digitali | Languages and Cultures of Ancient Italy. Historical Linguistics and Digital Models"</tei:authority>
+                <tei:date>2023</tei:date>
+                <tei:idno type="URI" subtype="handle"></tei:idno>
+                <tei:availability>
+                    <tei:licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">This file is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International license – (CC BY-NC-SA 4.0).  
+                    </tei:licence>
+                </tei:availability>
+            </tei:publicationStmt>   
+            <tei:sourceDesc>
+                <tei:msDesc>
+                    <tei:msIdentifier>
+                        <tei:settlement></tei:settlement>
+                        <tei:institution ana="https://www.beniculturali.it/ente/soprintendenza-archeologia-belle-arti-e-paesaggio-per-le-province-di-caserta-e-benevento">Soprintendenza Archeologia, Belle arti e Paesaggio per le province di Caserta e Benevento</tei:institution>
+                        <tei:idno type="museumID"/>
+                        <tei:msName></tei:msName>
+                        <tei:altIdentifier type="trismegistos">
+                            <tei:idno/>
+                        </tei:altIdentifier> 
+                        <tei:altIdentifier type="traditionalID">
+                            <tei:idno/>
+                        </tei:altIdentifier>                       
+                    </tei:msIdentifier> 
+                    <tei:msContents>
+                        <tei:summary>Stamp on a tile from <tei:ref target="https://sws.geonames.org/6543607">Capo di Campo, Castello del Matese, Caserta</tei:ref>.</tei:summary>
+                    </tei:msContents>
+                    <tei:physDesc>
+                        <tei:objectDesc>     
+                            <tei:supportDesc>
+                                <tei:support>
+                                    <tei:objectType ana="http://vocab.getty.edu/page/aat/300010699">tegula</tei:objectType>
+                                    <tei:material ana="http://vocab.getty.edu/page/aat/300010669">terracotta
+                                    </tei:material>
+                                    <tei:dimensions type="objectDimensions" unit="cm" precision="high" resp="#Soricelli2013">
+                                        <tei:height quantity="13.8">13,8</tei:height>
+                                        <tei:width quantity="9">9</tei:width>
+                                        <tei:depth quantity="3">3</tei:depth>
+                                    </tei:dimensions>
+                                    <tei:rs type="reuse">no</tei:rs>
+                                </tei:support>
+                                <tei:condition>very fragmentary
+                                </tei:condition>   
+                            </tei:supportDesc>
+                            <tei:layoutDesc>
+                                <tei:layout columns="1" writtenLines="1">
+                                    <tei:rs type="execution" ana="http://vocab.getty.edu/page/aat/300239001">stamp</tei:rs>
+                                    <tei:rs type="opistography">no</tei:rs>
+                                    <tei:note type="layoutNotes"/>
+                                    <tei:dimensions type="lineDimension" unit="cm" precision="medium" resp="#Soricelli2013">
+                                        <tei:height atLeast="2" atMost="2.2">2 to 2,2</tei:height>
+                                        <tei:width quantity="4.3">4,3</tei:width>
+                                    </tei:dimensions> 
+                                </tei:layout>
+                            </tei:layoutDesc>
+                        </tei:objectDesc>
+                        <tei:handDesc>                            
+                            <tei:handNote>
+                                <tei:note type="palaeographicNotes"/>
+                                <tei:dimensions type="characterDimension" unit="cm" precision="medium" resp="#Soricelli2013">
+                                    <tei:height atLeast="2" atMost="2.2">2 to 2,2</tei:height>
+                                </tei:dimensions>
+                            </tei:handNote>
+                        </tei:handDesc>                                      
+                        <tei:scriptDesc>
+                            <tei:scriptNote>
+                                <tei:rs type="writingSystem" subtype="alphabet" ref="https://www.prin-italia-antica.unifi.it/p166.html#oscan-etruscan">Oscan National alphabet</tei:rs>
+                                <tei:rs type="wordDivision">punctuation</tei:rs>
+                            </tei:scriptNote>
+                        </tei:scriptDesc>
+                        <tei:decoDesc>
+                            <tei:decoNote></tei:decoNote>   
+                        </tei:decoDesc>
+                    </tei:physDesc>
+                    <tei:history>
+                        <tei:origin> 
+                            <tei:origPlace type="composed">                              
+                                <tei:placeName type="ancient" ref="https://pleiades.stoa.org/places/433078">Samnium</tei:placeName>
+                                <tei:placeName type="modern" ref="https://sws.geonames.org/6543607">Castello del Matese (Caserta)</tei:placeName>
+                            </tei:origPlace>
+                            <tei:origDate notBefore-custom="-0199" notAfter-custom="-0100" cert="medium">2nd century BC</tei:origDate>
+                        </tei:origin>
+                        <tei:provenance type="found" subtype="discovered" notBefore="2012" notAfter="2014">
+                            
+                            <tei:placeName type="ancient" ref="https://pleiades.stoa.org/places/433078">Samnium</tei:placeName>
+                            <tei:placeName type="modern" ref="https://sws.geonames.org/6543607">Castello del Matese, Caserta</tei:placeName>
+                            <tei:placeName type="detailed" resp="#Soricelli2013">loc. Capo di Campo; originally belonging to a public building, probably a sanctuary, found in the demolition layers of a Roman age building (end of I century BC) inside which the tile had been reused as building material</tei:placeName>
+                        </tei:provenance>
+                        <tei:provenance type="observed" subtype="autopsied" notBefore="2012" notAfter="2014">
+                            <tei:persName>G. Soricelli</tei:persName>
+                        </tei:provenance>
+                        <tei:provenance type="observed" subtype="seen" when="2021">
+                            <tei:persName>Francesca Murano</tei:persName>
+                        </tei:provenance>
+                    </tei:history>                       
+                </tei:msDesc>   
+            </tei:sourceDesc> 
+        </tei:fileDesc>
+        <tei:encodingDesc>
+            <tei:p source="https://epidoc.stoa.org/gl/latest/">Marked-up according to the EpiDoc Guidelines</tei:p>
+        </tei:encodingDesc>
+        <tei:profileDesc>
+            <tei:langUsage>
+                <tei:language ident="osc" source="https://iso639-3.sil.org/code/osc">Oscan</tei:language>
+                <tei:language ident="osc-Ital-x-oscetr" source="https://www.prin-italia-antica.unifi.it/p166.html#oscan-etruscan" ana="https://unicode.org/iso15924/iso15924-codes.html">Oscan in National alphabet (Oscan-Etruscan alphabet)</tei:language>
+            </tei:langUsage>
+            <tei:textClass>
+                <tei:keywords scheme="https://www.eagle-network.eu/resources/vocabularies/typeins/">
+                    <tei:term ref="https://www.eagle-network.eu/voc/typeins/lod/118">tile stamp</tei:term>
+                </tei:keywords>
+            </tei:textClass>
+        </tei:profileDesc>
+    </tei:teiHeader>
+    <tei:facsimile>
+        <tei:graphic n="1" url="http://linsto.dipartimentidieccellenza-dilef.unifi.it/itant/img/ItAnt_Oscan_638.jpg"  resp="Francesca Murano">
+            <tei:desc>Inscription ItAnt Oscan 638 (drawing by <tei:persName>Francesca Murano</tei:persName>)
+                <tei:ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">This file is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International license – (CC BY-NC-SA 4.0).</tei:ref>
+            </tei:desc>
+        </tei:graphic>    
+    </tei:facsimile>
+    <tei:text>
+        <tei:body>             
+            <tei:div type="edition" subtype="interpretative" xml:space="preserve">
+                <tei:div type="textpart" n="face_a" style="text-direction:r-to-l" rend="ductus:sinistrorse">
+                    <tei:ab>   
+                        <tei:lb n="1" xml:id="Osc_638_l_1"/>   
+                            <tei:gap reason="lost" extent="unknown" unit="character"/>
+                            <!-- ú(vi- - -) -->
+                            <tei:name type="praenomen" xml:lang="osc-Ital-x-oscetr" xml:id="Osc_638_l_1_w_1" ref="#p1"><tei:expan><tei:abbr>ú</tei:abbr><tei:ex>vi</tei:ex><tei:ex></tei:ex></tei:expan></tei:name>
+                        <tei:pc unit="word">.</tei:pc>
+                        <!-- tr(ebi- - -) -->
+                        <tei:name xml:lang="osc-Ital-x-oscetr" xml:id="Osc_638_l_1_w_2" ref="#p1"><tei:expan><tei:abbr>tr</tei:abbr><tei:ex>ebi</tei:ex><tei:ex></tei:ex></tei:expan></tei:name>
+                        <tei:gap reason="lost" extent="unknown" unit="character"/>        
+                    </tei:ab>
+                </tei:div>
+            </tei:div>
+            <tei:div type="translation" xml:lang="ita"/>
+            <tei:div type="translation" xml:lang="eng"/>            
+            <tei:div type="apparatus" xml:lang="eng" resp="Francesca Murano"/>    
+            <tei:div type="commentary" xml:lang="eng" resp="Francesca Murano">             
+                <tei:note>
+                    <tei:p>Due to the fragmentary state of the seal, the textual typology (see below) and, thus, the morphology and the function of the names (nominative or genitive) cannot be identified.</tei:p>
+                    <tei:p>In the gap, <tei:rs type="phr" xml:lang="osc-Ital-x-oscetr">m . t.</tei:rs> is to be reconstructed. If the stap belongs to the type with <tei:rs type="phr" xml:lang="osc-Ital-x-oscetr">m . t.</tei:rs> placed before the onomastic formula, the name is to be understood as that of the meddix tuticus and should be resolved in the nominative case; <tei:rs type="phr" xml:lang="osc-Ital-x-oscetr">m . t.</tei:rs> is to be reconstructed. If the stap belongs to the type with <tei:rs type="phr" xml:lang="osc-Ital-x-oscetr">tr</tei:rs> is to be considered as the gentilicium <tei:rs type="phr" xml:lang="osc-Ital-x-oscetr" ref="http://lexica/mylexicon#LexO_2024-09-0823_11_17_413">trebiis</tei:rs>. If the gap is larger, <tei:rs type="name" xml:lang="osc-Ital-x-oscetr">ú.tr</tei:rs> is to be interpreted as the name of the executor (or similar, see below). In principle, <tei:rs type="name" xml:lang="osc-Ital-x-oscetr">tr</tei:rs> could also be the abbreviation for the praenomen <tei:rs type="phr" xml:lang="osc-Ital-x-oscetr" ref="http://lexica/mylexicon#trebis_properNoun_osc_entry">trebis</tei:rs>: in that case, <tei:rs type="name" xml:lang="osc-Ital-x-oscetr">ú</tei:rs> is to be understood as the name of the father and <tei:rs type="name" xml:lang="osc-Ital-x-oscetr">tr</tei:rs> as the name of the grandfather.</tei:p>
+                </tei:note>
+                <tei:note>
+                    <tei:p>Stamps present three possible syntactic orders. The vast majority of them have the <tei:rs type="phr" xml:lang="osc-Ital-x-oscetr">m . t.</tei:rs> abbreviation before the onomastic formula, in rare cases the abbreviation follows. The third case is constituted by few stamps that bear two names with <tei:rs type="phr" xml:lang="osc-Ital-x-oscetr">m . t.</tei:rs> interposed.</tei:p>
+                    <tei:p>For a discussion see <tei:ref target="http://zotero.org/groups/2552746/items/QKITXKNI"><tei:bibl>Murano 2024</tei:bibl></tei:ref>.</tei:p>
+                </tei:note>
+                <tei:listPerson type="Onomastics">
+                    <tei:person xml:id="p1" xml:lang="osc-Ital-x-oscetr">
+                        <tei:persName>
+                            <tei:name>ú(vi--)</tei:name>
+                            <tei:name>tr(eb--)</tei:name>
+                        </tei:persName>
+                    </tei:person>
+                </tei:listPerson>
+            </tei:div>
+            <tei:div type="bibliography">
+                <tei:listBibl xmlns="http://www.tei-c.org/ns/1.0">
+                    <tei:biblStruct type="journalArticle" xml:id="Murano2024" corresp="http://zotero.org/groups/2552746/items/QKITXKNI">
+                        <tei:analytic><tei:title level="a">Ancora sui bolli sanniti con sigla m.t.</tei:title>
+                            <tei:author>
+                                <tei:forename>Francesca</tei:forename>
+                                <tei:surname>Murano</tei:surname>
+                            </tei:author>
+                        </tei:analytic>
+                        <tei:monogr>
+                            <tei:title level="j">Studi Etruschi</tei:title>
+                            <tei:imprint>
+                                <tei:biblScope unit="volume">84</tei:biblScope>
+                                <tei:biblScope unit="page"/>
+                                <tei:date>2024</tei:date>
+                            </tei:imprint>
+                        </tei:monogr>
+                    </tei:biblStruct>                                  
+                    <tei:biblStruct type="journalArticle" xml:id="Soricelli2013" corresp="http://zotero.org/groups/2552746/items/M3DYL9LE">
+                        <tei:analytic>
+                            <tei:title level="a">Nuovi bolli oschi su tegola dall'area del lago del Matese</tei:title>
+                            <tei:author>
+                                <tei:forename>Gianluca</tei:forename>
+                                <tei:surname>Soricelli</tei:surname>
+                            </tei:author>
+                        </tei:analytic>
+                        <tei:monogr>
+                            <tei:title level="j">Oebalus</tei:title>
+                            <tei:imprint>
+                                <tei:biblScope unit="volume">8</tei:biblScope>
+                                <tei:biblScope unit="page">219-244</tei:biblScope>
+                                <tei:date>2013</tei:date>
+                            </tei:imprint>
+                        </tei:monogr>
+                        <tei:citedRange unit="entry">18 (with drawing and photograph)</tei:citedRange>
+                    </tei:biblStruct>                                  
+                </tei:listBibl>   
+            </tei:div>   
+        </tei:body>
+    </tei:text>
+</tei:TEI>

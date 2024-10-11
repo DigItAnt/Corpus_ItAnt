@@ -1,0 +1,386 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/9.4/tei-epidoc.rng"
+schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/9.4/tei-epidoc.rng"
+schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<tei:TEI xmlns:dcr="http://www.isocat.org/ns/dcr" xml:id="ItAnt_Oscan_305"
+    xmlns:tei="http://www.tei-c.org/ns/1.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <tei:teiHeader>
+        <tei:fileDesc>
+            <tei:titleStmt>
+                <tei:title type="ItAnt_ID">Inscription ItAnt Oscan 305</tei:title>
+            </tei:titleStmt>
+            <tei:editionStmt>
+                <tei:edition>
+                    <tei:idno>ItAnt Oscan 305</tei:idno>
+                </tei:edition>
+                <tei:editor>
+                    <tei:persName>Francesca Murano</tei:persName>
+                </tei:editor>
+            </tei:editionStmt>         
+            <tei:publicationStmt>
+                <tei:authority>PRIN 2017 "Lingue e culture dell'Italia antica: linguistica storica e modelli digitali | Languages and Cultures of Ancient Italy. Historical Linguistics and Digital Models"</tei:authority>
+                <tei:date>2023</tei:date>
+                <tei:idno type="URI" subtype="handle"></tei:idno>
+                <tei:availability>
+                    <tei:licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">This file is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International license – (CC BY-NC-SA 4.0).  
+                    </tei:licence>
+                </tei:availability>
+            </tei:publicationStmt>   
+            <tei:sourceDesc>
+                <tei:msDesc>
+                    <tei:msIdentifier>
+                        <tei:settlement ref="https://sws.geonames.org/3172394">Napoli</tei:settlement>
+                        <tei:institution ana="https://www.museoarcheologiconapoli.it/it/">Museo Archeologico Nazionale</tei:institution>
+                        <tei:idno type="museumID">250174</tei:idno>
+                        <tei:msName>The inscription of Seuia Magia</tei:msName>
+                        <tei:altIdentifier type="trismegistos">
+                            <tei:idno source="www.trismegistos.org/text/170654">TM 170654</tei:idno>
+                        </tei:altIdentifier>
+                        <tei:altIdentifier type="traditionalID">
+                            <tei:idno source="http://zotero.org/groups/2552746/items/NJFZRK23">Ve 162</tei:idno>
+                        </tei:altIdentifier>
+                        <tei:altIdentifier type="traditionalID">
+                            <tei:idno source="http://zotero.org/groups/2552746/items/IMWMSAVE">ST Hi 4</tei:idno>
+                        </tei:altIdentifier> 
+                        <tei:altIdentifier type="traditionalID">
+                            <tei:idno source="http://zotero.org/groups/2552746/items/IKUTPHDC">ImIt Aeclanum 3</tei:idno>
+                        </tei:altIdentifier>
+                    </tei:msIdentifier> 
+                    <tei:msContents>
+                        <tei:summary>Dedicatory inscription to Mefitis from the sanctuary of the goddess in Aeclanum (Passo di Mirabella). The block was found re-used in the walled area replacing the sanctuary.
+                        </tei:summary>
+                    </tei:msContents>
+                    <tei:physDesc>
+                        <tei:objectDesc>     
+                            <tei:supportDesc>
+                                <tei:support>
+                                    <tei:objectType ana="http://vocab.getty.edu/aat/300001656">base</tei:objectType>                                     <tei:rs ana="objectShape">rectangular</tei:rs>  
+                                    <tei:note>
+                                        <tei:p>Altar-shape base, with moulded top and bottom. In the centre of the top, a pulvinar containing a groove intended to house the plinth of a statue is present (see <tei:ref target="http://zotero.org/groups/2552746/items/WPYWY87P"><tei:bibl>Sgobbo 1930</tei:bibl></tei:ref>: 403).</tei:p>
+                                        <tei:p><tei:ref target="http://zotero.org/groups/2552746/items/IKUTPHDC"><tei:bibl>Crawford, ImIt</tei:bibl></tei:ref>: 959, supposes the support is actually an <tei:term ref="http://vocab.getty.edu/aat/300003725">altar</tei:term>.</tei:p>
+                                    </tei:note>
+                                    <tei:material ana="http://vocab.getty.edu/aat/300011286">limestone</tei:material>
+                                    <tei:dimensions type="objectDimensions" unit="cm" precision="high" resp="Sgobbo1930">
+                                        <tei:height>108</tei:height>
+                                        <tei:width>113</tei:width>
+                                        <tei:depth>84</tei:depth>
+                                    </tei:dimensions>
+                                    <tei:rs type="reuse">no</tei:rs>
+                                </tei:support>
+                                <tei:condition>well-preserved</tei:condition>   
+                            </tei:supportDesc>
+                            <tei:layoutDesc>
+                                <tei:layout columns="1" writtenLines="2">
+                                    <tei:rs type="execution" ana="http://vocab.getty.edu/page/aat/300404794">engraved</tei:rs>
+                                    <tei:rs type="opistography">no</tei:rs>
+                                    <tei:note type="layoutNotes"/>
+                                    <tei:dimensions type="lineDimension" unit="cm" precision="high"/> 
+                                </tei:layout>
+                            </tei:layoutDesc>
+                        </tei:objectDesc>
+                        <tei:handDesc>                            
+                            <tei:handNote>
+                                <tei:note type="palaeographicNotes">Letter <tei:rs type="c" xml:lang="osc-Ital-x-oscetr">A</tei:rs> is not closed at the top.</tei:note>
+                                <tei:dimensions type="characterDimension" unit="cm" precision="high" resp="ImIt2011"> 
+                                    <tei:height atLeast="0.4" atMost="0.5">0,4 to 0,5</tei:height>
+                                </tei:dimensions>
+                            </tei:handNote>
+                        </tei:handDesc>                                      
+                        <tei:scriptDesc>
+                            <tei:scriptNote>
+                                <tei:rs type="writingSystem" subtype="alphabet" ref="https://www.prin-italia-antica.unifi.it/p166.html#oscan-etruscan">Oscan National alphabet</tei:rs>
+                                <tei:rs type="wordDivision">blank space</tei:rs>
+                            </tei:scriptNote>
+                        </tei:scriptDesc>
+                        <tei:decoDesc>
+                            <tei:decoNote/>   
+                        </tei:decoDesc>
+                    </tei:physDesc>
+                    <tei:history>
+                        <tei:origin> 
+                            <tei:origPlace type="composed">
+                                <tei:placeName type="ancient" ref="https://pleiades.stoa.org/places/442451">Aeclanum, Hirpinia</tei:placeName>
+                                <tei:placeName type="modern" ref="https://sws.geonames.org/3173383">Mirabella Eclano (AV)</tei:placeName>
+                            </tei:origPlace>
+                            <tei:origDate notBefore-custom="-0175" notAfter-custom="-0125" cert="medium">mid 2nd century BC</tei:origDate>
+                        </tei:origin>
+                        <tei:provenance type="found" subtype="discovered" when="1930">
+                            <tei:placeName type="ancient" ref="https://pleiades.stoa.org/places/442451">Aeclanum, Hirpinia</tei:placeName>
+                            <tei:placeName type="modern" ref="https://sws.geonames.org/3173383">Mirabella Eclano (AV)</tei:placeName>
+                            <tei:placeName type="detailed">Passo di Mirabella, loc. Cavuoto S. Antonio, «quasi dirimpetto alla chiesa della Madonna di Pompei, nel fondo dell'agricoltore Angelo Martiniello» (<tei:ref target="http://zotero.org/groups/2552746/items/WPYWY87P"><tei:bibl>Sgobbo 1930</tei:bibl></tei:ref>: 402). Originally coming from the sanctuary of Mefitis, situated beside the line of the Via Appia, the altar was re-used in late antiquity for the bilding of the walled area where it has been found.</tei:placeName>
+                        </tei:provenance>
+                        <tei:provenance type="observed" subtype="autopsied" when="2021">
+                            <tei:persName>Francesca Murano</tei:persName>
+                            <tei:persName>Monica Ballerini</tei:persName>
+                        </tei:provenance>
+                        <tei:provenance type="observed" subtype="autopsied" when="2003">
+                            <tei:persName>M.H. Crawford</tei:persName>
+                        </tei:provenance>
+                        <tei:provenance type="observed" subtype="autopsied" when="1930">
+                            <tei:persName>Italo Sgobbo</tei:persName>
+                        </tei:provenance>
+                    </tei:history>                       
+                </tei:msDesc>   
+            </tei:sourceDesc> 
+        </tei:fileDesc>
+        <tei:encodingDesc>
+            <tei:p source="https://epidoc.stoa.org/gl/latest/">Marked-up according to the EpiDoc Guidelines</tei:p>
+        </tei:encodingDesc>
+        <tei:profileDesc>
+            <tei:langUsage>
+                <tei:language ident="osc" source="https://iso639-3.sil.org/code/osc">Oscan</tei:language>
+                <tei:language ident="osc-Ital-x-oscetr" source="https://www.prin-italia-antica.unifi.it/p166.html#oscan-etruscan" ana="https://unicode.org/iso15924/iso15924-codes.html">Oscan in National alphabet (Oscan-Etruscan alphabet)</tei:language>
+            </tei:langUsage>
+            <tei:textClass>
+                <tei:keywords scheme="https://www.eagle-network.eu/resources/vocabularies/typeins/">
+                    <tei:term ref="https://www.eagle-network.eu/voc/typeins/lod/88">dedicatory inscription</tei:term>
+                </tei:keywords>
+            </tei:textClass>
+        </tei:profileDesc>
+    </tei:teiHeader>
+    <tei:facsimile>
+        <tei:graphic n="1" url="http://linsto.dipartimentidieccellenza-dilef.unifi.it/itant/img/ItAnt_Oscan_305.jpg" resp="Francesca Murano">
+            <tei:desc>Inscription ItAnt Oscan 305 (drawing by <tei:persName>Francesca Murano</tei:persName>)
+                <tei:ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">This file is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International license – (CC BY-NC-SA 4.0).</tei:ref>
+            </tei:desc>
+        </tei:graphic>
+    </tei:facsimile>
+    <tei:text>
+        <tei:body>             
+            <tei:div type="edition" subtype="interpretative" xml:space="preserve">
+                <tei:div type="textpart" n="face_a" style="text-direction:r-to-l" rend="ductus:sinistrorse">
+                    <tei:ab>   
+                        <tei:lb n="1" xml:id="Osc_305_l_1"/>
+                            <!-- Leida;Osc_305_l_1_w_1;siviiú -->
+                            <tei:name type="gentilicium" xml:lang="osc-Ital-x-oscetr" xml:id="Osc_305_l_1_w_1" ref="#p1">siviiú</tei:name>
+                        <!-- Leida;Osc_305_l_1_w_2;magiú -->
+                            <tei:name type="gamonymic" xml:lang="osc-Ital-x-oscetr" xml:id="Osc_305_l_1_w_2" ref="#p1">magiú</tei:name>
+                        <tei:space/>
+                        <tei:lb n="2" xml:id="Osc_305_l_2"/>
+                            <!-- Leida;Osc_305_l_1_w_1;mefit(eí) -->
+                            <tei:name type="theonym" xml:lang="osc-Ital-x-oscetr" xml:id="Osc_305_l_2_w_1"><tei:expan><tei:abbr>mefit</tei:abbr><tei:ex>eí</tei:ex></tei:expan></tei:name>
+                        <tei:space/>
+                        <tei:space unit="line"/>
+                    </tei:ab>
+                </tei:div>
+            </tei:div>
+            <tei:div type="translation" xml:lang="ita">
+                <tei:p>Sevia Magia a Mefite</tei:p>
+                <tei:desc>
+                    <tei:persName>Francesca Murano</tei:persName>
+                    <tei:ref type="licence" target="https://creativecommons.org/licenses/by-nc-sa/4.0/">This file is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International license – (CC BY-NC-SA 4.0).</tei:ref>
+                </tei:desc> 
+            </tei:div>
+            <tei:div type="translation" xml:lang="eng">
+                <tei:p>Sevia Magia to Mefitis</tei:p>
+                <tei:desc>
+                    <tei:persName>Francesca Murano</tei:persName>
+                    <tei:ref type="licence" target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </tei:ref>
+                </tei:desc> 
+            </tei:div>            
+            <tei:div type="apparatus" xml:lang="eng" resp="Francesca Murano"/>
+            <tei:div type="commentary" xml:lang="eng" resp="Francesca Murano">
+                <tei:note>
+                    <tei:p>The inscription refers to a dedication of a statue to Mefitis by a female member of the gens Magia, a family belonging to the local aristocracy, known for its pro-Roman feelings. According to Velleius Paterculus, <tei:ref target="https://la.wikisource.org/wiki/Historiae_Romanae_ad_M._Vinicium_consulem_libri_duo/Liber_posterior#XVI">2.16.1-3</tei:ref>, during the Social War, a Minatius Magius recruited and led a legion of Hirpinians supporting Sulla.</tei:p>
+                    <tei:p>The prominence of the Magii is also evident from another inscription found at Passo di Mirabella (<tei:ref target="ItAnt_Oscan_302.xml">ItAnt Oscan 302</tei:ref>) and promoted by <tei:rs type="name" xml:lang="osc-Ital-x-oscetr">Gavis Magiis Pakieís Flakís</tei:rs>, supposed to have holden a public role or high positions in local society. For the gens Magia see <tei:ref target="http://zotero.org/groups/2552746/items/EJ34GQWE"><tei:bibl>Gallo 2013</tei:bibl></tei:ref>.</tei:p>    
+                </tei:note>
+                <tei:note>
+                    <tei:p>The onomastic formula of <tei:rs type="name" xml:lang="osc-Ital-x-oscetr">Siviiú Magiú</tei:rs> consists of two gentilicia, her father's one followed by the one of her husband (gamonymic), according to Roman use, which would also find partial evidence in the coeval Oscan onomastics. In principle it cannot be excluded that this is a formula praenomen + gentilicium (thus, e.g., <tei:ref target="http://zotero.org/groups/2552746/items/IMWMSAVE"><tei:bibl>Rix, ST</tei:bibl></tei:ref>). For the gens Magia's "romanising" onomastics, see the commentary of the inscription <tei:ref target="ItAnt_Oscan_302.xml">ItAnt Oscan 302</tei:ref>.</tei:p>
+                    <tei:p>A gamonymic is also attested on the thymiaterion from Colle d'Anchise <tei:ref target="ItAnt_Oscan_29.xml">ItAnt Oscan 29</tei:ref>. However, in the two onomastic formulas the gamonymic is expressed with a different syntactic structure, adjectival or genitival: in ItAnt Oscan 305 it is expressed by means of the gentilicium of the husband inflected at the feminine form, in the <tei:ref target="ItAnt_Oscan_29.xml">ItAnt Oscan 29</tei:ref> the gamonymic is expressed by means of the praenomen of the husband inflected at genitive case.</tei:p> 
+                    <tei:p>On the female onomastics in ancient Italy, see <tei:ref target="http://zotero.org/groups/2552746/items/Q8X4HSRK"><tei:bibl>Poccetti 2017</tei:bibl></tei:ref></tei:p>
+                </tei:note>
+                <tei:note>
+                    <tei:p>On the cult of Mefitis, see <tei:ref target="http://zotero.org/groups/2552746/items/E657AU97"><tei:bibl>Prosdocimi 2008</tei:bibl></tei:ref> and <tei:ref target="http://zotero.org/groups/2552746/items/G3DZPUMC"><tei:bibl>Poccetti 2008</tei:bibl></tei:ref>. See also <tei:ref target="http://zotero.org/groups/2552746/items/CISTFV5R"><tei:bibl>Lejeune 1990</tei:bibl></tei:ref>.</tei:p>
+                </tei:note>          
+                <tei:listPerson type="Onomastics">
+                    <tei:person xml:id="p1" xml:lang="osc-Ital-x-oscetr">
+                        <tei:persName>
+                            <tei:name type="gentilicium">Siviiú</tei:name>
+                            <tei:name type="gamonymic">Magiú</tei:name>
+                        </tei:persName>
+                    </tei:person>
+                </tei:listPerson>
+            </tei:div>
+            <tei:div type="bibliography">
+                <tei:listBibl xmlns="http://www.tei-c.org/ns/1.0">
+                    <tei:biblStruct type="book" xml:id="MANN2017" corresp="http://zotero.org/groups/2552746/items/AHMB34I8">
+                        <tei:monogr>
+                            <tei:title level="m">Museo Archeologico Nazionale di Napoli. La collezione epigrafica</tei:title>
+                            <tei:editor>
+                                <tei:forename>Fausto</tei:forename>
+                                <tei:surname>Zevi</tei:surname>
+                            </tei:editor>
+                            <tei:editor>
+                                <tei:forename>Carmela</tei:forename>
+                                <tei:surname>Capaldi</tei:surname>
+                            </tei:editor>
+                            <tei:imprint>
+                                <tei:pubPlace>Napoli - Milano</tei:pubPlace>
+                                <tei:publisher>Electa</tei:publisher>
+                                <tei:date>2017</tei:date>
+                            </tei:imprint>
+                        </tei:monogr>
+                        <tei:citedRange unit="entry">CLII.20, p. 101</tei:citedRange>
+                    </tei:biblStruct>
+                    <tei:biblStruct type="book" xml:id="ImIt2011" corresp="http://zotero.org/groups/2552746/items/IKUTPHDC">
+                        <tei:monogr>
+                            <tei:title level="m">Imagines Italicae: A Corpus of Italic Inscriptions</tei:title>
+                            <tei:editor>
+                                <tei:forename>Michael</tei:forename>
+                                <tei:surname>Crawford</tei:surname>
+                            </tei:editor>
+                            <tei:imprint>
+                                <tei:pubPlace>London</tei:pubPlace>
+                                <tei:publisher>Institute of Classical Studies, University of London</tei:publisher>
+                                <tei:date>2011</tei:date>
+                            </tei:imprint>
+                        </tei:monogr>
+                        <tei:citedRange unit="entry">Aeclanum 3 (with photographs)</tei:citedRange>
+                    </tei:biblStruct>
+                    <tei:biblStruct type="bookSection" xml:id="Poccetti2008" corresp="http://zotero.org/groups/2552746/items/6X8AZI6H">
+                        <tei:analytic>
+                            <tei:title level="a">In margine alle nuove acquisizioni epigrafiche nel contesto dell’Ansanto</tei:title>
+                            <tei:author>
+                                <tei:forename>Paolo</tei:forename>
+                                <tei:surname>Poccetti</tei:surname>
+                            </tei:author>
+                        </tei:analytic>
+                        <tei:monogr>
+                            <tei:title level="m">Il culto della dea Mefite e la Valle d’Ansanto. Primo Convegno di studi su cultura e tradizioni delle popolazioni sannitiche. Ricerche su un giacimento archeologico e culturale dei Samnites Hirpini (Avellino - Villamaina - Rocca San Felice, 18-20 ottobre 2002)</tei:title>
+                            <tei:editor>
+                                <tei:forename>Alfonso</tei:forename>
+                                <tei:surname>Mele</tei:surname>
+                            </tei:editor>
+                            <tei:imprint>
+                                <tei:pubPlace>Avellino</tei:pubPlace>
+                                <tei:biblScope unit="page">369–387</tei:biblScope>
+                                <tei:publisher>Sellino Editore</tei:publisher>
+                                <tei:date>2008</tei:date>
+                            </tei:imprint>
+                        </tei:monogr>
+                    </tei:biblStruct>
+                    <tei:biblStruct type="book" xml:id="Rix2002" corresp="http://zotero.org/groups/2552746/items/IMWMSAVE">
+                        <tei:monogr>
+                            <tei:title level="m">Sabellische Texte. Die Texte des Oskischen, Umbrischen und Südpikenischen</tei:title>
+                            <tei:author>
+                                <tei:forename>Helmut</tei:forename>
+                                <tei:surname>Rix</tei:surname>
+                            </tei:author>
+                            <tei:imprint>
+                                <tei:pubPlace>Heidelberg</tei:pubPlace>
+                                <tei:publisher>C. Winter</tei:publisher>
+                                <tei:date>2002</tei:date>
+                            </tei:imprint>
+                        </tei:monogr>
+                        <tei:citedRange unit="entry">Hi 4</tei:citedRange>
+                    </tei:biblStruct>
+                    <tei:biblStruct type="book" xml:id="Bottiglioni1954"
+                        corresp="http://zotero.org/groups/2552746/items/NQ4C9R6N">
+                        <tei:monogr>
+                            <tei:title level="m">Manuale dei dialetti italici</tei:title>
+                            <tei:author>
+                                <tei:forename>Gino</tei:forename>
+                                <tei:surname>Bottiglioni</tei:surname>
+                            </tei:author>
+                            <tei:imprint>
+                                <tei:pubPlace>Bologna</tei:pubPlace>
+                                <tei:publisher>STEB</tei:publisher>
+                                <tei:date>1954</tei:date>
+                            </tei:imprint>
+                        </tei:monogr>
+                        <tei:citedRange unit="entry">20</tei:citedRange>
+                    </tei:biblStruct>
+                    <tei:biblStruct type="book" xml:id="Pisani1953" corresp="http://zotero.org/groups/2552746/items/43PVX7RD">
+                        <tei:monogr>
+                            <tei:title level="m">Le lingue dell'Italia antica oltre il latino</tei:title>
+                            <tei:author>
+                                <tei:forename>Vittore</tei:forename>
+                                <tei:surname>Pisani</tei:surname>
+                            </tei:author>
+                            <tei:imprint>
+                                <tei:pubPlace>Torino</tei:pubPlace>
+                                <publisher>Rosenberg e Sellier</publisher>
+                                <date>1953</date>
+                            </tei:imprint>
+                        </tei:monogr>
+                        <tei:citedRange unit="entry">33B</tei:citedRange>
+                    </tei:biblStruct>
+                    <tei:biblStruct type="book" xml:id="Vetter1953" corresp="http://zotero.org/groups/2552746/items/NJFZRK23">
+                        <tei:monogr>
+                            <tei:title level="m">Handbuch der italischen Dialekte</tei:title>
+                            <tei:author>
+                                <tei:forename>Emil</tei:forename>
+                                <tei:surname>Vetter</tei:surname>
+                            </tei:author>
+                            <tei:imprint>
+                                <tei:pubPlace>Heidelberg</tei:pubPlace>
+                                <tei:publisher>C. Winter</tei:publisher>
+                                <tei:date>1953</tei:date>
+                            </tei:imprint>
+                        </tei:monogr>
+                        <tei:citedRange unit="entry">162</tei:citedRange>
+                    </tei:biblStruct>
+                    <tei:biblStruct type="journalArticle" xml:id="Vetter1935" corresp="http://zotero.org/groups/2552746/items/N93SLR6U">
+                        <tei:analytic>
+                            <tei:title level="a">Literaturbericht 1930-1933: Italische Sprachen</tei:title>
+                            <tei:author>
+                                <tei:forename>Emil</tei:forename>
+                                <tei:surname>Vetter</tei:surname>
+                            </tei:author>
+                        </tei:analytic>
+                        <tei:monogr>
+                            <tei:title level="j">Glotta</tei:title>
+                            <tei:imprint>
+                                <tei:biblScope unit="volume">XXIII</tei:biblScope>
+                                <tei:biblScope unit="issue">3/4</tei:biblScope>
+                                <tei:biblScope unit="page">187-208</tei:biblScope>
+                                <tei:date>1935</tei:date>
+                            </tei:imprint>
+                        </tei:monogr>
+                        <citedRange unit="page">187</citedRange>
+                    </tei:biblStruct>
+                    <tei:biblStruct type="journalArticle" xml:id="Ribezzo1931" corresp="http://zotero.org/groups/2552746/items/QRG9ZCDI">
+                        <tei:analytic>
+                            <tei:title level="a">Monumenti epigrafici oschi scoperti ad Aeclanum</tei:title>
+                            <tei:author>
+                                <tei:forename>Francesco</tei:forename>
+                                <tei:surname>Ribezzo</tei:surname>
+                            </tei:author>
+                        </tei:analytic>
+                        <tei:monogr>
+                            <tei:title level="j">Rivista Indo Greco Italica</tei:title>
+                            <tei:imprint>
+                                <tei:biblScope unit="volume">15</tei:biblScope>
+                                <tei:biblScope unit="page">198-200</tei:biblScope>
+                                <tei:date>1931</tei:date>
+                            </tei:imprint>
+                        </tei:monogr>
+                        <citedRange unit="page">199</citedRange>
+                    </tei:biblStruct>
+                    <tei:biblStruct type="journalArticle" xml:id="Sgobbo1930" corresp="http://zotero.org/groups/2552746/items/WPYWY87P">
+                        <tei:analytic>
+                            <tei:title level="a">Mirabello Eclano. Monumenti epigrafici oschi scoperti ad Aeclanum</tei:title>
+                            <tei:author>
+                                <tei:forename>Italo</tei:forename>
+                                <tei:surname>Sgobbo</tei:surname>
+                            </tei:author>
+                        </tei:analytic>
+                        <tei:monogr>
+                            <tei:title level="j">Notizie degli Scavi di Antichità</tei:title>
+                            <tei:imprint>
+                                <tei:biblScope unit="volume">VIII</tei:biblScope>
+                                <tei:biblScope unit="issue">9</tei:biblScope>
+                                <tei:biblScope unit="page">400-411</tei:biblScope>
+                                <tei:date>1930</tei:date>
+                            </tei:imprint>
+                        </tei:monogr>
+                        <citedRange unit="page">402-404 (with a photograph)</citedRange>
+                    </tei:biblStruct>
+                </tei:listBibl>    
+            </tei:div>   
+        </tei:body>
+    </tei:text>
+</tei:TEI>

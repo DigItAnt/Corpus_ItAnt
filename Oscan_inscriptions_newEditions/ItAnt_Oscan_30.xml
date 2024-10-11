@@ -1,0 +1,446 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/9.4/tei-epidoc.rng"
+schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/9.4/tei-epidoc.rng"
+schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<tei:TEI xmlns:dcr="http://www.isocat.org/ns/dcr" xml:id="ItAnt_Oscan_30"
+    xmlns:tei="http://www.tei-c.org/ns/1.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <tei:teiHeader>
+        <tei:fileDesc>
+            <tei:titleStmt>
+                <tei:title type="ItAnt_ID">Inscription ItAnt Oscan 30</tei:title>
+            </tei:titleStmt>
+            <tei:editionStmt>
+                <tei:edition>
+                    <tei:idno>ItAnt Oscan 30</tei:idno>
+                </tei:edition>
+                <tei:editor>
+                    <tei:persName>Francesca Murano</tei:persName>
+                </tei:editor>
+                <tei:editor>
+                    <tei:persName>Mariarosaria Zinzi</tei:persName>
+                </tei:editor>
+            </tei:editionStmt>         
+            <tei:publicationStmt>
+                <tei:authority>PRIN 2017 "Lingue e culture dell'Italia antica: linguistica storica e modelli digitali | Languages and Cultures of Ancient Italy. Historical Linguistics and Digital Models"</tei:authority>
+                <tei:date>2023</tei:date>
+                <tei:idno type="URI" subtype="handle"></tei:idno>
+                <tei:availability>
+                    <tei:licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">This file is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International license – (CC BY-NC-SA 4.0).  
+                    </tei:licence>
+                </tei:availability>
+            </tei:publicationStmt>   
+            <tei:sourceDesc>
+                <tei:msDesc>
+                    <tei:msIdentifier>
+                        <tei:settlement ref="https://sws.geonames.org/3180991">Campobasso</tei:settlement>
+                        <tei:institution ana="https://www.musei.molise.beniculturali.it/musei?mid=208&amp;nome=museo-sannitico">Museo Sannitico</tei:institution>
+                        <tei:idno type="museumID">34496</tei:idno>                   
+                        <tei:altIdentifier type="cancelled">
+                        <tei:settlement ref="https://sws.geonames.org/3170820">Sepino (CB)</tei:settlement>
+                        <tei:institution>Deposito</tei:institution>
+                        <tei:idno type="museumID">34496</tei:idno>
+                        </tei:altIdentifier>
+                        <tei:altIdentifier type="trismegistos">
+                            <tei:idno source="www.trismegistos.org/text/170717">TM 170717</tei:idno>
+                        </tei:altIdentifier> 
+                        <tei:altIdentifier type="traditionalID">
+                            <tei:idno source="http://zotero.org/groups/2552746/items/IMWMSAVE">ST Sa 60</tei:idno>
+                        </tei:altIdentifier> 
+                        <tei:altIdentifier type="traditionalID">
+                            <tei:idno source="http://zotero.org/groups/2552746/items/IKUTPHDC">ImIt Bouianum 41</tei:idno>
+                        </tei:altIdentifier>
+                    </tei:msIdentifier> 
+                    <tei:msContents>
+                        <tei:summary>Votive inscription to Hercules on a fragment of a vase. From <tei:ref target="https://sabapmolise.cultura.gov.it/?page_id=139">Campochiaro, sanctuary of Civitella</tei:ref>.
+                        </tei:summary>
+                    </tei:msContents>
+                    <tei:physDesc>
+                        <tei:objectDesc>     
+                            <tei:supportDesc>
+                                <tei:support>
+                                    <tei:objectType ana="http://vocab.getty.edu/page/aat/300132254">vase</tei:objectType>
+                                    <tei:note><tei:ref target="http://zotero.org/groups/2552746/items/IKUTPHDC"><tei:bibl>Crawford, ImIt</tei:bibl></tei:ref> proposes that the object could have been a bowl or plate</tei:note>
+                                    <tei:material ana="http://vocab.getty.edu/page/aat/300387491">pottery (black slip)
+                                    </tei:material>
+                                    <tei:dimensions type="objectDimensions" unit="cm" precision="high">
+                                        <tei:height quantity="3.7">3,7</tei:height>
+                                        <tei:width quantity="5.9">5,9</tei:width>
+                                    </tei:dimensions>
+                                    <tei:rs type="reuse">no</tei:rs>
+                                </tei:support>
+                                <tei:condition>very fragmentary</tei:condition>   
+                            </tei:supportDesc>
+                            <tei:layoutDesc>
+                                <tei:layout columns="1" writtenLines="4">
+                                    <tei:rs type="execution" ana="http://vocab.getty.edu/page/aat/300379457">scratched after firing</tei:rs>
+                                    <tei:rs type="opistography">no</tei:rs>
+                                </tei:layout>
+                            </tei:layoutDesc>
+                        </tei:objectDesc>
+                        <tei:handDesc>                            
+                            <tei:handNote>
+                                <tei:dimensions type="characterDimension" unit="cm" precision="high"> 
+                                    <tei:height quantity="2.5">2,5</tei:height>
+                                </tei:dimensions>
+                            </tei:handNote>
+                        </tei:handDesc>                                      
+                        <tei:scriptDesc>
+                            <tei:scriptNote>
+                                <tei:rs type="writingSystem" subtype="alphabet" ref="https://www.prin-italia-antica.unifi.it/p166.html#oscan-etruscan">Oscan National alphabet</tei:rs>
+                                <tei:rs type="wordDivision">scriptio continua</tei:rs>
+                            </tei:scriptNote>
+                        </tei:scriptDesc>
+                        <tei:decoDesc>
+                            <tei:decoNote>The bottom of the inside of the wall decorated with vine tendrils</tei:decoNote>   
+                        </tei:decoDesc>
+                    </tei:physDesc>
+                    <tei:history>
+                        <tei:origin> 
+                            <tei:origPlace type="composed">
+                                <tei:placeName type="ancient" ref="https://pleiades.stoa.org/places/432725">Bovianum, Samnium</tei:placeName>
+                                <tei:placeName type="modern" ref="https://sws.geonames.org/3180985">Campochiaro (CB)</tei:placeName>
+                            </tei:origPlace>
+                            <tei:origDate notBefore-custom="-0299" notAfter-custom="-0200" cert="medium" evidence="archaeological-context" resp="Capini2000">3rd century BC</tei:origDate>
+                        </tei:origin>
+                        <tei:provenance type="found" subtype="discovered" when="2000">
+                            <tei:placeName type="ancient" ref="https://pleiades.stoa.org/places/432725">Bovianum, Samnium</tei:placeName>
+                            <tei:placeName type="modern" ref="https://sws.geonames.org/3180985">Campochiaro (CB)</tei:placeName>
+                            <tei:placeName type="detailed">Found in località Civitella in the course of preparatory work for the restoration of the temple</tei:placeName>
+                        </tei:provenance>
+                        <tei:provenance type="observed" subtype="autopsied" when="2023" resp="Francesca Murano">
+                            <tei:persName>Francesca Murano</tei:persName>
+                        </tei:provenance>                       
+                        <tei:provenance type="observed" subtype="autopsied" when="2000" resp="#Capini2000">
+                            <tei:persName>Stefania Capini</tei:persName>
+                        </tei:provenance>
+                        <tei:provenance type="observed" subtype="seen" when="2021" resp="Mariarosaria Zinzi">
+                            <tei:persName>Mariarosaria Zinzi</tei:persName>
+                        </tei:provenance>
+                        <tei:provenance type="observed" subtype="seen" notAfter="2002" resp="#Rix2002">
+                            <tei:persName>Helmut Rix</tei:persName>
+                        </tei:provenance>
+                    </tei:history>                       
+                </tei:msDesc>   
+            </tei:sourceDesc> 
+        </tei:fileDesc>
+        <tei:encodingDesc>
+            <tei:p source="https://epidoc.stoa.org/gl/latest/">Marked-up according to the EpiDoc Guidelines</tei:p>
+        </tei:encodingDesc>
+        <tei:profileDesc>
+            <tei:langUsage>
+                <tei:language ident="osc" source="https://iso639-3.sil.org/code/osc">Oscan</tei:language>
+                <tei:language ident="osc-Ital-x-oscetr" source="https://www.prin-italia-antica.unifi.it/p166.html#oscan-etruscan" ana="https://unicode.org/iso15924/iso15924-codes.html">Oscan in National alphabet (Oscan-Etruscan alphabet)</tei:language>
+            </tei:langUsage>
+            <tei:textClass>
+                <tei:keywords scheme="https://www.eagle-network.eu/resources/vocabularies/typeins/">
+                    <tei:term ref="https://www.eagle-network.eu/voc/typeins/lod/83">votive inscription</tei:term>
+                </tei:keywords>
+            </tei:textClass>
+        </tei:profileDesc>
+    </tei:teiHeader>
+    <tei:facsimile>
+        <tei:graphic n="1" url="http://linsto.dipartimentidieccellenza-dilef.unifi.it/itant/img/ItAnt_Oscan_30.jpg" resp="Francesca Murano">
+            <tei:desc>Inscription ItAnt Oscan 30 (drawing by <tei:persName>Francesca Murano</tei:persName>)<tei:ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">This file is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International license – (CC BY-NC-SA 4.0).</tei:ref>
+            </tei:desc>
+        </tei:graphic>
+        <tei:graphic n="2" url="http://books.openedition.org/cdf/docannexe/image/3781/img-2.jpg" resp="http://zotero.org/groups/2552746/items/7ELVH5HA">
+            <tei:desc>Inscription ItAnt Oscan 30 (photograph from <tei:ref target="http://zotero.org/groups/2552746/items/7ELVH5HA"><tei:bibl>Capini - La Regina 2015</tei:bibl></tei:ref>
+                <tei:ref ana="https://www.openedition.org/14043">This file licensed under the OpenEdition Freemium programme</tei:ref>
+            </tei:desc>
+        </tei:graphic>
+    </tei:facsimile>
+    <tei:text>
+        <tei:body>             
+            <tei:div type="edition" subtype="interpretative" xml:space="preserve">
+                <tei:div type="textpart" n="face_a" style="text-direction:r-to-l" rend="ductus:sinistrorse">
+                    <tei:ab>   
+                        <tei:lb n="1" xml:id="Osc_30_l_1"/>
+                        <tei:gap reason="lost" extent="unknown" unit="line"><tei:certainty match=".." locus="name"/></tei:gap>
+<!-- Leida;Osc_30_l_1_w_1;[herek]lui -->
+                            <tei:name type="theonym" xml:id="Osc_30_l_1_w_1" xml:lang="osc-Ital-x-oscetr"><tei:supplied reason="lost">herek</tei:supplied><tei:unclear>lu</tei:unclear>i</tei:name>
+<!-- Leida;Osc_30_l_1_w_2;aiserniui -->
+                            <tei:name type="epiclesis" xml:id="Osc_30_l_1_w_2" xml:lang="osc-Ital-x-oscetr">aiserniui</tei:name>
+                        <tei:lb n="2" xml:id="Osc_30_l_2"/>
+ <!-- [praenomen] -->             
+                        <tei:name type="praenomen" xml:lang="osc-Ital-x-oscetr" ref="#p1"><tei:gap reason="lost" quantity="2" precision="low" unit="character"/></tei:name>
+<!-- Leida;Osc_30_l_2_w_1; ]fiis -->
+                        <tei:name type="gentilicium" xml:id="Osc_30_l_2_w_1" xml:lang="osc-Ital-x-oscetr" ref="#p1"><tei:gap reason="lost" quantity="3" precision="low" unit="character"/><tei:unclear>f</tei:unclear>iis</tei:name>  
+<!-- Leida;Osc_30_l_2_w_2; brateis -->
+                            <tei:w xml:lang="osc-Ital-x-oscetr" xml:id="Osc_30_l_2_w_2">brateis</tei:w>
+                        <tei:lb n="3" xml:id="Osc_30_l_3"/>
+<!-- Leida;Osc_30_l_3_w_1;[da]tas -->
+                            <tei:w xml:lang="osc-Ital-x-oscetr" xml:id="Osc_30_l_3_w_1"><tei:supplied reason="lost">da</tei:supplied><tei:unclear>t</tei:unclear>as</tei:w>
+<!-- Leida;Osc_30_l_3_w_2;dunum -->
+                            <tei:w xml:lang="osc-Ital-x-oscetr" xml:id="Osc_30_l_3_w_2">dunum</tei:w>
+<!-- Leida;Osc_30_l_3_w_3;ded(ed) -->
+                            <tei:w xml:lang="osc-Ital-x-oscetr" xml:id="Osc_30_l_3_w_3"><tei:expan><tei:abbr>ded</tei:abbr><tei:ex>ed</tei:ex></tei:expan></tei:w>
+                        <tei:lb n="4" xml:id="Osc_30_l_4"/>
+<!-- Leida;Osc_30_l_4_w_1;[lu]vk(e)i -->
+                        <tei:w xml:lang="osc-Ital-x-oscetr" xml:id="Osc_30_l_4_w_1"><tei:expan><tei:abbr><tei:supplied reason="lost">luvk</tei:supplied></tei:abbr><tei:ex>e</tei:ex>i</tei:expan></tei:w></tei:ab>
+                </tei:div>
+            </tei:div>
+            <tei:div type="translation" xml:lang="ita">
+                <tei:p>A Ercole Esernio []fio per grazia concessa diede (questo) in dono nel bosco sacro</tei:p>
+                <tei:desc>
+                    <tei:persName>Mariarosaria Zinzi</tei:persName>
+                    <tei:ref type="licence" target="https://creativecommons.org/licenses/by-nc-sa/4.0/">This file is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International license – (CC BY-NC-SA 4.0).</tei:ref>
+                </tei:desc> 
+            </tei:div>
+            <tei:div type="translation" xml:lang="eng">
+                <tei:p>To Aesernian Hercules []fius gave (this) as a gift for favour granted in the sacred grove</tei:p>
+                <tei:desc>
+                    <tei:persName>>Mariarosaria Zinzi</tei:persName>
+                    <tei:ref type="licence" target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </tei:ref>
+                </tei:desc> 
+            </tei:div>
+            <tei:div type="apparatus" xml:lang="eng" resp="Francesca Murano">
+                <tei:listApp>
+                    <tei:app from="#Osc_30_l_4">
+                        <tei:lem corresp="#Osc_30_l_4_w_1">lu]vk(e)i</tei:lem>
+                        <tei:rdg corresp="#Osc_1_l_19_w_1">lu]vkụ(i)
+                            <tei:ref target="http://zotero.org/groups/2552746/items/IKUTPHDC"><tei:bibl>ImIt 2011</tei:bibl></tei:ref>
+                        </tei:rdg>
+                        <tei:rdg corresp="#Osc_1_l_19_w_1">]vkl
+                            <tei:ref target="http://zotero.org/groups/2552746/items/7ELVH5HA"><tei:bibl>Capini - La Regina 2015</tei:bibl></tei:ref>
+                        </tei:rdg>
+                    </tei:app>
+                </tei:listApp>                
+            </tei:div>
+            <tei:div type="commentary" xml:lang="eng" resp="Francesca Murano">
+                <tei:note>
+                    <tei:p>The inscription reports a dedication for a received grace. On this topic and the formula <tei:rs type="phr" xml:lang="osc-Ital-x-oscetr">brateís datas</tei:rs>, see <tei:ref target="http://zotero.org/groups/2552746/items/9FANWURA">Poccetti 2009</tei:ref> and <tei:ref target="http://zotero.org/groups/2552746/items/XZKZ3L4Y">Estarán Tolosa 2022</tei:ref>.</tei:p>
+                    <tei:p>The inscription is engraved on a vase; according to <tei:ref target="http://zotero.org/groups/2552746/items/IKUTPHDC"><tei:bibl>Crawford, ImIt 2011</tei:bibl></tei:ref> it is a bowl or a plate.</tei:p>
+                </tei:note>
+                <tei:note>
+                    <tei:p><tei:ref target="http://zotero.org/groups/2552746/items/ZE6FWWMC"><tei:bibl>Capini 2000</tei:bibl></tei:ref> dates the inscription to 300 B.C. - 275 B.C. on the basis of archaeological analyses). <tei:ref target="http://zotero.org/groups/2552746/items/IKUTPHDC"><tei:bibl>Crawford, ImIt 2011</tei:bibl></tei:ref> dates it before 300 B.C. on the basis of orthographical considerations.</tei:p>
+                </tei:note>
+                <tei:note target="Osc_30_l_1">
+                    <tei:p>The word <tei:rs xml:lang="osc-Ital-x-oscetr" type="name" corresp="Osc_30_l_1_w_1">[herek]lui</tei:rs> is probably the name in the dative case of the deity to whom the offering was made. On the basis of the numerous figurines found in the sanctuary, the deity has been identified as ‘Heracles’.</tei:p>
+                    <tei:p><tei:rs xml:lang="osc-Ital-x-oscetr" type="name" corresp="Osc_30_l_1_w_2">aiserniui</tei:rs> is the epithet with whom the deity was worshipped at Campochiaro. Its meaning is debated, although there is agreement in referring it to a place name. The word is an adjectival form of *aiser-, as is the case for the name of <tei:ref target="https://pleiades.stoa.org/places/432652">Aesernia</tei:ref> (site of the nearby Latin colony from 263 BC). The same origin is in the toponym Esere, modern L'Esule, known by medieval manuscripts, located near <tei:ref target="https://geohack.toolforge.org/geohack.php?params=41.449963_N_14.372003_E_type:mountain">Monte Miletto</tei:ref>, the highest peak of the Matese mountains.</tei:p> 
+                    <tei:p><tei:ref target="http://zotero.org/groups/2552746/items/ZE6FWWMC"><tei:bibl>Capini 2000</tei:bibl></tei:ref>: 231 suggests that the Oscan place name could originally have identified the entire Matese area and subsequently narrowed it down to just the peak of the mountain. (see also Following <tei:ref target="http://zotero.org/groups/2552746/items/EUZG5EAM"><tei:bibl>Marchese 2011</tei:bibl></tei:ref>).</tei:p> 
+                    <tei:p>According to <tei:ref target="http://zotero.org/groups/2552746/items/TXCMENDV"><tei:bibl>Scopacasa 2015</tei:bibl></tei:ref>: §4.3.1, the theonym <tei:rs type="phr" xml:lang="osc-Ital-x-oscetr">hereklui aiserniui</tei:rs> "would suggest that the worshippers at Campochiaro may have perceived themselves as a distinct community of place, much as in neighbouring Umbria, where deities were also given place-names as epithets". Following <tei:ref target="http://zotero.org/groups/2552746/items/ZE6FWWMC"><tei:bibl>Capini 2000</tei:bibl></tei:ref>, the cult of Campochiaro would then be the cult of Matese's Hercules.</tei:p>
+                </tei:note>
+                <tei:note target="Osc_30_l_2_w_1">
+                    <tei:p>The name <tei:rs type="name" xml:lang="osc-Ital-x-oscetr" corresp="Osc_30_l_2_w_1">]f̣iis</tei:rs> could be read <tei:rs xml:lang="osc-Ital-x-oscetr" type="name" corresp="Osc_30_l_2_w_1">[uru]fiis</tei:rs> 'Orfius' or <tei:rs type="name" xml:lang="osc-Ital-x-oscetr" corresp="Osc_30_l_2_w_1">[ala]fiis</tei:rs> 'Alfius'. See <tei:ref target="http://zotero.org/groups/2552746/items/7ELVH5HA"><tei:bibl>Capini - La Regina 2015</tei:bibl></tei:ref> and <tei:ref target="http://zotero.org/groups/2552746/items/IKUTPHDC"><tei:bibl>Crawford, ImIt 2011</tei:bibl></tei:ref>.
+                    </tei:p>
+                    <tei:p>In priciple, the first visibile character of the sequence, <tei:rs type="c" xml:lang="osc-Ital-x-oscetr">F</tei:rs>, could be read also as <tei:rs type="c" xml:lang="osc-Ital-x-oscetr">B</tei:rs>. The name could be supplemented as  <tei:rs type="name" xml:lang="osc-Ital-x-oscetr" corresp="Osc_30_l_2_w_1">[tre]biis</tei:rs>, <tei:rs type="name" xml:lang="osc-Ital-x-oscetr" corresp="Osc_30_l_2_w_1">[bab]biis</tei:rs> or  <tei:rs type="name" xml:lang="osc-Ital-x-oscetr" corresp="Osc_30_l_2_w_1">[sla]biis</tei:rs> (see <tei:ref target="http://zotero.org/groups/2552746/items/W3SG7V24"><tei:bibl>Capini 2002</tei:bibl></tei:ref>: 499).</tei:p>
+                </tei:note>
+                <tei:note target="Osc_30_l_4_w_1">
+                    <tei:p>The last sequence of the inscription, <tei:rs type="w" xml:lang="osc-Ital-x-oscetr" corresp="Osc_30_l_4_w_1">VKI</tei:rs> is supposed to be a substantive corresponding to the Lat. <tei:rs type="w" xml:lang="lat-Latn" ref="https://lila-erc.eu/data/id/lemma/110919">lūcus</tei:rs> (see <tei:ref target="https://lila-erc.eu/data/id/lemma/110919">LiLa</tei:ref>) 'grove sacred to a deity', occuring many times in Umbrian. The word also occurs once in Oscan, on a iúvila from Capua (inscription ImIt Capua 29 = ST Cp 24), <tei:rs type="w" xml:lang="osc-Ital-x-oscetr">lúvkeí</tei:rs>, locative case.</tei:p>
+                    <tei:p>Following <tei:ref target="http://zotero.org/groups/2552746/items/IMWMSAVE"><tei:bibl>Rix 2002</tei:bibl></tei:ref>, the word can be reconstructed with the same morphology also in this text: <tei:rs type="w" xml:lang="osc-Ital-x-oscetr" corresp="Osc_30_l_4_w_1">LU]VK(E)I</tei:rs></tei:p>
+                    <tei:p><tei:ref target="http://zotero.org/groups/2552746/items/IKUTPHDC"><tei:bibl>Crawford, ImIt 2011</tei:bibl></tei:ref> suggests the reading <tei:rs type="w" xml:lang="osc-Ital-x-oscetr" corresp="Osc_30_l_4_w_1">LU]VKỤ(I)</tei:rs>, dative, 'to the grove'.</tei:p>
+                </tei:note>
+                <tei:listPerson type="Onomastics">
+                    <tei:person xml:id="p1" xml:lang="osc-Ital-x-oscetr">
+                        <tei:persName>
+                            <tei:name type="gentilicium">]fiis</tei:name>
+                        </tei:persName>
+                    </tei:person>
+                </tei:listPerson>
+            </tei:div>
+            <tei:div type="bibliography">
+                <tei:listBibl xmlns="http://www.tei-c.org/ns/1.0">
+                    <tei:biblStruct type="bookSection" xml:id="Capini2015" corresp="http://zotero.org/groups/2552746/items/7ELVH5HA">
+                        <tei:analytic>
+                            <tei:title level="a">Campochiaro, Civitella, loc., herekleis (gen.)/ Hercules</tei:title>
+                            <tei:author>
+                                <tei:forename>Stefania</tei:forename>
+                                <tei:surname>Capini</tei:surname>
+                            </tei:author>
+                            <tei:author>
+                                <tei:forename>Adriano</tei:forename>
+                                <tei:surname>La Regina</tei:surname>
+                            </tei:author>
+                        </tei:analytic>
+                        <tei:monogr><title level="m">Fana, templa, delubra. Corpus dei luoghi di culto dell'Italia antica (FTD) - 3 : Regio IV: Alife, Bojano, Sepino</title>
+                            <tei:editor>
+                                <tei:forename>Stefania</tei:forename>
+                                <tei:surname>Capini</tei:surname>
+                            </tei:editor>
+                            <tei:editor><forename>Patrizia</forename>
+                                <tei:surname>Curci</tei:surname>
+                            </tei:editor><editor>
+                                <tei:forename>Maria Romana</tei:forename>
+                                <tei:surname>Picuti</tei:surname>
+                            </editor>
+                            <tei:imprint>
+                                <tei:pubPlace>Paris</tei:pubPlace>
+                                <tei:biblScope unit="page">43-56</tei:biblScope>
+                                <tei:publisher>Collège de France</tei:publisher>
+                                <tei:date>2015</tei:date>    
+                            </tei:imprint>
+                        </tei:monogr>    
+                    </tei:biblStruct>
+                    <tei:biblStruct type="book" xml:id="ImIt2011"  corresp="http://zotero.org/groups/2552746/items/IKUTPHDC">
+                        <tei:monogr>
+                            <tei:title level="m">Imagines Italicae: A Corpus of Italic Inscriptions</tei:title>
+                            <tei:editor>
+                                <tei:forename>Michael</tei:forename>
+                                <tei:surname>Crawford</tei:surname>
+                            </tei:editor>
+                            <tei:imprint>
+                                <tei:pubPlace>London</tei:pubPlace>
+                                <tei:publisher>Institute of Classical Studies, University of London</tei:publisher>
+                                <tei:date>2011</tei:date>
+                            </tei:imprint>
+                        </tei:monogr>
+                        <tei:citedRange unit="entry">no. Bouianum 41 (with photograph)</tei:citedRange>
+                    </tei:biblStruct>
+                    <tei:biblStruct type="bookSection" xml:id="Poccetti2009" corresp="http://zotero.org/groups/2552746/items/9FANWURA">
+                        <tei:analytic>
+                            <tei:title level="a">Paradigmi formulari votivi nelle tradizioni epicoriche dell’Italia antica</tei:title>
+                            <tei:author>
+                                <tei:forename>Paolo</tei:forename>
+                                <tei:surname>Poccetti</tei:surname>
+                            </tei:author>
+                        </tei:analytic><tei:monogr>
+                            <tei:title level="m">Dediche sacre nel mondo greco e romano: diffusione, funzioni, tipologie</tei:title>
+                            <tei:editor>
+                                <tei:forename>John</tei:forename>
+                                <tei:surname>Bodel</tei:surname>
+                            </tei:editor>
+                            <tei:editor>
+                                <tei:forename>Mika</tei:forename>
+                                <tei:surname>Kajava</tei:surname>
+                            </tei:editor>
+                            <tei:imprint>
+                                <tei:pubPlace>Roma</tei:pubPlace>
+                                <tei:biblScope unit="page">43–94</tei:biblScope>
+                                <tei:publisher>Institutum Romanum Finlandiae, American Academy in Rome</tei:publisher>
+                                <tei:date>2009</tei:date>
+                            </tei:imprint>
+                        </tei:monogr>
+                    </tei:biblStruct>
+                    <tei:biblStruct type="book" xml:id="Rix2002"  corresp="http://zotero.org/groups/2552746/items/IMWMSAVE">
+                        <tei:monogr>
+                            <tei:title level="m">Sabellische Texte. Die Texte des Oskischen, Umbrischen und Südpikenischen</tei:title>
+                            <tei:author>
+                                <tei:forename>Helmut</tei:forename>
+                                <tei:surname>Rix</tei:surname>
+                            </tei:author>
+                            <tei:imprint>
+                                <tei:pubPlace>Heidelberg</tei:pubPlace>
+                                <tei:publisher>C. Winter</tei:publisher>
+                                <tei:date>2002</tei:date>
+                            </tei:imprint>
+                        </tei:monogr>
+                        <tei:citedRange unit="entry">no. Sa 60</tei:citedRange>
+                    </tei:biblStruct>
+                    <tei:biblStruct type="journalArticle" xml:id="Capini2002" corresp="http://zotero.org/groups/2552746/items/W3SG7V24">
+                        <tei:analytic>
+                            <tei:title level="a">Campochiaro. Località Civitella: santuario sannitico</tei:title>
+                            <tei:author>
+                                <tei:forename>Stefania</tei:forename>
+                                <tei:surname>Capini</tei:surname>
+                            </tei:author>
+                        </tei:analytic>
+                        <tei:monogr>
+                            <tei:title level="j">Studi Etruschi</tei:title>
+                            <tei:imprint>
+                                <tei:biblScope unit="volume">LXV-LXVIII</tei:biblScope>
+                                <tei:biblScope unit="page">497-499</tei:biblScope>
+                                <tei:date>2002</tei:date>
+                            </tei:imprint>
+                        </tei:monogr>
+                        <tei:citedRange unit="page">498</tei:citedRange>
+                    </tei:biblStruct>
+                    <tei:biblStruct type="bookSection" xml:id="Capini2000" corresp="http://zotero.org/groups/2552746/items/ZE6FWWMC">
+                        <tei:analytic>
+                            <tei:title level="a">Una dedica ad Ercole dal santuario di Campochiaro</tei:title>
+                            <tei:author>
+                                <tei:forename>Stefania</tei:forename>
+                                <tei:surname>Capini</tei:surname>
+                            </tei:author>
+                        </tei:analytic>
+                        <tei:monogr>
+                            <tei:title level="m">Studi sull'Italia dei Sanniti</tei:title>
+                            <tei:editor>
+                                <tei:forename>Adriano</tei:forename>
+                                <tei:surname>La Regina</tei:surname>
+                            </tei:editor>
+                            <tei:imprint>
+                                <tei:pubPlace>Milano</tei:pubPlace>
+                                <tei:biblScope unit="page">230-231</tei:biblScope>
+                                <tei:publisher>Mondadori Electa</tei:publisher>
+                                <tei:date>2000</tei:date>
+                            </tei:imprint>
+                        </tei:monogr>
+                        <tei:citedRange unit="page">230</tei:citedRange>
+                    </tei:biblStruct>
+                    <tei:biblStruct type="book" xml:id="La_Regina2001" corresp="http://zotero.org/groups/2552746/items/UTA5SQR6">
+                        <tei:monogr>
+                            <tei:title level="m">Studi sull'Italia dei Sanniti</tei:title>
+                            <tei:idno type="ISBN">978-88-435-9539-6</tei:idno>
+                            <tei:editor>
+                                <tei:forename>Adriano</tei:forename>
+                                <tei:surname>La Regina</tei:surname>
+                            </tei:editor>
+                            <tei:imprint>
+                                <tei:publisher>Mondadori Electa</tei:publisher>
+                                <tei:date>2001</tei:date>
+                            </tei:imprint>
+                        </tei:monogr>
+                    </tei:biblStruct>
+                    <tei:biblStruct type="book" xml:id="Hintze2000" corresp="http://zotero.org/groups/2552746/items/UQM9E2UE">
+                        <tei:monogr>
+                            <tei:title level="m">Anusantatyai: Festschrift fur Johanne Narten zum 70. Geburtstag / herausgegeben von Almut Hintze und Eva Tichy</tei:title>
+                            <tei:title type="short">Anusantatyai</tei:title>
+                            <tei:idno type="ISBN">978-3-89754-181-8</tei:idno>
+                            <tei:idno type="callNumber">491.1 Lingue indoiraniche (Lingue arie)</tei:idno>
+                            <tei:author>
+                                <tei:forename>Almut</tei:forename>
+                                <tei:surname>Hintze</tei:surname>
+                            </tei:author>
+                            <tei:author>
+                                <tei:forename>Johanna</tei:forename>
+                                <tei:surname>Narten</tei:surname>
+                            </tei:author>
+                            <tei:author>
+                                <tei:forename>Eva</tei:forename>
+                                <tei:surname>Tichy</tei:surname>
+                            </tei:author>
+                            <tei:imprint>
+                                <tei:pubPlace>Dettelbach</tei:pubPlace>
+                                <tei:publisher>Roll</tei:publisher>
+                                <tei:date>2000</tei:date>
+                            </tei:imprint>
+                        </tei:monogr>
+                        <tei:series>
+                            <tei:title level="s">Munchener Studien zur Sprachwissenschaft. Beiheft. Neue Folge 19</tei:title>
+                        </tei:series>
+                    </tei:biblStruct>
+                    <tei:biblStruct type="bookSection" xml:id="Rix2000" corresp="http://zotero.org/groups/2552746/items/TBW967TI">
+                        <tei:analytic>
+                            <tei:title level="a">Oskisch brateis bratom, lateinisch grates</tei:title>
+                            <tei:author>
+                                <tei:forename>Helmut</tei:forename>
+                                <tei:surname>Rix</tei:surname>
+                            </tei:author>
+                        </tei:analytic>
+                        <tei:monogr>
+                            <tei:title level="m">Anusantatyai: Festschrift fur Johanne Narten zum 70. Geburtstag</tei:title>
+                            <tei:editor>
+                                <tei:forename>Almut</tei:forename>
+                                <tei:surname>Hintze</tei:surname>
+                            </tei:editor>
+                            <tei:editor>
+                                <tei:forename>Eva</tei:forename>
+                                <tei:surname>Tichy</tei:surname>
+                            </tei:editor>
+                            <tei:imprint>
+                                <tei:pubPlace>Dettelbach</tei:pubPlace>
+                                <tei:biblScope unit="page">207-229</tei:biblScope>
+                                <tei:publisher>Roell</tei:publisher>
+                                <tei:date>2000</tei:date>
+                            </tei:imprint>
+                        </tei:monogr>
+                        <tei:citedRange unit="page">225, n. 59</tei:citedRange>    
+                    </tei:biblStruct>
+                </tei:listBibl>    
+            </tei:div>   
+        </tei:body>
+    </tei:text>
+</tei:TEI>
