@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.stoa.org/epidoc/schema/9.2/tei-epidoc.rng"
+    schematypens="http://relaxng.org/ns/structure/1.0"?> 
+<?xml-model href="https://www.stoa.org/epidoc/schema/9.2/tei-epidoc.rng"
+    schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<tei:TEI xmlns:dcr="http://www.isocat.org/ns/dcr" xml:id="ItAnt_Lepontic_3" xmlns:tei="http://www.tei-c.org/ns/1.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <tei:teiHeader>
+        <tei:fileDesc>
+            <tei:titleStmt>
+                <tei:title type="ItAnt_ID">Inscription ItAnt_Lepontic_3</tei:title>
+            </tei:titleStmt>
+            <tei:editionStmt>
+                <tei:edition>
+                    <tei:idno>ItAnt_Lepontic_3</tei:idno>
+                </tei:edition>
+                <tei:editor>
+                    <tei:persName>Patrizia Solinas</tei:persName>
+                </tei:editor>
+                <tei:editor>
+                    <tei:persName>Mariarosaria Zinzi</tei:persName>
+                </tei:editor>
+            </tei:editionStmt>         
+            <tei:publicationStmt>
+                <tei:authority>PRIN 2017 "Lingue e culture dell'Italia antica: linguistica storica e modelli digitali | Languages and Cultures of Ancient Italy. Historical Linguistics and Digital Models"</tei:authority>
+                <tei:date>2023</tei:date>
+                <tei:idno type="URI" subtype="handle"><!-- verrà riempito in automatico dopo l'inserimento in CLARIN --></tei:idno>
+                <tei:availability>
+                    <tei:licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">This file is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International license – (CC BY-NC-SA 4.0).  
+                    </tei:licence>
+                </tei:availability>
+            </tei:publicationStmt>   
+            <tei:sourceDesc>
+                <tei:msDesc>
+                    <tei:msIdentifier>
+                        <tei:settlement ref="https://sws.geonames.org/2661567">Bellinzona</tei:settlement>
+                        <tei:institution ana="https://www4.ti.ch/dt/dstm/sst/ubc/ufficio">Ufficio Cantonale dei Beni Culturali</tei:institution>
+                        <tei:idno type="museumID">19.1913.1</tei:idno>
+                        <tei:altIdentifier type="trismegistos">
+                            <tei:idno source="www.trismegistos.org/text/219438">TM 219438</tei:idno>
+                        </tei:altIdentifier> 
+                        <tei:altIdentifier type="traditionalID">
+                            <tei:idno source="http://zotero.org/groups/2552746/items/G62N7X99">PID 273</tei:idno>
+                        </tei:altIdentifier> 
+                        <tei:altIdentifier type="traditionalID">
+                            <tei:idno source="http://zotero.org/groups/2552746/items/BPIS8ENY">n. 2</tei:idno>
+                        </tei:altIdentifier>
+                        <tei:altIdentifier type="traditionalID">
+                            <tei:idno source="http://zotero.org/groups/2552746/items/EKM6SFLC">n. 7</tei:idno>
+                        </tei:altIdentifier>
+                        <tei:altIdentifier type="traditionalID">
+                            <tei:idno source="http://zotero.org/groups/2552746/items/2UHRRBFK">n. 31</tei:idno>
+                        </tei:altIdentifier>
+                        <tei:altIdentifier type="traditionalID">
+                            <tei:idno source="https://lexlep.univie.ac.at/wiki/TI%C2%B733">TI·33</tei:idno>
+                        </tei:altIdentifier>
+                    </tei:msIdentifier> 
+                    <tei:msContents>
+                        <tei:summary>Funerary inscription</tei:summary>
+                    </tei:msContents>
+                    <tei:physDesc>
+                        <tei:objectDesc>     
+                            <tei:supportDesc>
+                                <tei:support>
+                                    <tei:objectType ana="http://vocab.getty.edu/page/aat/300007023">stela</tei:objectType>   
+                                    <tei:material ana="http://vocab.getty.edu/aat/300011692">rock</tei:material>
+                                    <tei:note>beola stone</tei:note>
+                                    <tei:dimensions type="objectDimensions" unit="cm" precision="high">
+                                        <tei:height>74</tei:height>
+                                        <tei:width>46</tei:width>
+                                        <tei:depth>7</tei:depth>
+                                    </tei:dimensions>
+                                    <tei:rs type="reuse">yes</tei:rs>
+                                    <tei:note>The stela was reused for covering a drainage canal</tei:note>
+                                    <tei:note type="supportNotes">The stela has an irregular shape because it is broken in its lower and upper part, and on the right side up</tei:note>
+                                </tei:support>
+                                <tei:condition>fragmentary
+                                    <tei:note>The stela is fragmentary</tei:note>
+                                </tei:condition>    
+                            </tei:supportDesc>
+                            <tei:layoutDesc>
+                                <tei:layout columns="1" writtenLines="1">
+                                    <tei:rs type="execution" ana="http://vocab.getty.edu/page/aat/300404794">engraved</tei:rs>
+                                    <tei:rs type="opistography">no</tei:rs>
+                                    <tei:note type="layoutNotes">The inscription runs vertically from bottom to top, the ductus is sinistrorse. It is engraved within lines which outline a stylised human figure normally closed by a semicircle representing the head. In this case, the half circle is lost because the upper part of the inscription is broken. The inscription is engraved on the right side of the face, thus probably leaving enough space for a second inscription</tei:note>
+                                </tei:layout>
+                            </tei:layoutDesc>
+                        </tei:objectDesc>
+                        <tei:handDesc>                            
+                            <tei:handNote>
+                                <tei:note type="palaeographicNotes">The first part of the inscription is missing. Ten letters, which can be well read, are preserved, including the last two which are partially broken. Two words separated by overlapping dots can be identified. Archaic &lt;a&gt; is useful for dating the inscription</tei:note>
+                                <tei:dimensions type="characterDimension" unit="cm" precision="high"> 
+                                    <tei:height>10 to 12,5</tei:height>
+                                </tei:dimensions>
+                            </tei:handNote>
+                        </tei:handDesc>                                      
+                        <tei:scriptDesc>
+                            <tei:scriptNote>
+                                <tei:rs type="writingSystem" subtype="alphabet" ref="https://www.prin-italia-antica.unifi.it/p222.html">Lepontic alphabet</tei:rs>
+                                <tei:rs type="wordDivision">punctuation</tei:rs> 
+                                <tei:note>Two overlapping dots are used as word separators</tei:note>
+                            </tei:scriptNote>
+                        </tei:scriptDesc>
+                        <tei:decoDesc>
+                            <tei:decoNote></tei:decoNote>
+                        </tei:decoDesc>
+                    </tei:physDesc>
+                    <tei:history>
+                        <tei:origin> 
+                            <tei:origPlace type="composed">
+                                <tei:placeName type="ancient"></tei:placeName>
+                                <tei:placeName type="modern" ref="https://www.geonames.org/"></tei:placeName>
+                            </tei:origPlace>
+                            <tei:origDate notBefore-custom="-0425" notAfter-custom="-0376" cert="low">end of the 5th - beginning of the 4th century BC</tei:origDate>
+                        </tei:origin>
+                        <tei:provenance type="found" subtype="discovered" when="1913">
+                            <tei:placeName type="ancient"></tei:placeName>
+                            <tei:placeName type="modern" ref="https://www.geonames.org/10384449">Bedigliora</tei:placeName>
+                            <tei:placeName type="detailed">The stela covered a drainage canal. It was noticed by a local official and brought to the Civic Museum of Lugano. It is thought to come from a tomb of a necropolis excavated in 1852 in Santa Maria di Banco, where headstones and dispersed and reused objects have been found</tei:placeName>
+                        </tei:provenance>
+                        <tei:provenance type="observed" subtype="autopsied" when="2023">
+                            <tei:persName>Corinna Salomon</tei:persName>
+                        </tei:provenance>
+                    </tei:history>                       
+                </tei:msDesc>   
+            </tei:sourceDesc> 
+        </tei:fileDesc>
+        <tei:encodingDesc>
+            <tei:p source="https://epidoc.stoa.org/gl/latest/">Marked-up according to the EpiDoc Guidelines</tei:p>
+        </tei:encodingDesc>
+        <tei:profileDesc>
+            <tei:langUsage> 
+                <tei:language ident="xcg" source="https://iso639-3.sil.org/code/xcg">Cisalpine Celtic (Lepontic)</tei:language>
+                <tei:language ident="xcg-Ital-x-xcglep" source="https://www.prin-italia-antica.unifi.it/p222.html" ana="https://unicode.org/iso15924/iso15924-codes.html">Cisalpine Gaulisch in Lepontic alphabet</tei:language>
+            </tei:langUsage>
+            <tei:textClass>
+                <tei:keywords scheme="https://www.eagle-network.eu/resources/vocabularies/typeins/">
+                    <tei:term ref="https://www.eagle-network.eu/voc/typeins/lod/83">funerary inscription</tei:term>
+                </tei:keywords>
+            </tei:textClass>
+        </tei:profileDesc>
+    </tei:teiHeader>
+    <tei:facsimile>
+        <tei:graphic n="1" url="http://linsto.dipartimentidieccellenza-dilef.unifi.it/itant/img/ItAnt_Lepontic_3">
+            <tei:desc>
+                <tei:ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">This file is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International license – (CC BY-NC-SA 4.0).</tei:ref>
+            </tei:desc>
+        </tei:graphic>
+    </tei:facsimile>
+    <tei:text>
+        <tei:body>
+            <tei:div type="edition" subtype="diplomatic" xml:space="preserve">
+                <tei:div type="textpart" n="side_a" style="text-direction:r-to-l" rend="ductus:sinistrorse">
+                    <tei:ab>
+                        <tei:lb n="1"/>]nialui:pala
+                    </tei:ab>
+                </tei:div>
+            </tei:div>
+            <tei:div type="edition" subtype="interpretative" xml:space="preserve">
+                <tei:div type="textpart" n="face_a" style="text-direction:r-to-l" rend="ductus:sinistrorse">
+                    <tei:ab>                              
+                        <tei:lb n="1" xml:id="Lep_3_l_1"/>                      
+                        <!-- Leida;Lep_3_l_1_w_1;]nialui -->
+                        <tei:name type="second" xml:id="Lep_3_l_1_w_1" xml:lang="xcg-Ital-x-xcglep" ref="#p1" cert="low"><tei:gap reason="lost" extent="unknown" unit="line"><tei:certainty match=".." locus="name"/></tei:gap>nialui</tei:name>
+                        <!-- Leida;Lep_3_l_1_w_2;pala -->
+                        <tei:w  xml:id="Lep_3_l_1_w_2" xml:lang="xcg-Ital-x-xcglep">pala</tei:w>
+                    </tei:ab>
+                </tei:div>
+            </tei:div>
+            <tei:div type="translation" xml:lang="ita">
+                <tei:p>Pala per … figlio di  …..nios</tei:p>
+                <tei:desc>
+                    <tei:persName>Patrizia Solinas</tei:persName>
+                    <tei:ref type="licence" target="https://creativecommons.org/licenses/by-nc-sa/4.0/">This file is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International license – (CC BY-NC-SA 4.0).</tei:ref>
+                </tei:desc> 
+            </tei:div>
+            <tei:div type="translation" xml:lang="eng">
+                <tei:p>Pala for … son of  …..nios</tei:p>
+                <tei:desc>
+                    <tei:persName>Patrizia Solinas</tei:persName>
+                    <tei:ref type="licence" target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </tei:ref>
+                </tei:desc> 
+            </tei:div> 
+            <tei:div type="apparatus" xml:lang="eng" resp="Patrizia Solinas"></tei:div>
+            <tei:div type="commentary" xml:lang="eng" resp="Patrizia Solinas">
+                <tei:note target="#Lep_3">
+                    <tei:p>Formulaic dedication of a pala for a deceased named by a binomial onomastic formula in the dative (only the final part of the adpositive in -alo- is preserved)</tei:p> 
+                </tei:note>
+                <tei:listPerson type="Onomastics">
+                    <tei:person xml:id="p1" xml:lang="xcg-Ital-x-xcglep">
+                        <tei:persName>
+                            <tei:name type="second">]nialui</tei:name>
+                        </tei:persName>
+                    </tei:person>
+                </tei:listPerson>
+            </tei:div>
+            <tei:div type="bibliography">
+                <tei:listBibl xmlns="http://www.tei-c.org/ns/1.0">
+                    <tei:biblStruct type="book" xml:id="Lejeune1971" corresp="http://zotero.org/groups/2552746/items/TN2MHKPX">
+                        <tei:monogr>
+                            <tei:title level="m">Lepontica</tei:title>
+                            <tei:author>
+                                <tei:forename>Michel</tei:forename>
+                                <tei:surname>Lejeune</tei:surname>
+                            </tei:author>
+                            <tei:imprint>
+                                <tei:pubPlace>Paris</tei:pubPlace>
+                                <tei:publisher>Belles Lettres</tei:publisher>
+                                <tei:date>1971</tei:date>
+                                <tei:biblScope unit="page">82</tei:biblScope>
+                            </tei:imprint>
+                        </tei:monogr>
+                    </tei:biblStruct>
+                    <tei:biblStruct type="journalArticle" xml:id="De_Marinis1991" corresp="http://zotero.org/groups/2552746/items/MDF6Z894">
+                        <tei:analytic>
+                            <tei:title level="a">Una nuova iscrizione lepontica su pietra da Mezzovico (Lugano)</tei:title>
+                            <tei:author>
+                                <tei:forename>Raffaele C.</tei:forename>
+                                <tei:surname>De Marinis</tei:surname>
+                            </tei:author>
+                            <tei:author>
+                                <tei:forename>Filippo</tei:forename>
+                                <tei:surname>Motta</tei:surname>
+                            </tei:author>
+                        </tei:analytic>
+                        <tei:monogr>
+                            <tei:title level="j">Sibrium</tei:title>
+                            <tei:imprint>
+                                <tei:biblScope unit="volume">21</tei:biblScope>
+                                <tei:biblScope unit="page">201-225</tei:biblScope>
+                                <tei:date>1991</tei:date>
+                            </tei:imprint>
+                        </tei:monogr>
+                    </tei:biblStruct>
+                    <tei:biblStruct type="book" xml:id="Piana_Agostinetti2004" corresp="http://zotero.org/groups/2552746/items/VELCL2GI">
+                        <tei:monogr><title level="m">Celti d'Italia. Tomo I: Archeologia, lingua e scrittura dei Celti d'Italia</title>
+                            <tei:editor>
+                                <tei:forename>Paola</tei:forename>
+                                <tei:surname>Piana Agostinetti</tei:surname>
+                            </tei:editor>
+                            <tei:imprint>
+                                <tei:pubPlace>Roma</tei:pubPlace>
+                                <tei:publisher>Spazio tre</tei:publisher>
+                                <tei:date>2004</tei:date>
+                            </tei:imprint>
+                        </tei:monogr>
+                        <tei:series>
+                            <tei:title level="s">Popoli e civiltà dell'Italia antica</tei:title>
+                            <tei:biblScope unit="volume">12.1</tei:biblScope>
+                            <tei:biblScope unit="page">168</tei:biblScope>
+                        </tei:series>
+                    </tei:biblStruct>
+                </tei:listBibl>    
+            </tei:div>
+        </tei:body>
+    </tei:text>
+</tei:TEI>

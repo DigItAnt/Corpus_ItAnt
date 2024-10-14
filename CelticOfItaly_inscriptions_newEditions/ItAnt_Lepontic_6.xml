@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.stoa.org/epidoc/schema/9.2/tei-epidoc.rng"
+    schematypens="http://relaxng.org/ns/structure/1.0"?> 
+<?xml-model href="https://www.stoa.org/epidoc/schema/9.2/tei-epidoc.rng"
+    schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<tei:TEI xmlns:dcr="http://www.isocat.org/ns/dcr" xml:id="ItAnt_Lepontic_6" xmlns:tei="http://www.tei-c.org/ns/1.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <tei:teiHeader>
+        <tei:fileDesc>
+            <tei:titleStmt>
+                <tei:title type="ItAnt_ID">Inscription ItAnt_Lepontic_6</tei:title>
+            </tei:titleStmt>
+            <tei:editionStmt>
+                <tei:edition>
+                    <tei:idno>ItAnt_Lepontic_6</tei:idno>
+                </tei:edition>
+                <tei:editor>
+                    <tei:persName>Patrizia Solinas</tei:persName>
+                </tei:editor>
+                <tei:editor>
+                    <tei:persName>Mariarosaria Zinzi</tei:persName>
+                </tei:editor>
+            </tei:editionStmt>         
+            <tei:publicationStmt>
+                <tei:authority>PRIN 2017 "Lingue e culture dell'Italia antica: linguistica storica e modelli digitali | Languages and Cultures of Ancient Italy. Historical Linguistics and Digital Models"</tei:authority>
+                <tei:date>2023</tei:date>
+                <tei:idno type="URI" subtype="handle"><!-- verrà riempito in automatico dopo l'inserimento in CLARIN --></tei:idno>
+                <tei:availability>
+                    <tei:licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">This file is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International license – (CC BY-NC-SA 4.0).  
+                    </tei:licence>
+                </tei:availability>
+            </tei:publicationStmt>   
+            <tei:sourceDesc>
+                <tei:msDesc>
+                    <tei:msIdentifier>
+                        <tei:settlement>lost</tei:settlement>
+                        <tei:institution></tei:institution>
+                        <tei:idno type="museumID">III.C186a</tei:idno>
+                        <tei:altIdentifier type="trismegistos">
+                            <tei:idno source="www.trismegistos.org/text/219690">TM 219404</tei:idno>
+                        </tei:altIdentifier> 
+                        <tei:altIdentifier type="traditionalID">
+                            <tei:idno source="http://zotero.org/groups/2552746/items/G62N7X99">PID 271</tei:idno>
+                        </tei:altIdentifier>
+                        <tei:altIdentifier type="traditionalID">
+                            <tei:idno source="http://zotero.org/groups/2552746/items/BPIS8ENY">n. 26 bis</tei:idno>
+                        </tei:altIdentifier> 
+                        <tei:altIdentifier type="traditionalID">
+                            <tei:idno source="http://zotero.org/groups/2552746/items/2UHRRBFK">n. 36</tei:idno>
+                        </tei:altIdentifier>
+                        <tei:altIdentifier type="traditionalID">
+                            <tei:idno source="https://lexlep.univie.ac.at/wiki/TI%C2%B739">TI·39</tei:idno>
+                        </tei:altIdentifier>
+                    </tei:msIdentifier> 
+                    <tei:msContents>
+                        <tei:summary>Funerary inscription</tei:summary>
+                    </tei:msContents>
+                    <tei:physDesc>
+                        <tei:objectDesc>     
+                            <tei:supportDesc>
+                                <tei:support>
+                                    <tei:objectType ana="http://vocab.getty.edu/page/aat/300007023">stela</tei:objectType>   
+                                    <tei:material ana="http://vocab.getty.edu/aat/300011692">rock</tei:material>
+                                    <tei:note>mica schist</tei:note>
+                                    <tei:dimensions type="objectDimensions" unit="cm" precision="high">
+                                        <tei:height></tei:height>
+                                        <tei:width></tei:width>
+                                        <tei:depth></tei:depth>
+                                    </tei:dimensions>
+                                    <tei:note>The inscription was lost right after its finding, therefore dimensions are unknown</tei:note>
+                                    <tei:rs type="reuse">no</tei:rs>
+                                    <tei:note type="supportNotes"></tei:note>
+                                </tei:support>
+                                <tei:condition>Lost
+                                    <tei:note></tei:note>
+                                </tei:condition>    
+                            </tei:supportDesc>
+                            <tei:layoutDesc>
+                                <tei:layout columns="1" writtenLines="1">
+                                    <tei:rs type="execution" ana="http://vocab.getty.edu/page/aat/300404794">engraved</tei:rs>
+                                    <tei:rs type="opistography">no</tei:rs>
+                                    <tei:note type="layoutNotes">The inscription runs inside an anthropomorfic frame closed by a semicircle, the latter representing the head. The ductus is sinistrorse</tei:note>
+                                </tei:layout>
+                            </tei:layoutDesc>
+                        </tei:objectDesc>
+                        <tei:handDesc>                            
+                            <tei:handNote>
+                                <tei:note type="palaeographicNotes"></tei:note>
+                                <tei:dimensions type="characterDimension" unit="cm" precision="high"> 
+                                    <tei:height></tei:height>
+                                </tei:dimensions>
+                            </tei:handNote>
+                        </tei:handDesc>                                      
+                        <tei:scriptDesc>
+                            <tei:scriptNote>
+                                <tei:rs type="writingSystem" subtype="alphabet" ref="https://www.prin-italia-antica.unifi.it/p222.html">Lepontic alphabet</tei:rs>
+                                <tei:rs type="wordDivision">punctuation</tei:rs>
+                                <tei:note>Three overlapping dots are used as word separators</tei:note>
+                            </tei:scriptNote>
+                        </tei:scriptDesc>
+                        <tei:decoDesc>
+                            <tei:decoNote></tei:decoNote>
+                        </tei:decoDesc>
+                    </tei:physDesc>
+                    <tei:history>
+                        <tei:origin> 
+                            <tei:origPlace type="composed">
+                                <tei:placeName type="ancient"></tei:placeName>
+                                <tei:placeName type="modern" ref="https://sws.geonames.org/"></tei:placeName>
+                            </tei:origPlace>
+                            <tei:origDate notBefore-custom="-400" notAfter-custom="-101" cert="low">4th - 2nd century BC</tei:origDate>
+                        </tei:origin>
+                        <tei:provenance type="found" subtype="discovered" when="1850">
+                            <tei:placeName type="ancient"></tei:placeName>
+                            <tei:placeName type="modern" ref="https://sws.geonames.org/2658549">Sorengo</tei:placeName>
+                            <tei:placeName type="detailed">The stela was accidentally found</tei:placeName>
+                            <tei:persName></tei:persName>
+                        </tei:provenance>
+                        <tei:provenance type="observed" subtype="autopsied">
+                            <tei:persName></tei:persName>
+                            <tei:note>Not observed (the inscription is lost)</tei:note>
+                        </tei:provenance>
+                    </tei:history>                       
+                </tei:msDesc>   
+            </tei:sourceDesc> 
+        </tei:fileDesc>
+        <tei:encodingDesc>
+            <tei:p source="https://epidoc.stoa.org/gl/latest/">Marked-up according to the EpiDoc Guidelines</tei:p>
+        </tei:encodingDesc>
+        <tei:profileDesc>
+            <tei:langUsage> 
+                <tei:language ident="xcg" source="https://iso639-3.sil.org/code/xcg"> Cisalpine Celtic (Lepontic)</tei:language>
+                <tei:language ident="xcg-Ital-x-xcglep" source="https://www.prin-italia-antica.unifi.it/p222.html" ana="https://unicode.org/iso15924/iso15924-codes.html">Cisalpine Gaulisch in Lepontic alphabet</tei:language>
+            </tei:langUsage>
+            <tei:textClass>
+                <tei:keywords scheme="https://www.eagle-network.eu/resources/vocabularies/typeins/">
+                    <tei:term ref="https://www.eagle-network.eu/voc/typeins/lod/83">funerary inscription</tei:term>
+                </tei:keywords>
+            </tei:textClass>
+        </tei:profileDesc>
+    </tei:teiHeader>
+    <tei:facsimile>
+        <tei:graphic n="1" url="http://linsto.dipartimentidieccellenza-dilef.unifi.it/itant/img/ItAnt_Lepontic_6.jpg" resp="Patrizia Solinas">
+            <tei:desc>Inscription ItAnt Lepontic 6
+                <tei:ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">This file is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International license – (CC BY-NC-SA 4.0).</tei:ref>
+            </tei:desc>
+        </tei:graphic>
+    </tei:facsimile>
+    <tei:text>
+        <tei:body>
+            <tei:div type="edition" subtype="diplomatic" xml:space="preserve">
+                <tei:div type="textpart" n="side_a" style="text-direction:r-to-l" rend="ductus:sinistrorse">
+                    <tei:ab>
+                        <tei:lb n="1"/>piuonei:tekialui:lala                  
+                    </tei:ab>
+                </tei:div>
+            </tei:div>
+            <tei:div type="edition" subtype="interpretative" xml:space="preserve">
+                <tei:div type="textpart" n="side_a" style="text-direction:r-to-l" rend="ductus:sinistrorse">
+                    <tei:ab>                               
+                        <tei:lb n="1" xml:id="Lep_6_l_1"/>
+                        <!-- Leida;Lep_6_l_1_w_1;piuonei -->
+                        <tei:name type="individual" xml:id="Lep_6_l_1_w_1" xml:lang="xcg-Ital-x-xcglep" ref="#'p1">piuonei</tei:name>
+                        <!-- Leida;Lep_6_l_1_w_2;tekialui -->
+                        <tei:name type="second" xml:id="Lep_6_l_1_w_2" xml:lang="xcg-Ital-x-xcglep" ref="#p1">tekialui</tei:name>
+                        <!-- Leida;Lep_6_l_1_w_3;⌜p⌝ala -->
+                        <tei:w  xml:id="Lep_6_l_1_w_3" xml:lang="xcg-Ital-x-xcglep"><tei:choice><tei:corr>p</tei:corr><tei:sic>l</tei:sic></tei:choice>ala</tei:w>
+                    </tei:ab>
+                </tei:div>
+            </tei:div>
+            <tei:div type="translation" xml:lang="ita">
+                <tei:p>Pala per Biu, figlio di Tekios</tei:p>
+                <tei:desc>
+                    <tei:persName>Patrizia Solinas</tei:persName>
+                    <tei:ref type="licence" target="https://creativecommons.org/licenses/by-nc-sa/4.0/">This file is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International license – (CC BY-NC-SA 4.0).</tei:ref>
+                </tei:desc> 
+            </tei:div>            
+            <tei:div type="translation" xml:lang="eng">
+                <tei:p>Pala for Biu, son of Tekios</tei:p>
+                <tei:desc>
+                    <tei:persName>Patrizia Solinas</tei:persName>
+                    <tei:ref type="licence" target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </tei:ref>
+                </tei:desc> 
+            </tei:div> 
+            <tei:div type="apparatus" xml:lang="eng" resp="Patrizia Solinas">
+                <tei:listApp>
+                    <tei:app></tei:app>    
+                </tei:listApp>
+            </tei:div>
+                <tei:div type="commentary" xml:lang="eng" resp="Patrizia Solinas">
+                <tei:note target="#Lep_6_l_1_w_1">
+                    <tei:p>According to <tei:ref target="http://zotero.org/groups/2552746/items/6XM77KL6"><tei:bibl/>Delamarre 2019, p. 132,</tei:ref><tei:rs type="name" corresp="#Lep_6_l_1_w_1" xml:lang="xcg-Ital-x-xcglep">piuonei</tei:rs> is the dative singular of a -ō(n) theme (biu̯o-). <tei:rs type="name" corresp="#Lep_6_l_1_w_2" xml:lang="xcg-Ital-x-xcglep">Tekialui</tei:rs> is an adpositive in -alo- created from a base of uncertain etymology. The word lala has been interpreted from the beginning as an error instead of pala. The funerary inscription is therefore typically made up by the dedicatee's binomial onomastic formula in the dative and the word pala</tei:p>
+                </tei:note>
+                  <tei:listPerson type="Onomastics">
+                      <tei:person xml:id="p1" xml:lang="xcg-Ital-x-xcglep">
+                          <tei:persName>
+                              <tei:name type="individual">slaniai</tei:name>
+                              <tei:name type="second">tekialui</tei:name>
+                          </tei:persName>
+                      </tei:person>    
+                  </tei:listPerson>
+            </tei:div>
+            <tei:div type="bibliography">
+                <tei:listBibl xmlns="http://www.tei-c.org/ns/1.0">
+                    <tei:biblStruct type="journalArticle" xml:id="Giussani1902" corresp="http://zotero.org/groups/2552746/items/LR7FQF64">
+                        <tei:analytic>
+                            <tei:title level="a">L' iscrizione nord-etrusca di Tesserete e le altre iscrizioni pre-romane del nostro territorio</tei:title>
+                            <tei:author>
+                                <tei:forename>Antonio</tei:forename>
+                                <tei:surname>Giussani</tei:surname>
+                            </tei:author>
+                        </tei:analytic>
+                        <tei:monogr>
+                            <tei:title level="j">Rivista Archeologica della Provincia e Antica Diocesi di Como</tei:title>
+                            <tei:imprint>
+                                <tei:biblScope unit="volume">46</tei:biblScope>
+                                <tei:biblScope unit="page">25-67</tei:biblScope>
+                                <tei:date>1902</tei:date>
+                            </tei:imprint>
+                        </tei:monogr>
+                    </tei:biblStruct>
+                </tei:listBibl>    
+            </tei:div>
+            </tei:body>
+            </tei:text>
+            </tei:TEI>

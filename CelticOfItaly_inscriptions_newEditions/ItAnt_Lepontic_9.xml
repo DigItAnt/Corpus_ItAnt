@@ -1,0 +1,350 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.stoa.org/epidoc/schema/9.2/tei-epidoc.rng"
+    schematypens="http://relaxng.org/ns/structure/1.0"?> 
+<?xml-model href="https://www.stoa.org/epidoc/schema/9.2/tei-epidoc.rng"
+    schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<tei:TEI xmlns:dcr="http://www.isocat.org/ns/dcr" xml:id="ItAnt_Lepontic_9" xmlns:tei="http://www.tei-c.org/ns/1.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <tei:teiHeader>
+        <tei:fileDesc>
+            <tei:titleStmt>
+                <tei:title type="ItAnt_ID">Inscription ItAnt_Lepontic_9</tei:title>
+            </tei:titleStmt>
+            <tei:editionStmt>
+                <tei:edition>
+                    <tei:idno>ItAnt_Lepontic_9</tei:idno>
+                </tei:edition>
+                <tei:editor>
+                    <tei:persName>Patrizia Solinas</tei:persName>
+                </tei:editor>
+                <tei:editor>
+                    <tei:persName>Mariarosaria Zinzi</tei:persName>
+                </tei:editor>
+            </tei:editionStmt>         
+            <tei:publicationStmt>
+                <tei:authority>PRIN 2017 "Lingue e culture dell'Italia antica: linguistica storica e modelli digitali | Languages and Cultures of Ancient Italy. Historical Linguistics and Digital Models"</tei:authority>
+                <tei:date>2023</tei:date>
+                <tei:idno type="URI" subtype="handle"><!-- verrà riempito in automatico dopo l'inserimento in CLARIN --></tei:idno>
+                <tei:availability>
+                    <tei:licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">This file is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International license – (CC BY-NC-SA 4.0).  
+                    </tei:licence>
+                </tei:availability>
+            </tei:publicationStmt>   
+            <tei:sourceDesc>
+                <tei:msDesc>
+                    <tei:msIdentifier>
+                        <tei:settlement ref="https://sws.geonames.org/varese">Varese</tei:settlement>
+                        <tei:institution ana="https://www.museivarese.it/sedi/villa-mirabello/">Museo civico archeologico di Villa Mirabello</tei:institution>
+                        <tei:idno type="museumID">ST 16127</tei:idno>
+                        <tei:altIdentifier type="trismegistos">
+                            <tei:idno source="www.trismegistos.org/text/219405">TM 219405</tei:idno>
+                        </tei:altIdentifier> 
+                        <tei:altIdentifier type="traditionalID">
+                            <tei:idno source="http://zotero.org/groups/2552746/items/G62N7X99">300</tei:idno>
+                        </tei:altIdentifier>
+                        <tei:altIdentifier type="traditionalID">
+                            <tei:idno source="http://zotero.org/groups/2552746/items/BPIS8ENY">n. 119</tei:idno>
+                        </tei:altIdentifier>
+                        <tei:altIdentifier type="traditionalID">
+                            <tei:idno source="http://zotero.org/groups/2552746/items/EKM6SFLC">n. 1</tei:idno>
+                        </tei:altIdentifier> 
+                        <tei:altIdentifier type="traditionalID">
+                            <tei:idno source="http://zotero.org/groups/2552746/items/2UHRRBFK">n. 106</tei:idno>
+                        </tei:altIdentifier>
+                        <tei:altIdentifier type="traditionalID">
+                            <tei:idno source="https://lexlep.univie.ac.at/wiki/VA%C2%B76">VA·6</tei:idno>
+                        </tei:altIdentifier>
+                    </tei:msIdentifier>
+                    <tei:msContents>
+                        <tei:summary>Funerary inscription</tei:summary>
+                    </tei:msContents>
+                    <tei:physDesc>
+                        <tei:objectDesc>     
+                            <tei:supportDesc>
+                                <tei:support>
+                                    <tei:objectType ana="http://vocab.getty.edu/page/aat/300007023">stela</tei:objectType>   
+                                    <tei:material ana="http://vocab.getty.edu/aat/300011692">rock</tei:material>
+                                    <tei:note>mica schist</tei:note>
+                                    <tei:dimensions type="objectDimensions" unit="cm" precision="high">
+                                        <tei:height>223</tei:height>
+                                        <tei:width>70</tei:width>
+                                        <tei:depth>20</tei:depth>
+                                    </tei:dimensions>
+                                    <tei:rs type="reuse">no</tei:rs>
+                                    <tei:note type="supportNotes"></tei:note>
+                                </tei:support>
+                                <tei:condition>Well preserved
+                                    <tei:note>The stela, already broken since ancient times at the bottom, has been damaged after the finding due to the high friability of the stone</tei:note>
+                                </tei:condition>    
+                            </tei:supportDesc>
+                            <tei:layoutDesc>
+                                <tei:layout columns="1" writtenLines="1">
+                                    <tei:rs type="execution" ana="http://vocab.getty.edu/page/aat/300404794">engraved</tei:rs>
+                                    <tei:rs type="opistography">yes</tei:rs>
+                                    <tei:note type="layoutNotes">The inscription runs inside horseshoe-shaped: such tipology has been found in only one inscription in Busca in the Transappenninic area, but is common in the area of Siena and Volterra</tei:note>
+                                </tei:layout>
+                            </tei:layoutDesc>
+                        </tei:objectDesc>
+                        <tei:handDesc>                            
+                            <tei:handNote>
+                                <tei:note type="palaeographicNotes"></tei:note>
+                                <tei:dimensions type="characterDimension" unit="cm" precision="high"> 
+                                    <tei:height>6 to 14</tei:height>
+                                </tei:dimensions>
+                            </tei:handNote>
+                        </tei:handDesc>                                      
+                        <tei:scriptDesc>
+                            <tei:scriptNote>
+                                <tei:rs type="writingSystem" subtype="alphabet" ref="https://www.prin-italia-antica.unifi.it/p222.html">Lepontic alphabet</tei:rs>
+                                <tei:rs type="wordDivision">punctuation</tei:rs>  
+                                <tei:note>Three overlapping dots</tei:note>
+                            </tei:scriptNote>
+                        </tei:scriptDesc>
+                        <tei:decoDesc>
+                            <tei:decoNote></tei:decoNote>
+                        </tei:decoDesc>
+                    </tei:physDesc>
+                    <tei:history>
+                        <tei:origin> 
+                            <tei:origPlace type="composed">
+                                <tei:placeName type="ancient"></tei:placeName>
+                                <tei:placeName type="modern" ref="https://sws.geonames.org/3164548">Vergiate</tei:placeName>
+                            </tei:origPlace>
+                            <tei:origDate notBefore-custom="-500" notAfter-custom="-0301" cert="low">5th - 4th century BC</tei:origDate>
+                        </tei:origin>
+                        <tei:provenance type="found" subtype="discovered" when="1984">
+                            <tei:placeName type="ancient"></tei:placeName>
+                            <tei:placeName type="modern" ref="https://sws.geonames.org/3164548">Vergiate</tei:placeName>
+                            <tei:placeName type="detailed">The stela was accidentally found at circa 80 cm below the soil level.</tei:placeName>
+                            <tei:persName></tei:persName>
+                            <tei:note> It was found together with with Roman potsherds and tiles, which led to the hypothesis of a secondary context. <tei:ref target="http://zotero.org/groups/2552746/items/CNWUPYUP"/><tei:bibl>Morandi (2017)></tei:bibl> hypothesises its reuse as a grave cover. For its friability, the stone, already broken at the bottom in ancient times, has been further damaged. In this respect, the calques made right after its finding and kept at Museo della Società Gallaratese di Studi Patri (Gallarate) and the Museo Archeologico ‟Paolo Giovio” (Como) are very useful</tei:note>
+                        </tei:provenance>
+                        <tei:provenance type="observed" subtype="autopsied" when="1991">
+                            <tei:persName>Patrizia Solinas</tei:persName>
+                        </tei:provenance>
+                    </tei:history>                       
+                </tei:msDesc>   
+            </tei:sourceDesc> 
+        </tei:fileDesc>
+        <tei:encodingDesc>
+            <tei:p source="https://epidoc.stoa.org/gl/latest/">Marked-up according to the EpiDoc Guidelines</tei:p>
+        </tei:encodingDesc>
+        <tei:profileDesc>
+            <tei:langUsage> 
+                <tei:language ident="xcg" source="https://iso639-3.sil.org/code/xcg"> Cisalpine Celtic (Lepontic)</tei:language>
+                <tei:language ident="xcg-Ital-x-xcglep" source="https://www.prin-italia-antica.unifi.it/p222.html" ana="https://unicode.org/iso15924/iso15924-codes.html">Cisalpine Gaulisch in Lepontic alphabet</tei:language>
+            </tei:langUsage>
+            <tei:textClass>
+                <tei:keywords scheme="https://www.eagle-network.eu/resources/vocabularies/typeins/">
+                    <tei:term ref="https://www.eagle-network.eu/voc/typeins/lod/83">funerary inscription</tei:term>
+                </tei:keywords>
+            </tei:textClass>
+        </tei:profileDesc>
+    </tei:teiHeader>
+    <tei:facsimile>
+        <tei:graphic n="1" url="http://linsto.dipartimentidieccellenza-dilef.unifi.it/itant/img/ItAnt_Lepontic_9.jpg" resp="Patrizia Solinas">
+            <tei:desc>Inscription ItAnt Lepontic 9
+                <tei:ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">This file is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International license – (CC BY-NC-SA 4.0).</tei:ref>
+            </tei:desc>
+        </tei:graphic>
+        <tei:graphic n="2" url="https://www.studietruschi.org/wp-content/uploads/2021/06/SE60_13.pdf#page=128">
+            <tei:desc>Photograph of the inscription ItAnt Lepontic 9(from <tei:ref target="http://zotero.org/groups/2552746/items/BPIS8ENY"><tei:bibl>Solinas 1994 [1995]</tei:bibl></tei:ref>, no. LXVIII b)
+                <tei:ref ana="https://www.studietruschi.org">This file is provided by the Istituto Nazionale di Studi Etruschi ed Italici</tei:ref>
+            </tei:desc>
+        </tei:graphic>
+    </tei:facsimile>
+    <tei:text>
+        <tei:body>
+            <tei:div type="edition" subtype="diplomatic" xml:space="preserve">
+                <tei:div type="textpart" n="side_a" style="text-direction:r-to-l" rend="ductus:sinistrorse">
+                    <tei:ab>
+                        <tei:lb n="1"/>pelkui : pruiam : teu : karite : iṣ́os : kaṛite : palaṃ
+                    </tei:ab>
+                </tei:div>
+            </tei:div>
+            <tei:div type="edition" subtype="interpretative" xml:space="preserve">
+                <tei:div type="textpart" n="side_a" style="text-direction:r-to-l" rend="ductus:sinistrorse">
+                    <tei:ab>                               
+                        <tei:lb n="1" xml:id="Lep_9_l_1"/>
+                        <!-- Leida;Lep_9_l_1_w_1;pelkui -->
+                        <tei:name type="individual" xml:id="Lep_9_l_1_w_1" xml:lang="xcg-Ital-x-xcglep" ref="#'p1">pelkui</tei:name>
+                        <!-- Leida;Lep_9_l_1_w_2;pruiam -->
+                        <tei:w  xml:id="Lep_9_l_1_w_2" xml:lang="xcg-Ital-x-xcglep">pruiam</tei:w>
+                        <!-- Leida;Lep_9_l_1_w_3;teu -->
+                        <tei:name type="individual" xml:id="Lep_9_l_1_w_3" xml:lang="xcg-Ital-x-xcglep" ref="#p2">teu</tei:name>
+                        <!-- Leida;Lep_9_l_1_w_4;karite -->
+                        <tei:w xml:id="Lep_9_l_1_w_4" xml:lang="xcg-Ital-x-xcglep">karite</tei:w>
+                        <!-- Leida;Lep_9_l_1_w_5;iṣ́os -->
+                        <tei:w xml:id="Lep_9_l_1_w_5" xml:lang="xcg-Ital-x-xcglep">iś<tei:unclear>o</tei:unclear>s</tei:w>
+                        <!-- Leida;Lep_9_l_1_w_6;kaṛite -->
+                        <tei:w xml:id="Lep_9_l_1_w_6" xml:lang="xcg-Ital-x-xcglep">ka<tei:unclear>r</tei:unclear>ite</tei:w>
+                        <!-- Leida;Lep_9_l_1_w_7;palam -->
+                        <tei:w xml:id="Lep_9_l_1_w_7" xml:lang="xcg-Ital-x-xcglep">teu</tei:w></tei:ab>
+                </tei:div>
+            </tei:div>
+            <tei:div type="translation" xml:lang="ita">
+                <tei:p>Per Pelkos/Belgos Teu/Deu eresse/costrui/curò la pruiam, lo stesso eresse/costruì/curò la pala</tei:p>
+                <tei:desc>
+                    <tei:persName>Patrizia Solinas</tei:persName>
+                    <tei:ref type="licence" target="https://creativecommons.org/licenses/by-nc-sa/4.0/">This file is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International license – (CC BY-NC-SA 4.0).</tei:ref>
+                </tei:desc> 
+            </tei:div>
+            <tei:div type="translation" xml:lang="eng">
+                <tei:p>For Pelkos/Belgos Teu/Deu made/took care of the pruiam, he himself made/took care of the pala</tei:p>
+                <tei:desc>
+                    <tei:persName>Patrizia Solinas</tei:persName>
+                    <tei:ref type="licence" target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </tei:ref>
+                </tei:desc> 
+            </tei:div>
+            <tei:div type="apparatus" xml:lang="eng" resp="Patrizia Solinas">
+                <tei:listApp>
+                    <tei:app></tei:app>
+                </tei:listApp>
+            </tei:div>
+                <tei:div type="commentary" xml:lang="eng" resp="Patrizia Solinas">
+                <tei:note target="#Lep_9_l_1">
+                    <tei:p>The text consists of two paratactic clauses which share the topicalised dedicatee in the first position dative (<tei:rs type="name" corresp="#Lep_9_l_1_w_1" xml:lang="xcg-Ital-x-xcglep">pelkui</tei:rs>: o- theme from a base belg- according to <tei:ref target="http://zotero.org/groups/2552746/items/6XM77KL6"><tei:bibl>Delamarre (2019)</tei:bibl></tei:ref>, p. 117.  The dedicator is a proper name in the nominative singular in the first clause (<tei:rs type="name" corresp="#Lep_9_l_1_w_3" xml:lang="xcg-Ital-x-xcglep">teu</tei:rs>, -ō(n) theme from dēuo-, according to <tei:ref target="http://zotero.org/groups/2552746/items/6XM77KL6"><tei:bibl>Delamarre (2019)</tei:bibl></tei:ref>, p. 286) and a deictic pronoun in the second (<tei:rs type="w" corresp="#Lep_9_l_1_w_5" xml:lang="xcg-Ital-x-xcglep">iṣ́os</tei:rs>&lt;*istos). </tei:p> 
+                </tei:note>
+                <tei:note target="#Lep_9_l_1_w_4">
+                    <tei:p>The verb <tei:rs type="w" corresp="#Lep_9_l_1_w_4" xml:lang="xcg-Ital-x-xcglep">karite</tei:rs>, used in both clauses, is a third person singular of the preterite in dental (see <tei:ref target="http://zotero.org/groups/2552746/items/LYV2Q38T"><tei:bibl>Eska (1990)</tei:bibl></tei:ref>. The proposed etymologies for the roots are: *ku̯er- 'to make' (<tei:ref target="http://zotero.org/groups/2552746/items/QFUTLU7N"><tei:bibl>Pisani 1964</tei:bibl>)</tei:ref>, *ĝher-  ‘to grasp, enclose’ (<tei:ref target="http://zotero.org/groups/2552746/items/TN2MHKPX"><tei:bibl>Lejeune 1971</tei:bibl></tei:ref>), *kerH- 'scatter, pour out' → 'put' (as in OIr. cuirethar, fo·ceird 'put' (<tei:ref target="http://zotero.org/groups/2552746/items/THVIQ7VB"><tei:bibl>Eska-Mercado 2005</tei:bibl></tei:ref></tei:p> 
+                </tei:note>
+                <tei:note target="#Lep_9_l_1_w_2">
+                    <tei:p>The object of the first clause <tei:rs type="w" corresp="#Lep_9_l_1_w_2" xml:lang="xcg-Ital-x-xcglep">pruiam</tei:rs> is an accusative singular of a -a theme. The form has been compared to Gaul. briva (see <tei:ref target="http://zotero.org/groups/2552746/items/2QNL8FIF"><tei:bibl>Delamarre 2003</tei:bibl></tei:ref>, p. 89, <tei:ref target="http://zotero.org/groups/2552746/items/CAGTYSTK"><tei:bibl>Matasović 2009</tei:bibl></tei:ref> s.v. *brīwā) and to German words for 'bridge' (see ON bryggja by instance, <tei:ref target="http://zotero.org/groups/2552746/items/QFUTLU7N"><tei:bibl>Pisani 1964</tei:bibl></tei:ref> and <tei:ref target="http://zotero.org/groups/2552746/items/TN2MHKPX"><tei:bibl>Lejeune 1971</tei:bibl></tei:ref>)from PIE *(h₃)bʰreu̯H- (<tei:ref target="http://zotero.org/groups/2552746/items/E99I5BDF"><tei:bibl>IEW</tei:bibl></tei:ref>, 172 f. s.v. bhrū- 1. If this is correct, pruia stands for brūi̯ā&lt;PIE *(h₃)bʰruH-i̯ā-. The semantic is not transparent: Pisani suggests 'grave chamber', while Eska-Mercado, tentatively suggest ''border of a burial precinct' on the basis of the metaphorical meaning 'edge, border' of OIr. brú(</tei:p>
+                </tei:note>
+                    <tei:note target="Lep_9_l_1_w_7">
+                        <tei:p>The object of the second clause is the only attestation of the word pala in the accusative. The particular syntactic structure allowed to hypothesize a metrical structure (see <tei:ref target="http://zotero.org/groups/2552746/items/THVIQ7VB"><tei:bibl>Eska-Mercado (2005)</tei:bibl></tei:ref></tei:p>
+                    </tei:note>
+                  <tei:listPerson type="Onomastics">
+                      <tei:person xml:id="p1" xml:lang="xcg-Ital-x-xcglep">
+                          <tei:persName>
+                              <tei:name type="individual">pelkui</tei:name>
+                          </tei:persName>
+                      </tei:person>    
+                      <tei:person xml:id="p2" xml:lang="xcg-Ital-x-xcglep">
+                          <tei:persName>
+                              <tei:name type="individual">teu</tei:name>
+                          </tei:persName>
+                      </tei:person>    
+                  </tei:listPerson>
+            </tei:div>
+            <tei:div type="bibliography">
+                <tei:listBibl xmlns="http://www.tei-c.org/ns/1.0">
+                    <tei:biblStruct type="journalArticle" xml:id="De_Marinis1991" corresp="http://zotero.org/groups/2552746/items/MDF6Z894">
+                        <tei:analytic>
+                            <tei:title level="a">Una nuova iscrizione lepontica su pietra da Mezzovico (Lugano)</tei:title>
+                            <tei:author>
+                                <tei:forename>Raffaele C.</tei:forename>
+                                <tei:surname>De Marinis</tei:surname>
+                            </tei:author>
+                            <tei:author>
+                                <tei:forename>Filippo</tei:forename>
+                                <tei:surname>Motta</tei:surname>
+                            </tei:author>
+                        </tei:analytic>
+                        <tei:monogr>
+                            <tei:title level="j">Sibrium</tei:title>
+                            <tei:imprint>
+                                <tei:biblScope unit="volume">21</tei:biblScope>
+                                <tei:biblScope unit="page">201-225</tei:biblScope>
+                                <tei:date>1991</tei:date>
+                            </tei:imprint>
+                        </tei:monogr>
+                    </tei:biblStruct>
+                    <tei:biblStruct type="journalArticle" xml:id="Eska_Joseph_F.1990" corresp="http://zotero.org/groups/2552746/items/LYV2Q38T">
+                        <tei:analytic>
+                            <tei:title level="a">The so-called weak or dental preterite in Continental Celtic, Watkins' law, and related matters</tei:title>
+                            <tei:author>
+                                <tei:name>Eska, Joseph F.</tei:name>
+                            </tei:author>
+                        </tei:analytic>
+                        <tei:monogr>
+                            <tei:title level="j">Historische Sprachforschung</tei:title>
+                            <tei:imprint>
+                                <tei:biblScope unit="volume">103</tei:biblScope>
+                                <tei:biblScope unit="page">81-91</tei:biblScope>
+                                <tei:date>1990</tei:date>
+                            </tei:imprint>
+                        </tei:monogr>
+                    </tei:biblStruct>
+                    <tei:biblStruct type="journalArticle" xml:id="Colonna1986" corresp="http://zotero.org/groups/2552746/items/FFK9J2YY">
+                        <tei:analytic>
+                            <tei:title level="a">Il bicchiere con iscrizione arcaica da Castelletto Ticino e l’adozione della scrittura nell’Italia nord-occidentale</tei:title>
+                            <tei:author>
+                                <tei:forename>Giovanni</tei:forename>
+                                <tei:surname>Colonna</tei:surname>
+                            </tei:author>
+                            <tei:author>
+                                <tei:forename>F.M.</tei:forename>
+                                <tei:surname>Gambari</tei:surname>
+                            </tei:author>
+                        </tei:analytic>
+                        <tei:monogr>
+                            <tei:title level="j">Studi Etruschi</tei:title>
+                            <tei:imprint>
+                                <tei:biblScope unit="volume">54</tei:biblScope>
+                                <tei:biblScope unit="page">119-164</tei:biblScope>
+                                <tei:date>1986</tei:date>
+                                <tei:note type="url">https://www.studietruschi.org/?page_id=6003&amp;preview=true</tei:note>
+                            </tei:imprint>
+                        </tei:monogr>
+                    </tei:biblStruct>
+                    <tei:biblStruct type="journalArticle" xml:id="Eska2005" corresp="http://zotero.org/groups/2552746/items/THVIQ7VB">
+                        <tei:analytic>
+                            <tei:title level="a">Observations on verbal art in ancient Vergiate</tei:title>
+                            <tei:author>
+                                <tei:forename>Joseph F.</tei:forename>
+                                <tei:surname>Eska</tei:surname>
+                            </tei:author>
+                            <tei:author>
+                                <tei:forename>Angelo O.</tei:forename>
+                                <tei:surname>Mercado</tei:surname>
+                            </tei:author>
+                        </tei:analytic>
+                        <tei:monogr>
+                            <tei:title level="j">Historische Sprachforschung</tei:title>
+                            <tei:imprint>
+                                <tei:biblScope unit="volume">118</tei:biblScope>
+                                <tei:biblScope unit="page">160-184</tei:biblScope>
+                                <tei:date>2005</tei:date>
+                            </tei:imprint>
+                        </tei:monogr>
+                    </tei:biblStruct>
+                    <tei:biblStruct type="book" xml:id="Lejeune1971" corresp="http://zotero.org/groups/2552746/items/TN2MHKPX">
+                        <tei:monogr>
+                            <tei:title level="m">Lepontica</tei:title>
+                            <tei:author>
+                                <tei:forename>Michel</tei:forename>
+                                <tei:surname>Lejeune</tei:surname>
+                            </tei:author>
+                            <tei:imprint>
+                                <tei:pubPlace>Paris</tei:pubPlace>
+                                <tei:publisher>Belles Lettres</tei:publisher>
+                                <tei:date>1971</tei:date>
+                            </tei:imprint>
+                        </tei:monogr>
+                    </tei:biblStruct>
+                    <tei:biblStruct type="book" xml:id="Pisani1964" corresp="http://zotero.org/groups/2552746/items/QFUTLU7N">
+                        <tei:monogr>
+                            <tei:title level="m">Le lingue dell'Italia antica oltre il latino</tei:title>
+                            <tei:author>
+                                <tei:forename>Vittore</tei:forename>
+                                <tei:surname>Pisani</tei:surname>
+                            </tei:author>
+                            <tei:edition>2</tei:edition>
+                            <tei:imprint>
+                                <tei:pubPlace>Torino</tei:pubPlace>
+                                <tei:biblScope unit="volume">4</tei:biblScope>
+                                <tei:publisher>Rosenberg e Sellier</tei:publisher>
+                                <tei:date>1964</tei:date>
+                            </tei:imprint>
+                        </tei:monogr>
+                        <tei:series>
+                            <tei:title level="s">Manuale storico della lingua latina</tei:title>
+                        </tei:series>
+                    </tei:biblStruct>
+                </tei:listBibl>    
+            </tei:div>
+            </tei:body>
+            </tei:text>
+            </tei:TEI>
